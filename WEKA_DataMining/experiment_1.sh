@@ -4,7 +4,7 @@ echo "\nExperiment 1"
 echo "------------"
 ######
 
-echo "Keep dayOfWeek (6), hourOfDay (7), volumeMusic (30), acceleration (80), mood (98) and artist (99)"
+echo "Keep dayOfWeek(6), hourOfDay(7), volumeMusic(30), acceleration(80), mood(98) and artist(99)"
 echo "-------------------------------------------------------------------------------------------------"
 mkdir experiment_1
 
