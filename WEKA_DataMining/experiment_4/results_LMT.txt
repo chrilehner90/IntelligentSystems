@@ -1,0 +1,3428 @@
+
+Options: -I -1 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:54/54 (104)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+396.16 + 
+[userId] * -3.18 +
+[weatherContext_humidity] * 0.39 +
+[weatherContext_visibility] * -0.58 +
+[audioContext_volumeNotif] * -0.06
+
+Class 1 :
+1726.36 + 
+[userId] * 0.08 +
+[weatherContext_humidity] * -0.18 +
+[weatherContext_visibility] * -4.06 +
+[audioContext_volumeNotif] * -0.28 +
+[networkContext_mobileConnected] * -3.13 +
+[accelerationContext_accelerationStandardDeviation] * 2.66
+
+Class 2 :
+1274.67 + 
+[userId] * -0.07 +
+[weatherContext_humidity] * 0.13 +
+[weatherContext_visibility] * -0.32 +
+[audioContext_volumeNotif] * 0.25 +
+[networkContext_mobileConnected] * 5.01 +
+[accelerationContext_accelerationStandardDeviation] * 0.02
+
+Class 3 :
+-132.44 + 
+[userId] * 0.36 +
+[weatherContext_humidity] * -0.1 +
+[weatherContext_visibility] * 3.53 +
+[audioContext_volumeNotif] * -0.09 +
+[networkContext_mobileConnected] * 13 +
+[accelerationContext_accelerationStandardDeviation] * -83.58
+
+Class 4 :
+677.05 + 
+[userId] * 0.77 +
+[weatherContext_humidity] * -0.06 +
+[weatherContext_visibility] * 1.98 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -5.59 +
+[accelerationContext_accelerationStandardDeviation] * 2.2 
+
+Class 5 :
+-776.9 + 
+[userId] * 0.14 +
+[weatherContext_humidity] * 0.02 +
+[weatherContext_visibility] * 6.66 +
+[audioContext_volumeNotif] * -0.18 +
+[networkContext_mobileConnected] * 1.6  +
+[accelerationContext_accelerationStandardDeviation] * 0.89
+
+Class 6 :
+-2403.05 + 
+[userId] * 0.16 +
+[weatherContext_humidity] * -0.02 +
+[audioContext_volumeNotif] * 0.11 +
+[networkContext_mobileConnected] * -0.94 +
+[accelerationContext_accelerationStandardDeviation] * -2.79
+
+Class 7 :
+5464.89 + 
+[weatherContext_humidity] * 0.28 +
+[weatherContext_visibility] * 1.96 +
+[networkContext_mobileConnected] * -4.48 +
+[accelerationContext_accelerationStandardDeviation] * -82.23
+
+Class 8 :
+604.99 + 
+[userId] * -0.67 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.05 +
+[networkContext_mobileConnected] * 2.46 +
+[accelerationContext_accelerationStandardDeviation] * -0.64
+
+Class 9 :
+-316.56 + 
+[userId] * -0.03 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.84
+
+Class 10 :
+-18709.08 + 
+[userId] * -1.84 +
+[weatherContext_humidity] * -0.77 +
+[weatherContext_visibility] * 5.32 +
+[audioContext_volumeNotif] * 0.03
+
+Class 11 :
+-1284.05 + 
+[userId] * -0.1 +
+[weatherContext_humidity] * -0.1 +
+[weatherContext_visibility] * -3.13 +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * -4.22 +
+[accelerationContext_accelerationStandardDeviation] * -4.54
+
+Class 12 :
+-804.14 + 
+[userId] * 0.34 +
+[weatherContext_humidity] * 0.09 +
+[weatherContext_visibility] * 0.39 +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * 1.03 +
+[accelerationContext_accelerationStandardDeviation] * 1.36
+
+Class 13 :
+155.03 + 
+[userId] * -0.86 +
+[weatherContext_humidity] * 0.13 +
+[audioContext_volumeNotif] * 0.03 +
+[networkContext_mobileConnected] * 7.7  +
+[accelerationContext_accelerationStandardDeviation] * 1.98
+
+Class 14 :
+-956.38 + 
+[userId] * -1.36 +
+[weatherContext_visibility] * -2.16 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * -7.75 +
+[accelerationContext_accelerationStandardDeviation] * 1.87
+
+Class 15 :
+-189.11 + 
+[userId] * -1.62 +
+[weatherContext_humidity] * -0.09 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.06 +
+[networkContext_mobileConnected] * -11.52 +
+[accelerationContext_accelerationStandardDeviation] * 1.57
+
+Class 16 :
+1059.35 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.26 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 9.43 +
+[accelerationContext_accelerationStandardDeviation] * -59.49
+
+Class 17 :
+-249.02 + 
+[userId] * 1.09 +
+[weatherContext_humidity] * -0.06 +
+[weatherContext_visibility] * -2.84 +
+[audioContext_volumeNotif] * -0.1 +
+[networkContext_mobileConnected] * -3.03 +
+[accelerationContext_accelerationStandardDeviation] * -46.77
+
+Class 18 :
+1504.39 + 
+[userId] * 1.07 +
+[audioContext_volumeNotif] * 0.1  +
+[accelerationContext_accelerationStandardDeviation] * -3.95
+
+Class 19 :
+6921.74 + 
+[userId] * 2.61 +
+[weatherContext_humidity] * 0.21 +
+[weatherContext_visibility] * 5.79 +
+[networkContext_mobileConnected] * 1.3  +
+[accelerationContext_accelerationStandardDeviation] * -1.67
+
+
+Time taken to build model: 1.14 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          94               90.3846 %
+Incorrectly Classified Instances        10                9.6154 %
+Kappa statistic                          0.8983
+Mean absolute error                      0.0166
+Root mean squared error                  0.0798
+Relative absolute error                 17.5351 %
+Root relative squared error             36.7034 %
+Coverage of cases (0.95 level)          99.0385 %
+Mean rel. region size (0.95 level)       9.2788 %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.011    0.900      1.000    0.947      0.944    0.999     0.989     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.998     0.950     Ani DiFranco
+                 0.800    0.000    1.000      0.800    0.889      0.890    0.999     0.967     Daft Punk
+                 0.833    0.010    0.833      0.833    0.833      0.823    0.998     0.976     Pearl Jam
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.996     0.917     Kanye West
+                 0.667    0.000    1.000      0.667    0.800      0.808    0.830     0.795     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.900    0.000    1.000      0.900    0.947      0.944    0.997     0.977     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.563    0.993     0.854     Caravan Palace
+                 0.750    0.030    0.500      0.750    0.600      0.594    0.990     0.771     Lamb of God
+                 1.000    0.020    0.667      1.000    0.800      0.808    0.989     0.646     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.904    0.005    0.918      0.904    0.905      0.903    0.988     0.949     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 1 0 5 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 1 1 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 1 0 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 | q = Wizkid
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 | r = Asian Dub Foundation
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          55               52.8846 %
+Incorrectly Classified Instances        49               47.1154 %
+Kappa statistic                          0.5018
+Mean absolute error                      0.0505
+Root mean squared error                  0.1973
+Relative absolute error                 53.2044 %
+Root relative squared error             90.4214 %
+Coverage of cases (0.95 level)          70.1923 %
+Mean rel. region size (0.95 level)      11.25   %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.010    0.800      0.667    0.727      0.715    0.973     0.731     The Heavy
+                 0.429    0.010    0.750      0.429    0.545      0.545    0.909     0.680     Fiona Apple
+                 0.444    0.042    0.500      0.444    0.471      0.425    0.848     0.390     Die Fantastischen Vier
+                 0.500    0.020    0.500      0.500    0.500      0.480    0.878     0.440     P!nk
+                 0.600    0.010    0.750      0.600    0.667      0.656    0.885     0.750     Red Hot Chili Peppers
+                 0.250    0.060    0.143      0.250    0.182      0.146    0.858     0.175     Ani DiFranco
+                 0.600    0.030    0.500      0.600    0.545      0.523    0.766     0.454     Daft Punk
+                 0.667    0.041    0.500      0.667    0.571      0.548    0.940     0.676     Pearl Jam
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.928     0.507     Kanye West
+                 0.500    0.020    0.600      0.500    0.545      0.523    0.699     0.545     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.600    0.043    0.600      0.600    0.600      0.557    0.847     0.597     Sportfreunde Stiller
+                 0.667    0.031    0.571      0.667    0.615      0.592    0.881     0.634     Bob Dylan
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.868     0.768     Casper
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.950     0.367     Caravan Palace
+                 0.250    0.030    0.250      0.250    0.250      0.220    0.900     0.321     Lamb of God
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.973     0.817     Wizkid
+                 0.000    0.040    0.000      0.000    0.000      -0.040   0.573     0.087     Asian Dub Foundation
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.665     0.175     Mumford & Sons
+                 1.000    0.040    0.500      1.000    0.667      0.693    0.978     0.501     King Crimson
+Weighted Avg.    0.529    0.026    0.552      0.529    0.530      0.509    0.865     0.542     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 4 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 3 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 4 0 0 1 1 2 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 | d = P!nk
+ 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 | e = Red Hot Chili Peppers
+ 0 1 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 2 0 4 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 3 0 2 0 0 0 0 0 0 1 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 1 0 1 1 0 6 0 0 0 0 0 0 0 1 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 1 1 0 | m = Bob Dylan
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 1 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 | q = Wizkid
+ 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 | r = Asian Dub Foundation
+ 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I -1 -M 7 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:54/54 (104)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+396.16 + 
+[userId] * -3.18 +
+[weatherContext_humidity] * 0.39 +
+[weatherContext_visibility] * -0.58 +
+[audioContext_volumeNotif] * -0.06
+
+Class 1 :
+1726.36 + 
+[userId] * 0.08 +
+[weatherContext_humidity] * -0.18 +
+[weatherContext_visibility] * -4.06 +
+[audioContext_volumeNotif] * -0.28 +
+[networkContext_mobileConnected] * -3.13 +
+[accelerationContext_accelerationStandardDeviation] * 2.66
+
+Class 2 :
+1274.67 + 
+[userId] * -0.07 +
+[weatherContext_humidity] * 0.13 +
+[weatherContext_visibility] * -0.32 +
+[audioContext_volumeNotif] * 0.25 +
+[networkContext_mobileConnected] * 5.01 +
+[accelerationContext_accelerationStandardDeviation] * 0.02
+
+Class 3 :
+-132.44 + 
+[userId] * 0.36 +
+[weatherContext_humidity] * -0.1 +
+[weatherContext_visibility] * 3.53 +
+[audioContext_volumeNotif] * -0.09 +
+[networkContext_mobileConnected] * 13 +
+[accelerationContext_accelerationStandardDeviation] * -83.58
+
+Class 4 :
+677.05 + 
+[userId] * 0.77 +
+[weatherContext_humidity] * -0.06 +
+[weatherContext_visibility] * 1.98 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -5.59 +
+[accelerationContext_accelerationStandardDeviation] * 2.2 
+
+Class 5 :
+-776.9 + 
+[userId] * 0.14 +
+[weatherContext_humidity] * 0.02 +
+[weatherContext_visibility] * 6.66 +
+[audioContext_volumeNotif] * -0.18 +
+[networkContext_mobileConnected] * 1.6  +
+[accelerationContext_accelerationStandardDeviation] * 0.89
+
+Class 6 :
+-2403.05 + 
+[userId] * 0.16 +
+[weatherContext_humidity] * -0.02 +
+[audioContext_volumeNotif] * 0.11 +
+[networkContext_mobileConnected] * -0.94 +
+[accelerationContext_accelerationStandardDeviation] * -2.79
+
+Class 7 :
+5464.89 + 
+[weatherContext_humidity] * 0.28 +
+[weatherContext_visibility] * 1.96 +
+[networkContext_mobileConnected] * -4.48 +
+[accelerationContext_accelerationStandardDeviation] * -82.23
+
+Class 8 :
+604.99 + 
+[userId] * -0.67 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.05 +
+[networkContext_mobileConnected] * 2.46 +
+[accelerationContext_accelerationStandardDeviation] * -0.64
+
+Class 9 :
+-316.56 + 
+[userId] * -0.03 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.84
+
+Class 10 :
+-18709.08 + 
+[userId] * -1.84 +
+[weatherContext_humidity] * -0.77 +
+[weatherContext_visibility] * 5.32 +
+[audioContext_volumeNotif] * 0.03
+
+Class 11 :
+-1284.05 + 
+[userId] * -0.1 +
+[weatherContext_humidity] * -0.1 +
+[weatherContext_visibility] * -3.13 +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * -4.22 +
+[accelerationContext_accelerationStandardDeviation] * -4.54
+
+Class 12 :
+-804.14 + 
+[userId] * 0.34 +
+[weatherContext_humidity] * 0.09 +
+[weatherContext_visibility] * 0.39 +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * 1.03 +
+[accelerationContext_accelerationStandardDeviation] * 1.36
+
+Class 13 :
+155.03 + 
+[userId] * -0.86 +
+[weatherContext_humidity] * 0.13 +
+[audioContext_volumeNotif] * 0.03 +
+[networkContext_mobileConnected] * 7.7  +
+[accelerationContext_accelerationStandardDeviation] * 1.98
+
+Class 14 :
+-956.38 + 
+[userId] * -1.36 +
+[weatherContext_visibility] * -2.16 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * -7.75 +
+[accelerationContext_accelerationStandardDeviation] * 1.87
+
+Class 15 :
+-189.11 + 
+[userId] * -1.62 +
+[weatherContext_humidity] * -0.09 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.06 +
+[networkContext_mobileConnected] * -11.52 +
+[accelerationContext_accelerationStandardDeviation] * 1.57
+
+Class 16 :
+1059.35 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.26 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 9.43 +
+[accelerationContext_accelerationStandardDeviation] * -59.49
+
+Class 17 :
+-249.02 + 
+[userId] * 1.09 +
+[weatherContext_humidity] * -0.06 +
+[weatherContext_visibility] * -2.84 +
+[audioContext_volumeNotif] * -0.1 +
+[networkContext_mobileConnected] * -3.03 +
+[accelerationContext_accelerationStandardDeviation] * -46.77
+
+Class 18 :
+1504.39 + 
+[userId] * 1.07 +
+[audioContext_volumeNotif] * 0.1  +
+[accelerationContext_accelerationStandardDeviation] * -3.95
+
+Class 19 :
+6921.74 + 
+[userId] * 2.61 +
+[weatherContext_humidity] * 0.21 +
+[weatherContext_visibility] * 5.79 +
+[networkContext_mobileConnected] * 1.3  +
+[accelerationContext_accelerationStandardDeviation] * -1.67
+
+
+Time taken to build model: 1.17 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          94               90.3846 %
+Incorrectly Classified Instances        10                9.6154 %
+Kappa statistic                          0.8983
+Mean absolute error                      0.0166
+Root mean squared error                  0.0798
+Relative absolute error                 17.5351 %
+Root relative squared error             36.7034 %
+Coverage of cases (0.95 level)          99.0385 %
+Mean rel. region size (0.95 level)       9.2788 %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.011    0.900      1.000    0.947      0.944    0.999     0.989     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.998     0.950     Ani DiFranco
+                 0.800    0.000    1.000      0.800    0.889      0.890    0.999     0.967     Daft Punk
+                 0.833    0.010    0.833      0.833    0.833      0.823    0.998     0.976     Pearl Jam
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.996     0.917     Kanye West
+                 0.667    0.000    1.000      0.667    0.800      0.808    0.830     0.795     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.900    0.000    1.000      0.900    0.947      0.944    0.997     0.977     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.563    0.993     0.854     Caravan Palace
+                 0.750    0.030    0.500      0.750    0.600      0.594    0.990     0.771     Lamb of God
+                 1.000    0.020    0.667      1.000    0.800      0.808    0.989     0.646     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.904    0.005    0.918      0.904    0.905      0.903    0.988     0.949     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 1 0 5 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 1 1 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 1 0 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 | q = Wizkid
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 | r = Asian Dub Foundation
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          55               52.8846 %
+Incorrectly Classified Instances        49               47.1154 %
+Kappa statistic                          0.5021
+Mean absolute error                      0.05  
+Root mean squared error                  0.198 
+Relative absolute error                 52.64   %
+Root relative squared error             90.7385 %
+Coverage of cases (0.95 level)          69.2308 %
+Mean rel. region size (0.95 level)      10.9615 %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.010    0.800      0.667    0.727      0.715    0.974     0.786     The Heavy
+                 0.429    0.010    0.750      0.429    0.545      0.545    0.909     0.680     Fiona Apple
+                 0.333    0.042    0.429      0.333    0.375      0.327    0.815     0.333     Die Fantastischen Vier
+                 0.500    0.020    0.500      0.500    0.500      0.480    0.878     0.440     P!nk
+                 0.600    0.010    0.750      0.600    0.667      0.656    0.885     0.750     Red Hot Chili Peppers
+                 0.250    0.060    0.143      0.250    0.182      0.146    0.858     0.175     Ani DiFranco
+                 0.600    0.030    0.500      0.600    0.545      0.523    0.774     0.455     Daft Punk
+                 0.667    0.041    0.500      0.667    0.571      0.548    0.944     0.719     Pearl Jam
+                 0.500    0.020    0.500      0.500    0.500      0.480    0.938     0.442     Kanye West
+                 0.500    0.010    0.750      0.500    0.600      0.594    0.711     0.616     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.600    0.043    0.600      0.600    0.600      0.557    0.853     0.633     Sportfreunde Stiller
+                 0.667    0.031    0.571      0.667    0.615      0.592    0.884     0.635     Bob Dylan
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.875     0.706     Casper
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.953     0.379     Caravan Palace
+                 0.250    0.030    0.250      0.250    0.250      0.220    0.913     0.367     Lamb of God
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.928     0.780     Wizkid
+                 0.000    0.040    0.000      0.000    0.000      -0.040   0.573     0.087     Asian Dub Foundation
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.680     0.176     Mumford & Sons
+                 1.000    0.040    0.500      1.000    0.667      0.693    0.978     0.501     King Crimson
+Weighted Avg.    0.529    0.026    0.551      0.529    0.529      0.508    0.864     0.547     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 4 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 3 0 0 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 3 0 0 1 1 2 0 0 0 0 0 1 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 | d = P!nk
+ 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 | e = Red Hot Chili Peppers
+ 0 1 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 2 0 4 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 3 0 2 0 0 0 0 0 0 1 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 1 0 1 1 0 6 0 0 0 0 0 0 0 1 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 1 1 0 | m = Bob Dylan
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 1 0 0 2 1 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 | q = Wizkid
+ 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 | r = Asian Dub Foundation
+ 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I -1 -M 30 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:54/54 (104)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+396.16 + 
+[userId] * -3.18 +
+[weatherContext_humidity] * 0.39 +
+[weatherContext_visibility] * -0.58 +
+[audioContext_volumeNotif] * -0.06
+
+Class 1 :
+1726.36 + 
+[userId] * 0.08 +
+[weatherContext_humidity] * -0.18 +
+[weatherContext_visibility] * -4.06 +
+[audioContext_volumeNotif] * -0.28 +
+[networkContext_mobileConnected] * -3.13 +
+[accelerationContext_accelerationStandardDeviation] * 2.66
+
+Class 2 :
+1274.67 + 
+[userId] * -0.07 +
+[weatherContext_humidity] * 0.13 +
+[weatherContext_visibility] * -0.32 +
+[audioContext_volumeNotif] * 0.25 +
+[networkContext_mobileConnected] * 5.01 +
+[accelerationContext_accelerationStandardDeviation] * 0.02
+
+Class 3 :
+-132.44 + 
+[userId] * 0.36 +
+[weatherContext_humidity] * -0.1 +
+[weatherContext_visibility] * 3.53 +
+[audioContext_volumeNotif] * -0.09 +
+[networkContext_mobileConnected] * 13 +
+[accelerationContext_accelerationStandardDeviation] * -83.58
+
+Class 4 :
+677.05 + 
+[userId] * 0.77 +
+[weatherContext_humidity] * -0.06 +
+[weatherContext_visibility] * 1.98 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -5.59 +
+[accelerationContext_accelerationStandardDeviation] * 2.2 
+
+Class 5 :
+-776.9 + 
+[userId] * 0.14 +
+[weatherContext_humidity] * 0.02 +
+[weatherContext_visibility] * 6.66 +
+[audioContext_volumeNotif] * -0.18 +
+[networkContext_mobileConnected] * 1.6  +
+[accelerationContext_accelerationStandardDeviation] * 0.89
+
+Class 6 :
+-2403.05 + 
+[userId] * 0.16 +
+[weatherContext_humidity] * -0.02 +
+[audioContext_volumeNotif] * 0.11 +
+[networkContext_mobileConnected] * -0.94 +
+[accelerationContext_accelerationStandardDeviation] * -2.79
+
+Class 7 :
+5464.89 + 
+[weatherContext_humidity] * 0.28 +
+[weatherContext_visibility] * 1.96 +
+[networkContext_mobileConnected] * -4.48 +
+[accelerationContext_accelerationStandardDeviation] * -82.23
+
+Class 8 :
+604.99 + 
+[userId] * -0.67 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.05 +
+[networkContext_mobileConnected] * 2.46 +
+[accelerationContext_accelerationStandardDeviation] * -0.64
+
+Class 9 :
+-316.56 + 
+[userId] * -0.03 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.84
+
+Class 10 :
+-18709.08 + 
+[userId] * -1.84 +
+[weatherContext_humidity] * -0.77 +
+[weatherContext_visibility] * 5.32 +
+[audioContext_volumeNotif] * 0.03
+
+Class 11 :
+-1284.05 + 
+[userId] * -0.1 +
+[weatherContext_humidity] * -0.1 +
+[weatherContext_visibility] * -3.13 +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * -4.22 +
+[accelerationContext_accelerationStandardDeviation] * -4.54
+
+Class 12 :
+-804.14 + 
+[userId] * 0.34 +
+[weatherContext_humidity] * 0.09 +
+[weatherContext_visibility] * 0.39 +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * 1.03 +
+[accelerationContext_accelerationStandardDeviation] * 1.36
+
+Class 13 :
+155.03 + 
+[userId] * -0.86 +
+[weatherContext_humidity] * 0.13 +
+[audioContext_volumeNotif] * 0.03 +
+[networkContext_mobileConnected] * 7.7  +
+[accelerationContext_accelerationStandardDeviation] * 1.98
+
+Class 14 :
+-956.38 + 
+[userId] * -1.36 +
+[weatherContext_visibility] * -2.16 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * -7.75 +
+[accelerationContext_accelerationStandardDeviation] * 1.87
+
+Class 15 :
+-189.11 + 
+[userId] * -1.62 +
+[weatherContext_humidity] * -0.09 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.06 +
+[networkContext_mobileConnected] * -11.52 +
+[accelerationContext_accelerationStandardDeviation] * 1.57
+
+Class 16 :
+1059.35 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.26 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 9.43 +
+[accelerationContext_accelerationStandardDeviation] * -59.49
+
+Class 17 :
+-249.02 + 
+[userId] * 1.09 +
+[weatherContext_humidity] * -0.06 +
+[weatherContext_visibility] * -2.84 +
+[audioContext_volumeNotif] * -0.1 +
+[networkContext_mobileConnected] * -3.03 +
+[accelerationContext_accelerationStandardDeviation] * -46.77
+
+Class 18 :
+1504.39 + 
+[userId] * 1.07 +
+[audioContext_volumeNotif] * 0.1  +
+[accelerationContext_accelerationStandardDeviation] * -3.95
+
+Class 19 :
+6921.74 + 
+[userId] * 2.61 +
+[weatherContext_humidity] * 0.21 +
+[weatherContext_visibility] * 5.79 +
+[networkContext_mobileConnected] * 1.3  +
+[accelerationContext_accelerationStandardDeviation] * -1.67
+
+
+Time taken to build model: 0.98 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          94               90.3846 %
+Incorrectly Classified Instances        10                9.6154 %
+Kappa statistic                          0.8983
+Mean absolute error                      0.0166
+Root mean squared error                  0.0798
+Relative absolute error                 17.5351 %
+Root relative squared error             36.7034 %
+Coverage of cases (0.95 level)          99.0385 %
+Mean rel. region size (0.95 level)       9.2788 %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.011    0.900      1.000    0.947      0.944    0.999     0.989     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.998     0.950     Ani DiFranco
+                 0.800    0.000    1.000      0.800    0.889      0.890    0.999     0.967     Daft Punk
+                 0.833    0.010    0.833      0.833    0.833      0.823    0.998     0.976     Pearl Jam
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.996     0.917     Kanye West
+                 0.667    0.000    1.000      0.667    0.800      0.808    0.830     0.795     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.900    0.000    1.000      0.900    0.947      0.944    0.997     0.977     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.563    0.993     0.854     Caravan Palace
+                 0.750    0.030    0.500      0.750    0.600      0.594    0.990     0.771     Lamb of God
+                 1.000    0.020    0.667      1.000    0.800      0.808    0.989     0.646     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.904    0.005    0.918      0.904    0.905      0.903    0.988     0.949     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 0 0 9 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 0 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 1 0 5 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 1 1 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 1 0 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 | q = Wizkid
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 | r = Asian Dub Foundation
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          54               51.9231 %
+Incorrectly Classified Instances        50               48.0769 %
+Kappa statistic                          0.4925
+Mean absolute error                      0.0524
+Root mean squared error                  0.1944
+Relative absolute error                 55.2303 %
+Root relative squared error             89.0702 %
+Coverage of cases (0.95 level)          74.0385 %
+Mean rel. region size (0.95 level)      11.9231 %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.010    0.800      0.667    0.727      0.715    0.986     0.775     The Heavy
+                 0.571    0.010    0.800      0.571    0.667      0.657    0.897     0.630     Fiona Apple
+                 0.333    0.032    0.500      0.333    0.400      0.364    0.896     0.555     Die Fantastischen Vier
+                 0.500    0.030    0.400      0.500    0.444      0.422    0.813     0.467     P!nk
+                 0.600    0.010    0.750      0.600    0.667      0.656    0.857     0.644     Red Hot Chili Peppers
+                 0.000    0.050    0.000      0.000    0.000      -0.045   0.873     0.185     Ani DiFranco
+                 0.600    0.020    0.600      0.600    0.600      0.580    0.939     0.645     Daft Punk
+                 0.833    0.041    0.556      0.833    0.667      0.657    0.934     0.710     Pearl Jam
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.963     0.419     Kanye West
+                 0.500    0.020    0.600      0.500    0.545      0.523    0.738     0.511     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.500    0.032    0.625      0.500    0.556      0.518    0.820     0.590     Sportfreunde Stiller
+                 0.667    0.031    0.571      0.667    0.615      0.592    0.927     0.677     Bob Dylan
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.933     0.782     Casper
+                 0.250    0.040    0.200      0.250    0.222      0.189    0.930     0.318     Caravan Palace
+                 0.250    0.040    0.200      0.250    0.222      0.189    0.905     0.332     Lamb of God
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.955     0.654     Wizkid
+                 0.000    0.030    0.000      0.000    0.000      -0.034   0.623     0.095     Asian Dub Foundation
+                 0.250    0.030    0.250      0.250    0.250      0.220    0.788     0.218     Mumford & Sons
+                 1.000    0.040    0.500      1.000    0.667      0.693    0.978     0.501     King Crimson
+Weighted Avg.    0.519    0.025    0.536      0.519    0.518      0.497    0.885     0.554     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 4 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | a = The Heavy
+ 0 4 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 3 1 0 0 1 2 0 0 0 0 0 0 0 0 0 0 1 0 | c = Die Fantastischen Vier
+ 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 | d = P!nk
+ 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 | e = Red Hot Chili Peppers
+ 0 1 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 1 0 5 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 3 0 2 0 0 0 0 0 0 1 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 1 0 1 0 0 5 0 0 1 1 0 0 0 1 | l = Sportfreunde Stiller
+ 0 0 0 0 0 1 0 0 0 0 0 0 4 0 0 0 0 0 1 0 | m = Bob Dylan
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 | q = Wizkid
+ 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 | r = Asian Dub Foundation
+ 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I 10 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+
+userId <= 17
+|   userId <= 15: LM_1:10/30 (31)
+|   userId > 15
+|   |   userId <= 16: LM_2:10/40 (8)
+|   |   userId > 16
+|   |   |   networkContext_mobileConnected <= 0: LM_3:10/50 (14)
+|   |   |   networkContext_mobileConnected > 0: LM_4:0/40 (2)
+userId > 17: LM_5:10/20 (49)
+
+Number of Leaves  : 	5
+
+Size of the Tree : 	9
+
+
+LM_1:
+Class 0 :
+5.68 + 
+[userId] * -1.46 +
+[weatherContext_humidity] * 0.19 +
+[weatherContext_visibility] * -0.48 +
+[audioContext_volumeNotif] * -0.01
+
+Class 1 :
+-8.23 + 
+[userId] * 0.05 +
+[weatherContext_visibility] * -1.15 +
+[audioContext_volumeNotif] * -0.1 +
+[networkContext_mobileConnected] * -0.99 +
+[accelerationContext_accelerationStandardDeviation] * 0.73
+
+Class 2 :
+188.76 + 
+[userId] * 0.07 +
+[weatherContext_humidity] * -0.07 +
+[weatherContext_visibility] * -0.42 +
+[audioContext_volumeNotif] * 0.45 +
+[networkContext_mobileConnected] * 1.43 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-439.8 + 
+[userId] * 0.08 +
+[networkContext_mobileConnected] * 2.77 +
+[accelerationContext_accelerationStandardDeviation] * -10.5
+
+Class 4 :
+-27.82 + 
+[userId] * 0.25 +
+[weatherContext_humidity] * -0.04 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -1.03 +
+[accelerationContext_accelerationStandardDeviation] * 1.04
+
+Class 5 :
+-213.16 + 
+[userId] * 0.03 +
+[audioContext_volumeNotif] * -0.07 +
+[networkContext_mobileConnected] * 0.66 +
+[accelerationContext_accelerationStandardDeviation] * 0   
+
+Class 6 :
+-1532.74 + 
+[userId] * -0.75 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -0.94 +
+[accelerationContext_accelerationStandardDeviation] * -3.08
+
+Class 7 :
+2210.33 + 
+[userId] * -0.25 +
+[weatherContext_humidity] * 0.03 +
+[weatherContext_visibility] * 1.69 +
+[networkContext_mobileConnected] * -1.82
+
+Class 8 :
+12.53 + 
+[userId] * 0.43 +
+[audioContext_volumeNotif] * -0.03 +
+[accelerationContext_accelerationStandardDeviation] * 0.67
+
+Class 9 :
+-351.75 + 
+[userId] * 2.61 +
+[weatherContext_visibility] * 2.83 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.84 +
+[accelerationContext_accelerationStandardDeviation] * -0.02
+
+Class 10 :
+-22866.06 + 
+[userId] * -0.62 +
+[weatherContext_humidity] * -0.09 +
+[weatherContext_visibility] * 3.03
+
+Class 11 :
+-921.45 + 
+[userId] * 5.56 +
+[weatherContext_visibility] * -0.88 +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * -1.44
+
+Class 12 :
+-484.02 + 
+[userId] * 0.07 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 0    +
+[accelerationContext_accelerationStandardDeviation] * 1.21
+
+Class 13 :
+-14.61 + 
+[userId] * 0.33 +
+[weatherContext_humidity] * 0.07 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 8.51 +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-1003.96 + 
+[userId] * -0.13 +
+[weatherContext_humidity] * 0    +
+[weatherContext_visibility] * -0.99 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * -3.89 +
+[accelerationContext_accelerationStandardDeviation] * 1.3 
+
+Class 15 :
+-228.78 + 
+[userId] * -0.09 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.06 +
+[networkContext_mobileConnected] * -4.67 +
+[accelerationContext_accelerationStandardDeviation] * 0.92
+
+Class 16 :
+-0.89 + 
+[userId] * 0.06 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 7.06 +
+[accelerationContext_accelerationStandardDeviation] * -17.03
+
+Class 17 :
+-18.69 + 
+[userId] * 0.18 +
+[weatherContext_visibility] * -0.87 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -6.44
+
+Class 18 :
+421.82 + 
+[userId] * 0.23 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0.04
+
+Class 19 :
+1408.51 + 
+[userId] * 0.73
+
+
+LM_2:
+Class 0 :
+-10.45 + 
+[userId] * -1.15 +
+[weatherContext_humidity] * 0.11 +
+[weatherContext_visibility] * -0.48 +
+[audioContext_volumeNotif] * -0.01
+
+Class 1 :
+-17.73 + 
+[userId] * 0.05 +
+[weatherContext_visibility] * -1.15 +
+[audioContext_volumeNotif] * -0.1 +
+[networkContext_mobileConnected] * -0.99 +
+[accelerationContext_accelerationStandardDeviation] * 0.73
+
+Class 2 :
+173.16 + 
+[weatherContext_humidity] * -0.02 +
+[weatherContext_visibility] * -0.31 +
+[audioContext_volumeNotif] * 0.35 +
+[networkContext_mobileConnected] * 1.43 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-448.86 + 
+[userId] * 0.08 +
+[networkContext_mobileConnected] * 2.77 +
+[accelerationContext_accelerationStandardDeviation] * -10.5
+
+Class 4 :
+-37.32 + 
+[userId] * 0.25 +
+[weatherContext_humidity] * -0.04 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -1.03 +
+[accelerationContext_accelerationStandardDeviation] * 1.04
+
+Class 5 :
+-222.66 + 
+[userId] * 0.03 +
+[audioContext_volumeNotif] * -0.07 +
+[networkContext_mobileConnected] * 0.66
+
+Class 6 :
+-854.99 + 
+[userId] * -0.44 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -0.94 +
+[accelerationContext_accelerationStandardDeviation] * -3.08
+
+Class 7 :
+1559.71 + 
+[userId] * -0.25 +
+[weatherContext_humidity] * 0.09 +
+[weatherContext_visibility] * 1.13 +
+[networkContext_mobileConnected] * -1.82
+
+Class 8 :
+321.3 + 
+[userId] * -0.07 +
+[audioContext_volumeNotif] * -0.03
+
+Class 9 :
+-394.62 + 
+[userId] * 2.61 +
+[weatherContext_visibility] * 2.83 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.84 +
+[accelerationContext_accelerationStandardDeviation] * 0.01
+
+Class 10 :
+-11452.9 + 
+[userId] * -0.62 +
+[weatherContext_humidity] * -0.09 +
+[weatherContext_visibility] * 3.03 +
+[accelerationContext_accelerationStandardDeviation] * 0   
+
+Class 11 :
+-927.37 + 
+[userId] * 5.56 +
+[weatherContext_visibility] * -0.88 +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * -1.44
+
+Class 12 :
+-493.52 + 
+[userId] * 0.07 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0.01 +
+[accelerationContext_accelerationStandardDeviation] * 1.21
+
+Class 13 :
+-27.99 + 
+[userId] * -0.11 +
+[weatherContext_humidity] * 0.07 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 6.11 +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-1976.04 + 
+[userId] * -4.28 +
+[weatherContext_visibility] * -0.99 +
+[audioContext_volumeNotif] * 0.07 +
+[networkContext_mobileConnected] * -3.89 +
+[accelerationContext_accelerationStandardDeviation] * 1.31
+
+Class 15 :
+380.25 + 
+[userId] * -4.56 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.18 +
+[networkContext_mobileConnected] * -4.67 +
+[accelerationContext_accelerationStandardDeviation] * 0.6 
+
+Class 16 :
+-14.76 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 4.19 +
+[accelerationContext_accelerationStandardDeviation] * -17.02
+
+Class 17 :
+-27.62 + 
+[userId] * 0.18 +
+[weatherContext_humidity] * -0.01 +
+[weatherContext_visibility] * -0.87 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -6.44
+
+Class 18 :
+412.32 + 
+[userId] * 0.23 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0.04
+
+Class 19 :
+1399.01 + 
+[userId] * 0.73
+
+
+LM_3:
+Class 0 :
+-19.46 + 
+[userId] * -1.18 +
+[weatherContext_humidity] * 0.11 +
+[weatherContext_visibility] * -0.48 +
+[audioContext_volumeNotif] * -0.01
+
+Class 1 :
+-27.78 + 
+[userId] * 0.08 +
+[weatherContext_visibility] * -1.15 +
+[audioContext_volumeNotif] * -0.1 +
+[networkContext_mobileConnected] * -0.99 +
+[accelerationContext_accelerationStandardDeviation] * 0.73
+
+Class 2 :
+164.67 + 
+[userId] * -0.06 +
+[weatherContext_humidity] * -0.02 +
+[weatherContext_visibility] * -0.31 +
+[audioContext_volumeNotif] * 0.35 +
+[networkContext_mobileConnected] * 1.43 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-458.32 + 
+[userId] * 0.05 +
+[networkContext_mobileConnected] * 2.77 +
+[accelerationContext_accelerationStandardDeviation] * -10.5
+
+Class 4 :
+-45.57 + 
+[userId] * 0.17 +
+[weatherContext_humidity] * -0.04 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -1.03 +
+[accelerationContext_accelerationStandardDeviation] * 1.04
+
+Class 5 :
+-232.16 + 
+[userId] * 0.03 +
+[audioContext_volumeNotif] * -0.07 +
+[networkContext_mobileConnected] * 0.66
+
+Class 6 :
+-864.49 + 
+[userId] * -0.44 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -0.94 +
+[accelerationContext_accelerationStandardDeviation] * -3.08
+
+Class 7 :
+1550.21 + 
+[userId] * -0.25 +
+[weatherContext_humidity] * 0.09 +
+[weatherContext_visibility] * 1.13 +
+[networkContext_mobileConnected] * -1.82
+
+Class 8 :
+311.8 + 
+[userId] * -0.07 +
+[audioContext_volumeNotif] * -0.03
+
+Class 9 :
+705.51 + 
+[userId] * 2.61 +
+[weatherContext_visibility] * 2.83 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.84
+
+Class 10 :
+-11461.33 + 
+[userId] * -0.68 +
+[weatherContext_humidity] * -0.09 +
+[weatherContext_visibility] * 3.03 +
+[accelerationContext_accelerationStandardDeviation] * 0   
+
+Class 11 :
+-2008.3 + 
+[userId] * 5.56 +
+[weatherContext_visibility] * -0.88 +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * -1.44
+
+Class 12 :
+-503.02 + 
+[userId] * 0.07 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0.01 +
+[accelerationContext_accelerationStandardDeviation] * 1.21
+
+Class 13 :
+-37.49 + 
+[userId] * -0.11 +
+[weatherContext_humidity] * 0.07 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 6.11 +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-1822.83 + 
+[userId] * -4.28 +
+[weatherContext_visibility] * -0.99 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -3.89 +
+[accelerationContext_accelerationStandardDeviation] * 1.3 
+
+Class 15 :
+168.04 + 
+[userId] * -4.56 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.11 +
+[networkContext_mobileConnected] * -4.67 +
+[accelerationContext_accelerationStandardDeviation] * 0.66
+
+Class 16 :
+-24.26 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 4.19 +
+[accelerationContext_accelerationStandardDeviation] * -17.02
+
+Class 17 :
+-37.05 + 
+[userId] * 0.14 +
+[weatherContext_visibility] * -0.87 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -6.44
+
+Class 18 :
+402.82 + 
+[userId] * 0.23 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0.04
+
+Class 19 :
+1389.51 + 
+[userId] * 0.73
+
+LM_4:
+Class 0 :
+-10.45 + 
+[userId] * -1.15 +
+[weatherContext_humidity] * 0.11 +
+[weatherContext_visibility] * -0.48 +
+[audioContext_volumeNotif] * -0.01
+
+Class 1 :
+-17.73 + 
+[userId] * 0.05 +
+[weatherContext_visibility] * -1.15 +
+[audioContext_volumeNotif] * -0.1 +
+[networkContext_mobileConnected] * -0.99 +
+[accelerationContext_accelerationStandardDeviation] * 0.73
+
+Class 2 :
+173.16 + 
+[weatherContext_humidity] * -0.02 +
+[weatherContext_visibility] * -0.31 +
+[audioContext_volumeNotif] * 0.35 +
+[networkContext_mobileConnected] * 1.43 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-449.3 + 
+[userId] * 0.08 +
+[networkContext_mobileConnected] * 2.77 +
+[accelerationContext_accelerationStandardDeviation] * -10.5
+
+Class 4 :
+-36.07 + 
+[userId] * 0.17 +
+[weatherContext_humidity] * -0.04 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -1.03 +
+[accelerationContext_accelerationStandardDeviation] * 1.04
+
+Class 5 :
+-222.66 + 
+[userId] * 0.03 +
+[audioContext_volumeNotif] * -0.07 +
+[networkContext_mobileConnected] * 0.66
+
+Class 6 :
+-854.99 + 
+[userId] * -0.44 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -0.94 +
+[accelerationContext_accelerationStandardDeviation] * -3.08
+
+Class 7 :
+1559.71 + 
+[userId] * -0.25 +
+[weatherContext_humidity] * 0.09 +
+[weatherContext_visibility] * 1.13 +
+[networkContext_mobileConnected] * -1.82
+
+Class 8 :
+321.3 + 
+[userId] * -0.07 +
+[audioContext_volumeNotif] * -0.03
+
+Class 9 :
+-385.13 + 
+[userId] * 2.61 +
+[weatherContext_visibility] * 2.83 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.84
+
+Class 10 :
+-11452.9 + 
+[userId] * -0.62 +
+[weatherContext_humidity] * -0.09 +
+[weatherContext_visibility] * 3.03 +
+[accelerationContext_accelerationStandardDeviation] * 0   
+
+Class 11 :
+-917.66 + 
+[userId] * 5.56 +
+[weatherContext_visibility] * -0.88 +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * -1.44
+
+Class 12 :
+-493.52 + 
+[userId] * 0.07 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0.01 +
+[accelerationContext_accelerationStandardDeviation] * 1.21
+
+Class 13 :
+-27.99 + 
+[userId] * -0.11 +
+[weatherContext_humidity] * 0.07 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 6.11 +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-1813.33 + 
+[userId] * -4.28 +
+[weatherContext_visibility] * -0.99 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -3.89 +
+[accelerationContext_accelerationStandardDeviation] * 1.3 
+
+Class 15 :
+177.54 + 
+[userId] * -4.56 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.11 +
+[networkContext_mobileConnected] * -4.67 +
+[accelerationContext_accelerationStandardDeviation] * 0.66
+
+Class 16 :
+-14.76 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 4.19 +
+[accelerationContext_accelerationStandardDeviation] * -17.02
+
+Class 17 :
+-28.19 + 
+[userId] * 0.18 +
+[weatherContext_visibility] * -0.87 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -6.44
+
+Class 18 :
+412.32 + 
+[userId] * 0.23 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0.04
+
+Class 19 :
+1399.01 + 
+[userId] * 0.73
+
+LM_5:
+Class 0 :
+-6.11 + 
+[userId] * -0.67 +
+[weatherContext_humidity] * 0.07 +
+[weatherContext_visibility] * -0.17
+
+Class 1 :
+433.94 + 
+[userId] * -0.17 +
+[weatherContext_humidity] * -0.12 +
+[weatherContext_visibility] * -2.09 +
+[audioContext_volumeNotif] * -0.1 +
+[networkContext_mobileConnected] * -0.99 +
+[accelerationContext_accelerationStandardDeviation] * 0.73
+
+Class 2 :
+233.61 + 
+[userId] * -0.81 +
+[weatherContext_humidity] * 0.07 +
+[audioContext_volumeNotif] * 0.11 +
+[networkContext_mobileConnected] * 5.43 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-426.07 + 
+[userId] * 0.08 +
+[weatherContext_visibility] * 0.45 +
+[audioContext_volumeNotif] * -0.03 +
+[networkContext_mobileConnected] * 6.34 +
+[accelerationContext_accelerationStandardDeviation] * -33.61
+
+Class 4 :
+200.67 + 
+[userId] * 0.32 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * 0.67 +
+[audioContext_volumeNotif] * 0.03 +
+[networkContext_mobileConnected] * -2.04 +
+[accelerationContext_accelerationStandardDeviation] * 1.62
+
+Class 5 :
+-389.43 + 
+[userId] * -0.14 +
+[weatherContext_humidity] * 0.03 +
+[audioContext_volumeNotif] * -0.12 +
+[networkContext_mobileConnected] * 2.42
+
+Class 6 :
+-1508.65 + 
+[userId] * -0.06 +
+[audioContext_volumeNotif] * 0.08 +
+[networkContext_mobileConnected] * -1.65 +
+[accelerationContext_accelerationStandardDeviation] * -1.63
+
+Class 7 :
+1340.74 + 
+[weatherContext_humidity] * 0.3  +
+[weatherContext_visibility] * 0.51 +
+[networkContext_mobileConnected] * -1.82 +
+[accelerationContext_accelerationStandardDeviation] * -80.41
+
+Class 8 :
+333.37 + 
+[userId] * -0.07 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * -0.03 +
+[networkContext_mobileConnected] * -0.01
+
+Class 9 :
+-305.26 + 
+[userId] * -0.03 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.84
+
+Class 10 :
+-2527.64 + 
+[userId] * -0.33 +
+[weatherContext_humidity] * -0.09 +
+[accelerationContext_accelerationStandardDeviation] * 0   
+
+Class 11 :
+-826.76 + 
+[userId] * -0.03 +
+[weatherContext_visibility] * -0.88 +
+[networkContext_mobileConnected] * -2.14 +
+[accelerationContext_accelerationStandardDeviation] * -1.44
+
+Class 12 :
+-581.76 + 
+[userId] * 0.07 +
+[weatherContext_humidity] * 0.06 +
+[weatherContext_visibility] * 0.44 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 1.28 +
+[accelerationContext_accelerationStandardDeviation] * 1.21
+
+Class 13 :
+-8.84 + 
+[userId] * -0.17 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * 2.65 +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-311.1 + 
+[userId] * -0.13 +
+[networkContext_mobileConnected] * -2.85 +
+[accelerationContext_accelerationStandardDeviation] * 0.93
+
+Class 15 :
+-229.55 + 
+[userId] * -0.09 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * -2.49 +
+[accelerationContext_accelerationStandardDeviation] * 0.47
+
+Class 16 :
+-6.21 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.05 +
+[weatherContext_visibility] * 0    +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 1.61 +
+[accelerationContext_accelerationStandardDeviation] * -4.96
+
+Class 17 :
+7.56 + 
+[userId] * 0.31 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * -1.8 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -20.95
+
+Class 18 :
+727.79 + 
+[userId] * 0.43 +
+[audioContext_volumeNotif] * 0.07
+
+Class 19 :
+3094.43 + 
+[userId] * 1.07 +
+[weatherContext_humidity] * 0.08 +
+[weatherContext_visibility] * 0.53
+
+
+Time taken to build model: 0.46 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          97               93.2692 %
+Incorrectly Classified Instances         7                6.7308 %
+Kappa statistic                          0.9287
+Mean absolute error                      0.0148
+Root mean squared error                  0.0772
+Relative absolute error                 15.6157 %
+Root relative squared error             35.524  %
+Coverage of cases (0.95 level)          99.0385 %
+Mean rel. region size (0.95 level)       8.4135 %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.011    0.900      1.000    0.947      0.944    0.999     0.989     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.995     0.888     Ani DiFranco
+                 0.800    0.000    1.000      0.800    0.889      0.890    0.999     0.967     Daft Punk
+                 0.833    0.010    0.833      0.833    0.833      0.823    0.998     0.976     Pearl Jam
+                 1.000    0.010    0.800      1.000    0.889      0.890    0.999     0.950     Kanye West
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.833     0.843     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.011    0.909      1.000    0.952      0.948    0.994     0.926     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.000    1.000      0.500    0.667      0.700    0.988     0.793     Caravan Palace
+                 1.000    0.020    0.667      1.000    0.800      0.808    0.988     0.733     Lamb of God
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.999     0.950     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.933    0.004    0.943      0.933    0.931      0.931    0.988     0.954     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0  9  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  3  0  1  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  1  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  1  0  5  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  5  0  1  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  2  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  3  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          65               62.5    %
+Incorrectly Classified Instances        39               37.5    %
+Kappa statistic                          0.6036
+Mean absolute error                      0.0412
+Root mean squared error                  0.1789
+Relative absolute error                 43.4349 %
+Root relative squared error             81.959  %
+Coverage of cases (0.95 level)          73.0769 %
+Mean rel. region size (0.95 level)       8.6058 %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.010    0.833      0.833    0.833      0.823    0.971     0.820     The Heavy
+                 0.571    0.021    0.667      0.571    0.615      0.592    0.928     0.725     Fiona Apple
+                 0.333    0.021    0.600      0.333    0.429      0.410    0.877     0.421     Die Fantastischen Vier
+                 0.500    0.020    0.500      0.500    0.500      0.480    0.968     0.433     P!nk
+                 0.800    0.020    0.667      0.800    0.727      0.715    0.921     0.757     Red Hot Chili Peppers
+                 0.500    0.050    0.286      0.500    0.364      0.345    0.950     0.362     Ani DiFranco
+                 0.800    0.020    0.667      0.800    0.727      0.715    0.861     0.657     Daft Punk
+                 0.667    0.031    0.571      0.667    0.615      0.592    0.889     0.700     Pearl Jam
+                 0.500    0.010    0.667      0.500    0.571      0.563    0.913     0.379     Kanye West
+                 0.833    0.020    0.714      0.833    0.769      0.756    0.976     0.828     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.800    0.021    0.800      0.800    0.800      0.779    0.978     0.811     Sportfreunde Stiller
+                 0.667    0.031    0.571      0.667    0.615      0.592    0.927     0.733     Bob Dylan
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.983     0.841     Casper
+                 0.250    0.030    0.250      0.250    0.250      0.220    0.958     0.390     Caravan Palace
+                 0.500    0.030    0.400      0.500    0.444      0.422    0.928     0.348     Lamb of God
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.983     0.715     Wizkid
+                 0.000    0.030    0.000      0.000    0.000      -0.034   0.631     0.117     Asian Dub Foundation
+                 0.250    0.000    1.000      0.250    0.400      0.493    0.718     0.336     Mumford & Sons
+                 1.000    0.010    0.800      1.000    0.889      0.890    0.990     0.679     King Crimson
+Weighted Avg.    0.625    0.020    0.639      0.625    0.616      0.604    0.920     0.624     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 4 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 1 3 0 0 0 1 2 0 0 0 0 0 1 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 | d = P!nk
+ 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 | e = Red Hot Chili Peppers
+ 0 1 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 2 0 4 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 5 0 1 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 2 0 8 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 1 0 0 0 0 0 0 4 0 0 0 0 1 0 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 | q = Wizkid
+ 0 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 | r = Asian Dub Foundation
+ 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 1 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I 5 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+
+userId <= 17
+|   userId <= 15: LM_1:5/15 (31)
+|   userId > 15: LM_2:5/15 (24)
+userId > 17
+|   userId <= 37: LM_3:5/15 (23)
+|   userId > 37: LM_4:5/15 (26)
+
+Number of Leaves  : 	4
+
+Size of the Tree : 	7
+
+
+LM_1:
+Class 0 :
+8.77 + 
+[userId] * -0.73 +
+[weatherContext_humidity] * 0.07 +
+[weatherContext_visibility] * -0.58
+
+Class 1 :
+-2.87 + 
+[userId] * 0.05 +
+[weatherContext_visibility] * -0.75 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.01 +
+[accelerationContext_accelerationStandardDeviation] * 0.71
+
+Class 2 :
+210.5 + 
+[weatherContext_humidity] * -0.06 +
+[weatherContext_visibility] * -0.52 +
+[audioContext_volumeNotif] * 0.23 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-430.47 + 
+[userId] * 0.08 +
+[networkContext_mobileConnected] * 1.52 +
+[accelerationContext_accelerationStandardDeviation] * -0.65
+
+Class 4 :
+-13.59 + 
+[userId] * 0.15 +
+[weatherContext_humidity] * -0.04 +
+[accelerationContext_accelerationStandardDeviation] * 0.78
+
+Class 5 :
+-203.12 + 
+[userId] * 0.03 +
+[weatherContext_visibility] * -0.01 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * 0   
+
+Class 6 :
+-672.41 + 
+[userId] * -0.49 +
+[audioContext_volumeNotif] * 0.04 +
+[networkContext_mobileConnected] * -0.94
+
+Class 7 :
+1661.54 + 
+[userId] * -0.11 +
+[weatherContext_humidity] * 0.04 +
+[weatherContext_visibility] * 0.67 +
+[networkContext_mobileConnected] * -1.82
+
+Class 8 :
+-535.93 + 
+[userId] * 0.09 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.05 +
+[networkContext_mobileConnected] * -1.14 +
+[accelerationContext_accelerationStandardDeviation] * 1.15
+
+Class 9 :
+-342.99 + 
+[userId] * 1.48 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * -0.04 +
+[accelerationContext_accelerationStandardDeviation] * -0.21
+
+Class 10 :
+-10722.68 + 
+[userId] * -0.28 +
+[weatherContext_humidity] * -0.1
+
+Class 11 :
+-381.89 + 
+[userId] * 3.68 +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * -0.63
+
+Class 12 :
+-278.35 + 
+[userId] * 0.04 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 13 :
+137.36 + 
+[userId] * 0.27 +
+[networkContext_mobileConnected] * 3.92 +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-436.46 + 
+[userId] * -0.04 +
+[weatherContext_humidity] * -0.07 +
+[weatherContext_visibility] * -1.39 +
+[networkContext_mobileConnected] * -2.85 +
+[accelerationContext_accelerationStandardDeviation] * 0.99
+
+Class 15 :
+-212.75 + 
+[userId] * -0.04 +
+[weatherContext_humidity] * -0.13 +
+[weatherContext_visibility] * -1.1 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * -3.66 +
+[accelerationContext_accelerationStandardDeviation] * 0.47
+
+Class 16 :
+5.94 + 
+[userId] * 0.01 +
+[weatherContext_humidity] * -0.09 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 2.94 +
+[accelerationContext_accelerationStandardDeviation] * -9.23
+
+Class 17 :
+-13.58 + 
+[userId] * 0.12 +
+[weatherContext_visibility] * 0    +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -0.79
+
+Class 18 :
+-16.27 + 
+[userId] * 0.13 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0.04
+
+Class 19 :
+476.36 + 
+[userId] * 0.25
+
+LM_2:
+Class 0 :
+2.17 + 
+[userId] * -0.56 +
+[weatherContext_humidity] * 0.07 +
+[weatherContext_visibility] * -0.58
+
+Class 1 :
+-3.39 + 
+[userId] * 0.05 +
+[weatherContext_visibility] * -0.75 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.01 +
+[accelerationContext_accelerationStandardDeviation] * 0.71
+
+Class 2 :
+144.57 + 
+[weatherContext_visibility] * -0.52 +
+[audioContext_volumeNotif] * 0.15 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-430.57 + 
+[userId] * 0.08 +
+[networkContext_mobileConnected] * 1.52 +
+[accelerationContext_accelerationStandardDeviation] * -0.65
+
+Class 4 :
+-13.6 + 
+[userId] * 0.15 +
+[weatherContext_humidity] * -0.04 +
+[accelerationContext_accelerationStandardDeviation] * 0.78
+
+Class 5 :
+-203.57 + 
+[userId] * 0.03 +
+[weatherContext_visibility] * -0.01 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * 0   
+
+Class 6 :
+-504.27 + 
+[userId] * -0.24 +
+[audioContext_volumeNotif] * 0.04 +
+[networkContext_mobileConnected] * -0.94
+
+Class 7 :
+1148.64 + 
+[userId] * -0.11 +
+[weatherContext_humidity] * 0.04 +
+[weatherContext_visibility] * 0.28 +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * -1.82
+
+Class 8 :
+-0.78 + 
+[userId] * -0.07 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.05
+
+Class 9 :
+-371.36 + 
+[userId] * 1.48 +
+[weatherContext_visibility] * 3.47 +
+[audioContext_volumeNotif] * -0.04
+
+Class 10 :
+-5097.11 + 
+[userId] * -0.28 +
+[weatherContext_humidity] * -0.1 +
+[accelerationContext_accelerationStandardDeviation] * -0.02
+
+Class 11 :
+-382.69 + 
+[userId] * 3.68 +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * -0.63
+
+Class 12 :
+-278.37 + 
+[userId] * 0.04 +
+[audioContext_volumeNotif] * 0    +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 13 :
+133.46 + 
+[userId] * 0.03 +
+[networkContext_mobileConnected] * 3.62 +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-1415.68 + 
+[userId] * -2.5 +
+[weatherContext_humidity] * -0.08 +
+[weatherContext_visibility] * -1.39 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -2.85 +
+[accelerationContext_accelerationStandardDeviation] * 0.99
+
+Class 15 :
+329.09 + 
+[userId] * -2.74 +
+[weatherContext_humidity] * -0.13 +
+[weatherContext_visibility] * -1.1 +
+[audioContext_volumeNotif] * -0.06 +
+[networkContext_mobileConnected] * -3.79 +
+[accelerationContext_accelerationStandardDeviation] * 0.47
+
+Class 16 :
+-5.99 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.09 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 1.66 +
+[accelerationContext_accelerationStandardDeviation] * -6.81
+
+Class 17 :
+-13.58 + 
+[userId] * 0.12 +
+[weatherContext_visibility] * 0    +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -0.79
+
+Class 18 :
+-16.29 + 
+[userId] * 0.13 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0.04
+
+Class 19 :
+476.36 + 
+[userId] * 0.25
+
+
+LM_3:
+Class 0 :
+-10.9 + 
+[userId] * -0.25 +
+[weatherContext_humidity] * 0.07
+
+Class 1 :
+619.82 + 
+[userId] * -0.1 +
+[weatherContext_humidity] * -0.12 +
+[weatherContext_visibility] * -1.67 +
+[audioContext_volumeNotif] * -0.07 +
+[networkContext_mobileConnected] * -1.19 +
+[accelerationContext_accelerationStandardDeviation] * 0.73
+
+Class 2 :
+219.61 + 
+[userId] * -0.34 +
+[weatherContext_humidity] * 0.04 +
+[audioContext_volumeNotif] * 0.11 +
+[networkContext_mobileConnected] * 6.63 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-423.99 + 
+[userId] * 0.08 +
+[weatherContext_humidity] * 0    +
+[networkContext_mobileConnected] * 2.81 +
+[accelerationContext_accelerationStandardDeviation] * -12.16
+
+Class 4 :
+-11.21 + 
+[userId] * 0.21 +
+[weatherContext_humidity] * -0.04 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * -1.64 +
+[accelerationContext_accelerationStandardDeviation] * 1.08
+
+Class 5 :
+-584.75 + 
+[userId] * -0.1 +
+[weatherContext_humidity] * 0.07 +
+[weatherContext_visibility] * 0.34 +
+[audioContext_volumeNotif] * -0.07 +
+[networkContext_mobileConnected] * 1.95
+
+Class 6 :
+-901.41 + 
+[userId] * -0.04 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -2.18 +
+[accelerationContext_accelerationStandardDeviation] * -0.49
+
+Class 7 :
+751.58 + 
+[weatherContext_humidity] * 0.31 +
+[networkContext_mobileConnected] * -1.82 +
+[accelerationContext_accelerationStandardDeviation] * -83.21
+
+Class 8 :
+-8.09 + 
+[userId] * -0.07 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * -0.03
+
+Class 9 :
+-320.32 + 
+[userId] * -0.03 +
+[audioContext_volumeNotif] * -0.04
+
+Class 10 :
+-1648.25 + 
+[userId] * -0.12 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0    +
+[accelerationContext_accelerationStandardDeviation] * 0   
+
+Class 11 :
+-325.82 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * -0.63
+
+Class 12 :
+-747.79 + 
+[userId] * 1.39 +
+[weatherContext_humidity] * 0.03 +
+[audioContext_volumeNotif] * 0.04 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 13 :
+-10.78 + 
+[userId] * -0.07 +
+[weatherContext_humidity] * 0    +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * 2.65 +
+[accelerationContext_accelerationStandardDeviation] * 0.87
+
+Class 14 :
+-8.79 + 
+[userId] * -0.04 +
+[networkContext_mobileConnected] * -2.85 +
+[accelerationContext_accelerationStandardDeviation] * 0.82
+
+Class 15 :
+-238.95 + 
+[userId] * -0.04 +
+[weatherContext_humidity] * 0    +
+[networkContext_mobileConnected] * -2.54 +
+[accelerationContext_accelerationStandardDeviation] * 0.46
+
+Class 16 :
+-4.49 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 0    +
+[accelerationContext_accelerationStandardDeviation] * -2.33
+
+Class 17 :
+3.65 + 
+[userId] * 0.12 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * -0.93 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -6.8
+
+Class 18 :
+396.69 + 
+[userId] * 0.25 +
+[audioContext_volumeNotif] * 0.04
+
+Class 19 :
+1392.39 + 
+[userId] * 0.68
+
+LM_4:
+Class 0 :
+-10.9 + 
+[userId] * -0.25 +
+[weatherContext_humidity] * 0.07 +
+[networkContext_mobileConnected] * 0   
+
+Class 1 :
+14.12 + 
+[userId] * -0.1 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * -1.1 +
+[audioContext_volumeNotif] * -0.07 +
+[accelerationContext_accelerationStandardDeviation] * 0.73
+
+Class 2 :
+220.19 + 
+[userId] * -0.34 +
+[weatherContext_humidity] * 0.04 +
+[audioContext_volumeNotif] * 0.06 +
+[networkContext_mobileConnected] * 1.95 +
+[accelerationContext_accelerationStandardDeviation] * 0.74
+
+Class 3 :
+-413.18 + 
+[userId] * -0.06 +
+[audioContext_volumeNotif] * -0.03 +
+[networkContext_mobileConnected] * 4.2  +
+[accelerationContext_accelerationStandardDeviation] * -17.78
+
+Class 4 :
+-2.04 + 
+[userId] * 0.12 +
+[weatherContext_humidity] * -0.04 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * -1.64 +
+[accelerationContext_accelerationStandardDeviation] * 3.28
+
+Class 5 :
+-187.48 + 
+[userId] * -0.1 +
+[weatherContext_humidity] * 0.03 +
+[audioContext_volumeNotif] * -0.07 +
+[networkContext_mobileConnected] * 1.12
+
+Class 6 :
+-860.73 + 
+[userId] * -0.81 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -2.18 +
+[accelerationContext_accelerationStandardDeviation] * -0.49
+
+Class 7 :
+752.77 + 
+[weatherContext_humidity] * 0.21 +
+[weatherContext_visibility] * 0.01 +
+[networkContext_mobileConnected] * -1.82 +
+[accelerationContext_accelerationStandardDeviation] * -1.71
+
+Class 8 :
+-8.08 + 
+[userId] * -0.07 +
+[audioContext_volumeNotif] * -0.03
+
+Class 9 :
+-320.32 + 
+[userId] * -0.03 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * 0   
+
+Class 10 :
+-1648.25 + 
+[userId] * -0.12 +
+[networkContext_mobileConnected] * 0   
+
+Class 11 :
+-325.83 + 
+[userId] * -0.03 +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * -0.63
+
+Class 12 :
+-721.33 + 
+[userId] * 0.31 +
+[weatherContext_humidity] * 0.11 +
+[audioContext_volumeNotif] * -0.02 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 13 :
+-10.78 + 
+[userId] * -0.07 +
+[weatherContext_humidity] * 0    +
+[networkContext_mobileConnected] * 2.65 +
+[accelerationContext_accelerationStandardDeviation] * 0.87
+
+Class 14 :
+-8.79 + 
+[userId] * -0.04 +
+[networkContext_mobileConnected] * -2.85 +
+[accelerationContext_accelerationStandardDeviation] * 0.82
+
+Class 15 :
+-238.96 + 
+[userId] * -0.04 +
+[networkContext_mobileConnected] * -2.54 +
+[accelerationContext_accelerationStandardDeviation] * 0.46
+
+Class 16 :
+-4.48 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 0    +
+[accelerationContext_accelerationStandardDeviation] * -2.33
+
+Class 17 :
+14.06 + 
+[userId] * 0.25 +
+[weatherContext_humidity] * -0.05 +
+[weatherContext_visibility] * -2.11 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -10.94
+
+Class 18 :
+404.09 + 
+[userId] * 0.25 +
+[weatherContext_visibility] * -0.6 +
+[audioContext_volumeNotif] * 0.06
+
+Class 19 :
+2360.65 + 
+[userId] * 0.94 +
+[weatherContext_humidity] * 0.04
+
+
+Time taken to build model: 0.4 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          96               92.3077 %
+Incorrectly Classified Instances         8                7.6923 %
+Kappa statistic                          0.9185
+Mean absolute error                      0.0149
+Root mean squared error                  0.0765
+Relative absolute error                 15.8014 %
+Root relative squared error             35.2139 %
+Coverage of cases (0.95 level)          99.0385 %
+Mean rel. region size (0.95 level)       8.7019 %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 0.889    0.000    1.000      0.889    0.941      0.938    0.999     0.989     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.995     0.888     Ani DiFranco
+                 1.000    0.010    0.833      1.000    0.909      0.908    0.999     0.967     Daft Punk
+                 0.833    0.010    0.833      0.833    0.833      0.823    0.998     0.976     Pearl Jam
+                 1.000    0.010    0.800      1.000    0.889      0.890    0.999     0.950     Kanye West
+                 0.667    0.000    1.000      0.667    0.800      0.808    0.832     0.815     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.021    0.833      1.000    0.909      0.903    0.989     0.798     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.000    1.000      0.500    0.667      0.700    0.988     0.793     Caravan Palace
+                 1.000    0.020    0.667      1.000    0.800      0.808    0.988     0.733     Lamb of God
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.999     0.950     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.923    0.005    0.936      0.923    0.921      0.921    0.988     0.940     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0  8  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  3  0  1  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  1  0  5  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  4  0  2  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  2  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  3  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          61               58.6538 %
+Incorrectly Classified Instances        43               41.3462 %
+Kappa statistic                          0.5628
+Mean absolute error                      0.0429
+Root mean squared error                  0.184 
+Relative absolute error                 45.1882 %
+Root relative squared error             84.3002 %
+Coverage of cases (0.95 level)          76.9231 %
+Mean rel. region size (0.95 level)       8.5577 %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.010    0.800      0.667    0.727      0.715    0.974     0.825     The Heavy
+                 0.571    0.010    0.800      0.571    0.667      0.657    0.966     0.808     Fiona Apple
+                 0.333    0.042    0.429      0.333    0.375      0.327    0.930     0.603     Die Fantastischen Vier
+                 0.500    0.020    0.500      0.500    0.500      0.480    0.983     0.585     P!nk
+                 0.600    0.010    0.750      0.600    0.667      0.656    0.941     0.694     Red Hot Chili Peppers
+                 0.500    0.050    0.286      0.500    0.364      0.345    0.910     0.299     Ani DiFranco
+                 0.800    0.010    0.800      0.800    0.800      0.790    0.933     0.738     Daft Punk
+                 0.667    0.041    0.500      0.667    0.571      0.548    0.944     0.525     Pearl Jam
+                 0.500    0.010    0.667      0.500    0.571      0.563    0.910     0.377     Kanye West
+                 0.667    0.020    0.667      0.667    0.667      0.646    0.969     0.679     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.800    0.021    0.800      0.800    0.800      0.779    0.978     0.834     Sportfreunde Stiller
+                 0.833    0.020    0.714      0.833    0.769      0.756    0.854     0.844     Bob Dylan
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.975     0.733     Casper
+                 0.000    0.030    0.000      0.000    0.000      -0.034   0.943     0.307     Caravan Palace
+                 0.250    0.040    0.200      0.250    0.222      0.189    0.918     0.311     Lamb of God
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.980     0.704     Wizkid
+                 0.000    0.040    0.000      0.000    0.000      -0.040   0.664     0.142     Asian Dub Foundation
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.710     0.265     Mumford & Sons
+                 1.000    0.020    0.667      1.000    0.800      0.808    0.990     0.679     King Crimson
+Weighted Avg.    0.587    0.022    0.595      0.587    0.584      0.565    0.929     0.629     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 4 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 4 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 3 0 0 0 1 3 0 0 0 0 1 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 | d = P!nk
+ 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 | e = Red Hot Chili Peppers
+ 0 1 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 2 0 4 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 4 0 1 0 1 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 2 0 8 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 0 1 | m = Bob Dylan
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 | q = Wizkid
+ 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 | r = Asian Dub Foundation
+ 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 2 1 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I 20 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+
+userId <= 17
+|   userId <= 15: LM_1:20/60 (31)
+|   userId > 15
+|   |   userId <= 16: LM_2:20/80 (8)
+|   |   userId > 16
+|   |   |   networkContext_mobileConnected <= 0: LM_3:20/100 (14)
+|   |   |   networkContext_mobileConnected > 0: LM_4:0/80 (2)
+userId > 17: LM_5:20/40 (49)
+
+Number of Leaves  : 	5
+
+Size of the Tree : 	9
+
+
+LM_1:
+Class 0 :
+15.93 + 
+[userId] * -3.05 +
+[weatherContext_humidity] * 0.3  +
+[weatherContext_visibility] * -0.71 +
+[audioContext_volumeNotif] * -0.05
+
+Class 1 :
+296.21 + 
+[userId] * 0.04 +
+[weatherContext_humidity] * -0.05 +
+[weatherContext_visibility] * -2.08 +
+[audioContext_volumeNotif] * -0.21 +
+[networkContext_mobileConnected] * -0.99 +
+[accelerationContext_accelerationStandardDeviation] * 1.26
+
+Class 2 :
+518.87 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.14 +
+[weatherContext_visibility] * -0.37 +
+[audioContext_volumeNotif] * 0.77 +
+[networkContext_mobileConnected] * 2.36 +
+[accelerationContext_accelerationStandardDeviation] * 2.7 
+
+Class 3 :
+-466.11 + 
+[userId] * 0.17 +
+[weatherContext_visibility] * 0.43 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * 5.11 +
+[accelerationContext_accelerationStandardDeviation] * -34.28
+
+Class 4 :
+136.83 + 
+[userId] * 0.35 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * 0.36 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * 1.62
+
+Class 5 :
+-586.48 + 
+[userId] * 0.03 +
+[weatherContext_humidity] * 0.05 +
+[audioContext_volumeNotif] * -0.18 +
+[networkContext_mobileConnected] * 1.35
+
+Class 6 :
+-3089.53 + 
+[userId] * -1.67 +
+[audioContext_volumeNotif] * 0.07 +
+[networkContext_mobileConnected] * -0.94 +
+[accelerationContext_accelerationStandardDeviation] * -7.7
+
+Class 7 :
+3852.57 + 
+[userId] * -0.67 +
+[weatherContext_humidity] * 0.1  +
+[weatherContext_visibility] * 3.48 +
+[networkContext_mobileConnected] * -4.48
+
+Class 8 :
+-464.89 + 
+[userId] * 0.77 +
+[weatherContext_humidity] * 0.05 +
+[audioContext_volumeNotif] * -0.03 +
+[networkContext_mobileConnected] * 0.98 +
+[accelerationContext_accelerationStandardDeviation] * 1.27
+
+Class 9 :
+-362.71 + 
+[userId] * 1.71 +
+[weatherContext_humidity] * 0    +
+[weatherContext_visibility] * 0.02 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.84
+
+Class 10 :
+-40418.99 + 
+[userId] * -0.65 +
+[weatherContext_humidity] * -0.29 +
+[weatherContext_visibility] * 6.19
+
+Class 11 :
+-1168.15 + 
+[userId] * 5.48 +
+[weatherContext_humidity] * -0.02 +
+[weatherContext_visibility] * -6.49 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -3.27 +
+[accelerationContext_accelerationStandardDeviation] * -3.33
+
+Class 12 :
+-509.84 + 
+[userId] * 0.16 +
+[weatherContext_humidity] * 0.02 +
+[weatherContext_visibility] * 0    +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 0.63 +
+[accelerationContext_accelerationStandardDeviation] * 1.21
+
+Class 13 :
+-92.69 + 
+[userId] * 0.05 +
+[weatherContext_humidity] * 0.13 +
+[weatherContext_visibility] * 0.51 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 12.87 +
+[proximityContext_proximityStandardDeviation] * 0    +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-1541.22 + 
+[userId] * -0.63 +
+[weatherContext_visibility] * -2.32 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * -6.91 +
+[accelerationContext_accelerationStandardDeviation] * 1.16
+
+Class 15 :
+-218.52 + 
+[userId] * -1.28 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.08 +
+[networkContext_mobileConnected] * -10.51 +
+[accelerationContext_accelerationStandardDeviation] * 0.72
+
+Class 16 :
+405.95 + 
+[userId] * 0.22 +
+[weatherContext_humidity] * -0.12 +
+[weatherContext_visibility] * -0.74 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 15.17 +
+[accelerationContext_accelerationStandardDeviation] * -47.4
+
+Class 17 :
+-33.67 + 
+[userId] * 0.36 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * -1.68 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -15.64
+
+Class 18 :
+727.72 + 
+[userId] * 0.47 +
+[audioContext_volumeNotif] * 0.06
+
+Class 19 :
+2759.58 + 
+[userId] * 1.19 +
+[weatherContext_humidity] * 0.04 +
+[weatherContext_visibility] * 0.62 +
+[accelerationContext_accelerationStandardDeviation] * -0.34
+
+
+LM_2:
+Class 0 :
+-25.12 + 
+[userId] * -2.33 +
+[weatherContext_humidity] * 0.22 +
+[weatherContext_visibility] * -0.46 +
+[audioContext_volumeNotif] * -0.04
+
+Class 1 :
+277.21 + 
+[userId] * 0.04 +
+[weatherContext_humidity] * -0.05 +
+[weatherContext_visibility] * -2.08 +
+[audioContext_volumeNotif] * -0.21 +
+[networkContext_mobileConnected] * -0.99 +
+[accelerationContext_accelerationStandardDeviation] * 1.26
+
+Class 2 :
+426.47 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.08 +
+[weatherContext_visibility] * -0.32 +
+[audioContext_volumeNotif] * 0.54 +
+[networkContext_mobileConnected] * 2.78 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-485.11 + 
+[userId] * 0.17 +
+[weatherContext_visibility] * 0.43 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * 5.11 +
+[accelerationContext_accelerationStandardDeviation] * -34.28
+
+Class 4 :
+117.83 + 
+[userId] * 0.35 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * 0.36 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * 1.62
+
+Class 5 :
+-605.48 + 
+[userId] * 0.03 +
+[weatherContext_humidity] * 0.05 +
+[audioContext_volumeNotif] * -0.18 +
+[networkContext_mobileConnected] * 1.35
+
+Class 6 :
+-1761.38 + 
+[userId] * -1.02 +
+[audioContext_volumeNotif] * 0.07 +
+[networkContext_mobileConnected] * -0.94 +
+[accelerationContext_accelerationStandardDeviation] * -4.19
+
+Class 7 :
+2500.15 + 
+[userId] * -0.67 +
+[weatherContext_humidity] * 0.1  +
+[weatherContext_visibility] * 2.21 +
+[networkContext_mobileConnected] * -4.48
+
+Class 8 :
+302.65 + 
+[userId] * -0.07 +
+[audioContext_volumeNotif] * -0.03 +
+[networkContext_mobileConnected] * -1.12
+
+Class 9 :
+-363.16 + 
+[userId] * 1.71 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * 48.23 +
+[accelerationContext_accelerationStandardDeviation] * 0.01
+
+Class 10 :
+-22164.45 + 
+[userId] * -1.6 +
+[weatherContext_humidity] * -0.29 +
+[weatherContext_visibility] * 6.19
+
+Class 11 :
+-1168.88 + 
+[userId] * 5.48 +
+[weatherContext_humidity] * -0.02 +
+[weatherContext_visibility] * -6.49 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -54.62 +
+[accelerationContext_accelerationStandardDeviation] * -4.61
+
+Class 12 :
+-528.84 + 
+[userId] * 0.16 +
+[weatherContext_humidity] * 0.02 +
+[weatherContext_visibility] * 0    +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 0.63 +
+[accelerationContext_accelerationStandardDeviation] * 1.21
+
+Class 13 :
+431.4 + 
+[userId] * -0.55 +
+[weatherContext_humidity] * 0.13 +
+[weatherContext_visibility] * 0.51 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * 8.01 +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-1975.18 + 
+[userId] * -9.92 +
+[weatherContext_visibility] * -2.32 +
+[audioContext_volumeNotif] * 0.1  +
+[networkContext_mobileConnected] * -6.91 +
+[accelerationContext_accelerationStandardDeviation] * 1.15
+
+Class 15 :
+405.15 + 
+[userId] * -10.86 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.2 +
+[networkContext_mobileConnected] * -10.51 +
+[accelerationContext_accelerationStandardDeviation] * 0.43
+
+Class 16 :
+374.17 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.12 +
+[weatherContext_visibility] * -0.74 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 9.21 +
+[accelerationContext_accelerationStandardDeviation] * -47.38
+
+Class 17 :
+-52.67 + 
+[userId] * 0.36 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * -1.68 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -15.64
+
+Class 18 :
+708.72 + 
+[userId] * 0.47 +
+[audioContext_volumeNotif] * 0.06
+
+Class 19 :
+2740.58 + 
+[userId] * 1.19 +
+[weatherContext_humidity] * 0.04 +
+[weatherContext_visibility] * 0.62 +
+[accelerationContext_accelerationStandardDeviation] * -0.34
+
+
+LM_3:
+Class 0 :
+-44.12 + 
+[userId] * -2.33 +
+[weatherContext_humidity] * 0.22 +
+[weatherContext_visibility] * -0.46 +
+[audioContext_volumeNotif] * -0.04
+
+Class 1 :
+258.21 + 
+[userId] * 0.04 +
+[weatherContext_humidity] * -0.05 +
+[weatherContext_visibility] * -2.08 +
+[audioContext_volumeNotif] * -0.21 +
+[networkContext_mobileConnected] * -0.99 +
+[accelerationContext_accelerationStandardDeviation] * 1.26
+
+Class 2 :
+405.33 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.05 +
+[weatherContext_visibility] * -0.32 +
+[audioContext_volumeNotif] * 0.54 +
+[networkContext_mobileConnected] * 2.78 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-504.11 + 
+[userId] * 0.17 +
+[weatherContext_visibility] * 0.43 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * 5.11 +
+[accelerationContext_accelerationStandardDeviation] * -34.28
+
+Class 4 :
+98.83 + 
+[userId] * 0.35 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * 0.36 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * 1.62
+
+Class 5 :
+-624.48 + 
+[userId] * 0.03 +
+[weatherContext_humidity] * 0.05 +
+[audioContext_volumeNotif] * -0.18 +
+[networkContext_mobileConnected] * 1.35
+
+Class 6 :
+-1780.38 + 
+[userId] * -1.02 +
+[audioContext_volumeNotif] * 0.07 +
+[networkContext_mobileConnected] * -0.96 +
+[accelerationContext_accelerationStandardDeviation] * -4.19
+
+Class 7 :
+2481.15 + 
+[userId] * -0.67 +
+[weatherContext_humidity] * 0.1  +
+[weatherContext_visibility] * 2.21 +
+[networkContext_mobileConnected] * -4.48
+
+Class 8 :
+283.65 + 
+[userId] * -0.07 +
+[audioContext_volumeNotif] * -0.03 +
+[networkContext_mobileConnected] * -20.06
+
+Class 9 :
+2779.9 + 
+[userId] * 1.71 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * 105.22 +
+[accelerationContext_accelerationStandardDeviation] * -23.52
+
+Class 10 :
+-22183.45 + 
+[userId] * -1.6 +
+[weatherContext_humidity] * -0.29 +
+[weatherContext_visibility] * 6.19
+
+Class 11 :
+-4273.91 + 
+[userId] * 5.48 +
+[weatherContext_humidity] * -0.02 +
+[weatherContext_visibility] * -6.49 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -92.56 +
+[accelerationContext_accelerationStandardDeviation] * 18.91
+
+Class 12 :
+-547.84 + 
+[userId] * 0.16 +
+[weatherContext_humidity] * 0.02 +
+[weatherContext_visibility] * 0    +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 0.63 +
+[accelerationContext_accelerationStandardDeviation] * 1.21
+
+Class 13 :
+412.4 + 
+[userId] * -0.55 +
+[weatherContext_humidity] * 0.13 +
+[weatherContext_visibility] * 0.51 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * 8.01 +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-2012.52 + 
+[userId] * -9.92 +
+[weatherContext_visibility] * -2.32 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -6.91 +
+[accelerationContext_accelerationStandardDeviation] * 1.15
+
+Class 15 :
+366.4 + 
+[userId] * -10.86 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.14 +
+[networkContext_mobileConnected] * -10.51 +
+[accelerationContext_accelerationStandardDeviation] * 0.44
+
+Class 16 :
+357.51 + 
+[userId] * -0.17 +
+[weatherContext_humidity] * -0.12 +
+[weatherContext_visibility] * -0.74 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 9.21 +
+[accelerationContext_accelerationStandardDeviation] * -47.38
+
+Class 17 :
+-71.67 + 
+[userId] * 0.36 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * -1.68 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -15.64
+
+Class 18 :
+689.72 + 
+[userId] * 0.47 +
+[audioContext_volumeNotif] * 0.06
+
+Class 19 :
+2721.58 + 
+[userId] * 1.19 +
+[weatherContext_humidity] * 0.04 +
+[weatherContext_visibility] * 0.62 +
+[accelerationContext_accelerationStandardDeviation] * -0.34
+
+LM_4:
+Class 0 :
+-25.12 + 
+[userId] * -2.33 +
+[weatherContext_humidity] * 0.22 +
+[weatherContext_visibility] * -0.46 +
+[audioContext_volumeNotif] * -0.04
+
+Class 1 :
+277.21 + 
+[userId] * 0.04 +
+[weatherContext_humidity] * -0.05 +
+[weatherContext_visibility] * -2.08 +
+[audioContext_volumeNotif] * -0.21 +
+[networkContext_mobileConnected] * -0.99 +
+[accelerationContext_accelerationStandardDeviation] * 1.26
+
+Class 2 :
+424.33 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.05 +
+[weatherContext_visibility] * -0.32 +
+[audioContext_volumeNotif] * 0.54 +
+[networkContext_mobileConnected] * 2.78 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-485.11 + 
+[userId] * 0.17 +
+[weatherContext_visibility] * 0.43 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * 5.11 +
+[accelerationContext_accelerationStandardDeviation] * -34.28
+
+Class 4 :
+117.83 + 
+[userId] * 0.35 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * 0.36 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -2.28 +
+[accelerationContext_accelerationStandardDeviation] * 1.62
+
+Class 5 :
+-605.48 + 
+[userId] * 0.03 +
+[weatherContext_humidity] * 0.05 +
+[audioContext_volumeNotif] * -0.18 +
+[networkContext_mobileConnected] * 1.35
+
+Class 6 :
+-1761.38 + 
+[userId] * -1.02 +
+[audioContext_volumeNotif] * 0.07 +
+[networkContext_mobileConnected] * -0.96 +
+[accelerationContext_accelerationStandardDeviation] * -4.19
+
+Class 7 :
+2500.15 + 
+[userId] * -0.67 +
+[weatherContext_humidity] * 0.1  +
+[weatherContext_visibility] * 2.21 +
+[networkContext_mobileConnected] * -4.48
+
+Class 8 :
+302.65 + 
+[userId] * -0.07 +
+[audioContext_volumeNotif] * -0.03 +
+[networkContext_mobileConnected] * -20.06
+
+Class 9 :
+-344.12 + 
+[userId] * 1.71 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * 105.22
+
+Class 10 :
+-22164.45 + 
+[userId] * -1.6 +
+[weatherContext_humidity] * -0.29 +
+[weatherContext_visibility] * 6.19
+
+Class 11 :
+-1149.89 + 
+[userId] * 5.48 +
+[weatherContext_humidity] * -0.02 +
+[weatherContext_visibility] * -6.49 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * -92.56 +
+[accelerationContext_accelerationStandardDeviation] * -4.61
+
+Class 12 :
+-528.84 + 
+[userId] * 0.16 +
+[weatherContext_humidity] * 0.02 +
+[weatherContext_visibility] * 0    +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 0.63 +
+[accelerationContext_accelerationStandardDeviation] * 1.21
+
+Class 13 :
+431.4 + 
+[userId] * -0.55 +
+[weatherContext_humidity] * 0.13 +
+[weatherContext_visibility] * 0.51 +
+[audioContext_volumeNotif] * 0.02 +
+[networkContext_mobileConnected] * 8.01 +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-1993.52 + 
+[userId] * -9.92 +
+[weatherContext_visibility] * -2.32 +
+[audioContext_volumeNotif] * 0.05 +
+[networkContext_mobileConnected] * -6.91 +
+[accelerationContext_accelerationStandardDeviation] * 1.15
+
+Class 15 :
+385.4 + 
+[userId] * -10.86 +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.14 +
+[networkContext_mobileConnected] * -10.51 +
+[accelerationContext_accelerationStandardDeviation] * 0.44
+
+Class 16 :
+376.51 + 
+[userId] * -0.17 +
+[weatherContext_humidity] * -0.12 +
+[weatherContext_visibility] * -0.74 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 9.21 +
+[accelerationContext_accelerationStandardDeviation] * -47.38
+
+Class 17 :
+-52.67 + 
+[userId] * 0.36 +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * -1.68 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * -1.29 +
+[accelerationContext_accelerationStandardDeviation] * -15.64
+
+Class 18 :
+708.72 + 
+[userId] * 0.47 +
+[audioContext_volumeNotif] * 0.06
+
+Class 19 :
+2740.58 + 
+[userId] * 1.19 +
+[weatherContext_humidity] * 0.04 +
+[weatherContext_visibility] * 0.62 +
+[accelerationContext_accelerationStandardDeviation] * -0.34
+
+LM_5:
+Class 0 :
+-12.21 + 
+[userId] * -1.19 +
+[weatherContext_humidity] * 0.14 +
+[weatherContext_visibility] * -0.46 +
+[audioContext_volumeNotif] * -0.01
+
+Class 1 :
+1540.18 + 
+[userId] * -0.38 +
+[weatherContext_humidity] * -0.22 +
+[weatherContext_visibility] * -3.11 +
+[audioContext_volumeNotif] * -0.21 +
+[networkContext_mobileConnected] * -2.57 +
+[accelerationContext_accelerationStandardDeviation] * 1.55
+
+Class 2 :
+256.35 + 
+[userId] * -1.87 +
+[weatherContext_humidity] * 0.18 +
+[weatherContext_visibility] * -0.32 +
+[audioContext_volumeNotif] * 0.16 +
+[networkContext_mobileConnected] * 10.55 +
+[accelerationContext_accelerationStandardDeviation] * 0.75
+
+Class 3 :
+-443.05 + 
+[userId] * 0.09 +
+[weatherContext_visibility] * 2.18 +
+[audioContext_volumeNotif] * -0.07 +
+[networkContext_mobileConnected] * 10.87 +
+[accelerationContext_accelerationStandardDeviation] * -57.37
+
+Class 4 :
+439.46 + 
+[userId] * 0.5  +
+[weatherContext_humidity] * -0.04 +
+[weatherContext_visibility] * 1.68 +
+[audioContext_volumeNotif] * 0.04 +
+[networkContext_mobileConnected] * -4.65 +
+[accelerationContext_accelerationStandardDeviation] * 2.11
+
+Class 5 :
+-1179.9 + 
+[userId] * -0.21 +
+[weatherContext_humidity] * 0.05 +
+[audioContext_volumeNotif] * -0.23 +
+[networkContext_mobileConnected] * 3.57 +
+[accelerationContext_accelerationStandardDeviation] * -0.19
+
+Class 6 :
+-2428.81 + 
+[userId] * -0.12 +
+[weatherContext_humidity] * 0.03 +
+[audioContext_volumeNotif] * 0.08 +
+[networkContext_mobileConnected] * -1.45 +
+[accelerationContext_accelerationStandardDeviation] * -3.74
+
+Class 7 :
+2272.17 + 
+[weatherContext_humidity] * 0.6  +
+[weatherContext_visibility] * 0.72 +
+[audioContext_volumeNotif] * -0.01 +
+[networkContext_mobileConnected] * -4.48 +
+[accelerationContext_accelerationStandardDeviation] * -84.29
+
+Class 8 :
+321.76 + 
+[userId] * -0.07 +
+[audioContext_volumeNotif] * -0.03 +
+[networkContext_mobileConnected] * 0.98
+
+Class 9 :
+-334.35 + 
+[userId] * -0.03 +
+[audioContext_volumeNotif] * -0.04 +
+[networkContext_mobileConnected] * -0.84
+
+Class 10 :
+-5826.38 + 
+[userId] * -0.64 +
+[weatherContext_humidity] * -0.18 +
+[audioContext_volumeNotif] * 0   
+
+Class 11 :
+-1121.29 + 
+[userId] * -0.05 +
+[weatherContext_humidity] * -0.02 +
+[weatherContext_visibility] * -1.4 +
+[networkContext_mobileConnected] * -3.27 +
+[accelerationContext_accelerationStandardDeviation] * -3.33
+
+Class 12 :
+-765.48 + 
+[userId] * 0.16 +
+[weatherContext_humidity] * 0.14 +
+[weatherContext_visibility] * 1.27 +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * 0.63 +
+[accelerationContext_accelerationStandardDeviation] * 1.52
+
+Class 13 :
+-21.61 + 
+[userId] * -0.28 +
+[weatherContext_humidity] * 0.04 +
+[audioContext_volumeNotif] * 0.01 +
+[networkContext_mobileConnected] * 4.7  +
+[accelerationContext_accelerationStandardDeviation] * 0.9 
+
+Class 14 :
+-445.77 + 
+[userId] * -0.29 +
+[weatherContext_visibility] * -1.11 +
+[audioContext_volumeNotif] * 0    +
+[networkContext_mobileConnected] * -4.87 +
+[accelerationContext_accelerationStandardDeviation] * 0.99
+
+Class 15 :
+-234.72 + 
+[userId] * -0.33 +
+[weatherContext_humidity] * 0    +
+[weatherContext_visibility] * -0.79 +
+[audioContext_volumeNotif] * -0.03 +
+[networkContext_mobileConnected] * -4.67 +
+[accelerationContext_accelerationStandardDeviation] * 0.72
+
+Class 16 :
+380.16 + 
+[userId] * -0.03 +
+[weatherContext_humidity] * -0.05 +
+[audioContext_volumeNotif] * -0.02 +
+[networkContext_mobileConnected] * 3.8  +
+[accelerationContext_accelerationStandardDeviation] * -16.11
+
+Class 17 :
+4.6  + 
+[userId] * 0.79 +
+[weatherContext_humidity] * -0.09 +
+[weatherContext_visibility] * -3.49 +
+[audioContext_volumeNotif] * -0.06 +
+[networkContext_mobileConnected] * -3.07 +
+[accelerationContext_accelerationStandardDeviation] * -28.36
+
+Class 18 :
+981.44 + 
+[userId] * 0.71 +
+[weatherContext_humidity] * -0.02 +
+[weatherContext_visibility] * -0.4 +
+[audioContext_volumeNotif] * 0.08 +
+[accelerationContext_accelerationStandardDeviation] * -5.98
+
+Class 19 :
+4956.23 + 
+[userId] * 1.86 +
+[weatherContext_humidity] * 0.16 +
+[weatherContext_visibility] * 3.74 +
+[accelerationContext_accelerationStandardDeviation] * -1.06
+
+
+Time taken to build model: 0.62 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          97               93.2692 %
+Incorrectly Classified Instances         7                6.7308 %
+Kappa statistic                          0.9287
+Mean absolute error                      0.0096
+Root mean squared error                  0.0635
+Relative absolute error                 10.1254 %
+Root relative squared error             29.2154 %
+Coverage of cases (0.95 level)          99.0385 %
+Mean rel. region size (0.95 level)       6.875  %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 0.889    0.000    1.000      0.889    0.941      0.938    0.999     0.989     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.998     0.950     Ani DiFranco
+                 1.000    0.010    0.833      1.000    0.909      0.908    0.999     0.967     Daft Punk
+                 0.833    0.010    0.833      0.833    0.833      0.823    0.998     0.976     Pearl Jam
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.999     0.950     Kanye West
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.872     0.846     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.011    0.909      1.000    0.952      0.948    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.000    1.000      0.500    0.667      0.700    0.988     0.793     Caravan Palace
+                 1.000    0.020    0.667      1.000    0.800      0.808    0.988     0.733     Lamb of God
+                 1.000    0.010    0.800      1.000    0.889      0.890    0.999     0.950     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.933    0.004    0.944      0.933    0.931      0.931    0.991     0.963     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0  8  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  3  0  1  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  1  0  5  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  3  0  0  0  0  0  0  0  1  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  5  0  1  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  2  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          59               56.7308 %
+Incorrectly Classified Instances        45               43.2692 %
+Kappa statistic                          0.5429
+Mean absolute error                      0.0464
+Root mean squared error                  0.1921
+Relative absolute error                 48.9352 %
+Root relative squared error             88.0313 %
+Coverage of cases (0.95 level)          68.2692 %
+Mean rel. region size (0.95 level)       8.9423 %
+Total Number of Instances              104     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.010    0.800      0.667    0.727      0.715    0.976     0.811     The Heavy
+                 0.714    0.021    0.714      0.714    0.714      0.694    0.934     0.700     Fiona Apple
+                 0.333    0.042    0.429      0.333    0.375      0.327    0.825     0.462     Die Fantastischen Vier
+                 0.500    0.020    0.500      0.500    0.500      0.480    0.933     0.550     P!nk
+                 0.600    0.010    0.750      0.600    0.667      0.656    0.897     0.603     Red Hot Chili Peppers
+                 0.250    0.050    0.167      0.250    0.200      0.165    0.893     0.202     Ani DiFranco
+                 0.600    0.030    0.500      0.600    0.545      0.523    0.810     0.365     Daft Punk
+                 0.667    0.041    0.500      0.667    0.571      0.548    0.944     0.542     Pearl Jam
+                 0.500    0.010    0.667      0.500    0.571      0.563    0.860     0.349     Kanye West
+                 0.833    0.010    0.833      0.833    0.833      0.823    0.981     0.892     STS
+                 0.750    0.000    1.000      0.750    0.857      0.862    1.000     1.000     Letzte Instanz
+                 0.600    0.011    0.857      0.600    0.706      0.693    0.867     0.668     Sportfreunde Stiller
+                 0.833    0.031    0.625      0.833    0.714      0.702    0.906     0.693     Bob Dylan
+                 0.750    0.020    0.600      0.750    0.667      0.656    0.895     0.502     Casper
+                 0.250    0.040    0.200      0.250    0.222      0.189    0.933     0.315     Caravan Palace
+                 0.250    0.040    0.200      0.250    0.222      0.189    0.905     0.346     Lamb of God
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.955     0.532     Wizkid
+                 0.000    0.020    0.000      0.000    0.000      -0.028   0.623     0.101     Asian Dub Foundation
+                 0.250    0.000    1.000      0.250    0.400      0.493    0.663     0.314     Mumford & Sons
+                 1.000    0.040    0.500      1.000    0.667      0.693    0.980     0.525     King Crimson
+Weighted Avg.    0.567    0.023    0.602      0.567    0.565      0.552    0.890     0.550     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 4 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | a = The Heavy
+ 0 5 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 3 0 0 0 1 2 0 0 0 0 1 1 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 | d = P!nk
+ 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 | e = Red Hot Chili Peppers
+ 0 1 0 0 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 2 0 4 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 1 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 3 0 0 0 1 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 1 0 0 1 0 6 0 0 0 1 0 0 0 1 | l = Sportfreunde Stiller
+ 0 0 0 0 0 1 0 0 0 0 0 0 5 0 0 0 0 0 0 0 | m = Bob Dylan
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 1 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 | q = Wizkid
+ 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 | r = Asian Dub Foundation
+ 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+

@@ -1,0 +1,29 @@
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 864
+	Merit of best subset found:    0.677
+
+Attribute Subset Evaluator (supervised, Class (numeric): 14 weatherContext_temperature):
+	CFS Subset Evaluator
+	Treating missing values as a separate value
+	Including locally predictive attributes
+
+Selected attributes: 2,4,18,19,31,56,65,72,73,81 : 10
+                     userId
+                     context_datetime
+                     weatherContext_humidity
+                     weatherContext_visibility
+                     audioContext_volumeNotif
+                     networkContext_mobileConnected
+                     networkContext_wifiIpAddress
+                     proximityContext_proximity
+                     proximityContext_proximityStandardDeviation
+                     accelerationContext_accelerationStandardDeviation
+

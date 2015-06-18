@@ -1,0 +1,440 @@
+@relation 'mmg-weka.filters.unsupervised.instance.ReservoirSample-S1-Z500-weka.filters.unsupervised.attribute.Remove-V-R7,8,31,35,46,62,68,69,78,88,89,99-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-Clast-L195'
+
+@attribute timeContext_hourOfDay numeric
+@attribute timeContext_utc numeric
+@attribute audioContext_volumeNotif numeric
+@attribute audioContext_vibrateNotif numeric
+@attribute taskContext_runningTask4 string
+@attribute networkContext_activeNetworkRoaming numeric
+@attribute networkContext_bluetoothAvailable numeric
+@attribute networkContext_bluetoothEnabled numeric
+@attribute noiseContext_noise numeric
+@attribute playerContext_apmMode numeric
+@attribute soundEffectContext_equalizerEnabled numeric
+@attribute musicContext_Artist {'The Birthday Massacre','Jack White','Die Fantastischen Vier','Massive Attack',Nightwish,Metallica,DragonForce,Powerwolf,'Letzte Instanz',Propellerheads,Sabaton,Equilibrium,'Groove Armada',Kent,Falchion,Turisas,Månegarm,'Subway To Sally','Mono Inc.','The Strokes','Steaming Satellites','The Black Keys',Ensiferum,'The Watts 103rd St Rhythm Band','The Bar-Kays','Brother Jack McDuff','Jimmy Norman','Rufus Thomas','Grassella Oliphant','Eddie Harris','Natural Bridge Bunch','The Freedom Sounds','Clarence Carter','Artie Christopher','The T.S.U. Toronadoes','Tony Alvon & The Belairs','Mark Putney',Commodores,'The Southshore Commission','Eldridge Holmes','Cold Grits','Soul Angels','Johnny Cameron & The Camerons','Joyce Jones','Lou Johnson','King Curtis & The Noble Knights','Titus Turner','Phil Moore Jr.','The Fabulous Counts','The Rhine Oaks','Cyril Neville','The Mighty Hannibal','Little Sister','Ananda Shankar','Brute Force','Don Covay & The Jefferson Lemon Blues Band','Clarence Wheeler & The Enforcers','Curtis Mayfield','Johnny Harris','Darrow Fletcher','Young-Holt Unlimited','King Curtis','Harlem River Drive','Wilson Pickett','Ed Robinson','Gene McDaniels','Fred Wesley & The Horny Horns','Tami Lynn','Oscar Brown Jr.','Howard Tate',Lulu,'Herbie Mann','Clarence Reid','Junior Mance','Willie West','The Gaturs','Black Heat','Eddie Hazel','Claudia Lennear',LaBelle,'Shirley Scott','The Unemployed','Dr. John',Macondo,'Black Haze Express',Houseguests,Seatrain,'The Mystic Moods Orchestra','The Beginning of the End',Malo,'Cornell Dupree','Cold Blood',Moby,Leftfield,'All Saints','Asian Dub Foundation/Harry Beckett/Simon DeSouza','The Rolling Stones','Link Wray',Faces,Cream,'Ram Jam','Manfred Mann\'s Earth Band','Willie Rosario','KC and The Sunshine Band','J GIRLS','Lynyrd Skynyrd','Bob Dylan','The Marshall Tucker Band',Radiohead,'Johnny Cash',Filter,'Kings Of Leon','Pearl Jam','Chris Cornell',Incubus,'Mt. Desolation','System of a Down','Tenacious D','The Cure','The Raconteurs','Snow Patrol','It\'s A Beautiful Day','Mumford & Sons',Air,Awolnation,Suuns,'Builders & The Butchers',LaBrassBanda,'Element of Crime','Cold War Kids',Estampie,Rage,'Gamma Ray',Helloween,Firewind,'Iron Savior',Labyrinth,Stratovarius,Dillon,'Paul Banks',Klangkarussell,'Peter Fox',Brasstronaut,Coppelius,Schandmaul,'Jake Bugg','Roman Polansky',Therion,'Paradise Lost',Edenbridge,MGMT,'Aphex Twin',Soulwax,M.I.A.,Lützenkirchen,'Daft Punk','The Chemical Brothers','Kaiser Chiefs',Babyshambles,'La Roux','The xx','Django Django',Alt-J,'Beastie Boys','Thiasos Dionysos',Heidevolk,'In Extremo',Tanzwut,Odroerir,Versengold,'The Heavy',Kasabian,'Anthony Hamilton & Elayna Boynton',Pond,'Josh Woodward','The Ting Tings',Björk,Justice,M83,'Sofa Surfers','Electric President',Pixies,Covenant,'The Mentor',Refused,'Asta Kask','The Clash',Offspring,'The Ramones','Bad Religion','White Denim','Fritz Kalkbrenner','Mike Candys feat. Evelyn & Patrick Miller','Sean Paul',<unknown>,Budzillus,'Das Broadway-Musical Im Hamburger Hafen','5/8erl in Ehr\'n',Schelmish,blink-182,'Trevor Jones; Randy Edelman',Eminem,'Ani DiFranco',Nachtgeschrei,'Tim Burton\'s Corpse Bride Soundtrack','Eros Ramazzotti',unbekannt,'Sportfreunde Stiller','Farin Urlaub Racing Team','Simon and Garfunkel',Revolverheld,'Dean Martin','Toto Cotugno','Ricchi e Poveri',Zaz,'Édith Piaf','France Gall','Kris feat. Dante Thomas','Adiano Celentano','The Herbaliser','Dope D.O.D.','Wu-Tang Clan','Two Steps From Hell',Orianthi,'culcha candela','Die Toten Hosen','Robbie Williams','Robbie Williams and Nicole Kidman','Robbie Williams And Frank Sinatra','Robbie Williams And Jon Lovitz','Robbie Williams And Jane Horrocks','Robbie Williams And Rupert Everett','Robbie Williams And Jonathan Wilkes','Ray Charles',Adele,'harry jen',Coldplay,'Red Hot Chili Peppers','Maurice Ravel',Akon,'The Animal Parade',Sido,'Stephane Pompougnac','Luis Bacalov, Edda Dell\'Orso','Frank Sinatra','San2 And His Soul Patrol','Paul Elstak','DISCO DELUXE','Dave Grusin','Swizz Beats','Linkin Park','Drake feat. Rihanna',Drake,'Wale ft Omarion, Rick Ross & Nas',Fabolous,Wizkid,'Trey Songz','Mario Vazquez','Maroon 5 feat. Wiz Khalifa - Payphone_(musiclife.kz)','2Face Idibia','JAY SEAN','2 Face',Skyzoo,eLDee,'Asher Roth','Shania Twain','2 Face Idibia - @Recessonline','John Legend ft Ludacris',Lenka,'The Black Eyed Peas','Emeli Sande','Tim Bendzko','Paul Van Dyk','Aura Dione','Yeah Yeah Yeahs','Alan Parsons Project','Wolfgang Ambros',Wilco,'The Who','Eric Clapton','Los Lobos','Oscar Peterson',U2,Aswad,'Amanda Palmer Featuring The Grand Theft Orchestra','Les Poppys','Ja, Panik',P!nk,'Rage Against The Machine','Lamb of God','The Bamboos','Led Zeppelin','Georges Bizet','David Garrett','Gerard Presgurvic','Wise Guys','Modest Mouse','Crystal Fighters','Plus 44','RX Bandits',Millencolin,'Ron Hawkins','No Use For A Name',Pennywise,Lagwagon,Audiomachine,'Five Finger Death Punch','Sam Hulick','Johan Skugge & Jukka Rintamäki','Lorne Balfe','Sam Hulick/Jack Wall/Richard Jacques','Hans Zimmer','Dan Popplewell','Camo & Krooked','Chris Brown - Dont Wake Me Up  ( Www.Ahanghaa52.Com )','Drake feat. Lil\' Wayne & Tyga','Burna Boy','Kanye West',P-SQUARE,'Rick Ross',Demarco,Iyaz,'Justin Bieber - As Long As You Love Me (Www.4FunMusic.com)','WANDE COAL','Chris Brown feat. Justin Bieber','David Guetta','Banky W.',Evanesence,'B.I.G. + Puff Daddy + Mase','Naeto C  Tony ft. DBanj','John Legend/Kanye West/Slum Village','sum 41','Culcha Candela','May D','Lil Wayne',Tyga,'Chris Brown','Fabolous Ft Pdiddy JE','Justin Timberlake','Gotye  Feat. Kimbra','deafrodrumbeat.blogspot.com (@deafrodrumbeat)','Jay Sean氀','Thelonious Monk','Queens Of The Stone Age','Pepe Deluxé','Super Mash Bros.','The White Panda',Milkman,'Johann Strauss',Atmosphere,'Tayyib Ali',Mastodon,Evanescence,'Big Bad Voodoo Daddy','Adam Green & Bikini Shapiro','Natalie Cole','Mean Mr Mustard',Texta,Frittenbude,Kettcar,'17 Hippies','Sammy Adams',Casper,Bonobo,'Amon Tobin',Apparat,'Ben Frost','The Flashbulb',Pitbull,Deichkind,'The Bosshoss','Funny van Dannen',Silverstein,jive(43),Skalpel,'Neck Sprain','Puddle of Mudd','Stevie Wonder','Flo Rida Ft. David Guetta - Club Can_t Handle','Die Ärzte','Mark Ronson','Michael Bublé','Dr. Dre',Emil.RuleZ!,'Caravan Palace','Mestizo & Mike Gao','Jazz K Lipa','Mac Miller','Wax Tailor','Black Sheep','Donna Summer',Muse,'All Time Low','Limp Bizkit','The Offspring','Rusted Root','Simple Plan','The Subways','Good Charlotte','ALO (Animal Liberation Orchestra)','Wiz Khalifa','Lucinda Williams','The Blind Boys Of Alabama','The Proclaimers','Lady Gaga','Herre, Max','Flo Rida',Pink,Charlee,'Asaf Avidan & the Mojos','James Arthur','Avicii vs Nicky Romero','Lukas Graham','R.I.O. feat. U-Jean','Snoop Dog',Hadouken!,Heino,'Bone Thugs-n-Harmony','The Corrs','Katrina and the Waves','Udo Jürgens','Jürgen Drews',STS,'DJ Antoine','Farin Urlaub','Mountain Mocha Kilimanjaro','Kispál és a Borz','Creedence Clearwater Revival','Wild Cherry',Jazz.k.lipa,'James Brown','Don Omar & Lucenzo','Pepe Deluxe','King Crimson','Papa Roach','Breaking Benjamin',Yellowcard,Example,'Kid Cudi','Katy Perry feat. Snoop Dogg','Alicia Keys',Sin,'Sak Noel','Of Monsters and Men','Beth Ditto',Tetris,'The Guild','Remady feat. Manu-L','Afrojack feat. Eva Simons','The Gossip','Andreas Gabalier',Gorillaz,'Jason Mraz','Asaf Avidan & The Mojos','Maroon 5','David Guetta feat. Neyo & Akon',Fun,Rihanna,'Philipp Poisel','Rea Garvey',Cro,Labrassbanda,'Antônio Carlos Jobim','Die Atzen Mit Nena',Loona,'James Morrison','The BossHoss','Terror Squad',Samsung,'David Guetta feat. Sia',Capone,'Kelly Rowland',@MS4,'Roger Sanchez','Fairy Tail','Nanba Shiho',Avicii,'Duran Duran','Eddy Grant','Parov Stelar','Chase & Status','Buena Vista Social Club','Tom Waits','Boards Of Canada','David Gilmour','Frank Zappa','Knife Party',Placebo,'Ivan Gough & Feenixpawl ft. Georgi Kay','Eddie Vedder','Rolling Stones','The Lumineers',Ektomorf,'David Bowie','Brad Mehldau','Secondhand Serenade',DevilDriver,'Fiona Apple','Austria 3 (Ambros, Fendrich, Danzer)','Joint Venture',Surrender!,'Berk & the Virtual Band','NORAH JONES',Soulfly,'Austrian Death Machine','Asian Dub Foundation','Bon Jovi','Panic At The Disco','City and Colour',Pique,'Dweezil Zappa',Kraftwerk,'ZZ Top','Icona Pop feat. Charli Xcx','Will.I.Am feat. Britney Spears','Gabin & Dee Dee Brigdewater','Cure For The Common','Jonny L',Tool,S.P.Y,Cornershop,'Fleetwood Mac','Huey Lewis & The News','New Kids Feat. Paul Elstak','Kanye West Ft. Raekwon & KiD CuDi','Adam Green','Stereo Total','Smashing Pumpkins','Various Artists','David Gray','Plain White T\'s','Israel Kamakawiwo\'ole','Kate Nash',Ke$ha,'Luis Bacalov & Rocky Roberts','Swedish House Mafia feat. John Martin','Eva Croissant',Loreen,Labrinth,'Pitbull feat. Christina Aguilera',Ne-Yo,Caligola,'Anthony Hamilton And Elayna Boynton','A$ap Rocky feat. 2 Drake','Max Herre feat. Cro',Psy,'Major Lazer & Amber Coffman','Ed Sheeran','The Script feat. Will.I.Am','Rita Ora',Blue,'Avicii vs. Nicky Romero','Lykke LI',Triggerfinger,Ola,'Imagine Dragons','White Lion','Bryan Adams','Green Day',Beatles,'Yolanda be cool & Dcup',Dj`s@Work,'Taylor Swift',Helmet,Kesha,Chingy,'Killing Joke','Shakira feat. Freshlyground','Taio Cruz feat. Flo Rida','Dropkick Murphys','Katy Perry','Colbie Caillat','One Direction','Flo Rida Feat. David Guetta','Howard Shore','Bloc Party','Biffy Clyro',Pendulum,Iamx,'Days in Grief','We Are Scientists','Hubert von Goisern','The Infadels','Erste Allgemeine Verunsicherung (EAV)','Barrio Katz','Chinese Man',Waldeck,'16 Horsepower','Akkezdet Phiai','Esclin Syndo',Beatallica,'Poison the Well',Hatebreed,'(hed) p.e.','Pink Martini','Theophilus London','Barry White',Will.I.Am,'Monica Reyes','Mo Horizons','Broken Bells',Kosheen,'Netsky Feat. Jenna G',Beatsteaks,Friction,'Tantrum Desire','Jack Johnson',Volbeat,AC/DC,'Old Boy',Subscribe,'Skunk Anansie',Nickelback,Various,'The Alan Parsons Project','Van Morrison',E.M.E,'Sono Rhizmo\'','Daft Punk ( feat.Pharrel Williams & Nile Rodgers)','George Harrison',Audio,'Hybrid Minds',Upbeats,Unknown,Instra:mental,Burial,'Yesterday Once More','Love Me With Your Heart',cdcity.shop@gmail.com,'Macklemore & Ryan Lewis','Johann Pachelbel','Brandi Carlile',Daveskii08,'Lupe Fiasco','Hot Chocolate',Hedley,Beethoven,'P!nk featuring Nate Ruess',Liquido,'Jessica Simpson','dZihan & Kamien',Shaggy,'Gigi D´Agostino','JÜRGEN DREWS','DJ Antoine vs. Mad Mark 2k13','Taio Cruz :: Teh-Music.Us ::','2Pac ft. Dj Alex Sp',Q&A,'Alter Bridge',Architects,'The Cult','Miles Davis','David Dallas','John Mayer','Peter Gunn','Gabriella Climi','Bliss N Eso','Krafty Kuts Feat Dynamite MC','Sound of Stereo','Maryam Heydar zade _ [Yazd-PatoGh.coM]',saeeeeeeeed,'Unknown Artist',JoJo,'Albrigtsen Steinar/Secret Garden','Naser Abdollahi','The End Of World','Barbra Streisand/Secret Garden',www.Newmusic10.com,01,'Blink 182','Marco Petralia & DJ Monique vs. Gastone','Sarah McLachlan',Apocalyptica,Nemesea,'Liv Kristine','Inkubus Sukkubus','Neil Young','Hami (www.MyMusicBAran.Org)渀渀渀','Hamed MalekLou-wWw.sOngBsOng.cOm','Hami (www.MyMusicBAran.Org)挀挀挀','Calvin Harris feat. Ellie Goulding','Flo Rida feat. Jennifer Lopez','Eve feat Gwen Stefani',VA,'The Naked And Famous',Survivor,'Status Quo','Alice Cooper','Jethro Tull',Toto,'The Hooters','Kruder & Dorfmeister','Utah Jazz','Jackson 5','Dj Fresh','[dunkelbunt] & Analogik','Marina and The Diamonds','Ryan Adams & The Cardinals','KiD CuDi','Enter Shikari',Rammstein,'Clara Luzia','Petsch Moser',Skrillex,'Mashup Germany','Blumentopf feat. Musikkapelle Münsing','The Buggles','Bright Eyes','Urbs & Cutex','Pharoah Sanders','A Forest Mighty Black',Laugh,'King Britt',Amewu,'Ann Takle/Secret Garden','Hami ( www.BirMusic22.com )','Brian Kennedy/Secret Garden','Ernesto Vs Bastian','MacKlemore feat. Wanz','J.O.B feat Anjulie (with MadV & 12th Planet)','Andre Crom, Martin Dawson','D\'Prince Ft. Wizkid','JAMIE FOXX',Wax,'Pink Floyd','50 Cent','Rise Against','Ali Lohrasbi (2seda.com | 2seda2.com)','Roham (www.Yazd-Music3.com)',07,'Nasser Abdollahi','FARSDJ.COM - RAPOPOP.COM','Bruno Mars','Whizz Vienna','Gang Starr','The Killers','Depeche Mode','Rainhard Fendrich','Lipps, Inc','Pitbull - Rain over me ft. marc anthony  bY CaviD™','Ellie Goulding','Doodge & Viper',Shakira,'Xavier Naidoo',Cheryl,'Velile & Safri Duo',T.I.,www.ToxicWap.com,'Drake ft Nicki Minaj','Elton John','Christina Perri','Ilan Eshkeri','Charlie Winston',Tomorrowland,'Kenmochi Hidefumi','Fünf Sterne Deluxe','Arik Brauer','Mehrnoosh ( www.1.Mihan2Music.com )','Secret Garden','Over The Rainbow','B Mortazavi','Rain And Tears','Richard Claydermann','(coming.soon) 0915 101 66 76','Maryam Heydar zade - [Yazd-PatoGh.coM].','Ali Hasanpour.::wWw.PcLord.Ir::.',Moon,'Hafa (www.MYmusicbaran.org)','Secret Garden/Tommy Korberg','Fereydoon (www.MyMusicBaran.org)','Ever Green A Star Has Born','Hosseyn Panahi','Richard Clayderman',Donna,(www.MusicBaran3.com),Vangelis,'Paul Kalkbrenner','Pax & Pry','The Jimi Hendrix Experience','Amy Winehouse','Bromheads Jacket',Bush,'Mr. SOS',Ska-P,'Angelika Express','Fettes Brot','The Beatsteaks','Ok go',Wizo,'Reel Big Fish','Peter Bjorn And John','Lady Sovereign','Manu Chao','Jan Delay',Editors,'Chief Rebel Angel',Clutch,'Kool & The Gang',Mumüzumundi,'Guns N\' Roses',Jet,'Queens of the Stone Age','Paul & Linda McCartney','Booty luv',Baccara,Kansas,'Silver Convention','Billy Squier','The Knack',Journey,Hello,'Blind Myself',Pentagram,'Chet Faker',Sigma,'Don Diablo','Sally J Johnson','PPP (feat Karma)','Shirley Bassey','Jamie Lidell','Jazz Liberatorz (feat Tre HArdson, Fat Lip & Omni)','MC Hawking','Bloodhound Gang','David Guetta & Joachim Garraud','Eminem - CanalQuo.Com','Guano Apes',Dappy,'Nicki Minaj','Dolla Boy ft 2 Chainz & Slik','Akon (www.Akonwap.com n www.Pagalworld.com)',2Pac,'The Prodigy','Swedish House Mafia','Martin Solveig feat Kele','Alexandra Stan','Bow Wow ft Chris Brown',Bracket,'Roman Rai','The Jonesz',Feist,'Aceyalone & RJD2','R2bees ft wizkid dance _prod_by_KIllbeatz',Tupac,'Cancer Bats','Jukebox The Ghost','Kaleidoscope Sunday','Eve Feat. Sean Paul',Lustra,Slipknot,'Akon (www.AkonWap.com)','Nate Dogg/Snoop Dogg/Warren G',Samklef,'Micheal W Smith','Various artists','Ice prince Feat Braymo',2face,'Kirk Franklin','Feat. Lloyd Banks & Swizz Beatz','2 Chainz',Iyanya,'Pleasure P ft Tyga','michael smith','Rihanna feat. Calvin Harris - We Found Love_(musiclife.kz)','Tupac Shakur',Afroman,'Lil Wayne [mp3songsclub.com]','Kevin Lyttle','Akon Feat. Rick Ross','DJ Firestorm','The Game','Kirk Franklin & The Family',www.tooxclusive.com,'Rick Ross feat. The Clipse','2 Pac',MI,'Kardinal Offishall','Pastor Anita Oyakhilome','Alicia Keys feat. Nicki Minaj','Rick Ross feat Young Dro',Davido,'Bow Wow','Tupac, Dr. Dre','Taylor Swift [wWw.Baran-DL.Com]','Masspike Miles ft Ace Hood',Train,'Respect Me','David Guetta (feat. Sia)',Timaya,'Kanye West/Pusha T','Dante Thomas','Bell, Book & Candle','The Boo Radleys','Fiction Factory','The Romantics','The Outfield','Blind Date','Max Werner','The Nits','Karel Fialka','Orange Blue','Sinéad O\'Connor','Soul Asylum','4 Non Blondes','Otis Redding','Bullet For My Valentine','Fool\'s Garden','Kate Winslet','Mr. Big','The Underdog Project',Whitesnake,'James Blunt','Josh Groban','Cassandra Steen & Adel Tawil',Beyoncé,'Roger Bart',Sookee,'Dave Grohl, Josh Homme & Trent Reznor','Robert Levon Been, Dave Grohl & Peter Hayes','Benny Goodman',Blame,'Tinie Tempah','M.i.s.t. Vs High Contrast','Fred Hersch',Pro7-dieBand,'Katy B','Alanis Morissette','Die Prinzen','Vaya Con Dios','Lily Allen','Yolanda Be Cool & Dcup','Amy MacDonald','Jerry Reed','Thomas D','Klaus Doldinger','Inca Son','Suzanne Vega','Paul McCartney','Pat Metheny Group',El-P,'Tha Connection',Afu-Ra,'Oh No','Apollo Gold','XIV Dark Centuries','Experiment Nnord',Madsen,Pantera,'High On Fire','Erykah Badu','Amp Fiddler','Cody ChesnuTT','El Michels Affair',Duffy,'7 Samurai','Chris Goss, Tim Commerford, Dave Grohl & Brad Wilk','Shakira ft. Pitbull','Natasha Bedingfield','Jennifer Lopez ft. Pitbull','Brooke Fraser','The Real Booty Babes','Citrus Hill',Jasper,'4 Strings','Del Monte vs. Topless','Master Blaster','Ben Bedrock',Accuface,Paffendorf,'Mario Lopez','David May','Dennis Christopher','De La Soul','The Isley Brothers','Hamid Hami ( 98Music.Info )',Mix,'Owl City feat. Carly Rae Jepsen','Crooked I ft Freeway & Rick Ross','Lloyd Banks','Dharsaw ft Sossick','Meredith Brooks','Tina Turner','Joan Jett & the Blackhearts','Lynard Skynard','Chubby Checker',Silbermond,'Christina Stürmer',Juli,Krautschädl,'Unbekannter Künstler','Stephan Remmler','Midnight Oil',Steppenwolf,Nekta,'The Matthew Herbert Big Band',Koop,'Lyn Collins',Mocky,'Milez Benjiman','Menahan Street Band','Wir Sind Helden','Hamid Askari (www.MusicBaran6.com)','Mstislav Rostropovich','Hami (www.MusicBaran6.com)',(www.Sound30t.com),Azeshge,'Changiz Habibian.::wWw.PcLord.Ir::.','Edvard Grieg','Double Vision',Exhaust,king,'The Eagles','Bruce Springsteen','DJ Visage','Michael Jackson','Natalie Imbruglia','Dschinghis Khan',2raumwohnung,ACDC,'Ras G','N.Y. Oil','Kamp & Whizz Vienna','John Coltrane','Mr. Scruff','Louie Austen','Thomas Siffling','One Self','The Roots','Fiva MC & DJ Radrum',Asa,'Dilated Peoples','Ohmega Watts',Aceyalone,'The Wanted',Tacabro,'Johannes Oerding','Jean Knight','Crowded House','Penguin Cafe Orchestra','The Beatles','Jakob Dylan','Paolo Nutini','The Cardigans',BeeGees,'Taio Cruz','David Guetta feat. Ne-Yo & Akon',LMFAO,'Demi Lovato','Selena Gomez & The Scene','Dizzee Rascal','Will.I.Am & Britney Spears',Glasperlenspiel,Fluke,'Rock Massive','The Police',Passenger,'Lee Ving, Dave Grohl, Taylor Hawkins, Alain Johannes & Pat Smear','Stevie Nicks, Dave Grohl, Taylor Hawkins & Rami Jaffee','Rick Springfield, Dave Grohl, Taylor Hawkins, Nate Mendel & Pat Smear','Corey Taylor, Dave Grohl, Rick Nielsen & Scott Reeder','Josh Homme, Chris Goss, Dave Grohl & Alain Johannes','Alain Johannes, Dave Grohl & Josh Homme','Paul McCartney, Dave Grohl, Krist Novoselic & Pat Smear','Dave Grohl, Jessy Greene, Rami Jaffee & Jim Keltner',Lena,'Lana Del Rey','Donavon Frankenreiter',KRS-One,'Cypress Hill','The Cranberries','Iced Earth','Blind Guardian','Portugal. The Man','Calvin Harris feat. Florence Welch','Macklemore&Ray Dalton','Fort Knox Five','Capital Cities','The Stone Roses',Garbage,'Äl Jawala',Stereophonics,'Aloe Blacc','Stacy Epps','Jill Scott','Talib Kweli & Madlib','Kid Kopphausen','The Asteroids Galaxy Tour','Hugh Laurie','Sin With Sebastian',Faithless,'Fatboy Slim','Robert Plant & Alison Krauss','Sohrab & Amir',Autumn,'Club Des Belugas','Black Eyed Peas','Ken Follett','Arctic Monkeys','Bloc Party.',Queen,Giantree,'Get Well Soon',Gazebo,'Foster The People','Paradise Oskar','Mandy Moore',Amorphis,'Astor Piazzolla',03,04,06,'Hayseed Dixie',R.E.M.,'Caro Emerald',Bastille,'Bill Haley & His Comets','The Streets','The Sound Providers',Asmegin,Moonsorrow,Vintersorg,'Nomans Land',Folkearth,Radigost,Einherjer,Finntroll,'Cumulo Nimbus',Korpiklaani,'Butterfly Temple','Corvus Corax',Skyforger,Lumsk,'Adorned Brood',Hel,'Rhymes Of Destruction',ASP,Borknagar,'Vicious Crusade','Saltatio Mortis','Dark Reality',MIA.,'The Blues Brothers','The Specifics','Frequent Flyers','ShinSight Trio','The Globetraddaz',Nomak,Nujabes,'Jazz Liberatorz','The J. Davis Trio','Michel Teló','Olivia Newton-John & John Travolta',RHCP,'In Flames','Jason Skills','The Hip Bop Experiment','J. Rawls',Headnodic,'Longevity Crew','DJ Motive','Shin-Ski of Martiangang','Mr. Confuse','Giant Panda',Rhymefest,Cocktailpodcast,Stormwarrior,Edguy,Rhapsody,Lunatica,Forefather,'Beverley Craven -'}
+
+@data
+
+8,-2099165345,43,2,com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity,0,1,0,60,0,0,'Frank Sinatra'
+12,0,43,2,com.google.android.deskclock/com.android.deskclock.DeskClock,0,?,0,77,0,0,'The Birthday Massacre'
+7,1267463057,0,2,?,0,1,0,33,0,0,Bastille
+17,390703570,100,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,1,78,0,0,'The Heavy'
+15,1552659195,0,0,com.android.systemui/.recent.RecentsActivity,0,1,0,35,0,0,Pro7-dieBand
+15,1702921426,0,2,com.nianticproject.ingress/.NemesisActivity,0,1,0,36,0,0,'Fiona Apple'
+16,1703834549,0,2,com.nianticproject.ingress/.NemesisActivity,0,1,0,41,0,0,'Sarah McLachlan'
+18,-275118118,100,1,com.android.mms/.ui.ConversationList,0,1,0,57,0,0,'Dope D.O.D.'
+17,-1721357822,0,2,com.android.phone/.InCallScreen,0,1,1,76,0,0,'The Heavy'
+11,502945810,14,2,com.htc.android.worldclock/.WorldClockTabControl,0,1,0,81,0,0,'The Herbaliser'
+2,964189654,71,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,11,0,0,'Oscar Peterson'
+17,325812632,100,1,com.android.browser/.BrowserActivity,0,1,0,56,0,0,'Rage Against The Machine'
+17,0,100,2,com.hughes.android.dictionary/.DictionaryActivity,0,?,0,75,0,0,'Die Fantastischen Vier'
+11,848542399,29,2,com.dynamicg.timerecording/.Main,0,1,0,54,0,1,P!nk
+21,-100775139,100,0,com.htc.flashlight/.FlashlightActivity,0,1,0,70,0,0,Evanescence
+2,100354366,0,2,com.skype.raider/.Main,0,1,0,80,0,1,Akon
+7,-894016752,71,2,com.android.phone/.InCallScreen,0,1,1,68,0,0,'Corey Taylor, Dave Grohl, Rick Nielsen & Scott Reeder'
+18,0,100,2,com.hughes.android.dictionary/.DictionaryActivity,0,?,0,76,0,0,'Die Fantastischen Vier'
+10,40928639,0,2,com.urbandroid.sleep/.alarmclock.AlarmClock,0,1,0,68,0,0,'Breaking Benjamin'
+14,-437253132,71,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,56,0,0,www.Newmusic10.com
+16,1595783309,100,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,1,75,0,0,'Paul Banks'
+11,0,100,2,com.android.contacts/.activities.PeopleActivity,0,?,0,67,0,0,DragonForce
+18,502201167,100,2,com.android.calendar/.AllInOneActivity,0,1,0,70,0,0,'Adam Green'
+21,-325516958,0,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,65,0,0,'Red Hot Chili Peppers'
+23,-1441297110,0,1,com.sec.android.app.dialertab/.DialerTabActivity,0,1,0,60,0,0,'Mr. Big'
+14,-1214886611,14,1,hu.koin/.ui.MainTabActivity,0,1,0,27,0,0,'Rage Against The Machine'
+2,962479148,71,2,com.android.contacts/.activities.PeopleActivity,0,1,0,12,0,0,'Oscar Peterson'
+21,-2138725244,71,2,?,0,1,0,36,0,0,'B Mortazavi'
+11,-2003090361,0,2,com.android.settings/.Settings,0,1,0,76,0,0,'Guano Apes'
+13,1043116947,57,2,com.android.settings/.TetherSettings,0,?,0,70,0,0,Sabaton
+8,813865030,100,2,at.jku/.activities.StartActivity,0,1,0,72,0,0,'Doodge & Viper'
+19,1283862400,43,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,66,0,0,'The White Panda'
+21,-757131928,0,2,com.android.settings/.Settings,0,1,0,67,0,0,'Ani DiFranco'
+13,-611479479,0,0,com.android.email/.activity.EmailActivity,0,1,0,42,0,0,'Tina Turner'
+21,-349182166,0,2,com.sec.android.app.camera/.Camera,0,1,0,71,0,0,'Mike Candys feat. Evelyn & Patrick Miller'
+14,-783207125,0,0,com.android.email/.activity.EmailActivity,0,1,0,74,0,0,'Meredith Brooks'
+15,-432785901,71,2,de.hafas.android.oebb/de.hafas.main.Hafas,0,1,0,45,0,0,www.Newmusic10.com
+22,-927379172,57,1,ch.teamtasks.tasks.paid/ch.teamtasks.tasks.MainActivity,0,1,0,68,0,0,'Daft Punk'
+20,1660757927,0,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,79,0,0,ACDC
+18,1192948231,0,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,89,0,1,'Wiz Khalifa'
+12,-294978090,0,2,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,49,0,0,'Ani DiFranco'
+23,-344697434,0,2,com.google.android.gm/.ConversationListActivityGmail,0,1,0,82,0,1,'JAY SEAN'
+14,-1128715164,100,2,?,0,1,0,59,0,0,'Hubert von Goisern'
+12,-209573830,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,39,0,0,'Pearl Jam'
+6,200423049,0,2,?,0,1,0,90,0,1,'Kanye West'
+7,-228819005,0,0,com.android.systemui/.recent.RecentsActivity,0,1,0,52,0,0,'Robbie Williams'
+8,-1666494230,0,0,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,60,0,0,STS
+9,1548017376,100,2,com.google.android.email/com.android.email.activity.EmailActivity,0,0,0,73,0,0,'The Birthday Massacre'
+20,621269763,0,2,com.android.settings/.Settings$WifiSettingsActivity,0,1,0,53,0,0,Atmosphere
+10,1016766379,14,2,com.akproduction.notepad/.activity.NoteListActivity,0,1,0,51,0,1,'Days in Grief'
+14,-1215686427,14,1,hu.koin/.ui.MainTabActivity,0,1,0,28,0,0,'Kispál és a Borz'
+22,-174775074,0,2,?,0,1,0,83,0,1,'Drake feat. Lil\' Wayne & Tyga'
+14,-695657694,0,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,78,0,0,'harry jen'
+11,1813106349,100,2,com.google.android.email/com.android.email.activity.EmailActivity,0,1,0,66,0,0,Turisas
+9,1447375434,14,2,com.cpuid.cpu_z/.MainActivity,0,1,0,51,0,1,MIA.
+5,-1506404309,0,2,com.android.browser/.BrowserActivity,0,1,0,75,0,1,'JAMIE FOXX'
+17,-859520385,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,63,1,1,'Letzte Instanz'
+17,2055665355,71,2,com.android.phone/.InCallScreen,0,1,0,61,0,0,'Secret Garden'
+9,-1234022063,100,2,com.android.gallery3d/com.android.camera.CameraLauncher,0,1,0,69,0,0,'Adam Green'
+16,-107236801,0,2,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,48,0,1,'Drake feat. Lil\' Wayne & Tyga'
+18,-763341984,14,1,com.google.android.gm/.ConversationListActivity,0,1,0,79,0,0,'Macklemore & Ryan Lewis'
+13,-2083491843,43,2,com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity,0,1,0,60,0,0,'Red Hot Chili Peppers'
+11,1814582261,100,2,com.android.mms/.ui.ConversationList,0,1,0,70,0,0,'The Birthday Massacre'
+19,1284082416,43,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,65,0,0,'Monica Reyes'
+8,2021080530,71,2,com.android.browser/.BrowserActivity,0,1,0,41,0,0,'Die Fantastischen Vier'
+15,-690620229,0,2,com.android.email/.activity.MessageListXL,0,1,0,70,0,0,'harry jen'
+15,1702024009,0,2,com.facebook.katana/.RequestsActivity,0,1,0,38,0,0,'Fiona Apple'
+11,-2002474034,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,87,0,1,2Pac
+17,-1720737414,14,1,com.facebook.katana/.LoginActivity,0,1,0,79,0,0,'Neck Sprain'
+2,-160278470,0,2,?,0,1,0,80,0,1,'Drake feat. Rihanna'
+0,1239581340,0,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,73,0,0,'The Streets'
+12,-702092267,71,0,me.pou.app/.App,0,1,0,72,0,0,'Sportfreunde Stiller'
+17,1687180831,100,2,com.android.phone/.InCallScreen,0,1,1,77,0,0,'Cold War Kids'
+9,1420173882,71,2,com.audible.application/.SleepMode,0,1,0,73,0,0,'Jackson 5'
+11,1900885628,100,0,com.android.systemui/.recent.RecentsActivity,0,1,0,74,0,0,'The Freedom Sounds'
+22,237444057,100,0,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,51,0,0,Kasabian
+11,1901381687,100,0,com.android.systemui/.recent.RecentsActivity,0,1,0,75,0,0,'Artie Christopher'
+0,-1522624179,0,2,com.android.browser/.BrowserActivity,0,1,0,80,0,1,'Ice prince Feat Braymo'
+20,768038774,71,1,com.android.camera/.CameraEntry,0,1,0,56,0,0,'The Bamboos'
+12,-444680409,71,2,com.sec.android.app.snotebook/com.infraware.filemanager.FmFileTreeListActivity,0,1,0,49,0,0,www.Newmusic10.com
+16,-861071245,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,65,1,1,'Letzte Instanz'
+12,1902118194,100,0,com.android.systemui/.recent.RecentsActivity,0,1,0,76,0,0,'The Southshore Commission'
+7,2019702866,71,2,com.android.browser/.BrowserActivity,0,1,0,60,0,0,'Die Fantastischen Vier'
+9,-134369826,0,1,com.facebook.orca/.threadlist.ThreadListActivity,0,1,0,56,0,1,'Biffy Clyro'
+17,1536902633,71,2,com.google.android.apps.maps/com.google.android.maps.MapsActivity,0,1,0,65,0,0,'Ann Takle/Secret Garden'
+15,1530010360,71,2,?,0,1,0,21,0,0,'Duran Duran'
+17,-1461615541,71,2,com.android.browser/.BrowserActivity,0,1,0,61,0,0,'B Mortazavi'
+22,-172225299,71,2,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,31,0,0,'Bob Dylan'
+23,-171361387,0,2,?,0,1,0,85,0,1,'Justin Bieber - As Long As You Love Me (Www.4FunMusic.com)'
+11,131051940,43,2,com.android.contacts/.activities.PeopleActivity,0,1,0,66,0,0,'Stephane Pompougnac'
+9,817407729,29,2,com.dynamicg.timerecording/.Main,0,1,0,58,0,0,'Days in Grief'
+19,620701573,0,2,com.instagram.android/.activity.MainTabActivity,0,1,0,78,0,0,'Bob Dylan'
+15,1638988542,0,0,?,0,1,0,41,0,0,'Hubert von Goisern'
+23,810016742,29,2,com.outlook.Z7/com.seven.Z7.app.email.EmailListActivity,0,1,0,71,0,0,'Robert Plant & Alison Krauss'
+16,-110784242,0,2,com.android.systemui/.recent.RecentsActivity,0,1,0,70,0,0,Casper
+12,335249946,14,2,com.android.settings/.Settings,0,1,0,80,0,0,'Caravan Palace'
+12,1905272397,100,0,com.android.systemui/.recent.RecentsActivity,0,1,0,71,0,0,'Clarence Wheeler & The Enforcers'
+18,503940327,71,1,hu.koin/.ui.MainTabActivity,0,1,0,75,1,0,'Caravan Palace'
+14,-1213892181,14,1,hu.koin/.ui.MainTabActivity,0,1,0,68,0,0,'Lamb of God'
+17,1016990680,0,2,cc.dict.dictcc/.DictCcActivity,0,1,0,87,0,1,Wizkid
+21,-928806187,71,2,com.android.vending/com.google.android.finsky.activities.MainActivity,0,1,0,71,0,0,'Hosseyn Panahi'
+20,-1971759994,14,1,com.htc.android.worldclock/.WorldClockTabControl,0,1,0,66,0,0,'Caravan Palace'
+11,-1658464210,71,2,com.opera.browser.beta/com.opera.android.OperaMainActivity,0,1,0,79,0,1,'Tinie Tempah'
+17,326331333,0,2,com.android.systemui/.recent.RecentsActivity,0,1,1,73,0,0,'Massive Attack'
+10,1944693216,71,0,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,68,0,0,'Asian Dub Foundation'
+18,2145155959,0,2,com.android.settings/.Settings,0,1,0,27,0,0,'Paul & Linda McCartney'
+12,-874346086,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,57,1,1,Ensiferum
+10,1449331392,0,2,com.android.browser/.BrowserActivity,0,1,0,53,0,0,'Ani DiFranco'
+18,1565319022,14,2,com.fsck.k9/.activity.MessageList,0,1,0,66,0,1,'Asian Dub Foundation'
+15,2134198857,0,1,org.mobilemusicgenius.android/.ui.MusicPlayerActivity,0,1,0,73,0,0,STS
+12,-358211597,14,2,com.htc.android.mail/.MultipleActivitiesMain,0,1,0,80,0,0,'Donna Summer'
+11,-708126043,0,0,com.android.email/.activity.EmailActivity,0,1,1,78,0,0,'Sportfreunde Stiller'
+13,-1303196516,14,1,hu.koin/.ui.MainTabActivity,0,1,0,76,0,0,'Caravan Palace'
+16,1877155550,0,2,?,0,1,0,64,0,1,'Kanye West'
+22,-173634726,0,2,?,0,1,0,84,0,1,'Kanye West'
+0,-1093344085,100,2,com.akproduction.notepad/.activity.NoteListActivity,0,1,0,88,0,0,'Enter Shikari'
+9,-1665550891,0,0,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,61,0,0,STS
+20,422865471,57,2,com.android.email/.activity.MessageListXL,0,1,0,57,0,0,'Knife Party'
+20,1930911089,100,0,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,76,0,0,Lulu
+12,-1220157563,71,2,com.android.phone/.InCallScreen,0,1,0,48,0,0,saeeeeeeeed
+19,271118147,71,1,com.android.camera/.CameraEntry,1,1,0,68,0,0,'Blind Guardian'
+21,-326300273,0,2,com.android.contacts/.activities.PeopleActivity,0,1,0,67,0,0,'Thomas Siffling'
+6,-230599013,0,0,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,54,0,0,'Sportfreunde Stiller'
+20,1932155607,100,0,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,80,0,0,'King Curtis & The Noble Knights'
+0,437075426,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,1,51,0,0,'Die Ärzte'
+14,834872043,29,2,com.android.mms/.ui.ConversationList,0,1,0,52,0,0,'We Are Scientists'
+20,1932812659,100,0,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,78,0,0,'Claudia Lennear'
+10,1361634088,14,2,com.google.android.apps.genie.geniewidget/.activities.NewsActivity,0,1,0,75,0,1,'Bloc Party.'
+20,1933471116,100,0,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,79,0,0,'Grassella Oliphant'
+21,-929125870,57,1,com.android.contacts/.activities.DialtactsActivity,0,1,0,67,0,0,'Daft Punk'
+12,2015557386,50,2,com.android.phone/.InCallScreen,0,1,1,70,0,0,'Snow Patrol'
+17,-1720279357,14,1,com.facebook.katana/.LoginActivity,0,1,0,77,0,0,'Lamb of God'
+12,394129690,0,2,net.openvpn.openvpn/.OpenVPNClient,0,1,0,48,1,0,Ektomorf
+2,-1516927956,0,2,com.android.browser/.BrowserActivity,0,1,0,80,0,1,T.I.
+23,-55518296,29,2,com.zynga.words/.ui.launch.WordsMainActivity,0,1,0,73,0,0,'The Police'
+21,1231789917,0,2,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,16,0,0,Bastille
+20,-1450578685,71,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,76,0,0,'Bullet For My Valentine'
+18,245219645,0,1,me.pou.app/.App,0,1,0,77,0,0,'Udo Jürgens'
+5,-1507276079,0,2,com.android.browser/.BrowserActivity,0,1,0,83,0,1,Wizkid
+19,-99649676,43,2,?,0,1,0,63,?,?,'Big Bad Voodoo Daddy'
+21,427318197,0,2,com.android.mms/.ui.ConversationComposer,0,1,0,46,0,0,'Fiona Apple'
+13,-293895737,43,1,com.facebook.katana/com.facebook.orca.threadview.ThreadViewActivity,0,1,0,88,0,0,'Trevor Jones; Randy Edelman'
+22,-1446324552,71,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,78,0,0,'Dennis Christopher'
+15,-111742147,0,2,com.android.systemui/.recent.RecentsActivity,0,1,0,80,0,0,Casper
+18,503052643,100,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,58,0,0,'Adam Green'
+11,-301047589,0,2,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,29,0,0,'Pearl Jam'
+17,-2130404497,14,2,com.android.settings/.Settings,0,1,0,73,0,0,'Bob Dylan'
+12,-444882101,14,2,com.vlcforandroid.vlcdirectprofree/.VLCDirect,0,1,0,81,0,0,Mastodon
+14,1783025844,0,2,?,0,1,0,59,0,0,'Gang Starr'
+0,-167824023,0,2,?,0,1,0,85,0,1,eLDee
+21,1722612844,0,2,com.android.browser/.BrowserActivity,0,1,0,47,0,0,'Whizz Vienna'
+22,1938753363,100,0,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,80,0,0,'Die Fantastischen Vier'
+18,155738801,100,1,com.appxplore.alienhive/.AlienHivePlugin,0,1,0,54,0,0,'Creedence Clearwater Revival'
+20,-329325270,0,2,com.android.contacts/.activities.PeopleActivity,0,1,0,68,0,0,'Ras G'
+10,844585360,29,2,com.dynamicg.timerecording/.Main,0,1,0,50,0,1,'Ja, Panik'
+15,-2075189549,0,2,?,0,1,0,29,0,0,'DJ Antoine'
+7,315840632,0,2,com.android.browser/.BrowserActivity,0,1,0,64,0,0,Atmosphere
+16,408233546,100,2,com.android.systemui/.recent.RecentsActivity,0,1,0,47,0,0,'Knife Party'
+10,1598063520,100,2,com.android.mms/.ui.ConversationList,0,1,0,79,0,0,Equilibrium
+16,-776492149,100,2,ch.teamtasks.tasks/.widget.WidgetDialogActivity,0,1,0,63,0,1,Silbermond
+13,-1996870489,100,2,com.google.android.googlequicksearchbox/.SearchActivity,0,1,0,63,0,0,'Enter Shikari'
+13,1091908049,14,1,com.google.android.gm/.ConversationListActivity,0,1,0,73,0,0,'Jessica Simpson'
+8,-1925865407,71,2,com.android.mms/.ui.ConversationList,0,1,0,68,1,0,Atmosphere
+19,1111706495,0,2,com.android.contacts/.activities.PeopleActivity,0,1,0,75,0,0,Q&A
+23,1944378879,100,0,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,52,0,0,'Die Fantastischen Vier'
+23,-835705924,100,0,?,0,1,0,42,0,0,'Jack White'
+15,404759542,0,2,com.fsck.k9/.activity.MessageList,0,1,0,47,0,0,'Asian Dub Foundation'
+13,-701069344,71,0,me.pou.app/.App,0,1,0,73,0,0,'Sportfreunde Stiller'
+14,-202599575,100,2,com.android.mms/.ui.ConversationList,0,1,0,80,0,0,'Ja, Panik'
+14,-176341130,100,2,com.android.contacts/.activities.PeopleActivity,0,1,0,83,0,0,Tacabro
+14,2069154952,0,2,de.hafas.android.oebb/de.hafas.main.Hafas,0,1,0,62,0,0,Feist
+18,-276027968,0,1,com.facebook.orca/.threadlist.ThreadListActivity,0,1,0,43,0,1,'Mumford & Sons'
+15,1273645763,29,2,com.twitter.android/.HomeTabActivity,0,1,1,74,0,0,'The Cult'
+13,-957819780,0,2,?,0,1,0,64,0,0,'Erykah Badu'
+19,765486722,0,1,com.bigduckgames.flowbridges/.flow,0,1,0,69,0,0,'Die Ärzte'
+9,-110923324,100,2,com.vlingo.midas/.gui.ConversationActivity,0,1,0,82,0,0,'Demi Lovato'
+1,1949671189,100,0,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,60,0,0,'KC and The Sunshine Band'
+14,-697663355,0,2,com.whatsapp/.Conversations,0,1,0,53,0,0,'harry jen'
+22,-1098786551,100,2,com.akproduction.notepad/.activity.NoteListActivity,0,1,0,81,0,0,'Enter Shikari'
+14,-867877889,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,66,1,1,Månegarm
+16,-107473246,0,2,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,50,0,1,'2 Face Idibia - @Recessonline'
+16,1015020782,0,2,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,73,0,0,'Camo & Krooked'
+13,-439257402,0,2,?,0,1,0,65,0,0,'Apollo Gold'
+18,912734032,0,2,com.android.contacts/.activities.PeopleActivity,0,1,1,69,0,0,'The Heavy'
+16,-1465255916,0,1,?,0,1,0,58,0,0,'The Outfield'
+0,350849449,0,2,com.android.phone/.InCallScreen,0,1,0,50,1,0,U2
+13,-1130133680,100,2,?,0,1,0,67,0,1,'Jerry Reed'
+17,265051461,86,2,com.android.email/.activity.EmailActivity,0,1,0,62,0,1,Nightwish
+3,16316533,29,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,1,63,0,0,'Funny van Dannen'
+1,702298450,0,2,?,0,1,0,20,0,0,'James Arthur'
+9,-47643883,0,2,com.topfreegames.bikeracefreeworld/com.topfreegames.bikerace.activities.MultiplayerMainActivity,0,1,0,75,0,?,'Linkin Park'
+8,1331496719,43,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,56,0,0,'Daft Punk ( feat.Pharrel Williams & Nile Rodgers)'
+17,-1829131800,100,2,com.android.phone/.InCallScreen,0,1,1,65,0,0,'Snow Patrol'
+2,1952863384,100,0,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,40,0,0,'System of a Down'
+17,-2066846022,71,2,com.sec.android.widgetapp.favoriteswidget/.RemoveDialogActivity,0,1,0,62,0,0,'B Mortazavi'
+14,832433130,29,2,com.android.mms/.ui.ConversationList,0,1,0,51,0,0,'City and Colour'
+13,-293278154,0,2,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,50,0,0,'Ani DiFranco'
+20,-1710216507,14,1,com.rechild.advancedtaskkiller/.AdvancedTaskKiller,0,1,0,25,0,0,'Kool & The Gang'
+6,-120617073,86,2,com.sonyericsson.organizer/.Organizer,0,1,0,77,0,1,BeeGees
+11,-212837263,100,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,43,0,0,'Paul Van Dyk'
+9,1446018643,100,2,com.google.android.email/com.android.email.activity.EmailActivity,0,1,0,76,0,1,'Iron Savior'
+19,1136723815,0,2,com.android.mms/.ui.ConversationList,0,1,0,67,0,0,'Cody ChesnuTT'
+22,801326017,0,0,com.teamlava.petshop26/com.storm8.app.activity.GameActivity,0,1,0,45,0,0,'Sportfreunde Stiller'
+14,510851004,71,1,com.spotify.mobile.android.ui/.Launcher,0,1,0,46,0,0,'Aphex Twin'
+20,-330278367,71,2,com.google.android.googlequicksearchbox/.SearchActivity,0,1,0,36,0,0,'Antônio Carlos Jobim'
+8,704203936,100,2,com.android.settings/.wifi.WifiPickerActivity,0,1,0,80,0,1,'Roman Polansky'
+16,865317473,29,2,com.fsck.k9/.activity.MessageList,0,1,0,52,0,1,'Bloc Party.'
+1,1909146501,100,0,?,0,1,0,67,0,0,'The Heavy'
+14,-176552411,100,2,com.android.contacts/.activities.PeopleActivity,0,1,0,83,0,0,'Die Toten Hosen'
+21,2022349937,100,0,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,88,0,0,'Steaming Satellites'
+12,1089606199,14,1,com.google.android.gm/.ConversationListActivity,0,1,0,81,0,0,'P!nk featuring Nate Ruess'
+10,820725250,29,2,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,53,0,0,Ektomorf
+13,831651036,29,2,com.android.mms/.ui.ConversationList,0,1,0,51,0,0,P!nk
+19,-99928645,0,2,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,86,0,1,Skyzoo
+18,2059859217,0,2,com.android.settings/.Settings$LocationSettingsActivity,0,1,0,59,0,0,'Kenmochi Hidefumi'
+1,-47297775,29,2,net.mobilecraft.football/com.unity3d.player.UnityPlayerNativeActivity,0,1,0,73,0,0,'The Police'
+9,-1663952294,0,0,com.swipeentertainment.wingsuit/com.unity3d.player.UnityPlayerNativeActivity,0,1,0,67,0,0,STS
+20,-1193173650,0,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,53,0,0,'Red Hot Chili Peppers'
+14,2129054253,0,2,com.sec.android.app.camera/.Camera,0,1,0,40,0,0,Radiohead
+14,1696634434,0,2,com.gombosdev.ingressportalcalc/.Activity_Start,0,1,0,39,0,0,'Fiona Apple'
+23,977094976,14,2,com.android.mms/.ui.ConversationList,0,1,0,74,0,1,Placebo
+13,1719276458,?,?,com.android.mms/.ui.ConversationList,0,1,0,64,?,?,'The Specifics'
+12,-1762737004,100,2,com.android.phone/.InCallScreen,0,1,1,73,0,0,'The Raconteurs'
+13,250140566,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,69,0,0,'Erykah Badu'
+21,-1447751918,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,53,0,0,'B Mortazavi'
+13,1029140987,14,2,com.android.systemui/.recent.RecentsActivity,0,1,0,52,0,1,'Get Well Soon'
+16,-431245997,71,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,42,0,0,'Secret Garden'
+23,2030488957,100,0,com.android.systemui/.recent.RecentsActivity,0,1,0,44,0,0,'Pearl Jam'
+17,-277259554,0,1,com.facebook.orca/.threadlist.ThreadListActivity,0,1,0,41,0,1,'Mumford & Sons'
+23,2030993500,100,0,com.android.systemui/.recent.RecentsActivity,0,1,0,45,0,0,'Pearl Jam'
+16,-861997741,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,66,1,1,'Rhymes Of Destruction'
+7,488448312,0,2,?,0,1,0,18,0,0,'Macklemore&Ray Dalton'
+20,-327233715,71,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,58,0,0,'Paul & Linda McCartney'
+18,1453990116,71,2,com.android.browser/.BrowserActivity,0,1,0,77,0,0,saeeeeeeeed
+18,1951668138,100,2,com.android.phone/.InCallScreen,0,1,1,74,0,0,'Die Fantastischen Vier'
+14,574268701,100,1,com.modoohut.dialer/.DialActivity,0,1,0,56,1,0,Bonobo
+11,392168963,0,2,net.openvpn.openvpn/.OpenVPNClient,0,1,0,56,0,0,Ektomorf
+13,1089410240,71,1,com.cnn.mobile.android.phone/.HeadlineActivity,0,1,0,49,?,?,'The End Of World'
+17,-2066545864,71,2,com.sec.android.widgetapp.favoriteswidget/.RemoveDialogActivity,0,1,0,64,0,0,'B Mortazavi'
+7,1586130699,0,2,com.android.settings/.Settings,0,1,0,42,0,0,'Bright Eyes'
+20,1634349617,100,2,com.google.android.apps.maps/com.google.android.maps.MapsActivity,0,1,0,62,0,0,'Petsch Moser'
+5,1493964992,43,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,61,0,0,Milkman
+10,846518445,29,2,com.dynamicg.timerecording/.Main,0,1,0,56,0,1,'Ja, Panik'
+17,326754164,100,1,com.android.browser/.BrowserActivity,0,1,0,64,0,0,'Dope D.O.D.'
+18,2144751462,0,2,com.android.mms/.ui.ConversationList,0,1,0,60,0,0,'Mr. SOS'
+15,1827757894,100,2,com.sportstracklive.stopwatch/.StandardStopWatchActivity,0,1,0,73,0,0,Estampie
+16,1040513136,14,2,com.dynamicg.timerecording/.Main,0,1,0,52,0,1,'Clara Luzia'
+5,1062107686,43,2,com.android.mms/.ui.ConversationComposer,0,1,0,61,0,0,'Red Hot Chili Peppers'
+22,-1704025497,0,2,?,0,1,0,86,0,1,'Kanye West'
+0,-52362576,29,2,com.zynga.words/.ui.launch.WordsMainActivity,0,1,0,72,0,0,'The Police'
+20,1891271771,29,1,com.opera.browser/com.opera.Opera,0,1,0,76,0,0,'Lady Sovereign'
+22,259079716,71,2,com.android.browser/.BrowserActivity,0,1,0,44,0,0,'King Crimson'
+10,1449581041,14,2,com.cpuid.cpu_z/.MainActivity,0,1,0,59,0,1,MIA.
+11,848154209,29,2,com.dynamicg.timerecording/.Main,0,1,0,54,0,1,P!nk
+15,2133944336,0,1,org.mobilemusicgenius.android/.ui.MusicPlayerActivity,0,1,0,70,0,0,STS
+11,-212867401,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,48,0,0,'Pearl Jam'
+15,1829377321,100,2,com.sportstracklive.stopwatch/.StandardStopWatchActivity,0,1,0,76,0,0,Labyrinth
+18,1713031097,0,2,?,0,1,0,16,0,0,'MacKlemore feat. Wanz'
+12,676445314,0,1,com.google.android.gm/.ConversationListActivity,0,1,0,40,0,0,Björk
+14,-262704847,14,2,com.google.android.keep/.activities.BrowseActivity,0,1,0,25,0,0,'Rage Against The Machine'
+18,504610238,100,2,com.google.android.apps.maps/com.google.android.maps.MapsActivity,0,1,0,63,0,0,Soulfly
+18,417216371,71,2,com.android.email/.activity.MessageListXL,0,1,0,49,0,0,'Die Fantastischen Vier'
+21,-496992201,0,0,org.mobilemusicgenius.android/.ui.MusicPlayerActivity,0,1,0,51,0,0,'Sportfreunde Stiller'
+13,2064445327,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,71,0,0,'Beastie Boys'
+2,-160732652,0,2,?,0,1,0,86,0,1,Wizkid
+10,844668033,14,2,com.android.browser/.BrowserActivity,0,1,0,48,0,0,Samsung
+19,1890421361,0,2,com.android.browser/.BrowserActivity,0,1,0,70,0,0,'King Crimson'
+2,963262168,71,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,11,0,0,'Oscar Peterson'
+16,496139192,0,2,com.google.android.apps.unveil/.SearchHistoryActivity,0,1,0,47,1,0,'Panic At The Disco'
+17,154690007,100,1,com.android.htcdialer/.DialerActivity,0,1,0,65,0,0,'The Bamboos'
+15,-434625382,0,2,com.android.mms/.ui.ConversationList,0,1,0,71,0,0,'Bright Eyes'
+9,-1233194212,100,2,com.android.gallery3d/com.android.camera.CameraLauncher,0,1,0,78,0,0,'Mumford & Sons'
+16,-820999645,0,2,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,75,0,0,'Peter Fox'
+13,-1563532908,0,2,com.whatsapp/.Conversation,0,1,0,56,0,0,'Fiona Apple'
+16,-820731895,0,2,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,84,0,0,Dillon
+20,164914798,0,2,org.mozilla.firefox/.App,0,1,0,89,0,1,Akon
+10,239374573,14,2,com.htc.android.worldclock/.WorldClockTabControl,0,1,0,69,0,0,Beatallica
+20,1372639668,0,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,62,0,0,U2
+15,-284576549,29,2,com.cootek.smartdialer/.DialerActivity,0,1,0,64,0,0,'Maurice Ravel'
+0,-831941859,100,0,?,0,1,0,49,0,0,Alt-J
+18,-1028549525,71,2,com.vodafone.vodafone360updates/.gui.activity.PreloadedActivity,0,1,0,42,0,0,'Paul McCartney'
+13,-873503037,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,62,1,1,Ensiferum
+18,-764263929,14,1,com.google.android.gm/.ConversationListActivity,0,1,0,83,0,0,Liquido
+14,-178181345,100,2,com.sec.android.app.voicerecorder/.VoiceRecorderMainActivity,0,1,0,84,0,0,'R.I.O. feat. U-Jean'
+17,-1611724544,100,1,com.android.settings/.Settings,0,1,0,74,0,0,'Beverley Craven -'
+9,816913924,100,2,at.jku/.activities.StartActivity,0,1,0,60,0,0,Cheryl
+20,1634733495,100,2,com.google.android.apps.maps/com.google.android.maps.MapsActivity,0,1,0,59,0,0,'Marco Petralia & DJ Monique vs. Gastone'
+21,-498467632,0,0,com.teamlava.petshop/com.storm8.app.activity.GameActivity,0,1,0,58,0,0,'Sportfreunde Stiller'
+10,41181845,0,2,com.urbandroid.sleep/.alarmclock.AlarmClock,0,1,0,68,0,0,'Breaking Benjamin'
+17,2078873494,0,2,com.android.gallery3d/com.android.camera.Camera,0,1,0,64,0,0,'Whizz Vienna'
+11,1369941107,29,2,com.instagram.android/.activity.MainTabActivity,0,1,0,78,0,0,Beethoven
+16,-110412618,0,2,com.android.systemui/.recent.RecentsActivity,0,1,0,78,0,0,Casper
+16,1038747313,14,2,com.fsck.k9/.activity.FolderList,0,1,0,58,0,1,P!nk
+12,682070702,14,1,com.google.android.gm/.ConversationListActivity,0,1,1,91,0,0,'Macklemore & Ryan Lewis'
+14,511723913,71,1,mobi.mgeek.TunnyBrowser/.BrowserActivity,0,1,0,47,0,0,'Aphex Twin'
+14,1611896392,71,2,com.android.phone/.InCallScreen,0,1,0,81,0,0,'Brandi Carlile'
+2,906546780,29,2,com.android.mms/.ui.ConversationComposer,0,1,0,58,0,0,'The xx'
+14,-869970512,0,0,com.android.browser/.BrowserActivity,0,1,0,33,0,0,Madsen
+2,1050207870,0,2,com.google.android.talk/.SigningInActivity,0,1,0,48,0,0,Radiohead
+11,-301548454,0,2,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,43,0,0,'Pearl Jam'
+16,346833133,0,1,?,0,1,0,48,0,0,Volbeat
+16,-2133840546,43,2,com.android.browser/.BrowserActivity,0,1,0,68,0,0,'Mr. SOS'
+10,1510583583,29,2,com.dynamicg.timerecording/.Main,0,1,0,51,0,0,'Asian Dub Foundation'
+12,-704610633,0,1,com.android.mms/.ui.ConversationList,0,1,0,80,0,0,'Sportfreunde Stiller'
+16,-107669514,71,2,com.android.phone/.InCallScreen,0,1,0,82,0,0,'Los Lobos'
+9,407524031,0,1,com.google.android.gm/.ConversationListActivity,0,1,0,42,0,0,'Dweezil Zappa'
+13,2127510380,0,1,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,77,0,0,STS
+17,843692488,100,2,com.sonyericsson.organizer/.Organizer,0,1,0,62,0,0,Muse
+18,1539824888,0,1,com.android.settings/.SoundSettings,0,1,0,67,0,0,'Die Toten Hosen'
+10,214304078,100,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,65,0,0,'The Guild'
+13,1521385586,29,2,com.android.mms/.ui.ConversationList,0,1,0,54,0,0,'Austrian Death Machine'
+2,-1861771858,71,2,com.offkh.bpmcounter/.BPMCounter,0,1,0,82,0,1,Blame
+9,-672649538,57,2,com.cootek.smartdialer/.CallLogActivity,0,1,0,84,0,0,'Aphex Twin'
+16,343038227,71,1,com.android.htcdialer/.Dialer,0,1,0,43,?,?,'Boards Of Canada'
+21,-325563798,0,2,com.android.contacts/.activities.PeopleActivity,0,1,0,71,0,0,'One Self'
+9,817208632,29,2,com.dynamicg.timerecording/.Main,0,1,0,56,0,0,'Days in Grief'
+17,1190560864,0,2,com.android.contacts/.activities.PeopleActivity,0,1,0,71,0,0,'DJ Antoine vs. Mad Mark 2k13'
+16,-2131343672,33,2,com.android.settings/.Settings,0,1,0,70,0,0,'Bob Dylan'
+17,-190763294,71,2,com.ohso.omgubuntu/.ArticleActivity,0,1,0,66,0,0,'Dave Grusin'
+20,423907681,0,2,com.android.mms/.ui.ConversationList,0,1,0,36,0,0,'Bon Jovi'
+15,1702322766,0,2,com.nianticproject.ingress/.NemesisActivity,0,1,0,42,0,0,'Fiona Apple'
+17,-190611942,71,2,com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity,0,1,0,60,0,0,'Dave Grusin'
+15,-434790345,71,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,56,0,0,www.Newmusic10.com
+6,201394330,0,2,?,0,1,0,85,0,1,Fabolous
+0,-165293736,0,2,?,0,1,0,85,0,1,'Culcha Candela'
+19,767346110,71,1,com.android.camera/.CameraEntry,0,1,0,50,0,0,'The Bamboos'
+22,-1097866349,100,2,com.akproduction.notepad/.activity.NoteListActivity,0,1,0,80,0,0,'Enter Shikari'
+6,720534205,100,2,com.google.android.apps.genie.geniewidget/.activities.NewsActivity,0,1,0,57,0,0,'Mumford & Sons'
+23,-1440628917,0,1,com.sec.android.app.dialertab/.DialerTabActivity,0,1,0,58,0,0,'Mr. Big'
+15,1125372182,29,2,com.outlook.Z7/com.seven.Z7.app.email.EmailListActivity,0,1,0,80,0,0,'George Harrison'
+13,915246016,0,2,com.google.android.googlequicksearchbox/.SearchActivity,0,1,0,52,0,1,Akon
+19,1631506369,100,2,com.google.android.apps.maps/com.google.android.maps.MapsActivity,0,1,0,63,0,0,'Mumford & Sons'
+14,-2079663522,0,2,com.android.mms/.ui.ConversationList,0,1,0,65,0,0,'The Jimi Hendrix Experience'
+13,-1562593279,0,2,com.whatsapp/.Conversation,0,1,0,70,0,0,'Fiona Apple'
+12,1000899561,0,0,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,44,0,0,'Sportfreunde Stiller'
+12,-209273426,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,37,0,0,'Pearl Jam'
+23,-169703895,0,2,?,0,1,0,85,0,1,Skyzoo
+23,-169939461,0,2,?,0,1,0,85,0,1,Skyzoo
+22,-345912182,0,2,com.google.android.gm/.ConversationListActivityGmail,0,1,0,86,0,1,'Mario Vazquez'
+18,1305739767,0,0,com.teamlava.farmstory26/com.storm8.app.activity.GameActivity,0,1,0,48,0,0,Pro7-dieBand
+14,-782354380,0,0,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,78,0,0,'Bryan Adams'
+17,-857988244,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,69,1,1,'Letzte Instanz'
+21,166827892,0,2,org.mozilla.firefox/.App,0,1,0,90,0,1,'Drake feat. Lil\' Wayne & Tyga'
+16,843052880,100,2,com.sonyericsson.organizer/.Organizer,0,1,0,59,0,0,Muse
+16,-428111604,71,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,59,0,0,'Unknown Artist'
+9,-2010622230,0,2,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,76,0,0,'Bloodhound Gang'
+23,-232841439,0,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,57,0,0,Aceyalone
+17,-103885999,0,2,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,54,0,1,Wizkid
+19,356370821,71,1,uk.co.sevendigital.android/.library.ui.SDIShopHomeActivity,0,1,0,40,0,?,'Bad Religion'
+12,-960669838,71,2,com.google.android.gm/.ConversationListActivityGmail,0,1,0,51,0,0,'Paul McCartney'
+23,-835631908,100,0,?,0,1,0,46,0,0,Pond
+16,-776295216,100,2,ch.teamtasks.tasks/.widget.WidgetDialogActivity,0,1,0,70,0,1,'Christina Stürmer'
+9,-219553394,0,2,com.android.browser/.BrowserActivity,0,1,0,42,0,0,Coldplay
+0,-1437286232,57,1,com.android.contacts/.activities.DialtactsActivity,0,1,0,45,0,0,'Daft Punk'
+15,518178111,14,2,com.dynamicg.timerecording/.Main,0,1,0,67,0,1,'Austrian Death Machine'
+16,-2133203897,43,2,com.android.deskclock/.AlarmClock,0,1,0,63,0,0,'Bob Dylan'
+19,-272056793,0,0,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,53,0,0,'Die Toten Hosen'
+23,-836840694,100,0,?,0,1,0,42,0,0,'Daft Punk'
+22,84810286,100,2,com.franco.kernel/.Main,0,1,1,45,0,0,'Die Fantastischen Vier'
+23,-834821528,100,0,?,0,1,0,46,0,0,'Die Fantastischen Vier'
+21,83588856,0,2,com.skype.raider/.Main,0,1,0,85,0,1,'Wiz Khalifa'
+20,163173385,0,2,org.mozilla.firefox/.App,0,1,0,88,0,1,'Gotye  Feat. Kimbra'
+2,100039524,0,2,com.skype.raider/.Main,0,1,0,77,0,1,'Trey Songz'
+18,-103148548,0,2,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,40,0,1,'David Guetta'
+20,1892531754,100,0,?,0,1,0,70,0,0,'Dave Grohl, Josh Homme & Trent Reznor'
+9,-712308815,0,0,com.android.email/.activity.EmailActivity,0,1,0,71,0,0,'Sportfreunde Stiller'
+20,1891182332,0,2,com.android.browser/.BrowserActivity,0,1,0,72,0,0,'King Crimson'
+14,-1214317643,14,1,hu.koin/.ui.MainTabActivity,0,1,0,72,0,0,'Lamb of God'
+15,751078315,29,1,com.android.contacts/.activities.PeopleActivity,0,1,0,70,0,0,'The Killers'
+22,-172755167,71,2,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,34,0,0,'Bob Dylan'
+17,-968338598,100,2,com.android.phone/.InCallScreen,0,1,1,77,0,0,'Paul Banks'
+15,-863844135,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,65,1,1,'Letzte Instanz'
+17,-105827107,0,2,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,47,0,1,'Gotye  Feat. Kimbra'
+0,94371099,0,2,com.skype.raider/.Main,0,1,0,78,0,1,'Gotye  Feat. Kimbra'
+23,951544839,0,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,1,71,0,0,'The Heavy'
+15,-866670154,0,0,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,36,0,0,Madsen
+16,1877798113,0,2,?,0,1,0,69,0,1,P-SQUARE
+16,1531665267,29,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,50,0,0,'Austrian Death Machine'
+21,1809723159,14,2,com.akproduction.notepad/.activity.NoteListActivity,0,1,0,77,0,0,'Enter Shikari'
+11,-298147890,0,2,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,42,0,0,'Ani DiFranco'
+16,1879864710,71,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,77,0,0,Casper
+0,90953729,0,2,com.skype.raider/.Main,0,1,0,84,0,1,'Fabolous Ft Pdiddy JE'
+23,-1267849569,0,1,com.android.deskclock/.DeskClock,0,1,0,58,0,0,'Kate Winslet'
+12,-36898980,29,1,com.android.mms/.ui.ConversationComposer,0,1,0,76,0,0,'Sammy Adams'
+22,-172873325,0,2,?,0,1,0,85,0,1,'Rick Ross'
+16,1876926270,0,2,?,0,1,0,63,0,1,'JAY SEAN'
+11,1946454853,71,0,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,73,0,0,'City and Colour'
+5,368866844,43,1,com.android.calendar/.MonthActivity,0,1,0,79,0,0,'Trevor Jones; Randy Edelman'
+8,-1234237431,100,2,com.android.gallery3d/com.android.camera.CameraLauncher,0,1,0,74,0,0,'Adam Green'
+19,-2147368282,14,1,com.android.htcdialer/.DialerActivity,0,1,0,77,1,0,'Lamb of God'
+20,1832575684,43,2,com.shpock.android/.ui.tab.GappTabActivity,0,1,0,52,0,0,'Pat Metheny Group'
+17,-426128403,71,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,37,0,0,'Over The Rainbow'
+13,1461947632,14,2,com.akproduction.notepad/.activity.NoteListActivity,0,1,0,59,0,1,'Arctic Monkeys'
+14,-868369383,0,0,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,35,0,0,Madsen
+13,251010139,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,56,0,0,'Cody ChesnuTT'
+22,-347588829,0,2,com.fivemobile.footy/.LeagueDispatcher,0,1,0,84,0,1,Drake
+10,1448940656,100,2,com.android.systemui/.recent.RecentsActivity,0,1,0,76,0,1,Rhapsody
+22,-172339177,0,1,com.opera.browser/com.opera.Opera,0,1,0,57,0,0,'Modest Mouse'
+20,-328165898,0,2,com.android.phone/.InCallScreen,0,1,0,58,0,0,'Red Hot Chili Peppers'
+14,-1214457824,14,1,hu.koin/.ui.MainTabActivity,0,1,0,64,0,0,'Creedence Clearwater Revival'
+18,156751091,100,1,com.appxplore.alienhive/.AlienHivePlugin,0,1,0,61,0,0,'Wild Cherry'
+21,-1448485681,71,2,com.android.vending/com.google.android.finsky.activities.MainActivity,0,1,0,68,0,0,'Citrus Hill'
+19,224480585,100,2,com.android.phone/.InCallScreen,0,1,1,75,0,0,Alt-J
+21,1983591171,14,1,com.android.camera/.CameraEntry,0,1,0,57,0,0,'Kool & The Gang'
+21,771756000,71,1,com.omgpop.dstfree/.Main,0,1,0,69,0,0,'Creedence Clearwater Revival'
+1,-48118214,29,2,net.mobilecraft.football/com.unity3d.player.UnityPlayerNativeActivity,0,1,0,70,0,0,'The Police'
+21,-323873272,0,2,com.android.contacts/.activities.PeopleActivity,0,1,0,66,0,0,'Dilated Peoples'
+1,903610579,29,2,com.android.browser/.BrowserActivity,0,1,0,75,0,0,R.E.M.
+19,1284174822,43,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,66,0,0,Samsung
+16,-1551262969,0,2,de.hafas.android.oebb/de.hafas.main.Hafas,0,1,0,65,0,0,'Tha Connection'
+17,325745757,0,2,com.google.android.talk/.SigningInActivity,0,1,0,51,0,0,'King Crimson'
+21,1723498123,71,1,com.android.vending/.AssetBrowserActivity,0,1,0,76,0,0,'Ernesto Vs Bastian'
+13,857418955,29,2,com.fsck.k9/.activity.MessageList,0,1,0,53,0,1,'Arctic Monkeys'
+10,818805129,29,2,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,54,0,0,'Days in Grief'
+14,-1127588150,100,2,?,0,1,0,60,0,0,'Klaus Doldinger'
+18,913486599,0,2,com.android.contacts/.activities.PeopleActivity,0,1,1,77,0,0,'Chris Cornell'
+13,-872474350,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,59,1,1,Moonsorrow
+16,1040691661,14,2,com.dynamicg.timerecording/.Main,0,1,0,50,0,1,'Clara Luzia'
+14,-953566461,100,1,com.android.mms/.ui.ConversationList,0,1,0,49,0,0,'Daft Punk'
+5,-146816306,43,1,com.android.browser/.BrowserActivity,0,1,0,74,0,0,'David Garrett'
+11,370757805,100,2,com.android.phone/.InCallScreen,0,1,1,75,0,0,'The Heavy'
+3,-1513926573,0,2,com.android.browser/.BrowserActivity,0,1,0,71,0,1,'Trey Songz'
+9,817586375,29,2,com.dynamicg.timerecording/.Main,0,1,0,52,0,0,'Days in Grief'

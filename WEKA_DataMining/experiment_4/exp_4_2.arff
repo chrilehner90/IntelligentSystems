@@ -1,0 +1,439 @@
+@relation 'mmg-weka.filters.unsupervised.instance.ReservoirSample-S1-Z500-weka.filters.unsupervised.attribute.Remove-V-R2,4,18,19,31,56,65,72,73,81,99-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-Clast-L195'
+
+@attribute userId numeric
+@attribute context_datetime date 'yyyy-MM-dd HH:mm:ss'
+@attribute weatherContext_humidity numeric
+@attribute weatherContext_visibility numeric
+@attribute audioContext_volumeNotif numeric
+@attribute networkContext_mobileConnected numeric
+@attribute networkContext_wifiIpAddress numeric
+@attribute proximityContext_proximity numeric
+@attribute proximityContext_proximityStandardDeviation numeric
+@attribute accelerationContext_accelerationStandardDeviation numeric
+@attribute musicContext_Artist {'The Birthday Massacre','Jack White','Die Fantastischen Vier','Massive Attack',Nightwish,Metallica,DragonForce,Powerwolf,'Letzte Instanz',Propellerheads,Sabaton,Equilibrium,'Groove Armada',Kent,Falchion,Turisas,Månegarm,'Subway To Sally','Mono Inc.','The Strokes','Steaming Satellites','The Black Keys',Ensiferum,'The Watts 103rd St Rhythm Band','The Bar-Kays','Brother Jack McDuff','Jimmy Norman','Rufus Thomas','Grassella Oliphant','Eddie Harris','Natural Bridge Bunch','The Freedom Sounds','Clarence Carter','Artie Christopher','The T.S.U. Toronadoes','Tony Alvon & The Belairs','Mark Putney',Commodores,'The Southshore Commission','Eldridge Holmes','Cold Grits','Soul Angels','Johnny Cameron & The Camerons','Joyce Jones','Lou Johnson','King Curtis & The Noble Knights','Titus Turner','Phil Moore Jr.','The Fabulous Counts','The Rhine Oaks','Cyril Neville','The Mighty Hannibal','Little Sister','Ananda Shankar','Brute Force','Don Covay & The Jefferson Lemon Blues Band','Clarence Wheeler & The Enforcers','Curtis Mayfield','Johnny Harris','Darrow Fletcher','Young-Holt Unlimited','King Curtis','Harlem River Drive','Wilson Pickett','Ed Robinson','Gene McDaniels','Fred Wesley & The Horny Horns','Tami Lynn','Oscar Brown Jr.','Howard Tate',Lulu,'Herbie Mann','Clarence Reid','Junior Mance','Willie West','The Gaturs','Black Heat','Eddie Hazel','Claudia Lennear',LaBelle,'Shirley Scott','The Unemployed','Dr. John',Macondo,'Black Haze Express',Houseguests,Seatrain,'The Mystic Moods Orchestra','The Beginning of the End',Malo,'Cornell Dupree','Cold Blood',Moby,Leftfield,'All Saints','Asian Dub Foundation/Harry Beckett/Simon DeSouza','The Rolling Stones','Link Wray',Faces,Cream,'Ram Jam','Manfred Mann\'s Earth Band','Willie Rosario','KC and The Sunshine Band','J GIRLS','Lynyrd Skynyrd','Bob Dylan','The Marshall Tucker Band',Radiohead,'Johnny Cash',Filter,'Kings Of Leon','Pearl Jam','Chris Cornell',Incubus,'Mt. Desolation','System of a Down','Tenacious D','The Cure','The Raconteurs','Snow Patrol','It\'s A Beautiful Day','Mumford & Sons',Air,Awolnation,Suuns,'Builders & The Butchers',LaBrassBanda,'Element of Crime','Cold War Kids',Estampie,Rage,'Gamma Ray',Helloween,Firewind,'Iron Savior',Labyrinth,Stratovarius,Dillon,'Paul Banks',Klangkarussell,'Peter Fox',Brasstronaut,Coppelius,Schandmaul,'Jake Bugg','Roman Polansky',Therion,'Paradise Lost',Edenbridge,MGMT,'Aphex Twin',Soulwax,M.I.A.,Lützenkirchen,'Daft Punk','The Chemical Brothers','Kaiser Chiefs',Babyshambles,'La Roux','The xx','Django Django',Alt-J,'Beastie Boys','Thiasos Dionysos',Heidevolk,'In Extremo',Tanzwut,Odroerir,Versengold,'The Heavy',Kasabian,'Anthony Hamilton & Elayna Boynton',Pond,'Josh Woodward','The Ting Tings',Björk,Justice,M83,'Sofa Surfers','Electric President',Pixies,Covenant,'The Mentor',Refused,'Asta Kask','The Clash',Offspring,'The Ramones','Bad Religion','White Denim','Fritz Kalkbrenner','Mike Candys feat. Evelyn & Patrick Miller','Sean Paul',<unknown>,Budzillus,'Das Broadway-Musical Im Hamburger Hafen','5/8erl in Ehr\'n',Schelmish,blink-182,'Trevor Jones; Randy Edelman',Eminem,'Ani DiFranco',Nachtgeschrei,'Tim Burton\'s Corpse Bride Soundtrack','Eros Ramazzotti',unbekannt,'Sportfreunde Stiller','Farin Urlaub Racing Team','Simon and Garfunkel',Revolverheld,'Dean Martin','Toto Cotugno','Ricchi e Poveri',Zaz,'Édith Piaf','France Gall','Kris feat. Dante Thomas','Adiano Celentano','The Herbaliser','Dope D.O.D.','Wu-Tang Clan','Two Steps From Hell',Orianthi,'culcha candela','Die Toten Hosen','Robbie Williams','Robbie Williams and Nicole Kidman','Robbie Williams And Frank Sinatra','Robbie Williams And Jon Lovitz','Robbie Williams And Jane Horrocks','Robbie Williams And Rupert Everett','Robbie Williams And Jonathan Wilkes','Ray Charles',Adele,'harry jen',Coldplay,'Red Hot Chili Peppers','Maurice Ravel',Akon,'The Animal Parade',Sido,'Stephane Pompougnac','Luis Bacalov, Edda Dell\'Orso','Frank Sinatra','San2 And His Soul Patrol','Paul Elstak','DISCO DELUXE','Dave Grusin','Swizz Beats','Linkin Park','Drake feat. Rihanna',Drake,'Wale ft Omarion, Rick Ross & Nas',Fabolous,Wizkid,'Trey Songz','Mario Vazquez','Maroon 5 feat. Wiz Khalifa - Payphone_(musiclife.kz)','2Face Idibia','JAY SEAN','2 Face',Skyzoo,eLDee,'Asher Roth','Shania Twain','2 Face Idibia - @Recessonline','John Legend ft Ludacris',Lenka,'The Black Eyed Peas','Emeli Sande','Tim Bendzko','Paul Van Dyk','Aura Dione','Yeah Yeah Yeahs','Alan Parsons Project','Wolfgang Ambros',Wilco,'The Who','Eric Clapton','Los Lobos','Oscar Peterson',U2,Aswad,'Amanda Palmer Featuring The Grand Theft Orchestra','Les Poppys','Ja, Panik',P!nk,'Rage Against The Machine','Lamb of God','The Bamboos','Led Zeppelin','Georges Bizet','David Garrett','Gerard Presgurvic','Wise Guys','Modest Mouse','Crystal Fighters','Plus 44','RX Bandits',Millencolin,'Ron Hawkins','No Use For A Name',Pennywise,Lagwagon,Audiomachine,'Five Finger Death Punch','Sam Hulick','Johan Skugge & Jukka Rintamäki','Lorne Balfe','Sam Hulick/Jack Wall/Richard Jacques','Hans Zimmer','Dan Popplewell','Camo & Krooked','Chris Brown - Dont Wake Me Up  ( Www.Ahanghaa52.Com )','Drake feat. Lil\' Wayne & Tyga','Burna Boy','Kanye West',P-SQUARE,'Rick Ross',Demarco,Iyaz,'Justin Bieber - As Long As You Love Me (Www.4FunMusic.com)','WANDE COAL','Chris Brown feat. Justin Bieber','David Guetta','Banky W.',Evanesence,'B.I.G. + Puff Daddy + Mase','Naeto C  Tony ft. DBanj','John Legend/Kanye West/Slum Village','sum 41','Culcha Candela','May D','Lil Wayne',Tyga,'Chris Brown','Fabolous Ft Pdiddy JE','Justin Timberlake','Gotye  Feat. Kimbra','deafrodrumbeat.blogspot.com (@deafrodrumbeat)','Jay Sean氀','Thelonious Monk','Queens Of The Stone Age','Pepe Deluxé','Super Mash Bros.','The White Panda',Milkman,'Johann Strauss',Atmosphere,'Tayyib Ali',Mastodon,Evanescence,'Big Bad Voodoo Daddy','Adam Green & Bikini Shapiro','Natalie Cole','Mean Mr Mustard',Texta,Frittenbude,Kettcar,'17 Hippies','Sammy Adams',Casper,Bonobo,'Amon Tobin',Apparat,'Ben Frost','The Flashbulb',Pitbull,Deichkind,'The Bosshoss','Funny van Dannen',Silverstein,jive(43),Skalpel,'Neck Sprain','Puddle of Mudd','Stevie Wonder','Flo Rida Ft. David Guetta - Club Can_t Handle','Die Ärzte','Mark Ronson','Michael Bublé','Dr. Dre',Emil.RuleZ!,'Caravan Palace','Mestizo & Mike Gao','Jazz K Lipa','Mac Miller','Wax Tailor','Black Sheep','Donna Summer',Muse,'All Time Low','Limp Bizkit','The Offspring','Rusted Root','Simple Plan','The Subways','Good Charlotte','ALO (Animal Liberation Orchestra)','Wiz Khalifa','Lucinda Williams','The Blind Boys Of Alabama','The Proclaimers','Lady Gaga','Herre, Max','Flo Rida',Pink,Charlee,'Asaf Avidan & the Mojos','James Arthur','Avicii vs Nicky Romero','Lukas Graham','R.I.O. feat. U-Jean','Snoop Dog',Hadouken!,Heino,'Bone Thugs-n-Harmony','The Corrs','Katrina and the Waves','Udo Jürgens','Jürgen Drews',STS,'DJ Antoine','Farin Urlaub','Mountain Mocha Kilimanjaro','Kispál és a Borz','Creedence Clearwater Revival','Wild Cherry',Jazz.k.lipa,'James Brown','Don Omar & Lucenzo','Pepe Deluxe','King Crimson','Papa Roach','Breaking Benjamin',Yellowcard,Example,'Kid Cudi','Katy Perry feat. Snoop Dogg','Alicia Keys',Sin,'Sak Noel','Of Monsters and Men','Beth Ditto',Tetris,'The Guild','Remady feat. Manu-L','Afrojack feat. Eva Simons','The Gossip','Andreas Gabalier',Gorillaz,'Jason Mraz','Asaf Avidan & The Mojos','Maroon 5','David Guetta feat. Neyo & Akon',Fun,Rihanna,'Philipp Poisel','Rea Garvey',Cro,Labrassbanda,'Antônio Carlos Jobim','Die Atzen Mit Nena',Loona,'James Morrison','The BossHoss','Terror Squad',Samsung,'David Guetta feat. Sia',Capone,'Kelly Rowland',@MS4,'Roger Sanchez','Fairy Tail','Nanba Shiho',Avicii,'Duran Duran','Eddy Grant','Parov Stelar','Chase & Status','Buena Vista Social Club','Tom Waits','Boards Of Canada','David Gilmour','Frank Zappa','Knife Party',Placebo,'Ivan Gough & Feenixpawl ft. Georgi Kay','Eddie Vedder','Rolling Stones','The Lumineers',Ektomorf,'David Bowie','Brad Mehldau','Secondhand Serenade',DevilDriver,'Fiona Apple','Austria 3 (Ambros, Fendrich, Danzer)','Joint Venture',Surrender!,'Berk & the Virtual Band','NORAH JONES',Soulfly,'Austrian Death Machine','Asian Dub Foundation','Bon Jovi','Panic At The Disco','City and Colour',Pique,'Dweezil Zappa',Kraftwerk,'ZZ Top','Icona Pop feat. Charli Xcx','Will.I.Am feat. Britney Spears','Gabin & Dee Dee Brigdewater','Cure For The Common','Jonny L',Tool,S.P.Y,Cornershop,'Fleetwood Mac','Huey Lewis & The News','New Kids Feat. Paul Elstak','Kanye West Ft. Raekwon & KiD CuDi','Adam Green','Stereo Total','Smashing Pumpkins','Various Artists','David Gray','Plain White T\'s','Israel Kamakawiwo\'ole','Kate Nash',Ke$ha,'Luis Bacalov & Rocky Roberts','Swedish House Mafia feat. John Martin','Eva Croissant',Loreen,Labrinth,'Pitbull feat. Christina Aguilera',Ne-Yo,Caligola,'Anthony Hamilton And Elayna Boynton','A$ap Rocky feat. 2 Drake','Max Herre feat. Cro',Psy,'Major Lazer & Amber Coffman','Ed Sheeran','The Script feat. Will.I.Am','Rita Ora',Blue,'Avicii vs. Nicky Romero','Lykke LI',Triggerfinger,Ola,'Imagine Dragons','White Lion','Bryan Adams','Green Day',Beatles,'Yolanda be cool & Dcup',Dj`s@Work,'Taylor Swift',Helmet,Kesha,Chingy,'Killing Joke','Shakira feat. Freshlyground','Taio Cruz feat. Flo Rida','Dropkick Murphys','Katy Perry','Colbie Caillat','One Direction','Flo Rida Feat. David Guetta','Howard Shore','Bloc Party','Biffy Clyro',Pendulum,Iamx,'Days in Grief','We Are Scientists','Hubert von Goisern','The Infadels','Erste Allgemeine Verunsicherung (EAV)','Barrio Katz','Chinese Man',Waldeck,'16 Horsepower','Akkezdet Phiai','Esclin Syndo',Beatallica,'Poison the Well',Hatebreed,'(hed) p.e.','Pink Martini','Theophilus London','Barry White',Will.I.Am,'Monica Reyes','Mo Horizons','Broken Bells',Kosheen,'Netsky Feat. Jenna G',Beatsteaks,Friction,'Tantrum Desire','Jack Johnson',Volbeat,AC/DC,'Old Boy',Subscribe,'Skunk Anansie',Nickelback,Various,'The Alan Parsons Project','Van Morrison',E.M.E,'Sono Rhizmo\'','Daft Punk ( feat.Pharrel Williams & Nile Rodgers)','George Harrison',Audio,'Hybrid Minds',Upbeats,Unknown,Instra:mental,Burial,'Yesterday Once More','Love Me With Your Heart',cdcity.shop@gmail.com,'Macklemore & Ryan Lewis','Johann Pachelbel','Brandi Carlile',Daveskii08,'Lupe Fiasco','Hot Chocolate',Hedley,Beethoven,'P!nk featuring Nate Ruess',Liquido,'Jessica Simpson','dZihan & Kamien',Shaggy,'Gigi D´Agostino','JÜRGEN DREWS','DJ Antoine vs. Mad Mark 2k13','Taio Cruz :: Teh-Music.Us ::','2Pac ft. Dj Alex Sp',Q&A,'Alter Bridge',Architects,'The Cult','Miles Davis','David Dallas','John Mayer','Peter Gunn','Gabriella Climi','Bliss N Eso','Krafty Kuts Feat Dynamite MC','Sound of Stereo','Maryam Heydar zade _ [Yazd-PatoGh.coM]',saeeeeeeeed,'Unknown Artist',JoJo,'Albrigtsen Steinar/Secret Garden','Naser Abdollahi','The End Of World','Barbra Streisand/Secret Garden',www.Newmusic10.com,01,'Blink 182','Marco Petralia & DJ Monique vs. Gastone','Sarah McLachlan',Apocalyptica,Nemesea,'Liv Kristine','Inkubus Sukkubus','Neil Young','Hami (www.MyMusicBAran.Org)渀渀渀','Hamed MalekLou-wWw.sOngBsOng.cOm','Hami (www.MyMusicBAran.Org)挀挀挀','Calvin Harris feat. Ellie Goulding','Flo Rida feat. Jennifer Lopez','Eve feat Gwen Stefani',VA,'The Naked And Famous',Survivor,'Status Quo','Alice Cooper','Jethro Tull',Toto,'The Hooters','Kruder & Dorfmeister','Utah Jazz','Jackson 5','Dj Fresh','[dunkelbunt] & Analogik','Marina and The Diamonds','Ryan Adams & The Cardinals','KiD CuDi','Enter Shikari',Rammstein,'Clara Luzia','Petsch Moser',Skrillex,'Mashup Germany','Blumentopf feat. Musikkapelle Münsing','The Buggles','Bright Eyes','Urbs & Cutex','Pharoah Sanders','A Forest Mighty Black',Laugh,'King Britt',Amewu,'Ann Takle/Secret Garden','Hami ( www.BirMusic22.com )','Brian Kennedy/Secret Garden','Ernesto Vs Bastian','MacKlemore feat. Wanz','J.O.B feat Anjulie (with MadV & 12th Planet)','Andre Crom, Martin Dawson','D\'Prince Ft. Wizkid','JAMIE FOXX',Wax,'Pink Floyd','50 Cent','Rise Against','Ali Lohrasbi (2seda.com | 2seda2.com)','Roham (www.Yazd-Music3.com)',07,'Nasser Abdollahi','FARSDJ.COM - RAPOPOP.COM','Bruno Mars','Whizz Vienna','Gang Starr','The Killers','Depeche Mode','Rainhard Fendrich','Lipps, Inc','Pitbull - Rain over me ft. marc anthony  bY CaviD™','Ellie Goulding','Doodge & Viper',Shakira,'Xavier Naidoo',Cheryl,'Velile & Safri Duo',T.I.,www.ToxicWap.com,'Drake ft Nicki Minaj','Elton John','Christina Perri','Ilan Eshkeri','Charlie Winston',Tomorrowland,'Kenmochi Hidefumi','Fünf Sterne Deluxe','Arik Brauer','Mehrnoosh ( www.1.Mihan2Music.com )','Secret Garden','Over The Rainbow','B Mortazavi','Rain And Tears','Richard Claydermann','(coming.soon) 0915 101 66 76','Maryam Heydar zade - [Yazd-PatoGh.coM].','Ali Hasanpour.::wWw.PcLord.Ir::.',Moon,'Hafa (www.MYmusicbaran.org)','Secret Garden/Tommy Korberg','Fereydoon (www.MyMusicBaran.org)','Ever Green A Star Has Born','Hosseyn Panahi','Richard Clayderman',Donna,(www.MusicBaran3.com),Vangelis,'Paul Kalkbrenner','Pax & Pry','The Jimi Hendrix Experience','Amy Winehouse','Bromheads Jacket',Bush,'Mr. SOS',Ska-P,'Angelika Express','Fettes Brot','The Beatsteaks','Ok go',Wizo,'Reel Big Fish','Peter Bjorn And John','Lady Sovereign','Manu Chao','Jan Delay',Editors,'Chief Rebel Angel',Clutch,'Kool & The Gang',Mumüzumundi,'Guns N\' Roses',Jet,'Queens of the Stone Age','Paul & Linda McCartney','Booty luv',Baccara,Kansas,'Silver Convention','Billy Squier','The Knack',Journey,Hello,'Blind Myself',Pentagram,'Chet Faker',Sigma,'Don Diablo','Sally J Johnson','PPP (feat Karma)','Shirley Bassey','Jamie Lidell','Jazz Liberatorz (feat Tre HArdson, Fat Lip & Omni)','MC Hawking','Bloodhound Gang','David Guetta & Joachim Garraud','Eminem - CanalQuo.Com','Guano Apes',Dappy,'Nicki Minaj','Dolla Boy ft 2 Chainz & Slik','Akon (www.Akonwap.com n www.Pagalworld.com)',2Pac,'The Prodigy','Swedish House Mafia','Martin Solveig feat Kele','Alexandra Stan','Bow Wow ft Chris Brown',Bracket,'Roman Rai','The Jonesz',Feist,'Aceyalone & RJD2','R2bees ft wizkid dance _prod_by_KIllbeatz',Tupac,'Cancer Bats','Jukebox The Ghost','Kaleidoscope Sunday','Eve Feat. Sean Paul',Lustra,Slipknot,'Akon (www.AkonWap.com)','Nate Dogg/Snoop Dogg/Warren G',Samklef,'Micheal W Smith','Various artists','Ice prince Feat Braymo',2face,'Kirk Franklin','Feat. Lloyd Banks & Swizz Beatz','2 Chainz',Iyanya,'Pleasure P ft Tyga','michael smith','Rihanna feat. Calvin Harris - We Found Love_(musiclife.kz)','Tupac Shakur',Afroman,'Lil Wayne [mp3songsclub.com]','Kevin Lyttle','Akon Feat. Rick Ross','DJ Firestorm','The Game','Kirk Franklin & The Family',www.tooxclusive.com,'Rick Ross feat. The Clipse','2 Pac',MI,'Kardinal Offishall','Pastor Anita Oyakhilome','Alicia Keys feat. Nicki Minaj','Rick Ross feat Young Dro',Davido,'Bow Wow','Tupac, Dr. Dre','Taylor Swift [wWw.Baran-DL.Com]','Masspike Miles ft Ace Hood',Train,'Respect Me','David Guetta (feat. Sia)',Timaya,'Kanye West/Pusha T','Dante Thomas','Bell, Book & Candle','The Boo Radleys','Fiction Factory','The Romantics','The Outfield','Blind Date','Max Werner','The Nits','Karel Fialka','Orange Blue','Sinéad O\'Connor','Soul Asylum','4 Non Blondes','Otis Redding','Bullet For My Valentine','Fool\'s Garden','Kate Winslet','Mr. Big','The Underdog Project',Whitesnake,'James Blunt','Josh Groban','Cassandra Steen & Adel Tawil',Beyoncé,'Roger Bart',Sookee,'Dave Grohl, Josh Homme & Trent Reznor','Robert Levon Been, Dave Grohl & Peter Hayes','Benny Goodman',Blame,'Tinie Tempah','M.i.s.t. Vs High Contrast','Fred Hersch',Pro7-dieBand,'Katy B','Alanis Morissette','Die Prinzen','Vaya Con Dios','Lily Allen','Yolanda Be Cool & Dcup','Amy MacDonald','Jerry Reed','Thomas D','Klaus Doldinger','Inca Son','Suzanne Vega','Paul McCartney','Pat Metheny Group',El-P,'Tha Connection',Afu-Ra,'Oh No','Apollo Gold','XIV Dark Centuries','Experiment Nnord',Madsen,Pantera,'High On Fire','Erykah Badu','Amp Fiddler','Cody ChesnuTT','El Michels Affair',Duffy,'7 Samurai','Chris Goss, Tim Commerford, Dave Grohl & Brad Wilk','Shakira ft. Pitbull','Natasha Bedingfield','Jennifer Lopez ft. Pitbull','Brooke Fraser','The Real Booty Babes','Citrus Hill',Jasper,'4 Strings','Del Monte vs. Topless','Master Blaster','Ben Bedrock',Accuface,Paffendorf,'Mario Lopez','David May','Dennis Christopher','De La Soul','The Isley Brothers','Hamid Hami ( 98Music.Info )',Mix,'Owl City feat. Carly Rae Jepsen','Crooked I ft Freeway & Rick Ross','Lloyd Banks','Dharsaw ft Sossick','Meredith Brooks','Tina Turner','Joan Jett & the Blackhearts','Lynard Skynard','Chubby Checker',Silbermond,'Christina Stürmer',Juli,Krautschädl,'Unbekannter Künstler','Stephan Remmler','Midnight Oil',Steppenwolf,Nekta,'The Matthew Herbert Big Band',Koop,'Lyn Collins',Mocky,'Milez Benjiman','Menahan Street Band','Wir Sind Helden','Hamid Askari (www.MusicBaran6.com)','Mstislav Rostropovich','Hami (www.MusicBaran6.com)',(www.Sound30t.com),Azeshge,'Changiz Habibian.::wWw.PcLord.Ir::.','Edvard Grieg','Double Vision',Exhaust,king,'The Eagles','Bruce Springsteen','DJ Visage','Michael Jackson','Natalie Imbruglia','Dschinghis Khan',2raumwohnung,ACDC,'Ras G','N.Y. Oil','Kamp & Whizz Vienna','John Coltrane','Mr. Scruff','Louie Austen','Thomas Siffling','One Self','The Roots','Fiva MC & DJ Radrum',Asa,'Dilated Peoples','Ohmega Watts',Aceyalone,'The Wanted',Tacabro,'Johannes Oerding','Jean Knight','Crowded House','Penguin Cafe Orchestra','The Beatles','Jakob Dylan','Paolo Nutini','The Cardigans',BeeGees,'Taio Cruz','David Guetta feat. Ne-Yo & Akon',LMFAO,'Demi Lovato','Selena Gomez & The Scene','Dizzee Rascal','Will.I.Am & Britney Spears',Glasperlenspiel,Fluke,'Rock Massive','The Police',Passenger,'Lee Ving, Dave Grohl, Taylor Hawkins, Alain Johannes & Pat Smear','Stevie Nicks, Dave Grohl, Taylor Hawkins & Rami Jaffee','Rick Springfield, Dave Grohl, Taylor Hawkins, Nate Mendel & Pat Smear','Corey Taylor, Dave Grohl, Rick Nielsen & Scott Reeder','Josh Homme, Chris Goss, Dave Grohl & Alain Johannes','Alain Johannes, Dave Grohl & Josh Homme','Paul McCartney, Dave Grohl, Krist Novoselic & Pat Smear','Dave Grohl, Jessy Greene, Rami Jaffee & Jim Keltner',Lena,'Lana Del Rey','Donavon Frankenreiter',KRS-One,'Cypress Hill','The Cranberries','Iced Earth','Blind Guardian','Portugal. The Man','Calvin Harris feat. Florence Welch','Macklemore&Ray Dalton','Fort Knox Five','Capital Cities','The Stone Roses',Garbage,'Äl Jawala',Stereophonics,'Aloe Blacc','Stacy Epps','Jill Scott','Talib Kweli & Madlib','Kid Kopphausen','The Asteroids Galaxy Tour','Hugh Laurie','Sin With Sebastian',Faithless,'Fatboy Slim','Robert Plant & Alison Krauss','Sohrab & Amir',Autumn,'Club Des Belugas','Black Eyed Peas','Ken Follett','Arctic Monkeys','Bloc Party.',Queen,Giantree,'Get Well Soon',Gazebo,'Foster The People','Paradise Oskar','Mandy Moore',Amorphis,'Astor Piazzolla',03,04,06,'Hayseed Dixie',R.E.M.,'Caro Emerald',Bastille,'Bill Haley & His Comets','The Streets','The Sound Providers',Asmegin,Moonsorrow,Vintersorg,'Nomans Land',Folkearth,Radigost,Einherjer,Finntroll,'Cumulo Nimbus',Korpiklaani,'Butterfly Temple','Corvus Corax',Skyforger,Lumsk,'Adorned Brood',Hel,'Rhymes Of Destruction',ASP,Borknagar,'Vicious Crusade','Saltatio Mortis','Dark Reality',MIA.,'The Blues Brothers','The Specifics','Frequent Flyers','ShinSight Trio','The Globetraddaz',Nomak,Nujabes,'Jazz Liberatorz','The J. Davis Trio','Michel Teló','Olivia Newton-John & John Travolta',RHCP,'In Flames','Jason Skills','The Hip Bop Experiment','J. Rawls',Headnodic,'Longevity Crew','DJ Motive','Shin-Ski of Martiangang','Mr. Confuse','Giant Panda',Rhymefest,Cocktailpodcast,Stormwarrior,Edguy,Rhapsody,Lunatica,Forefather,'Beverley Craven -'}
+
+@data
+
+51,'2013-05-11 08:30:33',?,?,43,0,?,8,8,0.08,'Frank Sinatra'
+5,'2013-01-10 13:10:33',87,10,43,1,0,0,?,?,'The Birthday Massacre'
+30,'2013-06-16 07:55:34',100,10,0,1,?,5,5,1.05,Bastille
+3,'2013-02-26 17:45:17',93,1,100,1,?,5,5,0.07,'The Heavy'
+17,'2013-06-19 15:11:14',52,10,0,0,?,?,?,0,Pro7-dieBand
+33,'2013-05-03 08:53:13',77,6,0,1,?,8,8,0.03,'Fiona Apple'
+33,'2013-05-03 08:53:13',77,6,0,1,?,8,8,0.04,'Sarah McLachlan'
+16,'2013-04-09 18:45:51',?,?,100,0,?,4,4,5.37,'Dope D.O.D.'
+3,'2013-05-16 18:28:40',87,10,0,1,?,5,5,0.14,'The Heavy'
+16,'2013-06-07 11:39:46',?,?,14,0,?,4,4,2.05,'The Herbaliser'
+42,'2013-04-25 16:28:21',94,2,71,0,671131840,0,0,0.05,'Oscar Peterson'
+16,'2013-04-16 20:20:46',43,10,100,0,1795205312,5,5,2.18,'Rage Against The Machine'
+3,'2013-01-12 19:44:29',59,10,100,1,0,5,?,?,'Die Fantastischen Vier'
+54,'2013-06-11 15:06:05',77,10,29,1,?,5,5,0,P!nk
+45,'2013-04-11 22:30:13',?,?,100,0,?,5,5,0.69,Evanescence
+15,'2013-04-14 19:26:10',87,10,0,0,1728161984,?,?,0.18,Akon
+3,'2013-06-01 17:05:30',87,10,71,1,?,5,5,0.09,'Corey Taylor, Dave Grohl, Rick Nielsen & Scott Reeder'
+3,'2013-01-12 19:44:29',59,10,100,1,0,5,?,?,'Die Fantastischen Vier'
+12,'2013-04-16 07:37:45',72,10,0,1,?,5,5,0.18,'Breaking Benjamin'
+25,'2013-05-27 15:01:44',71,10,71,1,?,4,4,1.97,www.Newmusic10.com
+3,'2013-03-13 09:26:49',?,?,100,1,?,3,3,0.98,'Paul Banks'
+5,'2013-01-14 11:17:34',93,7,100,1,0,5,?,?,DragonForce
+54,'2013-04-20 12:12:05',39,10,100,1,?,0,0,0.15,'Adam Green'
+66,'2013-06-16 20:02:53',44,10,0,1,?,5,5,2.81,'Red Hot Chili Peppers'
+32,'2013-05-15 23:29:03',43,10,0,1,50440384,1,1,0.25,'Mr. Big'
+16,'2013-05-22 18:41:29',?,?,14,0,?,0,0,0.22,'Rage Against The Machine'
+42,'2013-04-25 16:28:21',94,2,71,0,671131840,0,0,0.05,'Oscar Peterson'
+25,'2013-05-08 17:28:09',88,10,71,1,?,8,8,0.98,'B Mortazavi'
+67,'2013-05-10 18:16:16',?,?,0,0,?,3,3,1.01,'Guano Apes'
+5,'2013-01-15 16:13:25',80,9,57,1,0,5,5,0.217,Sabaton
+47,'2013-05-05 23:04:26',87,7,100,0,?,0,0,0.03,'Doodge & Viper'
+51,'2013-04-27 20:19:11',?,?,43,0,?,8,8,0.02,'The White Panda'
+33,'2013-05-23 21:31:07',58,10,0,1,?,4,4,2.1,'Ani DiFranco'
+17,'2013-05-26 21:24:24',76,10,0,0,?,?,?,0.05,'Tina Turner'
+18,'2013-04-08 21:52:19',?,?,0,0,?,3,3,0.15,'Mike Candys feat. Evelyn & Patrick Miller'
+17,'2013-05-24 09:29:22',54,10,0,0,1694673088,?,?,0.42,'Meredith Brooks'
+25,'2013-06-11 09:08:32',67,10,71,1,?,4,4,0.3,www.Newmusic10.com
+39,'2013-05-22 22:58:09',71,10,57,1,?,1,1,0.4,'Daft Punk'
+60,'2013-06-20 21:09:44',77,10,0,0,50440384,5,5,0.24,ACDC
+15,'2013-05-03 07:21:40',36,10,0,0,1677830336,?,?,0,'Wiz Khalifa'
+33,'2013-04-09 15:27:41',81,10,0,0,-1912517110,8,8,0.04,'Ani DiFranco'
+15,'2013-04-10 18:21:23',61,10,0,0,1677830336,?,?,0,'JAY SEAN'
+71,'2013-05-20 09:09:29',47,10,100,1,?,?,?,0.05,'Hubert von Goisern'
+33,'2013-04-10 17:54:25',100,10,0,0,-1912517110,8,8,0,'Pearl Jam'
+15,'2013-04-23 12:17:00',76,10,0,0,1728161984,?,?,0,'Kanye West'
+17,'2013-04-10 08:07:32',?,?,0,0,?,?,?,0.05,'Robbie Williams'
+17,'2013-05-19 12:01:01',81,10,0,0,184549386,?,?,0.15,STS
+5,'2013-01-23 12:54:43',93,3,100,1,?,5,5,0.23,'The Birthday Massacre'
+37,'2013-06-10 16:34:26',?,?,0,0,-384433910,38,38,0.47,Atmosphere
+54,'2013-06-13 15:52:50',77,10,14,1,?,5,5,0,'Days in Grief'
+16,'2013-05-22 18:41:29',?,?,14,0,?,0,0,0.4,'Kispál és a Borz'
+15,'2013-04-11 15:58:46',?,?,0,0,?,?,?,0,'Drake feat. Lil\' Wayne & Tyga'
+33,'2013-06-17 09:41:59',?,?,0,0,?,5,5,0.96,'harry jen'
+5,'2013-01-24 12:56:03',93,5,100,1,?,5,5,0.23,Turisas
+54,'2013-06-19 18:09:56',74,10,14,1,?,5,5,0,MIA.
+15,'2013-05-15 06:09:35',67,10,0,0,1694607552,?,?,0,'JAMIE FOXX'
+5,'2013-06-18 08:39:44',59,10,57,1,?,5,5,0,'Letzte Instanz'
+25,'2013-05-07 00:50:37',64,10,71,1,?,4,4,2.99,'Secret Garden'
+54,'2013-05-19 19:53:48',82,10,100,1,?,0,0,0,'Adam Green'
+15,'2013-04-12 06:21:59',77,10,0,0,1728161984,?,?,0,'Drake feat. Lil\' Wayne & Tyga'
+72,'2013-06-01 17:13:58',?,?,14,1,?,1,1,1.45,'Macklemore & Ryan Lewis'
+51,'2013-05-11 08:30:33',64,10,43,0,?,8,8,0,'Red Hot Chili Peppers'
+5,'2013-01-24 12:56:03',93,5,100,0,?,5,5,0.57,'The Birthday Massacre'
+51,'2013-04-27 20:19:11',?,?,43,0,?,8,8,0,'Monica Reyes'
+33,'2013-05-09 21:50:23',88,10,71,1,?,8,8,0.04,'Die Fantastischen Vier'
+33,'2013-06-17 09:41:59',62,10,0,1,?,0,0,0.08,'harry jen'
+33,'2013-05-03 08:53:13',77,6,0,1,?,8,8,0.04,'Fiona Apple'
+15,'2013-05-11 14:16:38',68,10,0,1,?,?,?,0.5,2Pac
+16,'2013-05-12 23:50:23',?,?,14,0,?,0,0,0.26,'Neck Sprain'
+15,'2013-04-11 15:58:46',?,?,0,0,?,?,?,0,'Drake feat. Rihanna'
+37,'2013-06-17 17:00:58',?,?,0,1,?,53,53,1.18,'The Streets'
+17,'2013-05-24 15:36:14',?,?,71,0,?,9,9,0.28,'Sportfreunde Stiller'
+3,'2013-03-13 17:24:36',93,6,100,1,?,3,3,0.22,'Cold War Kids'
+21,'2013-05-01 13:24:55',94,8,71,1,?,10,10,0.03,'Jackson 5'
+3,'2013-01-25 18:44:21',93,3,100,0,1694607552,?,?,0,'The Freedom Sounds'
+3,'2013-03-02 20:13:19',100,2,100,0,1694542016,?,?,0,Kasabian
+3,'2013-01-25 18:44:21',93,3,100,0,1694607552,?,?,0.03,'Artie Christopher'
+15,'2013-05-15 06:09:35',67,10,0,1,?,?,?,0,'Ice prince Feat Braymo'
+16,'2013-04-22 19:17:52',69,10,71,1,?,5,5,0.17,'The Bamboos'
+25,'2013-05-27 15:01:44',76,10,71,1,?,4,4,1.15,www.Newmusic10.com
+5,'2013-06-18 08:39:44',59,10,57,1,?,0,0,0,'Letzte Instanz'
+3,'2013-01-25 18:44:21',93,3,100,0,1694607552,?,?,0.04,'The Southshore Commission'
+33,'2013-05-09 21:50:23',88,10,71,1,?,5,5,1.41,'Die Fantastischen Vier'
+48,'2013-04-22 14:15:38',81,10,0,1,?,3,3,0.4,'Biffy Clyro'
+25,'2013-05-02 17:48:01',68,10,71,1,?,0,0,0.16,'Ann Takle/Secret Garden'
+30,'2013-05-01 23:26:57',64,10,71,1,?,5,5,0.44,'Duran Duran'
+25,'2013-05-18 12:57:24',47,10,71,1,?,0,0,0.12,'B Mortazavi'
+33,'2013-04-11 00:00:16',62,10,71,0,1677830336,4,4,0.03,'Bob Dylan'
+15,'2013-04-11 15:58:46',?,?,0,0,?,?,?,0,'Justin Bieber - As Long As You Love Me (Www.4FunMusic.com)'
+51,'2013-04-16 12:38:38',71,10,43,0,16777226,8,8,0.09,'Stephane Pompougnac'
+54,'2013-04-22 14:50:22',82,7,29,1,?,5,5,0,'Days in Grief'
+60,'2013-06-10 19:22:50',72,10,0,1,?,4,4,0.24,'Bob Dylan'
+17,'2013-06-20 15:19:55',34,10,0,0,1711450304,?,?,0.08,'Hubert von Goisern'
+60,'2013-06-11 01:26:59',82,10,29,1,?,4,4,0.23,'Robert Plant & Alison Krauss'
+11,'2013-04-12 16:02:02',77,10,0,1,?,3,3,0.32,Casper
+16,'2013-06-07 11:39:46',?,?,14,0,?,0,0,1.48,'Caravan Palace'
+3,'2013-01-25 18:44:21',93,3,100,0,1694607552,?,?,0.01,'Clarence Wheeler & The Enforcers'
+16,'2013-04-18 18:57:29',?,?,71,0,?,4,4,1.72,'Caravan Palace'
+16,'2013-05-22 18:41:29',?,?,14,0,?,0,0,0.23,'Lamb of God'
+15,'2013-04-26 17:55:42',43,10,0,1,?,?,?,0.06,Wizkid
+25,'2013-05-22 21:32:11',67,10,71,1,?,0,0,0.6,'Hosseyn Panahi'
+16,'2013-05-09 21:22:13',?,?,14,0,?,0,0,2.57,'Caravan Palace'
+21,'2013-05-17 13:48:49',62,10,71,0,1694607552,10,10,0.11,'Tinie Tempah'
+3,'2013-04-17 10:21:34',52,10,0,1,?,5,5,0.14,'Massive Attack'
+54,'2013-05-05 16:34:14',82,10,71,0,184723648,?,?,0,'Asian Dub Foundation'
+62,'2013-05-08 22:10:04',56,10,0,1,?,5,5,0.56,'Paul & Linda McCartney'
+5,'2013-06-18 08:39:43',63,10,57,1,?,3,3,0.31,Ensiferum
+33,'2013-06-22 20:21:55',74,10,0,1,?,8,8,0.81,'Ani DiFranco'
+54,'2013-06-24 13:46:17',47,10,14,0,?,5,5,0.03,'Asian Dub Foundation'
+17,'2013-05-24 15:36:14',68,10,0,1,?,976129000,976129000,2.37,STS
+16,'2013-06-04 09:59:16',?,?,14,0,?,0,0,1.83,'Donna Summer'
+17,'2013-05-25 13:52:51',81,10,0,0,?,?,?,0.03,'Sportfreunde Stiller'
+16,'2013-05-22 18:41:29',?,?,14,0,?,0,0,0.28,'Caravan Palace'
+15,'2013-05-05 14:34:06',60,10,0,1,?,?,?,0.85,'Kanye West'
+15,'2013-04-11 15:58:46',?,?,0,0,?,?,?,0,'Kanye West'
+54,'2013-05-23 11:14:20',82,10,100,0,?,2,2,1.16,'Enter Shikari'
+17,'2013-05-19 12:01:01',81,10,0,0,184549386,?,?,0.2,STS
+58,'2013-04-21 16:29:40',49,10,57,1,?,0,0,0.58,'Knife Party'
+3,'2013-01-26 01:10:52',93,3,100,0,1694607552,?,?,0.06,Lulu
+25,'2013-05-18 12:57:24',60,10,71,1,?,4,4,1.68,saeeeeeeeed
+73,'2013-06-08 11:09:39',88,10,71,1,?,9,9,3.58,'Blind Guardian'
+37,'2013-05-29 23:07:26',?,?,0,1,?,50,50,0,'Thomas Siffling'
+17,'2013-04-10 08:07:32',?,?,0,0,?,?,?,0.21,'Sportfreunde Stiller'
+3,'2013-01-26 01:10:52',93,3,100,0,1694607552,?,?,0,'King Curtis & The Noble Knights'
+13,'2013-05-07 00:09:20',77,10,0,0,1711384768,3,3,0.16,'Die Ärzte'
+54,'2013-04-22 14:50:22',77,9,29,1,?,5,5,0,'We Are Scientists'
+3,'2013-01-26 01:10:52',93,3,100,0,1694607552,?,?,0.03,'Claudia Lennear'
+54,'2013-06-17 16:02:28',78,10,14,1,?,0,0,0.89,'Bloc Party.'
+3,'2013-01-26 01:10:52',93,3,100,0,1694607552,?,?,0,'Grassella Oliphant'
+39,'2013-05-21 22:03:00',?,?,57,0,?,0,0,0.33,'Daft Punk'
+3,'2013-03-17 12:39:43',60,10,50,1,?,5,5,0.22,'Snow Patrol'
+16,'2013-05-12 23:50:23',?,?,14,0,?,0,0,0.3,'Lamb of God'
+54,'2013-04-18 09:41:15',73,10,0,0,-1850126708,5,5,0,Ektomorf
+15,'2013-05-15 06:09:35',67,10,0,1,?,?,?,0,T.I.
+60,'2013-06-02 00:18:14',93,10,29,1,?,5,5,0.33,'The Police'
+30,'2013-06-16 07:55:34',54,10,0,0,16885952,5,5,0.95,Bastille
+67,'2013-05-15 21:23:38',36,10,71,1,?,3,3,1.43,'Bullet For My Valentine'
+17,'2013-04-15 20:27:57',?,?,0,0,?,9,9,0.16,'Udo Jürgens'
+15,'2013-05-15 06:09:35',67,10,0,1,?,?,?,0,Wizkid
+51,'2013-04-11 23:04:41',77,10,43,0,50331658,5,5,0.1,'Big Bad Voodoo Daddy'
+33,'2013-04-29 07:56:52',56,10,0,1,?,5,5,1.15,'Fiona Apple'
+40,'2013-04-09 14:44:43',62,10,43,1,?,1,1,1.42,'Trevor Jones; Randy Edelman'
+67,'2013-05-23 16:13:01',36,10,71,1,?,3,3,2.22,'Dennis Christopher'
+11,'2013-04-12 16:02:02',77,10,0,1,?,3,3,1.31,Casper
+54,'2013-04-20 12:12:05',39,10,100,1,?,3,3,1.05,'Adam Green'
+33,'2013-04-09 15:27:41',81,10,0,0,-1912517110,8,8,0,'Pearl Jam'
+37,'2013-07-01 14:07:24',?,?,14,1,?,55,55,3.46,'Bob Dylan'
+16,'2013-06-04 09:59:16',?,?,14,0,?,0,0,2.26,Mastodon
+37,'2013-05-04 17:47:39',?,?,0,1,?,50,50,0,'Gang Starr'
+15,'2013-04-11 15:58:46',?,?,0,0,?,?,?,0,eLDee
+37,'2013-05-04 17:47:39',100,3,0,1,?,63,63,0,'Whizz Vienna'
+3,'2013-01-26 01:10:52',93,3,100,0,1694607552,?,?,0.02,'Die Fantastischen Vier'
+16,'2013-04-15 20:59:13',?,?,100,0,?,0,0,2.32,'Creedence Clearwater Revival'
+37,'2013-05-29 23:07:26',?,?,0,1,?,57,57,0.46,'Ras G'
+54,'2013-06-11 15:06:05',94,10,29,1,?,5,5,0,'Ja, Panik'
+30,'2013-05-10 12:36:34',64,10,0,1,?,5,5,0.61,'DJ Antoine'
+37,'2013-06-08 20:22:13',?,?,0,1,?,56,56,0.18,Atmosphere
+54,'2013-04-18 09:41:15',53,10,100,0,783568524,5,5,0.1,'Knife Party'
+5,'2013-05-01 10:47:54',72,10,100,1,?,5,5,0.24,Equilibrium
+71,'2013-05-24 14:32:57',51,10,100,1,?,0,0,0.84,Silbermond
+54,'2013-05-09 13:12:12',61,10,100,1,?,3,3,0.95,'Enter Shikari'
+72,'2013-04-26 14:46:54',?,?,14,1,?,1,1,0.3,'Jessica Simpson'
+37,'2013-05-12 21:37:54',?,?,71,1,?,63,63,0.54,Atmosphere
+12,'2013-04-27 06:44:54',38,10,0,1,?,5,5,0.23,Q&A
+3,'2013-01-26 01:10:52',93,3,100,0,1694607552,?,?,3.35,'Die Fantastischen Vier'
+3,'2013-05-23 00:00:28',82,10,100,0,1711319232,?,?,0,'Jack White'
+54,'2013-04-18 09:41:15',53,10,0,0,783568524,5,5,0,'Asian Dub Foundation'
+17,'2013-05-24 15:36:14',?,?,71,0,?,9,9,0.23,'Sportfreunde Stiller'
+54,'2013-04-10 23:56:27',66,10,100,0,134523072,3,3,0.03,'Ja, Panik'
+75,'2013-05-30 15:11:51',82,10,100,0,?,8,8,0,Tacabro
+37,'2013-07-01 14:07:24',88,9,0,1,?,38,38,1.01,Feist
+48,'2013-04-11 09:11:29',47,10,0,0,1744939200,9,9,0.05,'Mumford & Sons'
+60,'2013-04-27 16:55:12',43,10,29,0,84060352,8,8,0.35,'The Cult'
+37,'2013-05-22 19:46:42',?,?,0,1,?,33,33,0,'Erykah Badu'
+17,'2013-04-26 16:09:45',60,10,0,0,83886090,9,9,0.84,'Die Ärzte'
+75,'2013-05-31 15:41:33',93,5,100,1,?,5,5,0.63,'Demi Lovato'
+3,'2013-01-26 21:06:07',99,0,100,0,1694607552,?,?,0,'KC and The Sunshine Band'
+33,'2013-06-17 09:41:59',?,?,0,0,-1996403190,8,8,0.02,'harry jen'
+54,'2013-05-23 11:14:20',82,10,100,0,1415817408,5,5,0.04,'Enter Shikari'
+5,'2013-06-18 08:39:44',52,10,57,1,?,5,5,0,Månegarm
+15,'2013-04-12 06:21:59',77,10,0,0,1728161984,?,?,0,'2 Face Idibia - @Recessonline'
+11,'2013-05-03 14:51:55',49,10,0,0,?,5,5,1.2,'Camo & Krooked'
+37,'2013-05-28 17:06:41',?,?,0,1,?,50,50,0.75,'Apollo Gold'
+3,'2013-03-05 09:26:04',65,10,0,1,?,5,5,0.75,'The Heavy'
+32,'2013-05-15 16:51:25',41,10,0,1,?,0,0,0.05,'The Outfield'
+66,'2013-04-28 19:50:18',?,?,0,0,16777226,3,3,0.67,U2
+71,'2013-05-20 09:09:29',50,10,100,1,?,1,1,0.06,'Jerry Reed'
+71,'2013-06-07 16:04:02',77,10,86,1,?,0,0,0.13,Nightwish
+13,'2013-04-13 22:00:34',95,9,29,0,1593835530,5,5,0,'Funny van Dannen'
+30,'2013-04-21 23:21:03',77,10,0,0,50440384,5,5,0.68,'James Arthur'
+22,'2013-04-22 07:39:51',87,10,0,1,?,0,0,0.43,'Linkin Park'
+51,'2013-04-28 08:40:10',76,10,43,0,16777226,4,4,0.4,'Daft Punk ( feat.Pharrel Williams & Nile Rodgers)'
+3,'2013-03-23 01:21:59',45,10,100,1,?,5,5,0.11,'Snow Patrol'
+3,'2013-01-26 21:06:07',99,0,100,0,1694607552,?,?,0.13,'System of a Down'
+25,'2013-05-15 17:30:55',65,10,71,1,?,0,0,0.24,'B Mortazavi'
+54,'2013-04-22 14:50:22',77,9,29,1,?,3,3,0,'City and Colour'
+33,'2013-04-09 15:27:41',81,10,0,0,-1912517110,8,8,0.04,'Ani DiFranco'
+16,'2013-05-12 23:50:23',92,10,14,0,?,0,0,0.1,'Kool & The Gang'
+71,'2013-05-31 14:29:33',93,10,86,1,?,0,0,0.09,BeeGees
+47,'2013-04-10 19:36:26',76,10,100,0,?,8,8,0.02,'Paul Van Dyk'
+5,'2013-07-02 13:47:03',?,?,100,1,?,3,3,0.23,'Iron Savior'
+37,'2013-06-14 19:33:39',?,?,0,1,?,46,46,0.5,'Cody ChesnuTT'
+17,'2013-06-11 16:17:47',77,10,0,0,1728227520,?,?,0.09,'Sportfreunde Stiller'
+35,'2013-04-20 18:08:24',81,14,71,1,?,9,9,0.04,'Aphex Twin'
+62,'2013-05-28 22:45:52',82,10,71,1,?,0,0,1.36,'Antônio Carlos Jobim'
+5,'2013-03-05 14:56:12',?,?,100,0,?,3,3,0.52,'Roman Polansky'
+54,'2013-06-12 23:09:41',64,10,29,1,?,5,5,0,'Bloc Party.'
+3,'2013-05-16 21:00:03',68,10,100,0,-1811896128,?,?,0.05,'The Heavy'
+75,'2013-05-30 15:11:51',82,10,100,0,?,8,8,0,'Die Toten Hosen'
+3,'2013-01-28 20:00:42',86,10,100,0,1694607552,?,?,0.16,'Steaming Satellites'
+72,'2013-04-26 14:46:54',?,?,14,1,?,1,1,0.41,'P!nk featuring Nate Ruess'
+54,'2013-04-22 14:50:22',82,7,29,1,?,5,5,0,Ektomorf
+54,'2013-04-22 14:50:22',77,9,29,1,?,5,5,0,P!nk
+15,'2013-04-12 06:21:59',77,10,0,0,1728161984,?,?,0,Skyzoo
+37,'2013-05-07 18:32:17',64,10,0,1,?,0,0,0,'Kenmochi Hidefumi'
+60,'2013-06-02 00:18:14',82,6,29,1,?,4,4,0.42,'The Police'
+17,'2013-05-19 12:01:01',81,10,0,0,184549386,?,?,0.39,STS
+66,'2013-05-28 20:22:01',60,10,0,1,?,3,3,4.28,'Red Hot Chili Peppers'
+62,'2013-05-08 22:10:04',39,10,0,1,?,4,4,2.11,Radiohead
+33,'2013-05-02 15:33:34',77,7,0,0,1711361546,8,8,0.47,'Fiona Apple'
+54,'2013-06-13 08:57:10',77,10,14,1,?,2,2,0.22,Placebo
+37,'2013-06-22 23:44:28',?,?,?,1,?,33,33,0,'The Specifics'
+3,'2013-04-01 11:35:34',64,10,100,1,?,5,5,0.15,'The Raconteurs'
+37,'2013-06-08 20:22:13',?,?,0,1,?,50,50,0,'Erykah Badu'
+25,'2013-05-18 12:57:24',36,10,0,1,?,5,5,0.45,'B Mortazavi'
+54,'2013-06-13 15:52:50',50,10,14,1,?,5,5,0,'Get Well Soon'
+25,'2013-06-11 09:08:32',71,10,71,1,?,8,8,0.1,'Secret Garden'
+3,'2013-01-28 20:00:42',74,10,100,0,1694607552,?,?,0,'Pearl Jam'
+48,'2013-04-11 09:11:29',47,10,0,0,1744939200,9,9,0.05,'Mumford & Sons'
+3,'2013-01-28 20:00:42',74,10,100,0,1694607552,?,?,0.01,'Pearl Jam'
+5,'2013-06-18 08:39:44',65,10,57,1,?,0,0,0,'Rhymes Of Destruction'
+30,'2013-06-07 12:38:54',100,10,0,1,?,0,0,0.16,'Macklemore&Ray Dalton'
+62,'2013-05-28 22:45:52',72,10,71,1,?,0,0,1.86,'Paul & Linda McCartney'
+25,'2013-04-30 17:32:10',67,10,71,1,?,0,0,1.14,saeeeeeeeed
+3,'2013-03-17 12:39:43',51,10,100,1,?,5,5,0.14,'Die Fantastischen Vier'
+19,'2013-04-19 14:22:54',77,10,100,1,?,1,1,1.75,Bonobo
+54,'2013-04-18 09:41:15',73,10,0,0,-1850126708,3,3,0.08,Ektomorf
+25,'2013-04-29 17:47:37',60,10,71,1,?,3,3,1.31,'The End Of World'
+25,'2013-05-15 17:30:55',65,10,71,1,?,0,0,0.2,'B Mortazavi'
+37,'2013-05-02 17:31:16',94,6,0,1,?,50,50,0.08,'Bright Eyes'
+54,'2013-05-02 08:34:05',68,10,100,1,?,5,5,0.09,'Petsch Moser'
+51,'2013-05-01 16:48:52',?,?,43,0,?,0,0,0.64,Milkman
+54,'2013-06-11 15:06:05',94,10,29,1,?,5,5,0,'Ja, Panik'
+16,'2013-04-16 20:20:46',43,10,100,0,?,6,6,1.76,'Dope D.O.D.'
+37,'2013-05-08 19:04:22',?,?,0,1,?,100,100,0,'Mr. SOS'
+5,'2013-01-31 15:32:26',?,?,100,0,?,5,5,0.05,Estampie
+54,'2013-06-17 10:01:08',47,10,14,1,?,3,3,0,'Clara Luzia'
+51,'2013-04-25 18:17:41',?,?,43,0,?,0,0,0.49,'Red Hot Chili Peppers'
+15,'2013-05-15 00:04:50',82,10,0,1,?,?,?,0.91,'Kanye West'
+60,'2013-06-02 00:18:14',?,?,29,1,?,8,8,0.38,'The Police'
+53,'2013-05-08 16:08:00',60,10,29,1,?,3,3,3.82,'Lady Sovereign'
+62,'2013-04-15 23:11:37',68,10,71,0,-989812544,0,0,0.49,'King Crimson'
+54,'2013-06-19 18:09:56',74,10,14,1,?,5,5,0,MIA.
+54,'2013-06-11 15:06:05',77,10,29,1,?,3,3,0.05,P!nk
+17,'2013-05-24 15:36:14',68,10,0,1,?,9,9,0.87,STS
+33,'2013-04-10 17:54:25',100,10,0,0,-1912517110,0,0,0,'Pearl Jam'
+5,'2013-01-31 15:32:26',?,?,100,1,?,5,5,0.24,Labyrinth
+30,'2013-05-02 23:07:16',83,5,0,1,?,5,5,0.83,'MacKlemore feat. Wanz'
+35,'2013-04-29 19:13:46',81,14,0,0,33925312,9,9,0.05,Björk
+16,'2013-06-04 09:59:16',?,?,14,0,?,0,0,0.28,'Rage Against The Machine'
+54,'2013-04-20 12:12:05',40,10,100,1,?,5,5,0.06,Soulfly
+33,'2013-04-17 21:19:45',41,10,71,1,?,8,8,0.93,'Die Fantastischen Vier'
+17,'2013-05-27 11:29:11',87,10,0,0,1677895872,?,?,0.07,'Sportfreunde Stiller'
+37,'2013-07-01 14:07:24',?,?,0,1,?,0,0,0,'Beastie Boys'
+15,'2013-04-11 15:58:46',?,?,0,0,?,?,?,0,Wizkid
+25,'2013-06-14 11:10:32',94,10,14,1,?,0,0,2.87,Samsung
+62,'2013-05-05 19:39:13',68,10,0,1,?,8,8,0.05,'King Crimson'
+42,'2013-04-25 16:28:21',94,2,71,0,671131840,0,0,0.05,'Oscar Peterson'
+61,'2013-04-20 10:44:13',41,10,0,0,50331738,5,5,0.16,'Panic At The Disco'
+16,'2013-04-15 20:59:13',?,?,100,0,?,3,3,1.45,'The Bamboos'
+37,'2013-05-28 17:06:41',?,?,0,1,?,50,50,5.78,'Bright Eyes'
+54,'2013-05-19 19:53:48',82,10,100,1,?,5,5,0.02,'Mumford & Sons'
+3,'2013-02-13 09:55:41',86,6,0,1,?,5,5,0.65,'Peter Fox'
+33,'2013-05-14 14:31:11',63,10,0,0,-1780569920,4,4,3.86,'Fiona Apple'
+3,'2013-02-13 09:55:41',86,6,0,1,?,5,5,0.18,Dillon
+15,'2013-04-15 06:19:13',42,10,0,0,?,?,?,0,Akon
+16,'2013-06-07 11:39:46',89,9,14,0,?,3,3,0.2,Beatallica
+66,'2013-05-18 20:22:24',67,10,0,1,?,3,3,1.88,U2
+5,'2013-04-10 10:51:11',51,10,29,1,?,3,3,0.36,'Maurice Ravel'
+3,'2013-05-24 21:13:05',82,10,100,0,1711319232,?,?,0,Alt-J
+62,'2013-05-22 05:15:49',63,10,71,1,?,4,4,0.41,'Paul McCartney'
+5,'2013-06-18 08:39:43',55,10,57,1,?,5,5,0,Ensiferum
+72,'2013-06-01 17:13:58',?,?,14,1,?,0,0,0.21,Liquido
+75,'2013-05-30 15:11:51',82,10,100,0,?,8,8,0,'R.I.O. feat. U-Jean'
+76,'2013-07-02 17:12:53',51,10,100,1,?,8,8,0.24,'Beverley Craven -'
+47,'2013-05-05 23:04:26',87,7,100,1,?,4,4,0.63,Cheryl
+54,'2013-05-02 08:34:05',68,10,100,1,?,0,0,1.65,'Marco Petralia & DJ Monique vs. Gastone'
+17,'2013-05-26 21:24:24',87,10,0,0,1677895872,?,?,0.11,'Sportfreunde Stiller'
+12,'2013-04-16 07:37:45',71,10,0,1,?,5,5,0.2,'Breaking Benjamin'
+37,'2013-07-01 14:07:24',?,?,0,1,?,69,69,1.5,'Whizz Vienna'
+60,'2013-06-19 12:45:12',77,10,29,0,50440384,8,8,0.08,Beethoven
+11,'2013-04-12 16:02:02',77,10,0,1,?,3,3,1.12,Casper
+54,'2013-06-17 10:01:08',47,10,14,1,?,5,5,0,P!nk
+72,'2013-06-09 12:18:11',?,?,14,1,?,?,?,0.33,'Macklemore & Ryan Lewis'
+35,'2013-04-20 18:08:24',81,14,71,0,-1370317426,9,9,0.05,'Aphex Twin'
+42,'2013-05-02 15:24:30',66,10,71,1,?,5,5,0.52,'Brandi Carlile'
+60,'2013-06-14 16:23:29',72,10,29,1,?,8,8,0.05,'The xx'
+17,'2013-05-22 15:00:58',52,10,0,0,1677895872,?,?,0.07,Madsen
+62,'2013-04-25 15:31:52',70,2,0,0,-989812544,4,4,0.42,Radiohead
+33,'2013-04-09 15:27:41',81,10,0,0,-1912517110,8,8,0.03,'Pearl Jam'
+70,'2013-06-05 16:11:13',81,9,0,1,?,3,3,0.48,Volbeat
+37,'2013-07-01 14:07:24',?,?,43,1,?,54,54,1.13,'Mr. SOS'
+54,'2013-05-01 19:53:23',82,8,29,1,?,5,5,0,'Asian Dub Foundation'
+17,'2013-05-24 15:36:14',?,?,0,0,?,9,9,0.16,'Sportfreunde Stiller'
+42,'2013-04-14 20:30:16',77,10,71,1,?,0,0,0.14,'Los Lobos'
+35,'2013-04-18 20:04:59',57,14,0,0,33925312,9,9,0.04,'Dweezil Zappa'
+17,'2013-05-07 15:15:18',?,?,0,0,?,9,9,0.08,STS
+71,'2013-05-19 10:32:28',56,10,100,1,?,1,1,0.84,Muse
+17,'2013-04-30 19:14:57',?,?,0,0,?,858993000,858993000,0.65,'Die Toten Hosen'
+47,'2013-04-16 08:23:55',62,10,100,0,?,8,8,0.03,'The Guild'
+54,'2013-05-01 19:53:23',72,10,29,1,?,5,5,0.06,'Austrian Death Machine'
+21,'2013-05-17 13:48:49',94,10,71,0,?,10,10,0.13,Blame
+5,'2013-02-19 05:12:33',86,4,57,1,?,5,5,0.05,'Aphex Twin'
+35,'2013-04-17 02:18:27',67,14,71,0,1316920718,9,9,0.05,'Boards Of Canada'
+37,'2013-05-29 23:07:26',?,?,0,1,?,100,100,0,'One Self'
+54,'2013-04-22 14:50:22',84,7,29,1,?,3,3,1.61,'Days in Grief'
+18,'2013-04-26 17:33:59',34,10,0,1,?,5,5,0.35,'DJ Antoine vs. Mad Mark 2k13'
+37,'2013-07-01 14:07:24',?,?,33,1,?,54,54,2.01,'Bob Dylan'
+33,'2013-04-10 17:54:25',58,10,71,0,?,8,8,1.45,'Dave Grusin'
+61,'2013-04-18 16:36:00',46,10,0,0,50331738,2,2,0.58,'Bon Jovi'
+33,'2013-05-03 08:53:13',77,6,0,1,?,4,4,0.28,'Fiona Apple'
+33,'2013-04-10 17:54:25',58,10,71,0,-625717620,4,4,1.72,'Dave Grusin'
+25,'2013-06-11 09:08:32',67,10,71,1,?,0,0,2.86,www.Newmusic10.com
+15,'2013-04-23 12:17:00',76,10,0,0,1728161984,?,?,1.71,Fabolous
+15,'2013-04-11 15:58:46',?,?,0,0,?,?,?,0,'Culcha Candela'
+16,'2013-04-22 19:17:52',69,10,71,1,?,6,6,0.22,'The Bamboos'
+54,'2013-05-23 11:14:20',82,10,100,0,1415817408,5,5,0.05,'Enter Shikari'
+54,'2013-04-22 08:47:33',87,7,100,0,134523072,3,3,0.29,'Mumford & Sons'
+32,'2013-05-15 23:41:40',43,10,0,1,50440384,0,0,0.12,'Mr. Big'
+60,'2013-06-15 17:36:29',63,10,29,0,84060352,8,8,0.11,'George Harrison'
+15,'2013-04-24 16:55:48',72,8,0,1,?,?,?,0.28,Akon
+54,'2013-05-02 08:34:05',60,10,100,1,?,5,5,0.05,'Mumford & Sons'
+37,'2013-05-08 19:04:22',?,?,0,1,?,50,50,0.5,'The Jimi Hendrix Experience'
+33,'2013-05-14 14:31:11',63,10,0,0,?,4,4,1.3,'Fiona Apple'
+17,'2013-05-13 08:45:22',?,?,0,0,?,?,?,0.1,'Sportfreunde Stiller'
+33,'2013-04-10 17:54:25',100,10,0,0,-1912517110,8,8,0,'Pearl Jam'
+15,'2013-04-11 15:58:46',?,?,0,0,?,?,?,0,Skyzoo
+15,'2013-04-11 15:58:46',?,?,0,0,?,?,?,0,Skyzoo
+15,'2013-04-10 18:21:23',61,10,0,0,1677830336,?,?,0,'Mario Vazquez'
+17,'2013-06-16 18:36:55',51,10,0,0,1711450304,?,?,0.13,Pro7-dieBand
+17,'2013-05-24 09:29:22',54,10,0,0,?,?,?,0,'Bryan Adams'
+5,'2013-06-18 08:39:44',61,10,57,0,?,3,3,0.96,'Letzte Instanz'
+15,'2013-04-15 06:19:13',42,10,0,0,?,?,?,0,'Drake feat. Lil\' Wayne & Tyga'
+71,'2013-04-22 16:58:20',56,10,100,1,?,1,1,0.93,Muse
+25,'2013-06-11 09:08:32',94,10,71,1,?,0,0,0.81,'Unknown Artist'
+67,'2013-05-10 18:16:16',?,?,0,0,?,5,5,0.13,'Bloodhound Gang'
+37,'2013-06-02 16:03:25',?,?,0,1,?,43,43,0,Aceyalone
+15,'2013-04-12 06:21:59',77,10,0,1,?,?,?,0,Wizkid
+35,'2013-04-17 02:18:27',92,7,71,1,?,9,9,0.06,'Bad Religion'
+62,'2013-05-22 05:15:49',56,10,71,0,204116417,4,4,0.5,'Paul McCartney'
+3,'2013-05-23 00:00:28',82,10,100,0,1711319232,?,?,3.44,Pond
+71,'2013-05-24 14:32:57',51,10,100,1,?,1,1,0.65,'Christina Stürmer'
+33,'2013-04-10 17:54:25',100,10,0,0,-1912517110,8,8,0.03,Coldplay
+39,'2013-05-16 00:37:25',63,10,57,0,671088650,0,0,0.27,'Daft Punk'
+54,'2013-06-11 08:41:15',57,10,14,1,?,0,0,1.21,'Austrian Death Machine'
+37,'2013-07-01 14:07:24',?,?,43,1,?,50,50,2.02,'Bob Dylan'
+17,'2013-04-10 08:07:32',47,10,0,0,?,?,?,0.59,'Die Toten Hosen'
+3,'2013-05-23 00:00:28',82,10,100,0,1711319232,?,?,0,'Daft Punk'
+13,'2013-04-18 00:05:28',91,10,100,0,1593835530,3,3,0.22,'Die Fantastischen Vier'
+3,'2013-05-23 00:00:28',82,10,100,0,1711319232,?,?,0,'Die Fantastischen Vier'
+15,'2013-04-14 19:26:10',87,10,0,0,1728161984,?,?,0,'Wiz Khalifa'
+15,'2013-04-15 06:19:13',42,10,0,0,1728161984,?,?,0,'Gotye  Feat. Kimbra'
+15,'2013-04-14 19:26:10',87,10,0,0,1728161984,?,?,0,'Trey Songz'
+15,'2013-04-12 06:21:59',77,10,0,1,?,?,?,0,'David Guetta'
+3,'2013-05-16 21:00:03',68,10,100,0,-1811896128,?,?,0.05,'Dave Grohl, Josh Homme & Trent Reznor'
+17,'2013-05-25 13:52:51',81,10,0,0,1694673088,?,?,0.06,'Sportfreunde Stiller'
+62,'2013-05-05 19:39:13',68,10,0,1,?,8,8,0.04,'King Crimson'
+16,'2013-05-22 18:41:29',?,?,14,0,?,0,0,0.34,'Lamb of God'
+53,'2013-05-04 19:34:12',56,10,29,0,50331658,3,3,0.43,'The Killers'
+33,'2013-04-11 00:00:16',62,10,71,0,1677830336,4,4,0.04,'Bob Dylan'
+3,'2013-04-01 17:50:07',60,10,100,1,?,5,5,0.12,'Paul Banks'
+5,'2013-06-18 08:39:44',72,10,57,1,?,0,0,0,'Letzte Instanz'
+15,'2013-04-12 06:21:59',77,10,0,1,?,?,?,0,'Gotye  Feat. Kimbra'
+15,'2013-04-14 19:26:10',87,10,0,0,1728161984,?,?,0,'Gotye  Feat. Kimbra'
+3,'2013-04-26 15:41:05',77,10,0,1,?,5,5,0.15,'The Heavy'
+17,'2013-05-23 14:14:53',52,10,0,0,?,?,?,0,Madsen
+15,'2013-05-05 14:34:06',60,10,0,1,?,?,?,0.82,P-SQUARE
+54,'2013-05-01 19:53:23',64,10,29,1,?,5,5,0,'Austrian Death Machine'
+54,'2013-05-03 21:33:44',77,10,14,1,?,3,3,0.38,'Enter Shikari'
+33,'2013-04-09 15:27:41',81,10,0,0,-1912517110,8,8,0.02,'Ani DiFranco'
+11,'2013-05-05 19:16:52',53,10,71,1,?,2,2,0.58,Casper
+15,'2013-04-14 19:26:10',87,10,0,0,1728161984,?,?,0,'Fabolous Ft Pdiddy JE'
+32,'2013-05-20 22:57:54',88,10,0,1,?,0,0,0.13,'Kate Winslet'
+53,'2013-04-12 12:34:09',62,10,29,1,?,3,3,1.75,'Sammy Adams'
+15,'2013-04-11 15:58:46',?,?,0,0,?,?,?,0,'Rick Ross'
+15,'2013-05-05 14:34:06',60,10,0,1,?,?,?,0.14,'JAY SEAN'
+54,'2013-05-05 16:34:14',82,10,71,0,184723648,?,?,0,'City and Colour'
+40,'2013-04-17 05:17:35',88,10,43,1,?,0,0,0.85,'Trevor Jones; Randy Edelman'
+54,'2013-05-18 09:00:09',82,10,100,1,?,3,3,0.41,'Adam Green'
+16,'2013-05-08 18:52:02',?,?,14,0,?,0,0,3.73,'Lamb of God'
+33,'2013-06-23 19:29:13',57,10,43,1,?,4,4,2.43,'Pat Metheny Group'
+25,'2013-06-11 09:08:32',94,10,71,1,?,0,0,1.05,'Over The Rainbow'
+54,'2013-06-19 18:09:56',62,10,14,1,?,5,5,0,'Arctic Monkeys'
+17,'2013-05-22 15:00:58',52,10,0,0,?,?,?,0,Madsen
+37,'2013-06-08 20:22:13',?,?,0,1,?,48,48,0,'Cody ChesnuTT'
+15,'2013-04-10 18:21:23',61,10,0,0,1677830336,?,?,0.23,Drake
+5,'2013-07-02 13:47:03',?,?,100,1,?,3,3,1.41,Rhapsody
+53,'2013-04-11 08:52:42',87,10,0,0,33554442,?,?,0.4,'Modest Mouse'
+66,'2013-06-16 20:02:53',37,10,0,1,?,5,5,0.75,'Red Hot Chili Peppers'
+16,'2013-05-22 18:41:29',?,?,14,0,?,4,4,0.88,'Creedence Clearwater Revival'
+16,'2013-04-15 20:59:13',?,?,100,0,?,3,3,0.78,'Wild Cherry'
+67,'2013-05-23 16:13:01',36,10,71,1,?,2,2,1.26,'Citrus Hill'
+3,'2013-02-25 11:45:50',80,6,100,1,?,5,5,0.22,Alt-J
+16,'2013-05-08 18:52:02',?,?,14,0,?,0,0,0.93,'Kool & The Gang'
+16,'2013-04-22 19:17:52',69,10,71,0,?,0,0,0.37,'Creedence Clearwater Revival'
+60,'2013-06-02 00:18:14',71,10,29,1,?,4,4,0.45,'The Police'
+37,'2013-05-29 23:07:26',?,?,0,1,?,100,100,0,'Dilated Peoples'
+60,'2013-06-14 16:23:29',72,10,29,1,?,8,8,0.21,R.E.M.
+51,'2013-04-27 20:19:11',?,?,43,0,?,8,8,0,Samsung
+37,'2013-05-21 13:44:49',?,?,0,1,?,59,59,0.64,'Tha Connection'
+62,'2013-04-16 19:42:52',53,10,0,1,?,5,5,0.38,'King Crimson'
+44,'2013-05-02 21:33:48',94,10,71,1,?,1,1,0.32,'Ernesto Vs Bastian'
+54,'2013-06-11 15:06:05',73,10,29,1,?,5,5,0,'Arctic Monkeys'
+54,'2013-04-22 14:50:22',82,7,29,1,?,5,5,0,'Days in Grief'
+71,'2013-05-20 09:09:29',47,10,100,1,?,1,1,0.25,'Klaus Doldinger'
+3,'2013-03-05 09:26:04',65,10,0,1,?,5,5,0.04,'Chris Cornell'
+5,'2013-06-18 08:39:43',55,10,57,1,?,5,5,0,Moonsorrow
+54,'2013-06-17 10:01:08',47,10,14,1,?,5,5,0,'Clara Luzia'
+39,'2013-05-21 22:03:00',?,?,100,0,1795162122,1,1,0.05,'Daft Punk'
+40,'2013-04-12 05:51:23',93,10,43,1,?,0,0,0,'David Garrett'
+3,'2013-02-26 17:45:17',100,5,100,1,?,5,5,0.14,'The Heavy'
+15,'2013-05-15 06:09:35',67,10,0,1,?,?,?,0,'Trey Songz'
+54,'2013-04-22 14:50:22',82,7,29,1,?,5,5,0,'Days in Grief'

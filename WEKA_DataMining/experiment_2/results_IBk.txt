@@ -1,0 +1,840 @@
+
+Options: -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          97               97      %
+Incorrectly Classified Instances         3                3      %
+Kappa statistic                          0.9682
+Mean absolute error                      0.0181
+Root mean squared error                  0.0525
+Relative absolute error                 19.2008 %
+Root relative squared error             24.1543 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      73.5    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.011    0.900      1.000    0.947      0.943    0.999     0.989     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 0.800    0.011    0.800      0.800    0.800      0.789    0.996     0.886     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.011    0.857      1.000    0.923      0.921    0.999     0.976     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 0.500    0.000    1.000      0.500    0.667      0.700    0.995     0.833     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.970    0.002    0.972      0.970    0.967      0.968    0.999     0.985     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0  9  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  1  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  1  0  0  0  0  1  0  0  0  0  2  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          41               41      %
+Incorrectly Classified Instances        59               59      %
+Kappa statistic                          0.3739
+Mean absolute error                      0.0655
+Root mean squared error                  0.2225
+Relative absolute error                 69.0499 %
+Root relative squared error            102.006  %
+Coverage of cases (0.95 level)          81      %
+Mean rel. region size (0.95 level)      74.5    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.739     0.281     The Heavy
+                 0.429    0.075    0.300      0.429    0.353      0.300    0.683     0.169     Fiona Apple
+                 0.333    0.066    0.333      0.333    0.333      0.267    0.639     0.186     Die Fantastischen Vier
+                 0.667    0.010    0.667      0.667    0.667      0.656    0.832     0.455     P!nk
+                 0.200    0.011    0.500      0.200    0.286      0.295    0.603     0.141     Red Hot Chili Peppers
+                 0.250    0.031    0.250      0.250    0.250      0.219    0.617     0.093     Ani DiFranco
+                 0.000    0.042    0.000      0.000    0.000      -0.047   0.489     0.051     Daft Punk
+                 0.200    0.063    0.143      0.200    0.167      0.117    0.665     0.109     Pearl Jam
+                 0.000    0.063    0.000      0.000    0.000      -0.052   0.479     0.041     Kanye West
+                 0.833    0.011    0.833      0.833    0.833      0.823    0.913     0.705     STS
+                 0.000    0.041    0.000      0.000    0.000      -0.029   0.490     0.020     Letzte Instanz
+                 0.900    0.011    0.900      0.900    0.900      0.889    0.946     0.820     Sportfreunde Stiller
+                 0.667    0.043    0.500      0.667    0.571      0.546    0.810     0.318     Bob Dylan
+                 0.250    0.031    0.250      0.250    0.250      0.219    0.617     0.093     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.750     0.354     Caravan Palace
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.878     0.760     Lamb of God
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.495     0.041     Wizkid
+                 0.000    0.042    0.000      0.000    0.000      -0.042   0.479     0.040     Asian Dub Foundation
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.505     0.041     Mumford & Sons
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.878     0.760     King Crimson
+Weighted Avg.    0.410    0.033    0.430      0.410    0.413      0.385    0.698     0.307     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 3 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 | a = The Heavy
+ 1 3 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 3 0 0 0 0 1 1 0 0 0 0 2 0 0 0 1 0 0 | c = Die Fantastischen Vier
+ 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 1 0 0 0 0 0 3 0 0 0 0 0 0 0 1 0 | e = Red Hot Chili Peppers
+ 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 0 1 1 0 0 0 2 0 0 0 0 1 0 0 | g = Daft Punk
+ 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 1 0 0 | h = Pearl Jam
+ 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 5 0 1 0 0 0 0 0 0 0 0 | j = STS
+ 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 1 0 0 0 0 0 0 0 0 0 4 0 0 0 0 1 0 0 | m = Bob Dylan
+ 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 | n = Casper
+ 0 0 1 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 1 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 | s = Mumford & Sons
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 | t = King Crimson
+
+
+Options: -K 5 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 5 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          50               50      %
+Incorrectly Classified Instances        50               50      %
+Kappa statistic                          0.467 
+Mean absolute error                      0.0613
+Root mean squared error                  0.17  
+Relative absolute error                 64.944  %
+Root relative squared error             78.2967 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      17.1    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.138    0.278      0.833    0.417      0.430    0.922     0.292     The Heavy
+                 0.429    0.086    0.273      0.429    0.333      0.279    0.941     0.529     Fiona Apple
+                 0.444    0.055    0.444      0.444    0.444      0.389    0.908     0.510     Die Fantastischen Vier
+                 0.667    0.000    1.000      0.667    0.800      0.812    0.995     0.833     P!nk
+                 0.600    0.000    1.000      0.600    0.750      0.767    0.979     0.654     Red Hot Chili Peppers
+                 0.750    0.063    0.333      0.750    0.462      0.471    0.943     0.292     Ani DiFranco
+                 0.600    0.063    0.333      0.600    0.429      0.409    0.958     0.496     Daft Punk
+                 0.400    0.032    0.400      0.400    0.400      0.368    0.962     0.411     Pearl Jam
+                 0.250    0.000    1.000      0.250    0.400      0.492    0.949     0.426     Kanye West
+                 0.500    0.011    0.750      0.500    0.600      0.593    0.984     0.675     STS
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.929     0.125     Letzte Instanz
+                 0.900    0.033    0.750      0.900    0.818      0.800    0.990     0.888     Sportfreunde Stiller
+                 0.500    0.021    0.600      0.500    0.545      0.522    0.985     0.776     Bob Dylan
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.940     0.337     Casper
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.992     0.733     Caravan Palace
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.996     0.893     Lamb of God
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.927     0.235     Wizkid
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.906     0.190     Asian Dub Foundation
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.984     0.571     Mumford & Sons
+                 1.000    0.010    0.800      1.000    0.889      0.890    0.997     0.950     King Crimson
+Weighted Avg.    0.500    0.033    0.494      0.500    0.466      0.457    0.959     0.567     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 5 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 3 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 2 4 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 1 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 | e = Red Hot Chili Peppers
+ 0 1 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 1 0 0 0 0 0 3 0 0 0 0 0 1 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 2 1 2 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 1 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 | j = STS
+ 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 1 0 0 0 2 0 0 0 0 0 3 0 0 0 0 0 0 0 | m = Bob Dylan
+ 0 2 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 | n = Casper
+ 0 2 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | o = Caravan Palace
+ 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 | p = Lamb of God
+ 2 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 0 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 1 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          23               23      %
+Incorrectly Classified Instances        77               77      %
+Kappa statistic                          0.1779
+Mean absolute error                      0.0762
+Root mean squared error                  0.2067
+Relative absolute error                 80.3314 %
+Root relative squared error             94.7548 %
+Coverage of cases (0.95 level)          66      %
+Mean rel. region size (0.95 level)      18.05   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.167    0.160    0.063      0.167    0.091      0.005    0.681     0.105     The Heavy
+                 0.429    0.161    0.167      0.429    0.240      0.178    0.814     0.255     Fiona Apple
+                 0.333    0.033    0.500      0.333    0.400      0.362    0.623     0.316     Die Fantastischen Vier
+                 0.000    0.021    0.000      0.000    0.000      -0.025   0.796     0.159     P!nk
+                 0.200    0.000    1.000      0.200    0.333      0.438    0.860     0.382     Red Hot Chili Peppers
+                 0.000    0.094    0.000      0.000    0.000      -0.064   0.839     0.148     Ani DiFranco
+                 0.200    0.042    0.200      0.200    0.200      0.158    0.839     0.210     Daft Punk
+                 0.000    0.042    0.000      0.000    0.000      -0.047   0.884     0.238     Pearl Jam
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.534     0.043     Kanye West
+                 0.000    0.043    0.000      0.000    0.000      -0.052   0.957     0.600     STS
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.393     0.021     Letzte Instanz
+                 0.600    0.100    0.400      0.600    0.480      0.420    0.967     0.811     Sportfreunde Stiller
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.887     0.427     Bob Dylan
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.622     0.059     Casper
+                 0.250    0.010    0.500      0.250    0.333      0.335    0.755     0.354     Caravan Palace
+                 0.250    0.010    0.500      0.250    0.333      0.335    0.874     0.573     Lamb of God
+                 0.000    0.021    0.000      0.000    0.000      -0.029   0.458     0.042     Wizkid
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.320     0.033     Asian Dub Foundation
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.242     0.028     Mumford & Sons
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.993     0.763     King Crimson
+Weighted Avg.    0.230    0.051    0.260      0.230    0.220      0.189    0.748     0.324     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 1 3 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 3 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 1 3 0 0 2 0 0 0 0 0 0 0 1 0 0 1 0 0 0 | c = Die Fantastischen Vier
+ 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 2 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 | e = Red Hot Chili Peppers
+ 0 2 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 1 0 1 0 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 | g = Daft Punk
+ 2 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 | j = STS
+ 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 4 0 6 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 1 0 0 0 0 2 0 0 0 0 0 3 0 0 0 0 0 0 0 | m = Bob Dylan
+ 1 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | n = Casper
+ 0 2 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 2 0 0 1 1 0 0 0 0 | p = Lamb of God
+ 2 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 0 0 0 2 1 0 0 0 0 0 0 1 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 | t = King Crimson
+
+
+Options: -K 10 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 10 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          41               41      %
+Incorrectly Classified Instances        59               59      %
+Kappa statistic                          0.3708
+Mean absolute error                      0.075 
+Root mean squared error                  0.1905
+Relative absolute error                 79.4571 %
+Root relative squared error             87.7206 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      29.45   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.117    0.267      0.667    0.381      0.366    0.925     0.302     The Heavy
+                 0.571    0.097    0.308      0.571    0.400      0.360    0.881     0.279     Fiona Apple
+                 0.444    0.055    0.444      0.444    0.444      0.389    0.867     0.441     Die Fantastischen Vier
+                 0.667    0.052    0.286      0.667    0.400      0.411    0.969     0.738     P!nk
+                 0.800    0.021    0.667      0.800    0.727      0.715    0.961     0.541     Red Hot Chili Peppers
+                 0.000    0.052    0.000      0.000    0.000      -0.047   0.867     0.136     Ani DiFranco
+                 0.200    0.011    0.500      0.200    0.286      0.295    0.945     0.459     Daft Punk
+                 0.400    0.021    0.500      0.400    0.444      0.421    0.945     0.379     Pearl Jam
+                 0.250    0.000    1.000      0.250    0.400      0.492    0.896     0.425     Kanye West
+                 0.500    0.043    0.429      0.500    0.462      0.426    0.957     0.429     STS
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.832     0.059     Letzte Instanz
+                 0.700    0.078    0.500      0.700    0.583      0.538    0.955     0.570     Sportfreunde Stiller
+                 0.500    0.000    1.000      0.500    0.667      0.696    0.969     0.712     Bob Dylan
+                 0.750    0.063    0.333      0.750    0.462      0.471    0.905     0.248     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.992     0.733     Caravan Palace
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.991     0.705     Lamb of God
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.853     0.137     Wizkid
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.895     0.185     Asian Dub Foundation
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.870     0.140     Mumford & Sons
+                 0.250    0.000    1.000      0.250    0.400      0.492    1.000     1.000     King Crimson
+Weighted Avg.    0.410    0.039    0.425      0.410    0.375      0.365    0.925     0.443     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 4 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 2 4 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | b = Fiona Apple
+ 2 1 4 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 1 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 0 2 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 1 1 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 2 0 0 1 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 2 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 | j = STS
+ 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 3 0 7 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 1 0 0 2 0 0 0 0 0 0 3 0 0 0 0 0 0 0 | m = Bob Dylan
+ 1 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 1 0 0 0 0 0 0 0 0 2 1 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 3 0 0 1 0 0 0 0 0 | p = Lamb of God
+ 1 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 | s = Mumford & Sons
+ 0 2 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 | t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          21               21      %
+Incorrectly Classified Instances        79               79      %
+Kappa statistic                          0.1554
+Mean absolute error                      0.0832
+Root mean squared error                  0.2084
+Relative absolute error                 87.7987 %
+Root relative squared error             95.5715 %
+Coverage of cases (0.95 level)          79      %
+Mean rel. region size (0.95 level)      31.85   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.500    0.160    0.167      0.500    0.250      0.210    0.890     0.255     The Heavy
+                 0.286    0.183    0.105      0.286    0.154      0.067    0.748     0.168     Fiona Apple
+                 0.333    0.066    0.333      0.333    0.333      0.267    0.670     0.225     Die Fantastischen Vier
+                 0.667    0.041    0.333      0.667    0.444      0.449    0.790     0.233     P!nk
+                 0.400    0.011    0.667      0.400    0.500      0.498    0.844     0.358     Red Hot Chili Peppers
+                 0.000    0.063    0.000      0.000    0.000      -0.052   0.704     0.089     Ani DiFranco
+                 0.000    0.011    0.000      0.000    0.000      -0.023   0.781     0.146     Daft Punk
+                 0.000    0.053    0.000      0.000    0.000      -0.053   0.819     0.129     Pearl Jam
+                 0.250    0.000    1.000      0.250    0.400      0.492    0.681     0.078     Kanye West
+                 0.000    0.064    0.000      0.000    0.000      -0.064   0.899     0.308     STS
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.327     0.021     Letzte Instanz
+                 0.600    0.100    0.400      0.600    0.480      0.420    0.938     0.532     Sportfreunde Stiller
+                 0.000    0.021    0.000      0.000    0.000      -0.036   0.840     0.230     Bob Dylan
+                 0.500    0.031    0.400      0.500    0.444      0.421    0.783     0.161     Casper
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.771     0.356     Caravan Palace
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.875     0.532     Lamb of God
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.529     0.044     Wizkid
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.673     0.064     Asian Dub Foundation
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.401     0.041     Mumford & Sons
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.995     0.800     King Crimson
+Weighted Avg.    0.210    0.054    0.187      0.210    0.176      0.143    0.773     0.259     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 3 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 4 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 2 1 3 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 2 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 1 1 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 | g = Daft Punk
+ 2 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 | h = Pearl Jam
+ 2 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 0 0 6 0 0 0 0 0 0 0 0 | j = STS
+ 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 4 0 6 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 3 1 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | m = Bob Dylan
+ 1 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 | n = Casper
+ 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 1 0 2 0 0 1 0 0 0 0 0 | p = Lamb of God
+ 1 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 0 0 0 0 1 3 0 0 0 0 0 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 | s = Mumford & Sons
+ 0 2 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 | t = King Crimson
+
+
+Options: -K 15 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 15 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          36               36      %
+Incorrectly Classified Instances        64               64      %
+Kappa statistic                          0.3129
+Mean absolute error                      0.0805
+Root mean squared error                  0.1974
+Relative absolute error                 85.3115 %
+Root relative squared error             90.8945 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      40.05   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.223    0.222      1.000    0.364      0.415    0.924     0.312     The Heavy
+                 0.286    0.129    0.143      0.286    0.190      0.115    0.833     0.182     Fiona Apple
+                 0.556    0.110    0.333      0.556    0.417      0.357    0.835     0.294     Die Fantastischen Vier
+                 0.667    0.000    1.000      0.667    0.800      0.812    0.936     0.368     P!nk
+                 0.400    0.000    1.000      0.400    0.571      0.623    0.948     0.580     Red Hot Chili Peppers
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.828     0.114     Ani DiFranco
+                 0.200    0.011    0.500      0.200    0.286      0.295    0.934     0.567     Daft Punk
+                 0.600    0.074    0.300      0.600    0.400      0.382    0.905     0.233     Pearl Jam
+                 0.250    0.000    1.000      0.250    0.400      0.492    0.895     0.384     Kanye West
+                 0.333    0.064    0.250      0.333    0.286      0.236    0.915     0.316     STS
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.730     0.041     Letzte Instanz
+                 1.000    0.044    0.714      1.000    0.833      0.826    0.975     0.704     Sportfreunde Stiller
+                 0.167    0.000    1.000      0.167    0.286      0.398    0.940     0.619     Bob Dylan
+                 0.250    0.021    0.333      0.250    0.286      0.263    0.875     0.225     Casper
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.984     0.583     Caravan Palace
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.990     0.688     Lamb of God
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.841     0.130     Wizkid
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.923     0.223     Asian Dub Foundation
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.844     0.124     Mumford & Sons
+                 0.000    0.000    0.000      0.000    0.000      0.000    1.000     1.000     King Crimson
+Weighted Avg.    0.360    0.046    0.373      0.360    0.305      0.305    0.907     0.404     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  4  2  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  2  1  5  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  1  0  0  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  2  1  0  0  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  1  1  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  4  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  2  0  0  0  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  1  0  2  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  1  0  0  0  0  0  0  0  2  0  3  0  0  0  0  0  0  0  0 |  j = STS
+  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  2  1  0  0  0  0  2  0  0  0  0  1  0  0  0  0  0  0  0 |  m = Bob Dylan
+  1  0  2  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0 |  n = Casper
+  0  2  0  0  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0 |  o = Caravan Palace
+  0  1  0  0  0  0  0  0  0  3  0  0  0  0  0  0  0  0  0  0 |  p = Lamb of God
+  2  0  1  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0 |  q = Wizkid
+  0  0  1  0  0  0  1  2  0  0  0  0  0  0  0  0  0  0  0  0 |  r = Asian Dub Foundation
+  0  1  1  0  0  0  0  1  0  1  0  0  0  0  0  0  0  0  0  0 |  s = Mumford & Sons
+  0  2  0  0  0  1  0  0  0  0  0  1  0  0  0  0  0  0  0  0 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          22               22      %
+Incorrectly Classified Instances        78               78      %
+Kappa statistic                          0.161 
+Mean absolute error                      0.0864
+Root mean squared error                  0.2099
+Relative absolute error                 91.0844 %
+Root relative squared error             96.255  %
+Coverage of cases (0.95 level)          86      %
+Mean rel. region size (0.95 level)      43.2    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.298    0.176      1.000    0.300      0.352    0.837     0.207     The Heavy
+                 0.000    0.183    0.000      0.000    0.000      -0.124   0.674     0.118     Fiona Apple
+                 0.556    0.099    0.357      0.556    0.435      0.377    0.667     0.175     Die Fantastischen Vier
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.768     0.178     P!nk
+                 0.200    0.000    1.000      0.200    0.333      0.438    0.744     0.338     Red Hot Chili Peppers
+                 0.000    0.021    0.000      0.000    0.000      -0.029   0.667     0.100     Ani DiFranco
+                 0.200    0.011    0.500      0.200    0.286      0.295    0.798     0.220     Daft Punk
+                 0.000    0.053    0.000      0.000    0.000      -0.053   0.729     0.100     Pearl Jam
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.582     0.061     Kanye West
+                 0.000    0.053    0.000      0.000    0.000      -0.058   0.835     0.205     STS
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.485     0.021     Letzte Instanz
+                 0.900    0.078    0.563      0.900    0.692      0.673    0.963     0.644     Sportfreunde Stiller
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.793     0.148     Bob Dylan
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.750     0.177     Casper
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.871     0.461     Caravan Palace
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.878     0.574     Lamb of God
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.435     0.051     Wizkid
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.736     0.088     Asian Dub Foundation
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.578     0.051     Mumford & Sons
+                 0.000    0.000    0.000      0.000    0.000      0.000    1.000     1.000     King Crimson
+Weighted Avg.    0.220    0.056    0.174      0.220    0.157      0.141    0.758     0.263     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 6 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 4 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 2 1 5 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 3 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 1 2 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 4 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 3 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 | h = Pearl Jam
+ 1 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | i = Kanye West
+ 2 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 | j = STS
+ 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 3 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 0 0 0 | m = Bob Dylan
+ 1 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | n = Casper
+ 0 2 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 | o = Caravan Palace
+ 0 1 0 0 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 | p = Lamb of God
+ 2 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 0 0 0 1 1 2 0 0 0 0 0 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 2 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 | s = Mumford & Sons
+ 0 2 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 | t = King Crimson
+
+
+Options: -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.02 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          97               97      %
+Incorrectly Classified Instances         3                3      %
+Kappa statistic                          0.9682
+Mean absolute error                      0.0181
+Root mean squared error                  0.0525
+Relative absolute error                 19.2008 %
+Root relative squared error             24.1543 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      73.5    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.011    0.900      1.000    0.947      0.943    0.999     0.989     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 0.800    0.011    0.800      0.800    0.800      0.789    0.996     0.886     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.011    0.857      1.000    0.923      0.921    0.999     0.976     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 0.500    0.000    1.000      0.500    0.667      0.700    0.995     0.833     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.970    0.002    0.972      0.970    0.967      0.968    0.999     0.985     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0  9  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  1  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  1  0  0  0  0  1  0  0  0  0  2  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          41               41      %
+Incorrectly Classified Instances        59               59      %
+Kappa statistic                          0.3726
+Mean absolute error                      0.0661
+Root mean squared error                  0.2206
+Relative absolute error                 69.9138 %
+Root relative squared error            101.3933 %
+Coverage of cases (0.95 level)          80      %
+Mean rel. region size (0.95 level)      74.55   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.500    0.021    0.600      0.500    0.545      0.522    0.747     0.331     The Heavy
+                 0.429    0.129    0.200      0.429    0.273      0.214    0.658     0.133     Fiona Apple
+                 0.333    0.077    0.300      0.333    0.316      0.245    0.637     0.172     Die Fantastischen Vier
+                 0.667    0.010    0.667      0.667    0.667      0.656    0.833     0.455     P!nk
+                 0.200    0.011    0.500      0.200    0.286      0.295    0.504     0.135     Red Hot Chili Peppers
+                 0.250    0.021    0.333      0.250    0.286      0.263    0.626     0.114     Ani DiFranco
+                 0.000    0.042    0.000      0.000    0.000      -0.047   0.495     0.052     Daft Punk
+                 0.200    0.053    0.167      0.200    0.182      0.135    0.675     0.121     Pearl Jam
+                 0.000    0.042    0.000      0.000    0.000      -0.042   0.495     0.041     Kanye West
+                 0.833    0.011    0.833      0.833    0.833      0.823    0.914     0.705     STS
+                 0.000    0.031    0.000      0.000    0.000      -0.025   0.500     0.021     Letzte Instanz
+                 0.900    0.011    0.900      0.900    0.900      0.889    0.946     0.820     Sportfreunde Stiller
+                 0.667    0.043    0.500      0.667    0.571      0.546    0.812     0.318     Bob Dylan
+                 0.250    0.021    0.333      0.250    0.286      0.263    0.626     0.114     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.753     0.354     Caravan Palace
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.879     0.760     Lamb of God
+                 0.000    0.042    0.000      0.000    0.000      -0.042   0.495     0.041     Wizkid
+                 0.000    0.042    0.000      0.000    0.000      -0.042   0.484     0.041     Asian Dub Foundation
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.510     0.041     Mumford & Sons
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.876     0.760     King Crimson
+Weighted Avg.    0.410    0.035    0.434      0.410    0.412      0.384    0.695     0.308     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 3 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 | a = The Heavy
+ 1 3 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 0 1 3 0 0 0 0 1 1 0 0 0 0 1 0 0 1 1 0 0 | c = Die Fantastischen Vier
+ 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 1 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 1 0 | e = Red Hot Chili Peppers
+ 0 2 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 0 1 1 0 0 0 2 0 0 0 0 1 0 0 | g = Daft Punk
+ 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 1 0 0 | h = Pearl Jam
+ 0 2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 5 0 1 0 0 0 0 0 0 0 0 | j = STS
+ 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 1 0 0 0 0 0 0 0 0 0 4 0 0 0 0 1 0 0 | m = Bob Dylan
+ 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 | n = Casper
+ 0 0 1 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 1 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 | s = Mumford & Sons
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 | t = King Crimson
+
+
+Options: -K 1 -W 0 -A "weka.core.neighboursearch.LinearNNSearch -A "weka.core.EuclideanDistance -R first-last"" 
+
+IB1 instance-based classifier
+using 1 nearest neighbour(s) for classification
+
+
+Time taken to build model: 0.03 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          97               97      %
+Incorrectly Classified Instances         3                3      %
+Kappa statistic                          0.9682
+Mean absolute error                      0.0181
+Root mean squared error                  0.0525
+Relative absolute error                 19.2008 %
+Root relative squared error             24.1543 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      73.5    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.011    0.900      1.000    0.947      0.943    0.999     0.989     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 0.800    0.011    0.800      0.800    0.800      0.789    0.996     0.886     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.011    0.857      1.000    0.923      0.921    0.999     0.976     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 0.500    0.000    1.000      0.500    0.667      0.700    0.995     0.833     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.970    0.002    0.972      0.970    0.967      0.968    0.999     0.985     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0  9  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  1  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  1  0  0  0  0  1  0  0  0  0  2  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          41               41      %
+Incorrectly Classified Instances        59               59      %
+Kappa statistic                          0.3739
+Mean absolute error                      0.0655
+Root mean squared error                  0.2225
+Relative absolute error                 69.0499 %
+Root relative squared error            102.006  %
+Coverage of cases (0.95 level)          81      %
+Mean rel. region size (0.95 level)      74.5    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.739     0.281     The Heavy
+                 0.429    0.075    0.300      0.429    0.353      0.300    0.683     0.169     Fiona Apple
+                 0.333    0.066    0.333      0.333    0.333      0.267    0.639     0.186     Die Fantastischen Vier
+                 0.667    0.010    0.667      0.667    0.667      0.656    0.832     0.455     P!nk
+                 0.200    0.011    0.500      0.200    0.286      0.295    0.603     0.141     Red Hot Chili Peppers
+                 0.250    0.031    0.250      0.250    0.250      0.219    0.617     0.093     Ani DiFranco
+                 0.000    0.042    0.000      0.000    0.000      -0.047   0.489     0.051     Daft Punk
+                 0.200    0.063    0.143      0.200    0.167      0.117    0.665     0.109     Pearl Jam
+                 0.000    0.063    0.000      0.000    0.000      -0.052   0.479     0.041     Kanye West
+                 0.833    0.011    0.833      0.833    0.833      0.823    0.913     0.705     STS
+                 0.000    0.041    0.000      0.000    0.000      -0.029   0.490     0.020     Letzte Instanz
+                 0.900    0.011    0.900      0.900    0.900      0.889    0.946     0.820     Sportfreunde Stiller
+                 0.667    0.043    0.500      0.667    0.571      0.546    0.810     0.318     Bob Dylan
+                 0.250    0.031    0.250      0.250    0.250      0.219    0.617     0.093     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.750     0.354     Caravan Palace
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.878     0.760     Lamb of God
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.495     0.041     Wizkid
+                 0.000    0.042    0.000      0.000    0.000      -0.042   0.479     0.040     Asian Dub Foundation
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.505     0.041     Mumford & Sons
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.878     0.760     King Crimson
+Weighted Avg.    0.410    0.033    0.430      0.410    0.413      0.385    0.698     0.307     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 3 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 | a = The Heavy
+ 1 3 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 3 0 0 0 0 1 1 0 0 0 0 2 0 0 0 1 0 0 | c = Die Fantastischen Vier
+ 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 1 0 0 0 0 0 3 0 0 0 0 0 0 0 1 0 | e = Red Hot Chili Peppers
+ 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 0 1 1 0 0 0 2 0 0 0 0 1 0 0 | g = Daft Punk
+ 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 1 0 0 | h = Pearl Jam
+ 0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 5 0 1 0 0 0 0 0 0 0 0 | j = STS
+ 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 1 0 0 0 0 0 0 0 0 0 4 0 0 0 0 1 0 0 | m = Bob Dylan
+ 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 0 1 0 0 0 | n = Casper
+ 0 0 1 0 0 0 1 0 0 0 0 0 0 0 2 0 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 1 1 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 | s = Mumford & Sons
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 | t = King Crimson
+

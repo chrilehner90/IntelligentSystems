@@ -1,0 +1,512 @@
+@relation 'mmg-weka.filters.unsupervised.instance.ReservoirSample-S1-Z500-weka.filters.unsupervised.attribute.Remove-V-R5,9,38,81,83,97,99'
+
+@attribute timeContext_timeZone string
+@attribute locationContext_provider string
+@attribute phoneContext_state numeric
+@attribute accelerationContext_accelerationStandardDeviation numeric
+@attribute orientationContext_orientationDevice numeric
+@attribute activityContext_activity {working,unspecified,eating,traveling,partying,relaxing,sports,shopping,romancing}
+@attribute musicContext_Artist {'The Birthday Massacre','Jack White','Die Fantastischen Vier','Massive Attack',Nightwish,Metallica,DragonForce,Powerwolf,'Letzte Instanz',Propellerheads,Sabaton,Equilibrium,'Groove Armada',Kent,Falchion,Turisas,Månegarm,'Subway To Sally','Mono Inc.','The Strokes','Steaming Satellites','The Black Keys',Ensiferum,'The Watts 103rd St Rhythm Band','The Bar-Kays','Brother Jack McDuff','Jimmy Norman','Rufus Thomas','Grassella Oliphant','Eddie Harris','Natural Bridge Bunch','The Freedom Sounds','Clarence Carter','Artie Christopher','The T.S.U. Toronadoes','Tony Alvon & The Belairs','Mark Putney',Commodores,'The Southshore Commission','Eldridge Holmes','Cold Grits','Soul Angels','Johnny Cameron & The Camerons','Joyce Jones','Lou Johnson','King Curtis & The Noble Knights','Titus Turner','Phil Moore Jr.','The Fabulous Counts','The Rhine Oaks','Cyril Neville','The Mighty Hannibal','Little Sister','Ananda Shankar','Brute Force','Don Covay & The Jefferson Lemon Blues Band','Clarence Wheeler & The Enforcers','Curtis Mayfield','Johnny Harris','Darrow Fletcher','Young-Holt Unlimited','King Curtis','Harlem River Drive','Wilson Pickett','Ed Robinson','Gene McDaniels','Fred Wesley & The Horny Horns','Tami Lynn','Oscar Brown Jr.','Howard Tate',Lulu,'Herbie Mann','Clarence Reid','Junior Mance','Willie West','The Gaturs','Black Heat','Eddie Hazel','Claudia Lennear',LaBelle,'Shirley Scott','The Unemployed','Dr. John',Macondo,'Black Haze Express',Houseguests,Seatrain,'The Mystic Moods Orchestra','The Beginning of the End',Malo,'Cornell Dupree','Cold Blood',Moby,Leftfield,'All Saints','Asian Dub Foundation/Harry Beckett/Simon DeSouza','The Rolling Stones','Link Wray',Faces,Cream,'Ram Jam','Manfred Mann\'s Earth Band','Willie Rosario','KC and The Sunshine Band','J GIRLS','Lynyrd Skynyrd','Bob Dylan','The Marshall Tucker Band',Radiohead,'Johnny Cash',Filter,'Kings Of Leon','Pearl Jam','Chris Cornell',Incubus,'Mt. Desolation','System of a Down','Tenacious D','The Cure','The Raconteurs','Snow Patrol','It\'s A Beautiful Day','Mumford & Sons',Air,Awolnation,Suuns,'Builders & The Butchers',LaBrassBanda,'Element of Crime','Cold War Kids',Estampie,Rage,'Gamma Ray',Helloween,Firewind,'Iron Savior',Labyrinth,Stratovarius,Dillon,'Paul Banks',Klangkarussell,'Peter Fox',Brasstronaut,Coppelius,Schandmaul,'Jake Bugg','Roman Polansky',Therion,'Paradise Lost',Edenbridge,MGMT,'Aphex Twin',Soulwax,M.I.A.,Lützenkirchen,'Daft Punk','The Chemical Brothers','Kaiser Chiefs',Babyshambles,'La Roux','The xx','Django Django',Alt-J,'Beastie Boys','Thiasos Dionysos',Heidevolk,'In Extremo',Tanzwut,Odroerir,Versengold,'The Heavy',Kasabian,'Anthony Hamilton & Elayna Boynton',Pond,'Josh Woodward','The Ting Tings',Björk,Justice,M83,'Sofa Surfers','Electric President',Pixies,Covenant,'The Mentor',Refused,'Asta Kask','The Clash',Offspring,'The Ramones','Bad Religion','White Denim','Fritz Kalkbrenner','Mike Candys feat. Evelyn & Patrick Miller','Sean Paul',<unknown>,Budzillus,'Das Broadway-Musical Im Hamburger Hafen','5/8erl in Ehr\'n',Schelmish,blink-182,'Trevor Jones; Randy Edelman',Eminem,'Ani DiFranco',Nachtgeschrei,'Tim Burton\'s Corpse Bride Soundtrack','Eros Ramazzotti',unbekannt,'Sportfreunde Stiller','Farin Urlaub Racing Team','Simon and Garfunkel',Revolverheld,'Dean Martin','Toto Cotugno','Ricchi e Poveri',Zaz,'Édith Piaf','France Gall','Kris feat. Dante Thomas','Adiano Celentano','The Herbaliser','Dope D.O.D.','Wu-Tang Clan','Two Steps From Hell',Orianthi,'culcha candela','Die Toten Hosen','Robbie Williams','Robbie Williams and Nicole Kidman','Robbie Williams And Frank Sinatra','Robbie Williams And Jon Lovitz','Robbie Williams And Jane Horrocks','Robbie Williams And Rupert Everett','Robbie Williams And Jonathan Wilkes','Ray Charles',Adele,'harry jen',Coldplay,'Red Hot Chili Peppers','Maurice Ravel',Akon,'The Animal Parade',Sido,'Stephane Pompougnac','Luis Bacalov, Edda Dell\'Orso','Frank Sinatra','San2 And His Soul Patrol','Paul Elstak','DISCO DELUXE','Dave Grusin','Swizz Beats','Linkin Park','Drake feat. Rihanna',Drake,'Wale ft Omarion, Rick Ross & Nas',Fabolous,Wizkid,'Trey Songz','Mario Vazquez','Maroon 5 feat. Wiz Khalifa - Payphone_(musiclife.kz)','2Face Idibia','JAY SEAN','2 Face',Skyzoo,eLDee,'Asher Roth','Shania Twain','2 Face Idibia - @Recessonline','John Legend ft Ludacris',Lenka,'The Black Eyed Peas','Emeli Sande','Tim Bendzko','Paul Van Dyk','Aura Dione','Yeah Yeah Yeahs','Alan Parsons Project','Wolfgang Ambros',Wilco,'The Who','Eric Clapton','Los Lobos','Oscar Peterson',U2,Aswad,'Amanda Palmer Featuring The Grand Theft Orchestra','Les Poppys','Ja, Panik',P!nk,'Rage Against The Machine','Lamb of God','The Bamboos','Led Zeppelin','Georges Bizet','David Garrett','Gerard Presgurvic','Wise Guys','Modest Mouse','Crystal Fighters','Plus 44','RX Bandits',Millencolin,'Ron Hawkins','No Use For A Name',Pennywise,Lagwagon,Audiomachine,'Five Finger Death Punch','Sam Hulick','Johan Skugge & Jukka Rintamäki','Lorne Balfe','Sam Hulick/Jack Wall/Richard Jacques','Hans Zimmer','Dan Popplewell','Camo & Krooked','Chris Brown - Dont Wake Me Up  ( Www.Ahanghaa52.Com )','Drake feat. Lil\' Wayne & Tyga','Burna Boy','Kanye West',P-SQUARE,'Rick Ross',Demarco,Iyaz,'Justin Bieber - As Long As You Love Me (Www.4FunMusic.com)','WANDE COAL','Chris Brown feat. Justin Bieber','David Guetta','Banky W.',Evanesence,'B.I.G. + Puff Daddy + Mase','Naeto C  Tony ft. DBanj','John Legend/Kanye West/Slum Village','sum 41','Culcha Candela','May D','Lil Wayne',Tyga,'Chris Brown','Fabolous Ft Pdiddy JE','Justin Timberlake','Gotye  Feat. Kimbra','deafrodrumbeat.blogspot.com (@deafrodrumbeat)','Jay Sean氀','Thelonious Monk','Queens Of The Stone Age','Pepe Deluxé','Super Mash Bros.','The White Panda',Milkman,'Johann Strauss',Atmosphere,'Tayyib Ali',Mastodon,Evanescence,'Big Bad Voodoo Daddy','Adam Green & Bikini Shapiro','Natalie Cole','Mean Mr Mustard',Texta,Frittenbude,Kettcar,'17 Hippies','Sammy Adams',Casper,Bonobo,'Amon Tobin',Apparat,'Ben Frost','The Flashbulb',Pitbull,Deichkind,'The Bosshoss','Funny van Dannen',Silverstein,jive(43),Skalpel,'Neck Sprain','Puddle of Mudd','Stevie Wonder','Flo Rida Ft. David Guetta - Club Can_t Handle','Die Ärzte','Mark Ronson','Michael Bublé','Dr. Dre',Emil.RuleZ!,'Caravan Palace','Mestizo & Mike Gao','Jazz K Lipa','Mac Miller','Wax Tailor','Black Sheep','Donna Summer',Muse,'All Time Low','Limp Bizkit','The Offspring','Rusted Root','Simple Plan','The Subways','Good Charlotte','ALO (Animal Liberation Orchestra)','Wiz Khalifa','Lucinda Williams','The Blind Boys Of Alabama','The Proclaimers','Lady Gaga','Herre, Max','Flo Rida',Pink,Charlee,'Asaf Avidan & the Mojos','James Arthur','Avicii vs Nicky Romero','Lukas Graham','R.I.O. feat. U-Jean','Snoop Dog',Hadouken!,Heino,'Bone Thugs-n-Harmony','The Corrs','Katrina and the Waves','Udo Jürgens','Jürgen Drews',STS,'DJ Antoine','Farin Urlaub','Mountain Mocha Kilimanjaro','Kispál és a Borz','Creedence Clearwater Revival','Wild Cherry',Jazz.k.lipa,'James Brown','Don Omar & Lucenzo','Pepe Deluxe','King Crimson','Papa Roach','Breaking Benjamin',Yellowcard,Example,'Kid Cudi','Katy Perry feat. Snoop Dogg','Alicia Keys',Sin,'Sak Noel','Of Monsters and Men','Beth Ditto',Tetris,'The Guild','Remady feat. Manu-L','Afrojack feat. Eva Simons','The Gossip','Andreas Gabalier',Gorillaz,'Jason Mraz','Asaf Avidan & The Mojos','Maroon 5','David Guetta feat. Neyo & Akon',Fun,Rihanna,'Philipp Poisel','Rea Garvey',Cro,Labrassbanda,'Antônio Carlos Jobim','Die Atzen Mit Nena',Loona,'James Morrison','The BossHoss','Terror Squad',Samsung,'David Guetta feat. Sia',Capone,'Kelly Rowland',@MS4,'Roger Sanchez','Fairy Tail','Nanba Shiho',Avicii,'Duran Duran','Eddy Grant','Parov Stelar','Chase & Status','Buena Vista Social Club','Tom Waits','Boards Of Canada','David Gilmour','Frank Zappa','Knife Party',Placebo,'Ivan Gough & Feenixpawl ft. Georgi Kay','Eddie Vedder','Rolling Stones','The Lumineers',Ektomorf,'David Bowie','Brad Mehldau','Secondhand Serenade',DevilDriver,'Fiona Apple','Austria 3 (Ambros, Fendrich, Danzer)','Joint Venture',Surrender!,'Berk & the Virtual Band','NORAH JONES',Soulfly,'Austrian Death Machine','Asian Dub Foundation','Bon Jovi','Panic At The Disco','City and Colour',Pique,'Dweezil Zappa',Kraftwerk,'ZZ Top','Icona Pop feat. Charli Xcx','Will.I.Am feat. Britney Spears','Gabin & Dee Dee Brigdewater','Cure For The Common','Jonny L',Tool,S.P.Y,Cornershop,'Fleetwood Mac','Huey Lewis & The News','New Kids Feat. Paul Elstak','Kanye West Ft. Raekwon & KiD CuDi','Adam Green','Stereo Total','Smashing Pumpkins','Various Artists','David Gray','Plain White T\'s','Israel Kamakawiwo\'ole','Kate Nash',Ke$ha,'Luis Bacalov & Rocky Roberts','Swedish House Mafia feat. John Martin','Eva Croissant',Loreen,Labrinth,'Pitbull feat. Christina Aguilera',Ne-Yo,Caligola,'Anthony Hamilton And Elayna Boynton','A$ap Rocky feat. 2 Drake','Max Herre feat. Cro',Psy,'Major Lazer & Amber Coffman','Ed Sheeran','The Script feat. Will.I.Am','Rita Ora',Blue,'Avicii vs. Nicky Romero','Lykke LI',Triggerfinger,Ola,'Imagine Dragons','White Lion','Bryan Adams','Green Day',Beatles,'Yolanda be cool & Dcup',Dj`s@Work,'Taylor Swift',Helmet,Kesha,Chingy,'Killing Joke','Shakira feat. Freshlyground','Taio Cruz feat. Flo Rida','Dropkick Murphys','Katy Perry','Colbie Caillat','One Direction','Flo Rida Feat. David Guetta','Howard Shore','Bloc Party','Biffy Clyro',Pendulum,Iamx,'Days in Grief','We Are Scientists','Hubert von Goisern','The Infadels','Erste Allgemeine Verunsicherung (EAV)','Barrio Katz','Chinese Man',Waldeck,'16 Horsepower','Akkezdet Phiai','Esclin Syndo',Beatallica,'Poison the Well',Hatebreed,'(hed) p.e.','Pink Martini','Theophilus London','Barry White',Will.I.Am,'Monica Reyes','Mo Horizons','Broken Bells',Kosheen,'Netsky Feat. Jenna G',Beatsteaks,Friction,'Tantrum Desire','Jack Johnson',Volbeat,AC/DC,'Old Boy',Subscribe,'Skunk Anansie',Nickelback,Various,'The Alan Parsons Project','Van Morrison',E.M.E,'Sono Rhizmo\'','Daft Punk ( feat.Pharrel Williams & Nile Rodgers)','George Harrison',Audio,'Hybrid Minds',Upbeats,Unknown,Instra:mental,Burial,'Yesterday Once More','Love Me With Your Heart',cdcity.shop@gmail.com,'Macklemore & Ryan Lewis','Johann Pachelbel','Brandi Carlile',Daveskii08,'Lupe Fiasco','Hot Chocolate',Hedley,Beethoven,'P!nk featuring Nate Ruess',Liquido,'Jessica Simpson','dZihan & Kamien',Shaggy,'Gigi D´Agostino','JÜRGEN DREWS','DJ Antoine vs. Mad Mark 2k13','Taio Cruz :: Teh-Music.Us ::','2Pac ft. Dj Alex Sp',Q&A,'Alter Bridge',Architects,'The Cult','Miles Davis','David Dallas','John Mayer','Peter Gunn','Gabriella Climi','Bliss N Eso','Krafty Kuts Feat Dynamite MC','Sound of Stereo','Maryam Heydar zade _ [Yazd-PatoGh.coM]',saeeeeeeeed,'Unknown Artist',JoJo,'Albrigtsen Steinar/Secret Garden','Naser Abdollahi','The End Of World','Barbra Streisand/Secret Garden',www.Newmusic10.com,01,'Blink 182','Marco Petralia & DJ Monique vs. Gastone','Sarah McLachlan',Apocalyptica,Nemesea,'Liv Kristine','Inkubus Sukkubus','Neil Young','Hami (www.MyMusicBAran.Org)渀渀渀','Hamed MalekLou-wWw.sOngBsOng.cOm','Hami (www.MyMusicBAran.Org)挀挀挀','Calvin Harris feat. Ellie Goulding','Flo Rida feat. Jennifer Lopez','Eve feat Gwen Stefani',VA,'The Naked And Famous',Survivor,'Status Quo','Alice Cooper','Jethro Tull',Toto,'The Hooters','Kruder & Dorfmeister','Utah Jazz','Jackson 5','Dj Fresh','[dunkelbunt] & Analogik','Marina and The Diamonds','Ryan Adams & The Cardinals','KiD CuDi','Enter Shikari',Rammstein,'Clara Luzia','Petsch Moser',Skrillex,'Mashup Germany','Blumentopf feat. Musikkapelle Münsing','The Buggles','Bright Eyes','Urbs & Cutex','Pharoah Sanders','A Forest Mighty Black',Laugh,'King Britt',Amewu,'Ann Takle/Secret Garden','Hami ( www.BirMusic22.com )','Brian Kennedy/Secret Garden','Ernesto Vs Bastian','MacKlemore feat. Wanz','J.O.B feat Anjulie (with MadV & 12th Planet)','Andre Crom, Martin Dawson','D\'Prince Ft. Wizkid','JAMIE FOXX',Wax,'Pink Floyd','50 Cent','Rise Against','Ali Lohrasbi (2seda.com | 2seda2.com)','Roham (www.Yazd-Music3.com)',07,'Nasser Abdollahi','FARSDJ.COM - RAPOPOP.COM','Bruno Mars','Whizz Vienna','Gang Starr','The Killers','Depeche Mode','Rainhard Fendrich','Lipps, Inc','Pitbull - Rain over me ft. marc anthony  bY CaviD™','Ellie Goulding','Doodge & Viper',Shakira,'Xavier Naidoo',Cheryl,'Velile & Safri Duo',T.I.,www.ToxicWap.com,'Drake ft Nicki Minaj','Elton John','Christina Perri','Ilan Eshkeri','Charlie Winston',Tomorrowland,'Kenmochi Hidefumi','Fünf Sterne Deluxe','Arik Brauer','Mehrnoosh ( www.1.Mihan2Music.com )','Secret Garden','Over The Rainbow','B Mortazavi','Rain And Tears','Richard Claydermann','(coming.soon) 0915 101 66 76','Maryam Heydar zade - [Yazd-PatoGh.coM].','Ali Hasanpour.::wWw.PcLord.Ir::.',Moon,'Hafa (www.MYmusicbaran.org)','Secret Garden/Tommy Korberg','Fereydoon (www.MyMusicBaran.org)','Ever Green A Star Has Born','Hosseyn Panahi','Richard Clayderman',Donna,(www.MusicBaran3.com),Vangelis,'Paul Kalkbrenner','Pax & Pry','The Jimi Hendrix Experience','Amy Winehouse','Bromheads Jacket',Bush,'Mr. SOS',Ska-P,'Angelika Express','Fettes Brot','The Beatsteaks','Ok go',Wizo,'Reel Big Fish','Peter Bjorn And John','Lady Sovereign','Manu Chao','Jan Delay',Editors,'Chief Rebel Angel',Clutch,'Kool & The Gang',Mumüzumundi,'Guns N\' Roses',Jet,'Queens of the Stone Age','Paul & Linda McCartney','Booty luv',Baccara,Kansas,'Silver Convention','Billy Squier','The Knack',Journey,Hello,'Blind Myself',Pentagram,'Chet Faker',Sigma,'Don Diablo','Sally J Johnson','PPP (feat Karma)','Shirley Bassey','Jamie Lidell','Jazz Liberatorz (feat Tre HArdson, Fat Lip & Omni)','MC Hawking','Bloodhound Gang','David Guetta & Joachim Garraud','Eminem - CanalQuo.Com','Guano Apes',Dappy,'Nicki Minaj','Dolla Boy ft 2 Chainz & Slik','Akon (www.Akonwap.com n www.Pagalworld.com)',2Pac,'The Prodigy','Swedish House Mafia','Martin Solveig feat Kele','Alexandra Stan','Bow Wow ft Chris Brown',Bracket,'Roman Rai','The Jonesz',Feist,'Aceyalone & RJD2','R2bees ft wizkid dance _prod_by_KIllbeatz',Tupac,'Cancer Bats','Jukebox The Ghost','Kaleidoscope Sunday','Eve Feat. Sean Paul',Lustra,Slipknot,'Akon (www.AkonWap.com)','Nate Dogg/Snoop Dogg/Warren G',Samklef,'Micheal W Smith','Various artists','Ice prince Feat Braymo',2face,'Kirk Franklin','Feat. Lloyd Banks & Swizz Beatz','2 Chainz',Iyanya,'Pleasure P ft Tyga','michael smith','Rihanna feat. Calvin Harris - We Found Love_(musiclife.kz)','Tupac Shakur',Afroman,'Lil Wayne [mp3songsclub.com]','Kevin Lyttle','Akon Feat. Rick Ross','DJ Firestorm','The Game','Kirk Franklin & The Family',www.tooxclusive.com,'Rick Ross feat. The Clipse','2 Pac',MI,'Kardinal Offishall','Pastor Anita Oyakhilome','Alicia Keys feat. Nicki Minaj','Rick Ross feat Young Dro',Davido,'Bow Wow','Tupac, Dr. Dre','Taylor Swift [wWw.Baran-DL.Com]','Masspike Miles ft Ace Hood',Train,'Respect Me','David Guetta (feat. Sia)',Timaya,'Kanye West/Pusha T','Dante Thomas','Bell, Book & Candle','The Boo Radleys','Fiction Factory','The Romantics','The Outfield','Blind Date','Max Werner','The Nits','Karel Fialka','Orange Blue','Sinéad O\'Connor','Soul Asylum','4 Non Blondes','Otis Redding','Bullet For My Valentine','Fool\'s Garden','Kate Winslet','Mr. Big','The Underdog Project',Whitesnake,'James Blunt','Josh Groban','Cassandra Steen & Adel Tawil',Beyoncé,'Roger Bart',Sookee,'Dave Grohl, Josh Homme & Trent Reznor','Robert Levon Been, Dave Grohl & Peter Hayes','Benny Goodman',Blame,'Tinie Tempah','M.i.s.t. Vs High Contrast','Fred Hersch',Pro7-dieBand,'Katy B','Alanis Morissette','Die Prinzen','Vaya Con Dios','Lily Allen','Yolanda Be Cool & Dcup','Amy MacDonald','Jerry Reed','Thomas D','Klaus Doldinger','Inca Son','Suzanne Vega','Paul McCartney','Pat Metheny Group',El-P,'Tha Connection',Afu-Ra,'Oh No','Apollo Gold','XIV Dark Centuries','Experiment Nnord',Madsen,Pantera,'High On Fire','Erykah Badu','Amp Fiddler','Cody ChesnuTT','El Michels Affair',Duffy,'7 Samurai','Chris Goss, Tim Commerford, Dave Grohl & Brad Wilk','Shakira ft. Pitbull','Natasha Bedingfield','Jennifer Lopez ft. Pitbull','Brooke Fraser','The Real Booty Babes','Citrus Hill',Jasper,'4 Strings','Del Monte vs. Topless','Master Blaster','Ben Bedrock',Accuface,Paffendorf,'Mario Lopez','David May','Dennis Christopher','De La Soul','The Isley Brothers','Hamid Hami ( 98Music.Info )',Mix,'Owl City feat. Carly Rae Jepsen','Crooked I ft Freeway & Rick Ross','Lloyd Banks','Dharsaw ft Sossick','Meredith Brooks','Tina Turner','Joan Jett & the Blackhearts','Lynard Skynard','Chubby Checker',Silbermond,'Christina Stürmer',Juli,Krautschädl,'Unbekannter Künstler','Stephan Remmler','Midnight Oil',Steppenwolf,Nekta,'The Matthew Herbert Big Band',Koop,'Lyn Collins',Mocky,'Milez Benjiman','Menahan Street Band','Wir Sind Helden','Hamid Askari (www.MusicBaran6.com)','Mstislav Rostropovich','Hami (www.MusicBaran6.com)',(www.Sound30t.com),Azeshge,'Changiz Habibian.::wWw.PcLord.Ir::.','Edvard Grieg','Double Vision',Exhaust,king,'The Eagles','Bruce Springsteen','DJ Visage','Michael Jackson','Natalie Imbruglia','Dschinghis Khan',2raumwohnung,ACDC,'Ras G','N.Y. Oil','Kamp & Whizz Vienna','John Coltrane','Mr. Scruff','Louie Austen','Thomas Siffling','One Self','The Roots','Fiva MC & DJ Radrum',Asa,'Dilated Peoples','Ohmega Watts',Aceyalone,'The Wanted',Tacabro,'Johannes Oerding','Jean Knight','Crowded House','Penguin Cafe Orchestra','The Beatles','Jakob Dylan','Paolo Nutini','The Cardigans',BeeGees,'Taio Cruz','David Guetta feat. Ne-Yo & Akon',LMFAO,'Demi Lovato','Selena Gomez & The Scene','Dizzee Rascal','Will.I.Am & Britney Spears',Glasperlenspiel,Fluke,'Rock Massive','The Police',Passenger,'Lee Ving, Dave Grohl, Taylor Hawkins, Alain Johannes & Pat Smear','Stevie Nicks, Dave Grohl, Taylor Hawkins & Rami Jaffee','Rick Springfield, Dave Grohl, Taylor Hawkins, Nate Mendel & Pat Smear','Corey Taylor, Dave Grohl, Rick Nielsen & Scott Reeder','Josh Homme, Chris Goss, Dave Grohl & Alain Johannes','Alain Johannes, Dave Grohl & Josh Homme','Paul McCartney, Dave Grohl, Krist Novoselic & Pat Smear','Dave Grohl, Jessy Greene, Rami Jaffee & Jim Keltner',Lena,'Lana Del Rey','Donavon Frankenreiter',KRS-One,'Cypress Hill','The Cranberries','Iced Earth','Blind Guardian','Portugal. The Man','Calvin Harris feat. Florence Welch','Macklemore&Ray Dalton','Fort Knox Five','Capital Cities','The Stone Roses',Garbage,'Äl Jawala',Stereophonics,'Aloe Blacc','Stacy Epps','Jill Scott','Talib Kweli & Madlib','Kid Kopphausen','The Asteroids Galaxy Tour','Hugh Laurie','Sin With Sebastian',Faithless,'Fatboy Slim','Robert Plant & Alison Krauss','Sohrab & Amir',Autumn,'Club Des Belugas','Black Eyed Peas','Ken Follett','Arctic Monkeys','Bloc Party.',Queen,Giantree,'Get Well Soon',Gazebo,'Foster The People','Paradise Oskar','Mandy Moore',Amorphis,'Astor Piazzolla',03,04,06,'Hayseed Dixie',R.E.M.,'Caro Emerald',Bastille,'Bill Haley & His Comets','The Streets','The Sound Providers',Asmegin,Moonsorrow,Vintersorg,'Nomans Land',Folkearth,Radigost,Einherjer,Finntroll,'Cumulo Nimbus',Korpiklaani,'Butterfly Temple','Corvus Corax',Skyforger,Lumsk,'Adorned Brood',Hel,'Rhymes Of Destruction',ASP,Borknagar,'Vicious Crusade','Saltatio Mortis','Dark Reality',MIA.,'The Blues Brothers','The Specifics','Frequent Flyers','ShinSight Trio','The Globetraddaz',Nomak,Nujabes,'Jazz Liberatorz','The J. Davis Trio','Michel Teló','Olivia Newton-John & John Travolta',RHCP,'In Flames','Jason Skills','The Hip Bop Experiment','J. Rawls',Headnodic,'Longevity Crew','DJ Motive','Shin-Ski of Martiangang','Mr. Confuse','Giant Panda',Rhymefest,Cocktailpodcast,Stormwarrior,Edguy,Rhapsody,Lunatica,Forefather,'Beverley Craven -'}
+
+@data
+
+Europe/Zurich,network,0,0.08,1,unspecified,'Frank Sinatra'
+Europe/Vienna,network,0,?,0,working,'The Birthday Massacre'
+Europe/Vienna,network,0,1.05,0,unspecified,Bastille
+Europe/Vienna,network,0,0.07,0,unspecified,'The Heavy'
+Europe/Amsterdam,network,1,0,0,unspecified,Pro7-dieBand
+Europe/Vienna,network,0,0.03,0,unspecified,'Fiona Apple'
+Europe/Vienna,network,0,0.04,0,unspecified,'Sarah McLachlan'
+Europe/Sarajevo,gps,0,5.37,?,sports,'Dope D.O.D.'
+Europe/Vienna,network,0,0.14,1,unspecified,'The Heavy'
+Europe/Sarajevo,gps,0,2.05,?,sports,'The Herbaliser'
+Europe/Vienna,network,0,0.05,2,relaxing,'Oscar Peterson'
+Europe/Budapest,network,0,2.18,?,traveling,'Rage Against The Machine'
+Europe/Vienna,network,0,?,3,eating,'Die Fantastischen Vier'
+Europe/Vienna,network,0,0,0,working,P!nk
+Asia/Karachi,network,0,0.69,3,unspecified,Evanescence
+Europe/Vienna,network,2,0.18,3,unspecified,Akon
+Europe/Vienna,network,0,0.55,4,traveling,<unknown>
+Europe/Vienna,network,0,0.09,3,unspecified,'Corey Taylor, Dave Grohl, Rick Nielsen & Scott Reeder'
+Europe/Vienna,network,0,?,3,eating,'Die Fantastischen Vier'
+Europe/Vienna,gps,0,0.18,4,shopping,'Breaking Benjamin'
+Europe/Vienna,gps,0,1.97,3,unspecified,www.Newmusic10.com
+Europe/Vienna,network,0,0.98,1,unspecified,'Paul Banks'
+Europe/Vienna,network,0,?,4,unspecified,DragonForce
+Europe/Vienna,gps,0,0.15,2,unspecified,'Adam Green'
+Europe/Vienna,network,0,2.81,4,unspecified,'Red Hot Chili Peppers'
+Europe/Vienna,network,1,0.25,0,romancing,'Mr. Big'
+Europe/Sarajevo,network,0,0.22,?,traveling,'Rage Against The Machine'
+Europe/Vienna,network,0,0.05,1,relaxing,'Oscar Peterson'
+Europe/Vienna,gps,0,0.98,3,unspecified,'B Mortazavi'
+Europe/Vienna,gps,0,0.04,3,unspecified,<unknown>
+Europe/Budapest,network,0,1.01,0,unspecified,'Guano Apes'
+Europe/Vienna,network,0,0.217,1,unspecified,Sabaton
+Europe/Vienna,network,0,0.93,1,unspecified,<unknown>
+Europe/Vienna,network,0,0.03,3,unspecified,'Doodge & Viper'
+Europe/Zurich,network,0,0.02,5,unspecified,'The White Panda'
+Europe/Vienna,gps,0,2.1,1,unspecified,'Ani DiFranco'
+Europe/Amsterdam,network,1,0.05,2,unspecified,'Tina Turner'
+Europe/Vienna,network,0,0.15,1,relaxing,'Mike Candys feat. Evelyn & Patrick Miller'
+Europe/Amsterdam,network,1,0.42,0,relaxing,'Meredith Brooks'
+Europe/Vienna,network,0,0.3,1,unspecified,www.Newmusic10.com
+Europe/Vienna,network,0,0.4,0,traveling,'Daft Punk'
+Europe/London,network,0,0.24,1,unspecified,ACDC
+Europe/Vienna,network,0,0,5,unspecified,'Wiz Khalifa'
+Europe/Vienna,network,0,0.04,1,working,'Ani DiFranco'
+Europe/Vienna,network,0,0,0,relaxing,'JAY SEAN'
+Europe/Vienna,network,0,0.05,1,relaxing,'Hubert von Goisern'
+Africa/Algiers,?,0,0.14,0,unspecified,<unknown>
+Europe/Vienna,network,0,0,1,traveling,'Pearl Jam'
+Europe/Vienna,network,2,0,4,unspecified,'Kanye West'
+Europe/Amsterdam,network,1,0.05,0,unspecified,'Robbie Williams'
+Europe/Amsterdam,network,1,0.15,3,relaxing,STS
+Europe/Vienna,network,0,0.23,5,traveling,'The Birthday Massacre'
+Europe/Vienna,network,0,0.05,1,unspecified,<unknown>
+Europe/Vienna,?,0,0.47,3,traveling,Atmosphere
+Africa/Algiers,?,0,0.12,4,unspecified,<unknown>
+Europe/Vienna,network,0,0.67,1,relaxing,<unknown>
+Europe/Vienna,network,0,0,1,unspecified,'Days in Grief'
+Europe/Sarajevo,network,0,0.4,?,traveling,'Kispál és a Borz'
+Europe/Vienna,gps,2,0,3,unspecified,'Drake feat. Lil\' Wayne & Tyga'
+Europe/Zurich,network,0,1,3,unspecified,<unknown>
+Europe/Vienna,network,0,0.96,5,unspecified,'harry jen'
+Europe/Vienna,?,0,0.01,0,unspecified,<unknown>
+Europe/Vienna,network,0,0.23,3,unspecified,Turisas
+Europe/Vienna,network,0,0,3,working,MIA.
+Europe/Vienna,gps,0,0,3,unspecified,'JAMIE FOXX'
+Europe/Vienna,network,0,0,1,unspecified,'Letzte Instanz'
+Europe/Vienna,gps,0,2.99,3,unspecified,'Secret Garden'
+Europe/Vienna,network,0,0,0,romancing,'Adam Green'
+Europe/Vienna,network,0,1.53,2,sports,<unknown>
+Europe/Vienna,network,0,0,5,unspecified,'Drake feat. Lil\' Wayne & Tyga'
+Africa/Algiers,?,0,1.45,4,sports,'Macklemore & Ryan Lewis'
+Europe/Zurich,network,0,0,1,unspecified,'Red Hot Chili Peppers'
+Europe/Vienna,network,0,0.57,1,unspecified,'The Birthday Massacre'
+Europe/Zurich,network,0,0,5,unspecified,'Monica Reyes'
+Europe/Vienna,gps,0,0.04,0,unspecified,'Die Fantastischen Vier'
+Europe/Vienna,gps,0,0.08,4,unspecified,'harry jen'
+Europe/Vienna,?,0,0.02,1,unspecified,<unknown>
+Europe/Vienna,?,0,1.08,2,sports,<unknown>
+Europe/Vienna,?,0,0.16,4,sports,<unknown>
+Europe/Vienna,network,0,0.04,1,unspecified,'Fiona Apple'
+Europe/Vienna,?,0,0.25,5,relaxing,<unknown>
+Europe/Vienna,gps,0,0.5,1,unspecified,2Pac
+Europe/Sarajevo,network,0,0.26,?,traveling,'Neck Sprain'
+Europe/Vienna,?,0,0.61,2,romancing,<unknown>
+Europe/Zurich,network,0,1.42,3,unspecified,<unknown>
+Europe/Vienna,gps,2,0,1,unspecified,'Drake feat. Rihanna'
+Europe/Vienna,?,0,1.18,1,partying,'The Streets'
+Europe/Vienna,gps,0,0.2,2,traveling,<unknown>
+Europe/Sarajevo,network,0,0.28,4,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,network,0,0.22,1,unspecified,'Cold War Kids'
+Europe/Vienna,gps,0,0.03,3,unspecified,'Jackson 5'
+Europe/Vienna,network,1,0,4,unspecified,'The Freedom Sounds'
+Europe/Vienna,network,1,0,5,unspecified,Kasabian
+Europe/Vienna,network,1,0.03,4,unspecified,'Artie Christopher'
+Europe/Vienna,gps,0,0,3,unspecified,'Ice prince Feat Braymo'
+Europe/Sarajevo,network,0,0.17,?,traveling,'The Bamboos'
+Europe/Vienna,network,0,1.15,2,unspecified,www.Newmusic10.com
+Europe/Vienna,network,0,0,1,unspecified,'Letzte Instanz'
+Europe/Vienna,network,1,0.04,4,unspecified,'The Southshore Commission'
+Europe/Vienna,gps,0,1.41,3,unspecified,'Die Fantastischen Vier'
+Europe/Sarajevo,gps,0,0.4,2,working,'Biffy Clyro'
+Europe/Vienna,gps,0,0.16,1,traveling,'Ann Takle/Secret Garden'
+Europe/Vienna,network,0,0.44,5,partying,'Duran Duran'
+Europe/Vienna,gps,0,0.12,1,traveling,'B Mortazavi'
+Europe/Vienna,network,0,0.03,1,relaxing,'Bob Dylan'
+Europe/Vienna,gps,2,0,3,unspecified,'Justin Bieber - As Long As You Love Me (Www.4FunMusic.com)'
+Europe/Zurich,network,0,0.09,3,eating,'Stephane Pompougnac'
+Europe/Vienna,network,0,0,4,working,'Days in Grief'
+Europe/London,gps,0,0.24,0,unspecified,'Bob Dylan'
+Europe/Vienna,network,0,0.71,1,shopping,<unknown>
+Europe/Amsterdam,network,1,0.08,0,unspecified,'Hubert von Goisern'
+Europe/Vienna,?,0,4.01,2,sports,<unknown>
+Europe/Vienna,network,0,0,0,unspecified,<unknown>
+Europe/London,gps,0,0.23,0,unspecified,'Robert Plant & Alison Krauss'
+Europe/Vienna,network,0,0.32,3,unspecified,Casper
+Europe/Sarajevo,gps,0,1.48,?,sports,'Caravan Palace'
+Europe/Vienna,network,1,0.01,4,unspecified,'Clarence Wheeler & The Enforcers'
+Europe/Sarajevo,gps,0,1.72,?,sports,'Caravan Palace'
+Europe/Sarajevo,network,0,0.23,?,traveling,'Lamb of God'
+Europe/Vienna,network,0,0.06,2,unspecified,Wizkid
+Europe/Vienna,network,0,0.26,1,unspecified,<unknown>
+Europe/Vienna,network,0,0.6,3,traveling,'Hosseyn Panahi'
+Europe/Sarajevo,gps,0,2.57,?,unspecified,'Caravan Palace'
+Europe/Vienna,network,0,0.11,0,unspecified,'Tinie Tempah'
+Africa/Algiers,?,0,0.08,0,unspecified,<unknown>
+Europe/Vienna,network,0,0.14,2,unspecified,'Massive Attack'
+Europe/Vienna,gps,1,0,4,working,'Asian Dub Foundation'
+Africa/Ceuta,network,0,0.56,4,unspecified,'Paul & Linda McCartney'
+Europe/Vienna,network,0,0.31,1,unspecified,Ensiferum
+Europe/Vienna,gps,0,0.81,1,unspecified,'Ani DiFranco'
+Europe/Vienna,network,0,0.03,1,relaxing,'Asian Dub Foundation'
+Europe/Sarajevo,network,0,2.37,2,unspecified,STS
+Europe/Budapest,network,0,1.83,?,sports,'Donna Summer'
+Europe/Amsterdam,network,1,0.03,0,unspecified,'Sportfreunde Stiller'
+Europe/Budapest,network,0,0.28,?,traveling,'Caravan Palace'
+Europe/Vienna,?,0,0.21,1,relaxing,<unknown>
+Europe/Vienna,network,0,0.85,1,unspecified,'Kanye West'
+Europe/Vienna,gps,0,1.21,4,unspecified,<unknown>
+Europe/Vienna,gps,2,0,3,unspecified,'Kanye West'
+Europe/Vienna,gps,0,1.16,3,unspecified,'Enter Shikari'
+Europe/Amsterdam,network,1,0.2,3,relaxing,STS
+Europe/Vienna,?,0,2.61,5,unspecified,<unknown>
+Europe/Vienna,network,0,0.58,4,sports,'Knife Party'
+Europe/Vienna,network,1,0.06,4,partying,Lulu
+Europe/Vienna,gps,0,1.68,3,sports,saeeeeeeeed
+Europe/Vienna,network,0,0.1,1,unspecified,<unknown>
+Europe/Amsterdam,network,0,3.58,3,unspecified,'Blind Guardian'
+Europe/Vienna,?,0,0,3,working,'Thomas Siffling'
+Europe/Amsterdam,network,1,0.21,4,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,network,1,0,4,partying,'King Curtis & The Noble Knights'
+Europe/Vienna,gps,0,0.16,3,unspecified,'Die Ärzte'
+Europe/Vienna,network,0,0,0,working,'We Are Scientists'
+Europe/Vienna,network,1,0.03,4,partying,'Claudia Lennear'
+Europe/Vienna,gps,0,0.89,4,traveling,'Bloc Party.'
+Europe/Vienna,network,0,0.08,1,unspecified,<unknown>
+Europe/Vienna,network,1,0,4,partying,'Grassella Oliphant'
+Europe/Vienna,network,0,0.33,3,traveling,'Daft Punk'
+Europe/Vienna,network,0,0.22,4,unspecified,'Snow Patrol'
+Europe/Sarajevo,network,0,0.3,?,traveling,'Lamb of God'
+Europe/Vienna,network,0,0,3,working,Ektomorf
+Europe/Vienna,gps,0,0,3,unspecified,T.I.
+Europe/London,gps,0,0.33,0,unspecified,'The Police'
+Europe/Vienna,network,0,0.95,1,relaxing,Bastille
+Europe/Vienna,gps,0,1.43,4,sports,'Bullet For My Valentine'
+Europe/Sarajevo,network,0,0.16,4,unspecified,'Udo Jürgens'
+Europe/Vienna,gps,0,0,3,unspecified,Wizkid
+Europe/Zurich,network,0,0.1,3,eating,'Big Bad Voodoo Daddy'
+Europe/Vienna,gps,0,1.15,1,unspecified,'Fiona Apple'
+Africa/Algiers,?,0,0.09,2,unspecified,<unknown>
+Europe/Vienna,network,0,1.42,5,unspecified,'Trevor Jones; Randy Edelman'
+Europe/Vienna,gps,0,2.22,5,sports,'Dennis Christopher'
+Europe/Vienna,gps,0,1.31,3,unspecified,Casper
+Europe/Vienna,network,0,1.51,2,sports,<unknown>
+Europe/Vienna,gps,0,1.05,2,unspecified,'Adam Green'
+Europe/Vienna,network,0,0,1,working,'Pearl Jam'
+Europe/Vienna,?,0,3.46,1,shopping,'Bob Dylan'
+Europe/Sarajevo,network,0,2.26,?,sports,Mastodon
+Europe/Vienna,?,0,0,4,shopping,'Gang Starr'
+Europe/Vienna,gps,2,0,3,unspecified,eLDee
+Europe/Vienna,gps,0,0,1,unspecified,'Whizz Vienna'
+Europe/Vienna,network,1,0.02,4,eating,'Die Fantastischen Vier'
+Europe/Sarajevo,gps,0,2.32,?,traveling,'Creedence Clearwater Revival'
+Europe/Vienna,?,0,0.46,3,unspecified,'Ras G'
+Europe/Vienna,network,0,0.15,1,unspecified,<unknown>
+Europe/Vienna,network,0,0,4,working,'Ja, Panik'
+Europe/Vienna,network,0,0.61,0,traveling,'DJ Antoine'
+Europe/Vienna,?,0,0.18,1,relaxing,Atmosphere
+Europe/Vienna,network,0,0.1,1,working,'Knife Party'
+Europe/Vienna,network,0,0.24,1,traveling,Equilibrium
+Europe/Vienna,network,0,0.84,5,sports,Silbermond
+Europe/Vienna,gps,0,0,1,traveling,<unknown>
+Europe/Vienna,gps,0,0.95,4,unspecified,'Enter Shikari'
+Africa/Algiers,?,0,0.3,0,unspecified,'Jessica Simpson'
+Europe/Vienna,?,0,0.54,5,relaxing,Atmosphere
+Europe/Vienna,gps,0,0.23,1,unspecified,Q&A
+Europe/Vienna,network,1,3.35,4,eating,'Die Fantastischen Vier'
+Europe/Vienna,network,1,0,1,unspecified,'Jack White'
+Europe/Vienna,network,0,0,1,working,'Asian Dub Foundation'
+Europe/Sarajevo,network,0,0.23,4,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,network,0,0.03,1,unspecified,'Ja, Panik'
+Europe/Rome,?,0,0.07,2,eating,<unknown>
+Europe/Vienna,network,0,0,0,sports,Tacabro
+Europe/Vienna,gps,0,1.01,1,unspecified,Feist
+Europe/Sarajevo,network,0,0.05,1,relaxing,'Mumford & Sons'
+Europe/London,network,0,0.35,1,unspecified,'The Cult'
+Europe/Vienna,?,0,0,1,shopping,'Erykah Badu'
+Europe/Vienna,?,0,0.29,3,unspecified,<unknown>
+Europe/Sarajevo,network,0,0.84,5,unspecified,'Die Ärzte'
+Europe/Vienna,network,0,0.63,1,working,'Demi Lovato'
+Europe/Vienna,network,1,0,1,relaxing,'KC and The Sunshine Band'
+Europe/Vienna,network,0,0.02,1,unspecified,'harry jen'
+Europe/Vienna,network,0,0.04,1,unspecified,'Enter Shikari'
+Europe/Vienna,network,0,0,1,unspecified,Månegarm
+Europe/Vienna,network,0,0,5,unspecified,'2 Face Idibia - @Recessonline'
+Europe/Vienna,gps,0,1.2,3,unspecified,'Camo & Krooked'
+Europe/Vienna,?,0,0.75,1,shopping,'Apollo Gold'
+Europe/Vienna,network,0,0.75,0,unspecified,'The Heavy'
+Europe/Vienna,gps,0,0.05,0,unspecified,'The Outfield'
+Europe/Vienna,?,0,0.67,1,relaxing,U2
+Europe/Vienna,network,0,0.57,3,partying,<unknown>
+Europe/Vienna,network,0,0.06,1,relaxing,'Jerry Reed'
+Europe/Vienna,network,0,0.13,3,shopping,Nightwish
+Europe/Vienna,gps,0,0,1,relaxing,'Funny van Dannen'
+Europe/Vienna,network,0,0.68,1,relaxing,'James Arthur'
+Europe/Amsterdam,network,0,0.43,5,sports,'Linkin Park'
+Europe/Zurich,network,0,0.4,0,eating,'Daft Punk ( feat.Pharrel Williams & Nile Rodgers)'
+Europe/Vienna,network,0,0.11,1,unspecified,'Snow Patrol'
+Europe/Vienna,network,1,0.13,1,unspecified,'System of a Down'
+Europe/Vienna,network,0,0.24,0,unspecified,'B Mortazavi'
+Europe/Vienna,network,0,1.34,2,sports,<unknown>
+Europe/Vienna,network,0,0,0,working,'City and Colour'
+Europe/Vienna,network,0,0.04,1,working,'Ani DiFranco'
+Europe/Sarajevo,network,0,0.1,?,traveling,'Kool & The Gang'
+Europe/Vienna,network,0,0.09,4,traveling,BeeGees
+Europe/Vienna,network,0,0.02,1,unspecified,'Paul Van Dyk'
+Europe/Vienna,?,0,0.23,4,traveling,'Iron Savior'
+Europe/Vienna,?,0,0.5,3,eating,'Cody ChesnuTT'
+Europe/Amsterdam,network,1,0.09,0,relaxing,'Sportfreunde Stiller'
+America/Montreal,network,0,0.04,4,working,'Aphex Twin'
+Africa/Ceuta,network,0,1.36,3,unspecified,'Antônio Carlos Jobim'
+Europe/Oslo,network,3,0.52,1,traveling,'Roman Polansky'
+Europe/Vienna,network,0,0,0,unspecified,'Bloc Party.'
+Europe/Vienna,network,1,0.05,1,unspecified,'The Heavy'
+Europe/Vienna,network,0,0,0,sports,'Die Toten Hosen'
+Europe/Vienna,network,1,0.16,1,unspecified,'Steaming Satellites'
+Africa/Algiers,?,0,0.41,0,unspecified,'P!nk featuring Nate Ruess'
+Europe/Vienna,network,0,0,4,working,Ektomorf
+Europe/Vienna,network,0,0,0,working,P!nk
+Europe/Vienna,gps,0,0,5,unspecified,Skyzoo
+Europe/Zurich,network,0,0.04,1,unspecified,<unknown>
+Europe/Vienna,gps,0,0,3,eating,'Kenmochi Hidefumi'
+Europe/London,gps,0,0.42,3,working,'The Police'
+Europe/Amsterdam,network,1,0.39,3,relaxing,STS
+Europe/Vienna,network,0,4.28,3,sports,'Red Hot Chili Peppers'
+Africa/Ceuta,gps,0,2.11,3,working,Radiohead
+Europe/Vienna,network,0,0.47,1,unspecified,'Fiona Apple'
+Europe/Vienna,gps,0,0.22,3,unspecified,Placebo
+Europe/Vienna,?,0,0,1,shopping,'The Specifics'
+Europe/Vienna,network,0,0,1,unspecified,<unknown>
+Europe/Vienna,network,0,0.15,4,unspecified,'The Raconteurs'
+Europe/Vienna,?,0,0.35,3,relaxing,<unknown>
+Europe/Vienna,network,0,0.07,1,unspecified,<unknown>
+Europe/Vienna,?,0,0,1,working,'Erykah Badu'
+Europe/Vienna,network,0,0.45,1,unspecified,'B Mortazavi'
+Europe/Vienna,network,0,0,0,unspecified,'Get Well Soon'
+Europe/Vienna,network,0,0.1,1,unspecified,'Secret Garden'
+Europe/Vienna,network,1,0,1,unspecified,'Pearl Jam'
+Europe/Sarajevo,network,0,0.05,1,relaxing,'Mumford & Sons'
+Europe/Vienna,network,1,0.01,1,unspecified,'Pearl Jam'
+Europe/Vienna,network,0,0,1,unspecified,'Rhymes Of Destruction'
+Europe/Vienna,network,0,0.16,0,traveling,'Macklemore&Ray Dalton'
+Europe/Vienna,?,0,1.11,2,sports,<unknown>
+Africa/Ceuta,network,0,1.86,3,unspecified,'Paul & Linda McCartney'
+Europe/Vienna,gps,0,1.14,3,traveling,saeeeeeeeed
+Europe/Vienna,network,0,0.14,4,unspecified,'Die Fantastischen Vier'
+Europe/Vienna,network,0,1.75,1,traveling,Bonobo
+Europe/Vienna,network,0,0.08,2,working,Ektomorf
+Europe/Vienna,network,0,0.1,3,relaxing,<unknown>
+Europe/Vienna,gps,0,1.31,3,unspecified,'The End Of World'
+Europe/Vienna,network,0,0.2,0,unspecified,'B Mortazavi'
+Europe/Vienna,gps,0,0.08,1,relaxing,'Bright Eyes'
+Europe/Vienna,network,0,0.09,1,traveling,'Petsch Moser'
+Europe/Zurich,network,0,0.64,5,sports,Milkman
+Africa/Algiers,?,0,0.29,2,sports,<unknown>
+Europe/Vienna,network,0,0,5,working,'Ja, Panik'
+Europe/Budapest,network,0,1.76,?,traveling,'Dope D.O.D.'
+Europe/Vienna,network,0,0.19,1,relaxing,<unknown>
+Europe/Vienna,?,0,0,5,working,'Mr. SOS'
+Europe/Vienna,network,0,0.05,5,unspecified,Estampie
+Europe/Vienna,network,1,0.03,0,romancing,<unknown>
+Europe/Vienna,network,0,0,1,unspecified,'Clara Luzia'
+Europe/Vienna,?,0,0.9,4,unspecified,<unknown>
+Europe/Zurich,network,0,0.49,5,sports,'Red Hot Chili Peppers'
+Europe/Vienna,gps,0,0.91,1,unspecified,'Kanye West'
+Europe/Vienna,network,0,0.55,1,unspecified,<unknown>
+Europe/London,gps,0,0.38,2,unspecified,'The Police'
+Europe/Vienna,gps,0,3.82,3,sports,'Lady Sovereign'
+Africa/Ceuta,network,0,0.49,3,unspecified,'King Crimson'
+Europe/Vienna,network,0,0,3,working,MIA.
+Europe/Vienna,network,0,0.05,0,working,P!nk
+Europe/Sarajevo,network,0,0.87,1,unspecified,STS
+Europe/Vienna,network,0,0,1,traveling,'Pearl Jam'
+Europe/Vienna,network,0,0.24,3,traveling,Labyrinth
+Europe/Vienna,network,0,0.83,3,relaxing,'MacKlemore feat. Wanz'
+America/Montreal,network,0,0.05,1,unspecified,Björk
+Europe/Sarajevo,network,0,0.28,?,traveling,'Rage Against The Machine'
+Europe/Vienna,gps,0,0.06,5,traveling,Soulfly
+Europe/Vienna,gps,0,0.93,1,relaxing,'Die Fantastischen Vier'
+Europe/Vienna,network,0,0.06,0,unspecified,<unknown>
+Europe/Amsterdam,network,1,0.07,3,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,?,0,0,1,shopping,'Beastie Boys'
+Europe/Vienna,gps,2,0,1,unspecified,Wizkid
+Europe/Vienna,gps,0,0.5,1,traveling,<unknown>
+Europe/Vienna,network,0,2.87,3,unspecified,Samsung
+Africa/Ceuta,network,0,0.05,1,unspecified,'King Crimson'
+Europe/Vienna,network,0,0.05,2,relaxing,'Oscar Peterson'
+Europe/Vienna,network,0,0.16,4,relaxing,'Panic At The Disco'
+Europe/Sarajevo,gps,0,1.45,?,unspecified,'The Bamboos'
+Europe/Vienna,?,0,5.78,1,shopping,'Bright Eyes'
+Europe/Vienna,?,0,2.01,2,traveling,<unknown>
+Europe/Vienna,gps,0,0.34,5,unspecified,<unknown>
+Europe/Vienna,network,0,0.48,3,unspecified,<unknown>
+Europe/Vienna,network,0,0.42,0,traveling,<unknown>
+Europe/Vienna,network,0,0.02,1,romancing,'Mumford & Sons'
+Europe/Vienna,network,0,0.65,1,unspecified,'Peter Fox'
+Europe/Vienna,gps,0,3.86,1,sports,'Fiona Apple'
+Europe/Vienna,network,0,0.18,1,unspecified,Dillon
+Europe/Vienna,network,2,0,5,unspecified,Akon
+Europe/Sarajevo,network,0,0.2,?,traveling,Beatallica
+Europe/Zurich,network,0,0.47,3,unspecified,<unknown>
+Europe/Vienna,gps,0,1.88,5,sports,U2
+Europe/Vienna,network,0,0.36,1,unspecified,'Maurice Ravel'
+Europe/Vienna,network,1,0,1,unspecified,Alt-J
+Africa/Ceuta,gps,0,0.41,4,unspecified,'Paul McCartney'
+Europe/Vienna,network,0,0,1,unspecified,Ensiferum
+Africa/Algiers,?,0,0.21,4,sports,Liquido
+Europe/Vienna,network,0,0,5,sports,'R.I.O. feat. U-Jean'
+Africa/Algiers,?,0,0,0,relaxing,<unknown>
+Europe/Vienna,gps,0,0.24,3,relaxing,'Beverley Craven -'
+Europe/Vienna,network,0,0.63,0,unspecified,Cheryl
+Europe/Vienna,gps,0,1.65,2,traveling,'Marco Petralia & DJ Monique vs. Gastone'
+Europe/Sarajevo,network,0,0,1,unspecified,<unknown>
+Europe/Amsterdam,network,1,0.11,3,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,gps,0,0.2,4,shopping,'Breaking Benjamin'
+Europe/Vienna,?,0,1.5,1,unspecified,'Whizz Vienna'
+Europe/Vienna,?,0,0.1,1,unspecified,<unknown>
+Europe/London,network,0,0.08,1,unspecified,Beethoven
+Europe/Vienna,gps,0,1.12,5,unspecified,Casper
+Europe/Vienna,network,0,0,0,unspecified,P!nk
+Africa/Algiers,?,0,0.33,1,unspecified,'Macklemore & Ryan Lewis'
+America/Montreal,network,0,0.05,4,working,'Aphex Twin'
+Europe/Vienna,gps,0,0.52,1,relaxing,'Brandi Carlile'
+Europe/London,gps,0,0.05,1,unspecified,'The xx'
+Europe/Amsterdam,network,1,0.07,0,relaxing,Madsen
+Africa/Ceuta,network,0,0.42,1,unspecified,Radiohead
+Europe/Vienna,network,0,0.03,1,working,'Pearl Jam'
+Europe/Vienna,gps,0,0.48,1,unspecified,Volbeat
+Europe/Vienna,?,0,1.13,1,shopping,'Mr. SOS'
+Europe/Vienna,network,0,0,4,traveling,'Asian Dub Foundation'
+Europe/Sarajevo,network,0,0.16,4,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,gps,0,0.14,5,traveling,'Los Lobos'
+America/Montreal,network,0,0.04,1,working,'Dweezil Zappa'
+Europe/Sarajevo,network,0,0.08,4,unspecified,STS
+Europe/Vienna,network,0,0.84,2,unspecified,Muse
+Europe/Sarajevo,network,0,0.65,2,relaxing,'Die Toten Hosen'
+Europe/Vienna,network,0,0.03,3,unspecified,'The Guild'
+Europe/Vienna,network,0,0.06,1,working,'Austrian Death Machine'
+Europe/Vienna,gps,0,0.13,0,unspecified,Blame
+Europe/Vienna,network,0,0.05,1,unspecified,'Aphex Twin'
+America/Montreal,network,0,0.05,4,working,'Boards Of Canada'
+Europe/Vienna,network,0,0.11,1,partying,<unknown>
+Europe/Vienna,?,0,0,1,working,'One Self'
+Europe/Vienna,network,0,1.61,1,working,'Days in Grief'
+Europe/Vienna,network,0,0.35,1,traveling,'DJ Antoine vs. Mad Mark 2k13'
+Europe/Vienna,?,0,2.01,4,shopping,'Bob Dylan'
+Europe/Vienna,network,0,1.45,2,traveling,'Dave Grusin'
+Europe/Vienna,network,0,0.58,1,sports,'Bon Jovi'
+Europe/Vienna,?,0,0.15,1,unspecified,<unknown>
+Europe/Vienna,network,0,0.28,1,unspecified,'Fiona Apple'
+Europe/Vienna,network,0,1.72,1,traveling,'Dave Grusin'
+Europe/Vienna,network,0,2.86,3,unspecified,www.Newmusic10.com
+Europe/Vienna,network,2,1.71,5,unspecified,Fabolous
+Europe/Vienna,gps,2,0,3,unspecified,'Culcha Candela'
+Europe/Sarajevo,network,0,0.22,?,traveling,'The Bamboos'
+Europe/Vienna,network,0,0.05,1,unspecified,'Enter Shikari'
+Europe/Vienna,network,0,0.29,1,sports,'Mumford & Sons'
+Europe/Vienna,network,1,0.12,0,romancing,'Mr. Big'
+Europe/London,network,0,0.11,1,unspecified,'George Harrison'
+Europe/Vienna,network,0,0.28,0,unspecified,Akon
+Europe/Vienna,gps,0,0.05,1,traveling,'Mumford & Sons'
+Europe/Vienna,?,0,0.5,1,eating,'The Jimi Hendrix Experience'
+Europe/Vienna,gps,0,1.3,3,sports,'Fiona Apple'
+Europe/Amsterdam,network,1,0.1,0,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,network,0,0,1,traveling,'Pearl Jam'
+Europe/Vienna,gps,2,0,3,unspecified,Skyzoo
+Europe/Vienna,gps,2,0,3,unspecified,Skyzoo
+Europe/Vienna,network,0,1.3,2,sports,<unknown>
+Europe/Vienna,network,0,0,5,relaxing,'Mario Vazquez'
+Europe/Amsterdam,network,1,0.13,2,unspecified,Pro7-dieBand
+Europe/Amsterdam,network,1,0,0,relaxing,'Bryan Adams'
+Europe/Vienna,network,0,0.96,5,unspecified,'Letzte Instanz'
+Europe/Vienna,network,2,0,5,unspecified,'Drake feat. Lil\' Wayne & Tyga'
+Europe/Vienna,network,0,0.93,2,unspecified,Muse
+Europe/Vienna,?,0,1.13,2,sports,<unknown>
+Europe/Vienna,network,0,0.81,4,unspecified,'Unknown Artist'
+Europe/Vienna,network,1,0.13,0,unspecified,'Bloodhound Gang'
+Africa/Algiers,?,1,0.09,0,unspecified,<unknown>
+Europe/Vienna,?,0,0,1,unspecified,Aceyalone
+Europe/Vienna,network,0,0,5,unspecified,Wizkid
+Europe/Vienna,?,0,0.19,4,relaxing,<unknown>
+America/Montreal,network,0,0.06,4,working,'Bad Religion'
+Africa/Ceuta,network,0,0.5,1,unspecified,'Paul McCartney'
+Europe/Vienna,?,0,0.94,1,unspecified,<unknown>
+Europe/Vienna,gps,2,0,1,unspecified,<unknown>
+Europe/Vienna,network,1,3.44,1,unspecified,Pond
+Europe/Vienna,network,0,0.65,5,sports,'Christina Stürmer'
+Europe/Vienna,?,0,1.05,4,sports,<unknown>
+Europe/Vienna,network,0,0.03,1,traveling,Coldplay
+Europe/Vienna,network,0,0.27,0,relaxing,'Daft Punk'
+Europe/Vienna,network,0,1.21,4,traveling,'Austrian Death Machine'
+Europe/Vienna,gps,0,0,3,unspecified,<unknown>
+Europe/Vienna,?,0,2.02,1,shopping,'Bob Dylan'
+Europe/Amsterdam,network,1,0.59,0,relaxing,'Die Toten Hosen'
+Europe/Vienna,network,1,0,4,unspecified,'Daft Punk'
+Europe/Vienna,gps,0,0.22,1,working,'Die Fantastischen Vier'
+Europe/Vienna,network,1,0,1,unspecified,'Die Fantastischen Vier'
+Europe/Vienna,?,0,0.18,3,relaxing,<unknown>
+Europe/Vienna,network,2,0,3,unspecified,'Wiz Khalifa'
+Europe/Vienna,network,2,0,5,unspecified,'Gotye  Feat. Kimbra'
+Europe/Vienna,network,2,0,3,unspecified,'Trey Songz'
+Europe/Vienna,network,0,0.69,2,sports,<unknown>
+Europe/Vienna,network,0,0,5,unspecified,'David Guetta'
+Europe/Vienna,network,1,0.05,1,unspecified,'Dave Grohl, Josh Homme & Trent Reznor'
+Europe/Amsterdam,network,1,0.06,0,unspecified,'Sportfreunde Stiller'
+Africa/Ceuta,network,0,0.04,1,unspecified,'King Crimson'
+Europe/Sarajevo,network,0,0.34,?,traveling,'Lamb of God'
+Europe/Vienna,network,0,0.43,1,relaxing,'The Killers'
+Europe/Vienna,?,0,0.96,1,unspecified,<unknown>
+Europe/Vienna,network,0,0.04,1,relaxing,'Bob Dylan'
+Europe/Vienna,network,0,0.12,0,unspecified,'Paul Banks'
+Europe/Vienna,network,0,0,1,unspecified,'Letzte Instanz'
+Europe/Vienna,network,0,0,5,unspecified,'Gotye  Feat. Kimbra'
+Europe/Vienna,network,2,0,5,unspecified,'Gotye  Feat. Kimbra'
+Europe/Vienna,network,0,0.15,1,unspecified,'The Heavy'
+Europe/Vienna,?,1,1.06,1,sports,<unknown>
+Europe/Vienna,network,0,0.03,4,unspecified,<unknown>
+Europe/Amsterdam,network,1,0,0,relaxing,Madsen
+Europe/Vienna,gps,0,0.82,3,unspecified,P-SQUARE
+Europe/Vienna,network,0,0,0,working,'Austrian Death Machine'
+Europe/Vienna,network,0,0.38,1,relaxing,'Enter Shikari'
+Europe/Vienna,network,0,0.02,1,working,'Ani DiFranco'
+Europe/Vienna,gps,0,0.58,1,unspecified,Casper
+Europe/Vienna,network,2,0,5,unspecified,'Fabolous Ft Pdiddy JE'
+Europe/Vienna,network,0,0.13,0,unspecified,'Kate Winslet'
+Europe/Vienna,network,0,0.03,1,relaxing,<unknown>
+Europe/Vienna,network,0,1.75,1,unspecified,'Sammy Adams'
+Europe/Vienna,gps,2,0,3,unspecified,'Rick Ross'
+Europe/Vienna,network,0,0.14,1,unspecified,'JAY SEAN'
+Europe/Vienna,gps,1,0,4,working,'City and Colour'
+Europe/Vienna,network,0,0.85,1,unspecified,'Trevor Jones; Randy Edelman'
+Europe/Vienna,network,0,0.41,1,romancing,'Adam Green'
+Europe/Sarajevo,gps,0,3.73,?,sports,'Lamb of God'
+Europe/Vienna,gps,0,2.43,3,sports,'Pat Metheny Group'
+Europe/Vienna,network,0,1.05,4,unspecified,'Over The Rainbow'
+Europe/Vienna,network,0,0,4,working,'Arctic Monkeys'
+Europe/Amsterdam,network,1,0,0,relaxing,Madsen
+Europe/Vienna,network,1,1.28,1,relaxing,<unknown>
+Europe/Vienna,?,0,0,1,working,'Cody ChesnuTT'
+Europe/Vienna,network,0,0.23,2,relaxing,Drake
+Europe/Vienna,?,0,1.41,1,traveling,Rhapsody
+Europe/Vienna,network,0,0.4,3,relaxing,'Modest Mouse'
+Africa/Algiers,?,0,0.13,0,unspecified,<unknown>
+Europe/Vienna,network,0,0.75,5,unspecified,'Red Hot Chili Peppers'
+Europe/Vienna,?,0,0.33,4,relaxing,<unknown>
+Europe/Sarajevo,network,0,0.88,?,traveling,'Creedence Clearwater Revival'
+Europe/Sarajevo,gps,0,0.78,?,traveling,'Wild Cherry'
+Europe/Vienna,gps,0,1.26,5,sports,'Citrus Hill'
+Europe/Vienna,network,0,0.22,4,unspecified,Alt-J
+Europe/Sarajevo,network,0,0.93,?,unspecified,'Kool & The Gang'
+Europe/Sarajevo,network,0,0.37,?,traveling,'Creedence Clearwater Revival'
+Europe/London,gps,0,0.45,0,working,'The Police'
+Europe/Vienna,?,0,0,1,working,'Dilated Peoples'
+Europe/London,gps,0,0.21,4,unspecified,R.E.M.
+Europe/Zurich,network,0,0,5,unspecified,Samsung
+Europe/Vienna,?,0,0.64,3,working,'Tha Connection'
+Europe/Vienna,network,0,0.15,1,relaxing,<unknown>
+Africa/Ceuta,gps,0,0.38,1,working,'King Crimson'
+Africa/Ceuta,network,0,0.32,3,partying,'Ernesto Vs Bastian'
+Europe/Vienna,network,0,0,4,unspecified,'Arctic Monkeys'
+Europe/Vienna,network,0,0,4,working,'Days in Grief'
+Africa/Algiers,?,0,0.85,4,sports,<unknown>
+Europe/Vienna,network,0,0.25,3,relaxing,'Klaus Doldinger'
+Europe/Vienna,network,0,0.04,0,unspecified,'Chris Cornell'
+Europe/Vienna,network,0,0,1,unspecified,Moonsorrow
+Europe/Vienna,network,0,0,1,unspecified,'Clara Luzia'
+Europe/Vienna,network,0,0.05,5,relaxing,'Daft Punk'
+Europe/Vienna,network,0,0,3,sports,'David Garrett'
+Europe/Vienna,network,0,0.14,5,unspecified,'The Heavy'
+Europe/Vienna,gps,0,0,3,unspecified,'Trey Songz'
+Europe/Vienna,network,0,0,4,working,'Days in Grief'

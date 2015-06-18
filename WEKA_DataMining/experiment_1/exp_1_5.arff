@@ -1,0 +1,113 @@
+@relation 'mmg-weka.filters.unsupervised.instance.ReservoirSample-S1-Z500-weka.filters.unsupervised.attribute.Remove-V-R6,7,30,80,98,99-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-Clast-L195-weka.filters.unsupervised.instance.RemoveFrequentValues-Clast-N20-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.attribute.NominalToString-Clast'
+
+@attribute timeContext_dayOfWeek numeric
+@attribute timeContext_hourOfDay numeric
+@attribute audioContext_volumeMusic numeric
+@attribute accelerationContext_acceleration numeric
+@attribute activityContext_mood numeric
+@attribute musicContext_Artist string
+
+@data
+
+3,17,100,0.8,50,'The Heavy'
+5,15,67,0,50,'Fiona Apple'
+1,17,100,0.6,50,'The Heavy'
+6,17,100,0.1,70,'Die Fantastischen Vier'
+3,11,27,0,43,P!nk
+6,18,100,0.1,70,'Die Fantastischen Vier'
+3,21,27,7,50,'Red Hot Chili Peppers'
+5,21,47,6.3,50,'Ani DiFranco'
+3,22,75,0.8,80,'Daft Punk'
+3,12,13,0,68,'Ani DiFranco'
+4,12,27,0,55,'Pearl Jam'
+2,6,87,0,50,'Kanye West'
+2,8,60,0.3,56,STS
+4,17,7,0,50,'Letzte Instanz'
+4,13,7,0,50,'Red Hot Chili Peppers'
+2,8,33,0,50,'Die Fantastischen Vier'
+6,12,100,0.7,50,'Sportfreunde Stiller'
+4,16,7,0,50,'Letzte Instanz'
+2,7,33,2.8,50,'Die Fantastischen Vier'
+4,22,27,0,70,'Bob Dylan'
+7,19,90,1.2,50,'Bob Dylan'
+5,16,100,0.6,50,Casper
+4,12,67,18.5,62,'Caravan Palace'
+5,18,53,21.6,38,'Caravan Palace'
+7,14,73,0.5,30,'Lamb of God'
+4,17,53,0.1,50,Wizkid
+5,20,53,17.8,50,'Caravan Palace'
+1,10,100,0,44,'Asian Dub Foundation'
+3,10,40,2.8,50,'Ani DiFranco'
+4,18,100,0,81,'Asian Dub Foundation'
+3,15,60,7,50,STS
+6,11,100,0,50,'Sportfreunde Stiller'
+6,13,73,0.7,34,'Caravan Palace'
+7,16,73,0.6,50,'Kanye West'
+4,22,27,0,50,'Kanye West'
+2,9,60,0.2,56,STS
+4,6,60,0.4,50,'Sportfreunde Stiller'
+3,21,63,0.7,65,'Daft Punk'
+1,17,73,1,81,'Lamb of God'
+4,5,13,0,50,Wizkid
+4,21,33,1.9,50,'Fiona Apple'
+5,15,100,5,50,Casper
+3,11,13,0,68,'Pearl Jam'
+4,17,46,4,50,'Bob Dylan'
+6,22,87,0,70,'Die Fantastischen Vier'
+6,23,87,1.9,70,'Die Fantastischen Vier'
+4,15,47,0,32,'Asian Dub Foundation'
+6,13,100,0.5,50,'Sportfreunde Stiller'
+3,18,7,0.1,66,'Mumford & Sons'
+2,18,100,0.6,50,'The Heavy'
+3,13,13,0,68,'Ani DiFranco'
+2,22,7,0.1,72,'Sportfreunde Stiller'
+1,1,100,0,50,'The Heavy'
+2,13,33,0,33,P!nk
+7,20,27,11,70,'Red Hot Chili Peppers'
+5,14,36,0.3,50,'Fiona Apple'
+7,23,100,0,50,'Pearl Jam'
+3,17,7,0.1,66,'Mumford & Sons'
+7,18,100,0.6,50,'Die Fantastischen Vier'
+5,5,53,1,81,'Red Hot Chili Peppers'
+1,22,63,0.6,50,'Kanye West'
+2,22,67,0.7,50,'King Crimson'
+3,11,27,0.1,43,P!nk
+3,15,60,0.8,50,STS
+4,11,27,0,55,'Pearl Jam'
+4,18,33,1.5,76,'Die Fantastischen Vier'
+1,21,13,0.1,50,'Sportfreunde Stiller'
+5,2,27,0,50,Wizkid
+7,19,100,0.1,50,'King Crimson'
+7,9,47,0,100,'Mumford & Sons'
+3,13,23,4,69,'Fiona Apple'
+1,21,26,0.2,50,'Sportfreunde Stiller'
+5,16,100,4.9,50,Casper
+5,16,40,0,50,P!nk
+3,10,33,0,64,'Asian Dub Foundation'
+6,12,100,0.5,50,'Sportfreunde Stiller'
+3,13,100,0.4,50,STS
+4,16,44,1.4,50,'Bob Dylan'
+5,15,67,0.1,50,'Fiona Apple'
+1,6,20,0.3,75,'Mumford & Sons'
+4,19,53,0.1,69,'Mumford & Sons'
+3,13,27,7.3,89,'Fiona Apple'
+4,12,28,0.1,50,'Sportfreunde Stiller'
+4,17,20,1,50,'Letzte Instanz'
+5,17,60,0,50,Wizkid
+5,0,60,0.2,100,'Daft Punk'
+4,16,47,1.3,50,'Bob Dylan'
+4,23,40,0,73,'Daft Punk'
+7,22,47,0.1,75,'Die Fantastischen Vier'
+4,23,60,0,73,'Die Fantastischen Vier'
+6,9,100,0,50,'Sportfreunde Stiller'
+7,20,100,0.1,50,'King Crimson'
+7,14,73,0.8,30,'Lamb of God'
+4,15,7,0,50,'Letzte Instanz'
+3,23,100,0.5,50,'The Heavy'
+3,11,13,0,68,'Ani DiFranco'
+7,16,47,0.5,50,Casper
+3,19,47,12.7,72,'Lamb of God'
+3,20,27,13.7,50,'Red Hot Chili Peppers'
+3,17,67,0.3,85,'King Crimson'
+3,14,87,0.2,49,'Daft Punk'
+3,11,100,0.4,50,'The Heavy'

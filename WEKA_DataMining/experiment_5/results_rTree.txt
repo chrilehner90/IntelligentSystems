@@ -1,0 +1,1122 @@
+
+Options: -K 0 -M 1.0 -V 0.0010 -S 1 
+
+
+RandomTree
+==========
+
+taskContext_runningTask5 = com.android.phone/.InCallScreen
+|   timeContext_hourOfDay < 5.5 : Red Hot Chili Peppers (1.06/0.06)
+|   timeContext_hourOfDay >= 5.5
+|   |   orientationContext_orientationUser < 1
+|   |   |   timeContext_utc < 237756928 : Die Fantastischen Vier (0.03/0)
+|   |   |   timeContext_utc >= 237756928 : The Heavy (2/0)
+|   |   orientationContext_orientationUser >= 1 : Kanye West (0.32/0.19)
+taskContext_runningTask5 = com.android.mms/.ui.ConversationComposer
+|   weatherContext_precipitation < 0.2 : Die Fantastischen Vier (0.26/0.13)
+|   weatherContext_precipitation >= 0.2
+|   |   memoryContext_memory < 25.5
+|   |   |   timeContext_dayOfWeek < 6 : Fiona Apple (3/0)
+|   |   |   timeContext_dayOfWeek >= 6 : Kanye West (0.03/0)
+|   |   memoryContext_memory >= 25.5 : The Heavy (0.12/0.09)
+taskContext_runningTask5 = com.android.contacts/.activities.DialtactsActivity
+|   activityContext_activity = unspecified
+|   |   locationContext_longitude < 14.34
+|   |   |   soundEffectContext_bassBoostStrength < 333.5 : Red Hot Chili Peppers (2/0)
+|   |   |   soundEffectContext_bassBoostStrength >= 333.5 : Kanye West (0.53/0.11)
+|   |   locationContext_longitude >= 14.34
+|   |   |   weatherContext_precipitation < 1 : Die Fantastischen Vier (1.25/0.14)
+|   |   |   weatherContext_precipitation >= 1
+|   |   |   |   deviceId = 85489c9176d02c1c : The Heavy (1/0)
+|   |   |   |   deviceId = 61e096280605612a : The Heavy (0/0)
+|   |   |   |   deviceId = b71838ff8961b583 : The Heavy (1/0)
+|   |   |   |   deviceId = ebcd05765a833bb7 : The Heavy (0/0)
+|   |   |   |   deviceId = 108b26b494744513 : The Heavy (0/0)
+|   |   |   |   deviceId = 5c99cad42ef244fd : The Heavy (0/0)
+|   |   |   |   deviceId = 75a05d52c1655b1a : The Heavy (0/0)
+|   |   |   |   deviceId = 631c56126be93e92 : Sportfreunde Stiller (0.07/0)
+|   |   |   |   deviceId = 43ccaa83e7bb26e4 : The Heavy (0/0)
+|   |   |   |   deviceId = c70bf403998e888c : The Heavy (0/0)
+|   |   |   |   deviceId = 9217ac1e8119c8b : The Heavy (0/0)
+|   |   |   |   deviceId = 7f91cffa32bcbcc0 : The Heavy (0/0)
+|   |   |   |   deviceId = 6b877438c2c581b6 : The Heavy (0/0)
+|   |   |   |   deviceId = 6d2333614f593455 : The Heavy (0/0)
+|   |   |   |   deviceId = 69486ceb6f11136b : The Heavy (0/0)
+|   |   |   |   deviceId = 1c76f53a429494ba : The Heavy (0/0)
+|   |   |   |   deviceId = 61b2451072b54ecd : The Heavy (0.11/0)
+|   |   |   |   deviceId = 8779d41d6cec5e2e : The Heavy (0/0)
+|   |   |   |   deviceId = a525f642fe51df0b : The Heavy (0/0)
+|   |   |   |   deviceId = 669145874db13a6 : The Heavy (0/0)
+|   activityContext_activity = eating : Die Fantastischen Vier (0.21/0)
+|   activityContext_activity = working : Die Fantastischen Vier (0.11/0)
+|   activityContext_activity = traveling : Pearl Jam (3/0)
+|   activityContext_activity = relaxing : Die Fantastischen Vier (1/0)
+|   activityContext_activity = sports : Red Hot Chili Peppers (0.11/0)
+|   activityContext_activity = shopping : Bob Dylan (1/0)
+|   activityContext_activity = romancing : The Heavy (0/0)
+taskContext_runningTask5 = com.android.vending/com.google.android.finsky.activities.MainActivity
+|   timeContext_utc < -80366326
+|   |   networkContext_wifiRssi < -64.5 : Daft Punk (1.24/0.18)
+|   |   networkContext_wifiRssi >= -64.5
+|   |   |   storageContext_storageExternal < 51 : Kanye West (0.16/0.08)
+|   |   |   storageContext_storageExternal >= 51
+|   |   |   |   storageContext_storageExternal < 72 : Bob Dylan (2/0)
+|   |   |   |   storageContext_storageExternal >= 72 : Red Hot Chili Peppers (0.04/0)
+|   timeContext_utc >= -80366326
+|   |   weatherContext_precipitation < 0.45
+|   |   |   activityContext_activity = unspecified : Kanye West (0.06/0)
+|   |   |   activityContext_activity = eating : Die Fantastischen Vier (2.13/0)
+|   |   |   activityContext_activity = working : Die Fantastischen Vier (0.06/0)
+|   |   |   activityContext_activity = traveling : The Heavy (0/0)
+|   |   |   activityContext_activity = relaxing : The Heavy (0/0)
+|   |   |   activityContext_activity = sports : The Heavy (0/0)
+|   |   |   activityContext_activity = shopping : The Heavy (0/0)
+|   |   |   activityContext_activity = romancing : The Heavy (0/0)
+|   |   weatherContext_precipitation >= 0.45 : Asian Dub Foundation (1.13/0.13)
+taskContext_runningTask5 = com.andrew.apollo.play/com.andrew.apollo.ui.activities.HomeActivity
+|   contextId < 6974.5 : Die Fantastischen Vier (0.27/0.19)
+|   contextId >= 6974.5 : P!nk (2/0)
+taskContext_runningTask5 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : Red Hot Chili Peppers (1.14/0.13)
+taskContext_runningTask5 = com.stt.android/.STTabMain : Ani DiFranco (1.14/0.14)
+taskContext_runningTask5 = de.hafas.android.oebb/de.hafas.main.Hafas : Daft Punk (1.14/0.13)
+taskContext_runningTask5 = com.google.android.calendar/com.android.calendar.AllInOneActivity
+|   timeContext_utc < -299597739.5
+|   |   weatherContext_temperature < 7.5 : Pearl Jam (2/0)
+|   |   weatherContext_temperature >= 7.5 : Die Fantastischen Vier (0.21/0.16)
+|   timeContext_utc >= -299597739.5
+|   |   activityContext_activity = unspecified : Kanye West (0.32/0.16)
+|   |   activityContext_activity = eating : Die Fantastischen Vier (0.11/0)
+|   |   activityContext_activity = working
+|   |   |   locationContext_accuracy < 20 : Die Fantastischen Vier (0.05/0)
+|   |   |   locationContext_accuracy >= 20 : Ani DiFranco (3/0)
+|   |   activityContext_activity = traveling : The Heavy (0/0)
+|   |   activityContext_activity = relaxing : The Heavy (0/0)
+|   |   activityContext_activity = sports : The Heavy (0/0)
+|   |   activityContext_activity = shopping : The Heavy (0/0)
+|   |   activityContext_activity = romancing : The Heavy (0/0)
+taskContext_runningTask5 = com.disney.nemo/.NemoActivity
+|   batteryContext_batteryLevel < 30.5
+|   |   contextId < 6115 : STS (2/0)
+|   |   contextId >= 6115 : Red Hot Chili Peppers (0.02/0)
+|   batteryContext_batteryLevel >= 30.5 : Die Fantastischen Vier (0.25/0.17)
+taskContext_runningTask5 = com.dropbox.android/.activity.DropboxActionBarActivity
+|   soundEffectContext_equalizerPreset < 5 : Die Fantastischen Vier (0.55/0.38)
+|   soundEffectContext_equalizerPreset >= 5 : Letzte Instanz (4/0)
+taskContext_runningTask5 = com.facebook.katana/.activity.FbFragmentChromeActivity
+|   locationContext_provider = network
+|   |   soundEffectContext_virtualizerEnabled < 0.5
+|   |   |   timeContext_dayOfWeek < 2.5 : P!nk (1.11/0.11)
+|   |   |   timeContext_dayOfWeek >= 2.5 : Daft Punk (1.53/0.42)
+|   |   soundEffectContext_virtualizerEnabled >= 0.5
+|   |   |   phoneContext_state < 0.5 : Wizkid (1.11/0.11)
+|   |   |   phoneContext_state >= 0.5 : Sportfreunde Stiller (1.21/0.11)
+|   locationContext_provider = gps
+|   |   taskContext_runningTask3 = com.android.contacts/.activities.DialtactsActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity
+|   |   |   locationContext_longitude < 16.13
+|   |   |   |   context_datetime < 1366908874500 : Kanye West (0.1/0.05)
+|   |   |   |   context_datetime >= 1366908874500
+|   |   |   |   |   timeContext_utc < 157838684.5 : Kanye West (0.05/0)
+|   |   |   |   |   timeContext_utc >= 157838684.5 : Die Fantastischen Vier (2/0)
+|   |   |   locationContext_longitude >= 16.13 : Fiona Apple (1/0)
+|   |   taskContext_runningTask3 = com.android.chrome/com.google.android.apps.chrome.Main : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.DramaProductions.Einkaufen5/.Einkaufsliste : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.phone/.InCallScreen : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.tbig.playerpro/.artist.ArtistGridBrowserActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.settings/.Settings$WifiSettingsActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.email/.activity.MessageListXL : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.systemui/.recent.RecentsActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = org.mozilla.firefox/.App : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.nianticproject.ingress/.NemesisActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.htc.launcher/.Launcher : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.mms/.ui.ConversationComposer : Bob Dylan (1.05/0.05)
+|   |   taskContext_runningTask3 = com.android.settings/.wifi.WifiPickerActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.calendar/.AllInOneActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.google.android.gallery3d/com.android.gallery3d.app.Gallery : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : Ani DiFranco (1.05/0.05)
+|   |   taskContext_runningTask3 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.htcdialer/.DialerActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.browser/.BrowserActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = de.hafas.android.oebb/de.hafas.main.Hafas : The Heavy (0/0)
+|   |   taskContext_runningTask3 = hu.koin/.ui.MainTabActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.htc.android.mail/.MailListTab : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.dynamicg.timerecording/.Main : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.google.android.youtube/.app.honeycomb.phone.HomeActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.google.android.apps.maps/com.google.android.maps.MapsActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.rauscha.apps.timesheet/.activities.main.MainFragmentActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.fsck.k9/.activity.MessageList : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.stt.android/.STTabMain : Fiona Apple (1.05/0.05)
+|   |   taskContext_runningTask3 = com.android.settings/.SoundSettings : The Heavy (0/0)
+|   |   taskContext_runningTask3 = de.mathis.android.ultimatebattery/.OverviewActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.anddoes.launcher/.Launcher : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.facebook.katana/.activity.FbFragmentChromeActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.email/.activity.EmailActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.settings/.Settings : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.cyanogenmod.filemanager/.activities.NavigationActivity : Die Fantastischen Vier (0.11/0.01)
+|   |   taskContext_runningTask3 = com.sec.android.app.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+taskContext_runningTask5 = com.android.settings/.SoundSettings
+|   networkContext_wifiEnabled < 0.5
+|   |   audioContext_volumeRinger < 7 : Kanye West (0.08/0.04)
+|   |   audioContext_volumeRinger >= 7 : Sportfreunde Stiller (2/0)
+|   networkContext_wifiEnabled >= 0.5 : Die Fantastischen Vier (0.19/0.11)
+taskContext_runningTask5 = com.google.android.talk/.SigningInActivity
+|   weatherContext_pressure < 1010
+|   |   context_datetime < 1365732024000 : Kanye West (0.09/0.06)
+|   |   context_datetime >= 1365732024000
+|   |   |   timeContext_dayOfWeek < 6 : Casper (3/0)
+|   |   |   timeContext_dayOfWeek >= 6 : Red Hot Chili Peppers (0.03/0)
+|   weatherContext_pressure >= 1010 : Die Fantastischen Vier (0.29/0.17)
+taskContext_runningTask5 = com.omgpop.dstfree/.Main
+|   audioContext_volumeNotif < 7 : Kanye West (0.15/0.06)
+|   audioContext_volumeNotif >= 7
+|   |   activityContext_mood < 66
+|   |   |   timeContext_timeZone = Europe/Vienna : The Heavy (0.02/0)
+|   |   |   timeContext_timeZone = Europe/Amsterdam : The Heavy (0/0)
+|   |   |   timeContext_timeZone = Europe/Zurich : The Heavy (0/0)
+|   |   |   timeContext_timeZone = Europe/Sarajevo : Caravan Palace (1/0)
+|   |   |   timeContext_timeZone = Europe/London : The Heavy (0/0)
+|   |   |   timeContext_timeZone = Europe/Budapest : Caravan Palace (1/0)
+|   |   |   timeContext_timeZone = Africa/Ceuta : The Heavy (0/0)
+|   |   activityContext_mood >= 66 : Die Fantastischen Vier (0.11/0.02)
+taskContext_runningTask5 = com.lyrebirdstudio.tinyplanet/.MainActivity : Caravan Palace (1.14/0.14)
+taskContext_runningTask5 = app.mav.menetrend/.MenetrendDroidActivity
+|   locationContext_latitude < 47.98
+|   |   contextId < 3060 : Die Fantastischen Vier (0.04/0)
+|   |   contextId >= 3060 : Lamb of God (2/0)
+|   locationContext_latitude >= 47.98 : Kanye West (0.23/0.15)
+taskContext_runningTask5 = com.android.chrome/com.google.android.apps.chrome.Main
+|   taskContext_runningTask3 = com.android.contacts/.activities.DialtactsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : Kanye West (0.04/0)
+|   taskContext_runningTask3 = com.android.chrome/com.google.android.apps.chrome.Main : The Heavy (0.04/0)
+|   taskContext_runningTask3 = com.DramaProductions.Einkaufen5/.Einkaufsliste : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.phone/.InCallScreen : Red Hot Chili Peppers (0.04/0)
+|   taskContext_runningTask3 = com.tbig.playerpro/.artist.ArtistGridBrowserActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.Settings$WifiSettingsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.email/.activity.MessageListXL : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.systemui/.recent.RecentsActivity : Die Fantastischen Vier (0.09/0)
+|   taskContext_runningTask3 = org.mozilla.firefox/.App : The Heavy (0/0)
+|   taskContext_runningTask3 = com.nianticproject.ingress/.NemesisActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.htc.launcher/.Launcher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.mms/.ui.ConversationComposer : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.wifi.WifiPickerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.calendar/.AllInOneActivity : Wizkid (1.06/0.05)
+|   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.gallery3d/com.android.gallery3d.app.Gallery : The Heavy (0/0)
+|   taskContext_runningTask3 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (1.06/0.06)
+|   taskContext_runningTask3 = com.android.htcdialer/.DialerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.browser/.BrowserActivity : Sportfreunde Stiller (0.04/0)
+|   taskContext_runningTask3 = de.hafas.android.oebb/de.hafas.main.Hafas : The Heavy (0/0)
+|   taskContext_runningTask3 = hu.koin/.ui.MainTabActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   taskContext_runningTask3 = com.htc.android.mail/.MailListTab : The Heavy (0/0)
+|   taskContext_runningTask3 = com.dynamicg.timerecording/.Main : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.youtube/.app.honeycomb.phone.HomeActivity
+|   |   locationContext_latitude < 47.8 : Pearl Jam (2/0)
+|   |   locationContext_latitude >= 47.8 : Kanye West (0.12/0.06)
+|   taskContext_runningTask3 = com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.apps.maps/com.google.android.maps.MapsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.rauscha.apps.timesheet/.activities.main.MainFragmentActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.fsck.k9/.activity.MessageList : The Heavy (0/0)
+|   taskContext_runningTask3 = com.stt.android/.STTabMain : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.SoundSettings : The Heavy (0/0)
+|   taskContext_runningTask3 = de.mathis.android.ultimatebattery/.OverviewActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.anddoes.launcher/.Launcher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.facebook.katana/.activity.FbFragmentChromeActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.email/.activity.EmailActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.Settings : The Heavy (0/0)
+|   taskContext_runningTask3 = com.cyanogenmod.filemanager/.activities.NavigationActivity : Die Fantastischen Vier (0.04/0)
+|   taskContext_runningTask3 = com.sec.android.app.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+taskContext_runningTask5 = com.android.htcdialer/.DialerActivity : Caravan Palace (1.14/0.14)
+taskContext_runningTask5 = com.farproc.wifi.analyzer/.MainScreen : Asian Dub Foundation (1.14/0.14)
+taskContext_runningTask5 = com.facebook.katana/.LoginActivity
+|   taskContext_runningTask2 = com.android.launcher/com.android.launcher2.Launcher : Die Fantastischen Vier (0.13/0.06)
+|   taskContext_runningTask2 = com.facebook.katana/.RequestsActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = com.cyanogenmod.trebuchet/.Launcher : Asian Dub Foundation (1.02/0.02)
+|   taskContext_runningTask2 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   taskContext_runningTask2 = com.android.browser/.BrowserActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : Die Fantastischen Vier (0.02/0)
+|   taskContext_runningTask2 = com.anddoes.launcher/.Launcher : The Heavy (0/0)
+|   taskContext_runningTask2 = com.sec.android.app.launcher/com.android.launcher2.Launcher : Kanye West (0.08/0.02)
+|   taskContext_runningTask2 = com.android.htcdialer/.Dialer : The Heavy (0/0)
+|   taskContext_runningTask2 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   taskContext_runningTask2 = com.htc.launcher/.Launcher : Lamb of God (1/0)
+|   taskContext_runningTask2 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = com.facebook.katana/.activity.FbFragmentChromeActivity : Kanye West (0.02/0)
+|   taskContext_runningTask2 = com.swipeentertainment.wingsuit/com.unity3d.player.UnityPlayerNativeActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   taskContext_runningTask2 = com.android.systemui/.recent.RecentsActivity : The Heavy (0/0)
+taskContext_runningTask5 = com.android.mms/.ui.ConversationList
+|   phoneContext_signalStrength < -93.5 : Mumford & Sons (2/0)
+|   phoneContext_signalStrength >= -93.5
+|   |   storageContext_storageExternal < 41 : Die Fantastischen Vier (0.51/0.34)
+|   |   storageContext_storageExternal >= 41
+|   |   |   timeContext_utc < 470385343 : Red Hot Chili Peppers (0.04/0)
+|   |   |   timeContext_utc >= 470385343 : STS (2/0)
+taskContext_runningTask5 = com.android.systemui/.recent.RecentsActivity
+|   audioContext_volumeSystem < 59
+|   |   taskContext_runningTask2 = com.android.launcher/com.android.launcher2.Launcher : Daft Punk (0.08/0.04)
+|   |   taskContext_runningTask2 = com.facebook.katana/.RequestsActivity : The Heavy (0/0)
+|   |   taskContext_runningTask2 = com.cyanogenmod.trebuchet/.Launcher : P!nk (1.04/0.04)
+|   |   taskContext_runningTask2 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   |   taskContext_runningTask2 = com.android.browser/.BrowserActivity : STS (1/0)
+|   |   taskContext_runningTask2 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+|   |   taskContext_runningTask2 = com.anddoes.launcher/.Launcher : The Heavy (0/0)
+|   |   taskContext_runningTask2 = com.sec.android.app.launcher/com.android.launcher2.Launcher : Kanye West (0.17/0.04)
+|   |   taskContext_runningTask2 = com.android.htcdialer/.Dialer : The Heavy (0/0)
+|   |   taskContext_runningTask2 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   |   taskContext_runningTask2 = com.htc.launcher/.Launcher : The Heavy (0/0)
+|   |   taskContext_runningTask2 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : The Heavy (0/0)
+|   |   taskContext_runningTask2 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (0/0)
+|   |   taskContext_runningTask2 = com.facebook.katana/.activity.FbFragmentChromeActivity : Kanye West (0.04/0)
+|   |   taskContext_runningTask2 = com.swipeentertainment.wingsuit/com.unity3d.player.UnityPlayerNativeActivity : The Heavy (0/0)
+|   |   taskContext_runningTask2 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   |   taskContext_runningTask2 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   |   taskContext_runningTask2 = com.android.systemui/.recent.RecentsActivity : The Heavy (0/0)
+|   audioContext_volumeSystem >= 59
+|   |   soundEffectContext_bassBoostStrength < 238.5 : Die Fantastischen Vier (0.21/0.04)
+|   |   soundEffectContext_bassBoostStrength >= 238.5 : Sportfreunde Stiller (2/0)
+taskContext_runningTask5 = com.paprikapp.lostandfound/.MainActivity : Lamb of God (1.14/0.14)
+taskContext_runningTask5 = com.google.android.gm/.ConversationListActivityGmail : Wizkid (1.14/0.13)
+taskContext_runningTask5 = com.android.email/.activity.MessageListXL : Fiona Apple (1.14/0.14)
+taskContext_runningTask5 = com.android.browser/.BrowserActivity
+|   audioContext_volumeNotif < 50 : Sportfreunde Stiller (1.15/0.13)
+|   audioContext_volumeNotif >= 50 : Mumford & Sons (1.13/0.13)
+taskContext_runningTask5 = com.estrongs.android.pop/.view.FileExplorerActivity : Fiona Apple (1.14/0.14)
+taskContext_runningTask5 = com.android.settings/.Settings
+|   taskContext_runningTask3 = com.android.contacts/.activities.DialtactsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : Kanye West (0.02/0)
+|   taskContext_runningTask3 = com.android.chrome/com.google.android.apps.chrome.Main : The Heavy (0.02/0)
+|   taskContext_runningTask3 = com.DramaProductions.Einkaufen5/.Einkaufsliste : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.phone/.InCallScreen : Red Hot Chili Peppers (0.02/0)
+|   taskContext_runningTask3 = com.tbig.playerpro/.artist.ArtistGridBrowserActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.Settings$WifiSettingsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.email/.activity.MessageListXL : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.systemui/.recent.RecentsActivity : Die Fantastischen Vier (0.04/0)
+|   taskContext_runningTask3 = org.mozilla.firefox/.App : The Heavy (0/0)
+|   taskContext_runningTask3 = com.nianticproject.ingress/.NemesisActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.htc.launcher/.Launcher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.mms/.ui.ConversationComposer : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.wifi.WifiPickerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.calendar/.AllInOneActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.gallery3d/com.android.gallery3d.app.Gallery : The Heavy (0/0)
+|   taskContext_runningTask3 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.htcdialer/.DialerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.browser/.BrowserActivity : Sportfreunde Stiller (0.02/0)
+|   taskContext_runningTask3 = de.hafas.android.oebb/de.hafas.main.Hafas : The Heavy (0/0)
+|   taskContext_runningTask3 = hu.koin/.ui.MainTabActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   taskContext_runningTask3 = com.htc.android.mail/.MailListTab : The Heavy (0/0)
+|   taskContext_runningTask3 = com.dynamicg.timerecording/.Main : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.youtube/.app.honeycomb.phone.HomeActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.apps.maps/com.google.android.maps.MapsActivity : King Crimson (1.06/0.06)
+|   taskContext_runningTask3 = com.rauscha.apps.timesheet/.activities.main.MainFragmentActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.fsck.k9/.activity.MessageList : The Heavy (0/0)
+|   taskContext_runningTask3 = com.stt.android/.STTabMain : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.SoundSettings : The Heavy (0/0)
+|   taskContext_runningTask3 = de.mathis.android.ultimatebattery/.OverviewActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.anddoes.launcher/.Launcher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.facebook.katana/.activity.FbFragmentChromeActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.email/.activity.EmailActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.Settings : The Heavy (0/0)
+|   taskContext_runningTask3 = com.cyanogenmod.filemanager/.activities.NavigationActivity : Die Fantastischen Vier (0.02/0)
+|   taskContext_runningTask3 = com.sec.android.app.launcher/com.android.launcher2.Launcher : King Crimson (1.06/0.06)
+taskContext_runningTask5 = com.google.android.googlequicksearchbox/.SearchActivity
+|   locationContext_longitude < 7.28 : King Crimson (2/0)
+|   locationContext_longitude >= 7.28 : Die Fantastischen Vier (0.27/0.19)
+taskContext_runningTask5 = com.android.settings/.Settings$WifiSettingsActivity : Sportfreunde Stiller (1.14/0.13)
+taskContext_runningTask5 = at.jku/.activities.StartActivity : Asian Dub Foundation (1.14/0.14)
+taskContext_runningTask5 = com.amazon.mp3/.download.activity.DownloadActivity : Sportfreunde Stiller (1.14/0.13)
+taskContext_runningTask5 = me.pou.app/.App : STS (1.14/0.14)
+taskContext_runningTask5 = com.android.deskclock/.AlarmClock : Bob Dylan (1.14/0.14)
+taskContext_runningTask5 = com.android.deskclock/.DeskClock : Mumford & Sons (1.14/0.14)
+taskContext_runningTask5 = com.android.gallery3d/com.android.camera.CameraLauncher
+|   lightContext_light < 116.5 : Mumford & Sons (1.24/0.24)
+|   lightContext_light >= 116.5 : Bob Dylan (1.03/0.03)
+taskContext_runningTask5 = jp.co.sega.vtc/.VTCActivity : Sportfreunde Stiller (1.14/0.13)
+taskContext_runningTask5 = com.shazam.encore.android/com.shazam.android.Home : Daft Punk (1.14/0.13)
+taskContext_runningTask5 = com.citc.weather/.activities.Main : Casper (1.14/0.14)
+
+Size of the tree : 349
+
+Time taken to build model: 0.09 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         106               98.1481 %
+Incorrectly Classified Instances         2                1.8519 %
+Kappa statistic                          0.9804
+Mean absolute error                      0.0115
+Root mean squared error                  0.0569
+Relative absolute error                 12.1782 %
+Root relative squared error             26.1847 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      14.2593 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.010    0.909      1.000    0.952      0.949    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 0.800    0.000    1.000      0.800    0.889      0.890    1.000     1.000     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 1.000    0.010    0.800      1.000    0.889      0.890    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.998     0.950     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.981    0.001    0.984      0.981    0.981      0.981    1.000     0.998     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  1  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  3  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          61               56.4815 %
+Incorrectly Classified Instances        47               43.5185 %
+Kappa statistic                          0.537 
+Mean absolute error                      0.0489
+Root mean squared error                  0.1826
+Relative absolute error                 51.5813 %
+Root relative squared error             83.6955 %
+Coverage of cases (0.95 level)          75      %
+Mean rel. region size (0.95 level)      23.3796 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.020    0.500      0.333    0.400      0.381    0.725     0.435     The Heavy
+                 0.571    0.020    0.667      0.571    0.615      0.593    0.818     0.544     Fiona Apple
+                 0.600    0.153    0.286      0.600    0.387      0.327    0.821     0.592     Die Fantastischen Vier
+                 0.500    0.029    0.400      0.500    0.444      0.423    0.833     0.311     P!nk
+                 0.800    0.010    0.800      0.800    0.800      0.790    0.959     0.773     Red Hot Chili Peppers
+                 0.600    0.019    0.600      0.600    0.600      0.581    0.848     0.499     Ani DiFranco
+                 0.000    0.019    0.000      0.000    0.000      -0.030   0.787     0.210     Daft Punk
+                 1.000    0.020    0.778      1.000    0.875      0.873    1.000     1.000     Pearl Jam
+                 0.500    0.029    0.400      0.500    0.444      0.423    0.637     0.181     Kanye West
+                 0.667    0.000    1.000      0.667    0.800      0.809    0.804     0.685     STS
+                 1.000    0.010    0.800      1.000    0.889      0.890    0.994     0.763     Letzte Instanz
+                 0.600    0.031    0.667      0.600    0.632      0.597    0.876     0.593     Sportfreunde Stiller
+                 0.500    0.020    0.600      0.500    0.545      0.524    0.870     0.498     Bob Dylan
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.851     0.759     Casper
+                 0.250    0.000    1.000      0.250    0.400      0.493    0.811     0.403     Caravan Palace
+                 0.500    0.010    0.667      0.500    0.571      0.564    0.694     0.310     Lamb of God
+                 0.000    0.010    0.000      0.000    0.000      -0.019   0.540     0.044     Wizkid
+                 0.500    0.019    0.500      0.500    0.500      0.481    0.700     0.519     Asian Dub Foundation
+                 0.400    0.039    0.333      0.400    0.364      0.331    0.814     0.253     Mumford & Sons
+                 1.000    0.010    0.800      1.000    0.889      0.890    1.000     1.000     King Crimson
+Weighted Avg.    0.565    0.030    0.585      0.565    0.555      0.539    0.828     0.539     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 0 2 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 4 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 1 6 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 1 0 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 1 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 2 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 2 2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 2 0 0 1 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 2 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 1 0 0 0 0 1 1 0 0 6 0 0 0 0 0 0 1 0 | l = Sportfreunde Stiller
+ 0 0 1 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 1 | m = Bob Dylan
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 1 1 0 | p = Lamb of God
+ 0 0 1 0 0 0 0 0 2 0 0 0 0 0 0 0 0 1 0 0 | q = Wizkid
+ 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 | r = Asian Dub Foundation
+ 0 0 2 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -K 10 -M 1.0 -V 0.0010 -S 1 
+
+
+RandomTree
+==========
+
+taskContext_runningTask5 = com.android.phone/.InCallScreen
+|   taskContext_runningTask2 = com.android.launcher/com.android.launcher2.Launcher : The Heavy (1.19/0.16)
+|   taskContext_runningTask2 = com.facebook.katana/.RequestsActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = com.cyanogenmod.trebuchet/.Launcher : The Heavy (1.03/0.03)
+|   taskContext_runningTask2 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   taskContext_runningTask2 = com.android.browser/.BrowserActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : Die Fantastischen Vier (0.03/0)
+|   taskContext_runningTask2 = com.anddoes.launcher/.Launcher : The Heavy (0/0)
+|   taskContext_runningTask2 = com.sec.android.app.launcher/com.android.launcher2.Launcher : Red Hot Chili Peppers (1.13/0.13)
+|   taskContext_runningTask2 = com.android.htcdialer/.Dialer : The Heavy (0/0)
+|   taskContext_runningTask2 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   taskContext_runningTask2 = com.htc.launcher/.Launcher : The Heavy (0/0)
+|   taskContext_runningTask2 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = com.facebook.katana/.activity.FbFragmentChromeActivity : Kanye West (0.03/0)
+|   taskContext_runningTask2 = com.swipeentertainment.wingsuit/com.unity3d.player.UnityPlayerNativeActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   taskContext_runningTask2 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   taskContext_runningTask2 = com.android.systemui/.recent.RecentsActivity : The Heavy (0/0)
+taskContext_runningTask5 = com.android.mms/.ui.ConversationComposer
+|   networkContext_mobileConnected < 0.5 : Die Fantastischen Vier (0.32/0.19)
+|   networkContext_mobileConnected >= 0.5
+|   |   batteryContext_batteryPlugged < 0.5 : Kanye West (0.09/0.03)
+|   |   batteryContext_batteryPlugged >= 0.5 : Fiona Apple (3/0)
+taskContext_runningTask5 = com.android.contacts/.activities.DialtactsActivity
+|   audioContext_volumeMusic < 30
+|   |   contextId < 1160 : Pearl Jam (3/0)
+|   |   contextId >= 1160
+|   |   |   batteryContext_batteryPlugged < 0.5 : Red Hot Chili Peppers (2.11/0)
+|   |   |   batteryContext_batteryPlugged >= 0.5 : Kanye West (0.21/0.11)
+|   audioContext_volumeMusic >= 30
+|   |   weatherContext_precipitation < 1.65
+|   |   |   accelerationContext_accelerationStandardDeviation < 3.41
+|   |   |   |   context_datetime < 1366474274000
+|   |   |   |   |   batteryContext_batteryLevel < 94 : Die Fantastischen Vier (2.32/0)
+|   |   |   |   |   batteryContext_batteryLevel >= 94 : Sportfreunde Stiller (0.06/0)
+|   |   |   |   context_datetime >= 1366474274000 : Kanye West (0.53/0.21)
+|   |   |   accelerationContext_accelerationStandardDeviation >= 3.41 : Bob Dylan (0.57/0)
+|   |   weatherContext_precipitation >= 1.65
+|   |   |   context_datetime < 1370705623500
+|   |   |   |   taskContext_runningTask3 = com.android.contacts/.activities.DialtactsActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.chrome/com.google.android.apps.chrome.Main : The Heavy (2.11/0)
+|   |   |   |   taskContext_runningTask3 = com.DramaProductions.Einkaufen5/.Einkaufsliste : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.phone/.InCallScreen : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.tbig.playerpro/.artist.ArtistGridBrowserActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.settings/.Settings$WifiSettingsActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.email/.activity.MessageListXL : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.systemui/.recent.RecentsActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = org.mozilla.firefox/.App : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.nianticproject.ingress/.NemesisActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.htc.launcher/.Launcher : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.mms/.ui.ConversationComposer : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.settings/.wifi.WifiPickerActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.calendar/.AllInOneActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.google.android.gallery3d/com.android.gallery3d.app.Gallery : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.htcdialer/.DialerActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.browser/.BrowserActivity : Sportfreunde Stiller (0.04/0)
+|   |   |   |   taskContext_runningTask3 = de.hafas.android.oebb/de.hafas.main.Hafas : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = hu.koin/.ui.MainTabActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.htc.android.mail/.MailListTab : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.dynamicg.timerecording/.Main : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.google.android.youtube/.app.honeycomb.phone.HomeActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.google.android.apps.maps/com.google.android.maps.MapsActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.rauscha.apps.timesheet/.activities.main.MainFragmentActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.fsck.k9/.activity.MessageList : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.stt.android/.STTabMain : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.settings/.SoundSettings : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = de.mathis.android.ultimatebattery/.OverviewActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.anddoes.launcher/.Launcher : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.facebook.katana/.activity.FbFragmentChromeActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.email/.activity.EmailActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.android.settings/.Settings : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.cyanogenmod.filemanager/.activities.NavigationActivity : The Heavy (0/0)
+|   |   |   |   taskContext_runningTask3 = com.sec.android.app.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+|   |   |   context_datetime >= 1370705623500 : Bob Dylan (0.43/0)
+taskContext_runningTask5 = com.android.vending/com.google.android.finsky.activities.MainActivity
+|   deviceId = 85489c9176d02c1c : Die Fantastischen Vier (2/0)
+|   deviceId = 61e096280605612a : Bob Dylan (2/0)
+|   deviceId = b71838ff8961b583 : The Heavy (0/0)
+|   deviceId = ebcd05765a833bb7 : Asian Dub Foundation (1/0)
+|   deviceId = 108b26b494744513 : Red Hot Chili Peppers (0.06/0)
+|   deviceId = 5c99cad42ef244fd : Daft Punk (1/0)
+|   deviceId = 75a05d52c1655b1a : Kanye West (0.32/0.06)
+|   deviceId = 631c56126be93e92 : Sportfreunde Stiller (0.06/0)
+|   deviceId = 43ccaa83e7bb26e4 : The Heavy (0/0)
+|   deviceId = c70bf403998e888c : The Heavy (0/0)
+|   deviceId = 9217ac1e8119c8b : The Heavy (0/0)
+|   deviceId = 7f91cffa32bcbcc0 : The Heavy (0/0)
+|   deviceId = 6b877438c2c581b6 : The Heavy (0/0)
+|   deviceId = 6d2333614f593455 : The Heavy (0/0)
+|   deviceId = 69486ceb6f11136b : The Heavy (0/0)
+|   deviceId = 1c76f53a429494ba : The Heavy (0/0)
+|   deviceId = 61b2451072b54ecd : Die Fantastischen Vier (0.32/0.13)
+|   deviceId = 8779d41d6cec5e2e : The Heavy (0/0)
+|   deviceId = a525f642fe51df0b : The Heavy (0/0)
+|   deviceId = 669145874db13a6 : Die Fantastischen Vier (0.06/0)
+taskContext_runningTask5 = com.andrew.apollo.play/com.andrew.apollo.ui.activities.HomeActivity
+|   phoneContext_signalStrength < -78
+|   |   contextId < 4907.5 : Die Fantastischen Vier (0.06/0.04)
+|   |   contextId >= 4907.5 : P!nk (2/0)
+|   phoneContext_signalStrength >= -78 : Die Fantastischen Vier (0.21/0.15)
+taskContext_runningTask5 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : Red Hot Chili Peppers (1.14/0.13)
+taskContext_runningTask5 = com.stt.android/.STTabMain : Ani DiFranco (1.14/0.14)
+taskContext_runningTask5 = de.hafas.android.oebb/de.hafas.main.Hafas : Daft Punk (1.14/0.13)
+taskContext_runningTask5 = com.google.android.calendar/com.android.calendar.AllInOneActivity
+|   audioContext_volumeMusic < 20
+|   |   contextId < 834 : Pearl Jam (2/0)
+|   |   contextId >= 834 : Ani DiFranco (3/0)
+|   audioContext_volumeMusic >= 20 : Die Fantastischen Vier (0.68/0.47)
+taskContext_runningTask5 = com.disney.nemo/.NemoActivity
+|   timeContext_timeZone = Europe/Vienna : Die Fantastischen Vier (0.25/0.17)
+|   timeContext_timeZone = Europe/Amsterdam
+|   |   batteryContext_batteryStatus < 3.5 : STS (2/0)
+|   |   batteryContext_batteryStatus >= 3.5 : Sportfreunde Stiller (0.02/0)
+|   timeContext_timeZone = Europe/Zurich : The Heavy (0/0)
+|   timeContext_timeZone = Europe/Sarajevo : The Heavy (0/0)
+|   timeContext_timeZone = Europe/London : The Heavy (0/0)
+|   timeContext_timeZone = Europe/Budapest : The Heavy (0/0)
+|   timeContext_timeZone = Africa/Ceuta : The Heavy (0/0)
+taskContext_runningTask5 = com.dropbox.android/.activity.DropboxActionBarActivity
+|   deviceId = 85489c9176d02c1c : The Heavy (0/0)
+|   deviceId = 61e096280605612a : The Heavy (0/0)
+|   deviceId = b71838ff8961b583 : The Heavy (0/0)
+|   deviceId = ebcd05765a833bb7 : The Heavy (0/0)
+|   deviceId = 108b26b494744513 : Red Hot Chili Peppers (0.04/0)
+|   deviceId = 5c99cad42ef244fd : The Heavy (0/0)
+|   deviceId = 75a05d52c1655b1a : Kanye West (0.21/0.04)
+|   deviceId = 631c56126be93e92 : Sportfreunde Stiller (0.04/0)
+|   deviceId = 43ccaa83e7bb26e4 : Letzte Instanz (4/0)
+|   deviceId = c70bf403998e888c : The Heavy (0/0)
+|   deviceId = 9217ac1e8119c8b : The Heavy (0/0)
+|   deviceId = 7f91cffa32bcbcc0 : The Heavy (0/0)
+|   deviceId = 6b877438c2c581b6 : The Heavy (0/0)
+|   deviceId = 6d2333614f593455 : The Heavy (0/0)
+|   deviceId = 69486ceb6f11136b : The Heavy (0/0)
+|   deviceId = 1c76f53a429494ba : The Heavy (0/0)
+|   deviceId = 61b2451072b54ecd : Die Fantastischen Vier (0.21/0.08)
+|   deviceId = 8779d41d6cec5e2e : The Heavy (0/0)
+|   deviceId = a525f642fe51df0b : The Heavy (0/0)
+|   deviceId = 669145874db13a6 : Die Fantastischen Vier (0.04/0)
+taskContext_runningTask5 = com.facebook.katana/.activity.FbFragmentChromeActivity
+|   taskContext_runningTask3 = com.android.contacts/.activities.DialtactsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity
+|   |   phoneContext_roaming < 0.5
+|   |   |   taskContext_runningTask2 = com.android.launcher/com.android.launcher2.Launcher : Die Fantastischen Vier (0.06/0.03)
+|   |   |   taskContext_runningTask2 = com.facebook.katana/.RequestsActivity : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.cyanogenmod.trebuchet/.Launcher : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.android.browser/.BrowserActivity : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.anddoes.launcher/.Launcher : Die Fantastischen Vier (2/0)
+|   |   |   taskContext_runningTask2 = com.sec.android.app.launcher/com.android.launcher2.Launcher : Kanye West (0.12/0.03)
+|   |   |   taskContext_runningTask2 = com.android.htcdialer/.Dialer : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.htc.launcher/.Launcher : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.facebook.katana/.activity.FbFragmentChromeActivity : Kanye West (0.11/0)
+|   |   |   taskContext_runningTask2 = com.swipeentertainment.wingsuit/com.unity3d.player.UnityPlayerNativeActivity : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   |   |   taskContext_runningTask2 = com.android.systemui/.recent.RecentsActivity : The Heavy (0/0)
+|   |   phoneContext_roaming >= 0.5 : Fiona Apple (1/0)
+|   taskContext_runningTask3 = com.android.chrome/com.google.android.apps.chrome.Main : The Heavy (0.11/0.01)
+|   taskContext_runningTask3 = com.DramaProductions.Einkaufen5/.Einkaufsliste : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.phone/.InCallScreen : Red Hot Chili Peppers (0.11/0.01)
+|   taskContext_runningTask3 = com.tbig.playerpro/.artist.ArtistGridBrowserActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.Settings$WifiSettingsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.email/.activity.MessageListXL : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.systemui/.recent.RecentsActivity : Sportfreunde Stiller (1.28/0.28)
+|   taskContext_runningTask3 = org.mozilla.firefox/.App : The Heavy (0/0)
+|   taskContext_runningTask3 = com.nianticproject.ingress/.NemesisActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.htc.launcher/.Launcher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.mms/.ui.ConversationComposer : Bob Dylan (1.06/0.06)
+|   taskContext_runningTask3 = com.android.settings/.wifi.WifiPickerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.calendar/.AllInOneActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.gallery3d/com.android.gallery3d.app.Gallery : The Heavy (0/0)
+|   taskContext_runningTask3 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : Ani DiFranco (1.06/0.06)
+|   taskContext_runningTask3 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.htcdialer/.DialerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.browser/.BrowserActivity : Wizkid (1.17/0.16)
+|   taskContext_runningTask3 = de.hafas.android.oebb/de.hafas.main.Hafas : Daft Punk (1.06/0.05)
+|   taskContext_runningTask3 = hu.koin/.ui.MainTabActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   taskContext_runningTask3 = com.htc.android.mail/.MailListTab : The Heavy (0/0)
+|   taskContext_runningTask3 = com.dynamicg.timerecording/.Main : P!nk (1.06/0.06)
+|   taskContext_runningTask3 = com.google.android.youtube/.app.honeycomb.phone.HomeActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.apps.maps/com.google.android.maps.MapsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.rauscha.apps.timesheet/.activities.main.MainFragmentActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.fsck.k9/.activity.MessageList : The Heavy (0/0)
+|   taskContext_runningTask3 = com.stt.android/.STTabMain : Fiona Apple (1.06/0.06)
+|   taskContext_runningTask3 = com.android.settings/.SoundSettings : The Heavy (0/0)
+|   taskContext_runningTask3 = de.mathis.android.ultimatebattery/.OverviewActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.anddoes.launcher/.Launcher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.facebook.katana/.activity.FbFragmentChromeActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.email/.activity.EmailActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.Settings : The Heavy (0/0)
+|   taskContext_runningTask3 = com.cyanogenmod.filemanager/.activities.NavigationActivity : Die Fantastischen Vier (0.11/0.01)
+|   taskContext_runningTask3 = com.sec.android.app.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+taskContext_runningTask5 = com.android.settings/.SoundSettings
+|   storageContext_storageExternal < 40.5 : Die Fantastischen Vier (0.25/0.17)
+|   storageContext_storageExternal >= 40.5
+|   |   memoryContext_memory < 16 : Red Hot Chili Peppers (0.02/0)
+|   |   memoryContext_memory >= 16 : Sportfreunde Stiller (2/0)
+taskContext_runningTask5 = com.google.android.talk/.SigningInActivity
+|   weatherContext_pressure < 1010
+|   |   userId < 13 : Casper (3/0)
+|   |   userId >= 13 : Red Hot Chili Peppers (0.12/0.09)
+|   weatherContext_pressure >= 1010 : Die Fantastischen Vier (0.29/0.17)
+taskContext_runningTask5 = com.omgpop.dstfree/.Main
+|   audioContext_volumeNotif < 7 : Kanye West (0.15/0.06)
+|   audioContext_volumeNotif >= 7
+|   |   timeContext_hourOfDay < 17.5
+|   |   |   locationContext_latitude < 48.13 : Caravan Palace (2/0)
+|   |   |   locationContext_latitude >= 48.13 : The Heavy (0.02/0)
+|   |   timeContext_hourOfDay >= 17.5 : Die Fantastischen Vier (0.11/0.02)
+taskContext_runningTask5 = com.lyrebirdstudio.tinyplanet/.MainActivity : Caravan Palace (1.14/0.14)
+taskContext_runningTask5 = app.mav.menetrend/.MenetrendDroidActivity
+|   storageContext_storageInternal < 43 : Die Fantastischen Vier (0.25/0.17)
+|   storageContext_storageInternal >= 43
+|   |   timeContext_timeZone = Europe/Vienna : Red Hot Chili Peppers (0.02/0)
+|   |   timeContext_timeZone = Europe/Amsterdam : The Heavy (0/0)
+|   |   timeContext_timeZone = Europe/Zurich : The Heavy (0/0)
+|   |   timeContext_timeZone = Europe/Sarajevo : Lamb of God (2/0)
+|   |   timeContext_timeZone = Europe/London : The Heavy (0/0)
+|   |   timeContext_timeZone = Europe/Budapest : The Heavy (0/0)
+|   |   timeContext_timeZone = Africa/Ceuta : The Heavy (0/0)
+taskContext_runningTask5 = com.android.chrome/com.google.android.apps.chrome.Main
+|   audioContext_audioOutput < 0.5
+|   |   soundEffectContext_bassBoostEnabled < 0.5 : The Heavy (1/0)
+|   |   soundEffectContext_bassBoostEnabled >= 0.5 : Wizkid (1.17/0.13)
+|   audioContext_audioOutput >= 0.5
+|   |   taskContext_runningTask3 = com.android.contacts/.activities.DialtactsActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : Kanye West (0.04/0)
+|   |   taskContext_runningTask3 = com.android.chrome/com.google.android.apps.chrome.Main : The Heavy (0.04/0)
+|   |   taskContext_runningTask3 = com.DramaProductions.Einkaufen5/.Einkaufsliste : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.phone/.InCallScreen : Red Hot Chili Peppers (0.04/0)
+|   |   taskContext_runningTask3 = com.tbig.playerpro/.artist.ArtistGridBrowserActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.settings/.Settings$WifiSettingsActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.email/.activity.MessageListXL : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.systemui/.recent.RecentsActivity : Die Fantastischen Vier (0.09/0)
+|   |   taskContext_runningTask3 = org.mozilla.firefox/.App : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.nianticproject.ingress/.NemesisActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.htc.launcher/.Launcher : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.mms/.ui.ConversationComposer : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.settings/.wifi.WifiPickerActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.calendar/.AllInOneActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.google.android.gallery3d/com.android.gallery3d.app.Gallery : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.htcdialer/.DialerActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.browser/.BrowserActivity : Sportfreunde Stiller (0.04/0)
+|   |   taskContext_runningTask3 = de.hafas.android.oebb/de.hafas.main.Hafas : The Heavy (0/0)
+|   |   taskContext_runningTask3 = hu.koin/.ui.MainTabActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.htc.android.mail/.MailListTab : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.dynamicg.timerecording/.Main : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.google.android.youtube/.app.honeycomb.phone.HomeActivity
+|   |   |   timeContext_dayOfWeek < 5.5 : Die Fantastischen Vier (0.07/0.04)
+|   |   |   timeContext_dayOfWeek >= 5.5 : Pearl Jam (2/0)
+|   |   taskContext_runningTask3 = com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.google.android.apps.maps/com.google.android.maps.MapsActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.rauscha.apps.timesheet/.activities.main.MainFragmentActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.fsck.k9/.activity.MessageList : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.stt.android/.STTabMain : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.settings/.SoundSettings : The Heavy (0/0)
+|   |   taskContext_runningTask3 = de.mathis.android.ultimatebattery/.OverviewActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.anddoes.launcher/.Launcher : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.facebook.katana/.activity.FbFragmentChromeActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.email/.activity.EmailActivity : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.android.settings/.Settings : The Heavy (0/0)
+|   |   taskContext_runningTask3 = com.cyanogenmod.filemanager/.activities.NavigationActivity : Die Fantastischen Vier (0.04/0)
+|   |   taskContext_runningTask3 = com.sec.android.app.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+taskContext_runningTask5 = com.android.htcdialer/.DialerActivity : Caravan Palace (1.14/0.14)
+taskContext_runningTask5 = com.farproc.wifi.analyzer/.MainScreen : Asian Dub Foundation (1.14/0.14)
+taskContext_runningTask5 = com.facebook.katana/.LoginActivity
+|   activityContext_activity = unspecified : Kanye West (0.19/0.11)
+|   activityContext_activity = eating : Die Fantastischen Vier (0.04/0)
+|   activityContext_activity = working : Die Fantastischen Vier (0.02/0)
+|   activityContext_activity = traveling : The Heavy (0/0)
+|   activityContext_activity = relaxing : Asian Dub Foundation (1/0)
+|   activityContext_activity = sports : Lamb of God (1.02/0.02)
+|   activityContext_activity = shopping : The Heavy (0/0)
+|   activityContext_activity = romancing : The Heavy (0/0)
+taskContext_runningTask5 = com.android.mms/.ui.ConversationList
+|   taskContext_runningTask3 = com.android.contacts/.activities.DialtactsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : Kanye West (0.04/0)
+|   taskContext_runningTask3 = com.android.chrome/com.google.android.apps.chrome.Main : The Heavy (0.04/0)
+|   taskContext_runningTask3 = com.DramaProductions.Einkaufen5/.Einkaufsliste : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.phone/.InCallScreen : Red Hot Chili Peppers (0.04/0)
+|   taskContext_runningTask3 = com.tbig.playerpro/.artist.ArtistGridBrowserActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.Settings$WifiSettingsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.email/.activity.MessageListXL : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.systemui/.recent.RecentsActivity : Die Fantastischen Vier (0.09/0)
+|   taskContext_runningTask3 = org.mozilla.firefox/.App : The Heavy (0/0)
+|   taskContext_runningTask3 = com.nianticproject.ingress/.NemesisActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.htc.launcher/.Launcher
+|   |   deviceId = 85489c9176d02c1c : The Heavy (0/0)
+|   |   deviceId = 61e096280605612a : The Heavy (0/0)
+|   |   deviceId = b71838ff8961b583 : The Heavy (0/0)
+|   |   deviceId = ebcd05765a833bb7 : The Heavy (0/0)
+|   |   deviceId = 108b26b494744513 : The Heavy (0/0)
+|   |   deviceId = 5c99cad42ef244fd : The Heavy (0/0)
+|   |   deviceId = 75a05d52c1655b1a : Kanye West (0.08/0.02)
+|   |   deviceId = 631c56126be93e92 : The Heavy (0/0)
+|   |   deviceId = 43ccaa83e7bb26e4 : The Heavy (0/0)
+|   |   deviceId = c70bf403998e888c : The Heavy (0/0)
+|   |   deviceId = 9217ac1e8119c8b : STS (2/0)
+|   |   deviceId = 7f91cffa32bcbcc0 : The Heavy (0/0)
+|   |   deviceId = 6b877438c2c581b6 : The Heavy (0/0)
+|   |   deviceId = 6d2333614f593455 : The Heavy (0/0)
+|   |   deviceId = 69486ceb6f11136b : The Heavy (0/0)
+|   |   deviceId = 1c76f53a429494ba : The Heavy (0/0)
+|   |   deviceId = 61b2451072b54ecd : Die Fantastischen Vier (0.04/0.02)
+|   |   deviceId = 8779d41d6cec5e2e : The Heavy (0/0)
+|   |   deviceId = a525f642fe51df0b : The Heavy (0/0)
+|   |   deviceId = 669145874db13a6 : The Heavy (0/0)
+|   taskContext_runningTask3 = com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.mms/.ui.ConversationComposer : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.wifi.WifiPickerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.calendar/.AllInOneActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.gallery3d/com.android.gallery3d.app.Gallery : The Heavy (0/0)
+|   taskContext_runningTask3 = com.teslacoilsw.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.googlequicksearchbox/.SearchActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.htcdialer/.DialerActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.browser/.BrowserActivity : Sportfreunde Stiller (0.04/0)
+|   taskContext_runningTask3 = de.hafas.android.oebb/de.hafas.main.Hafas : The Heavy (0/0)
+|   taskContext_runningTask3 = hu.koin/.ui.MainTabActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.whatsapp/.Conversations : The Heavy (0/0)
+|   taskContext_runningTask3 = com.htc.android.mail/.MailListTab
+|   |   deviceId = 85489c9176d02c1c : The Heavy (0/0)
+|   |   deviceId = 61e096280605612a : The Heavy (0/0)
+|   |   deviceId = b71838ff8961b583 : The Heavy (0/0)
+|   |   deviceId = ebcd05765a833bb7 : The Heavy (0/0)
+|   |   deviceId = 108b26b494744513 : The Heavy (0/0)
+|   |   deviceId = 5c99cad42ef244fd : The Heavy (0/0)
+|   |   deviceId = 75a05d52c1655b1a : Kanye West (0.08/0.02)
+|   |   deviceId = 631c56126be93e92 : The Heavy (0/0)
+|   |   deviceId = 43ccaa83e7bb26e4 : The Heavy (0/0)
+|   |   deviceId = c70bf403998e888c : The Heavy (0/0)
+|   |   deviceId = 9217ac1e8119c8b : The Heavy (0/0)
+|   |   deviceId = 7f91cffa32bcbcc0 : The Heavy (0/0)
+|   |   deviceId = 6b877438c2c581b6 : The Heavy (0/0)
+|   |   deviceId = 6d2333614f593455 : The Heavy (0/0)
+|   |   deviceId = 69486ceb6f11136b : The Heavy (0/0)
+|   |   deviceId = 1c76f53a429494ba : The Heavy (0/0)
+|   |   deviceId = 61b2451072b54ecd : Die Fantastischen Vier (0.04/0.02)
+|   |   deviceId = 8779d41d6cec5e2e : Mumford & Sons (2/0)
+|   |   deviceId = a525f642fe51df0b : The Heavy (0/0)
+|   |   deviceId = 669145874db13a6 : The Heavy (0/0)
+|   taskContext_runningTask3 = com.dynamicg.timerecording/.Main : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.youtube/.app.honeycomb.phone.HomeActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.google.android.apps.maps/com.google.android.maps.MapsActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.rauscha.apps.timesheet/.activities.main.MainFragmentActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.fsck.k9/.activity.MessageList : The Heavy (0/0)
+|   taskContext_runningTask3 = com.stt.android/.STTabMain : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.SoundSettings : The Heavy (0/0)
+|   taskContext_runningTask3 = de.mathis.android.ultimatebattery/.OverviewActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.gallery3d/com.android.camera.CameraLauncher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.anddoes.launcher/.Launcher : The Heavy (0/0)
+|   taskContext_runningTask3 = com.facebook.katana/.activity.FbFragmentChromeActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.email/.activity.EmailActivity : The Heavy (0/0)
+|   taskContext_runningTask3 = com.android.settings/.Settings : The Heavy (0/0)
+|   taskContext_runningTask3 = com.cyanogenmod.filemanager/.activities.NavigationActivity : Die Fantastischen Vier (0.04/0)
+|   taskContext_runningTask3 = com.sec.android.app.launcher/com.android.launcher2.Launcher : The Heavy (0/0)
+taskContext_runningTask5 = com.android.systemui/.recent.RecentsActivity
+|   storageContext_storageExternal < 30
+|   |   context_datetime < 1369371399500 : Kanye West (0.38/0.21)
+|   |   context_datetime >= 1369371399500 : Sportfreunde Stiller (2/0)
+|   storageContext_storageExternal >= 30
+|   |   timeContext_hourOfDay < 12.5 : STS (1.08/0.08)
+|   |   timeContext_hourOfDay >= 12.5 : P!nk (1.08/0.08)
+taskContext_runningTask5 = com.paprikapp.lostandfound/.MainActivity : Lamb of God (1.14/0.14)
+taskContext_runningTask5 = com.google.android.gm/.ConversationListActivityGmail : Wizkid (1.14/0.13)
+taskContext_runningTask5 = com.android.email/.activity.MessageListXL : Fiona Apple (1.14/0.14)
+taskContext_runningTask5 = com.android.browser/.BrowserActivity
+|   taskContext_runningTask4 = com.android.chrome/com.google.android.apps.chrome.Main : Die Fantastischen Vier (0.05/0)
+|   taskContext_runningTask4 = com.nianticproject.ingress/.NemesisActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.android.phone/.InCallScreen : The Heavy (0/0)
+|   taskContext_runningTask4 = com.hughes.android.dictionary/.DictionaryActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.dynamicg.timerecording/.Main : The Heavy (0/0)
+|   taskContext_runningTask4 = com.android.contacts/.activities.DialtactsActivity : Red Hot Chili Peppers (0.02/0)
+|   taskContext_runningTask4 = com.android.settings/.Settings : The Heavy (0/0)
+|   taskContext_runningTask4 = ch.teamtasks.tasks.paid/ch.teamtasks.tasks.MainActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.estrongs.android.pop/.view.FileExplorerActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.facebook.katana/.activity.FbFragmentChromeActivity : Sportfreunde Stiller (0.02/0)
+|   taskContext_runningTask4 = nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.android.browser/.BrowserActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.facebook.katana/.RequestsActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = me.pou.app/.App : The Heavy (0/0)
+|   taskContext_runningTask4 = com.instagram.android/.activity.MainTabActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.android.systemui/.recent.RecentsActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = hu.koin/.ui.MainTabActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = cc.dict.dictcc/.DictCcActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.htc.android.worldclock/.WorldClockTabControl : The Heavy (0/0)
+|   taskContext_runningTask4 = com.fsck.k9/.activity.MessageList : The Heavy (0/0)
+|   taskContext_runningTask4 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.android.email/.activity.EmailActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.facebook.katana/.LoginActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.android.mms/.ui.ConversationComposer : The Heavy (0/0)
+|   taskContext_runningTask4 = com.facebook.orca/.threadlist.ThreadListActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.android.contacts/.activities.PeopleActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.teamlava.petshop26/com.storm8.app.activity.GameActivity : Sportfreunde Stiller (1.08/0.08)
+|   taskContext_runningTask4 = com.android.mms/.ui.ConversationList : The Heavy (0/0)
+|   taskContext_runningTask4 = com.swipeentertainment.wingsuit/com.unity3d.player.UnityPlayerNativeActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.gombosdev.ingressportalcalc/.Activity_Start : The Heavy (0/0)
+|   taskContext_runningTask4 = com.android.email/.activity.MessageListXL : The Heavy (0/0)
+|   taskContext_runningTask4 = com.android.gallery3d/com.android.camera.CameraLauncher : Mumford & Sons (1.08/0.08)
+|   taskContext_runningTask4 = com.whatsapp/.Conversation : The Heavy (0/0)
+|   taskContext_runningTask4 = com.teamlava.petshop/com.storm8.app.activity.GameActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.fsck.k9/.activity.FolderList : The Heavy (0/0)
+|   taskContext_runningTask4 = com.google.android.apps.genie.geniewidget/.activities.NewsActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.google.android.apps.maps/com.google.android.maps.MapsActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.google.android.youtube/.app.honeycomb.phone.HomeActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.android.deskclock/.AlarmClock : The Heavy (0/0)
+|   taskContext_runningTask4 = com.franco.kernel/.Main : Die Fantastischen Vier (0.02/0)
+|   taskContext_runningTask4 = com.android.htcdialer/.DialerActivity : The Heavy (0/0)
+|   taskContext_runningTask4 = com.google.android.talk/.SigningInActivity : The Heavy (0/0)
+taskContext_runningTask5 = com.estrongs.android.pop/.view.FileExplorerActivity : Fiona Apple (1.14/0.14)
+taskContext_runningTask5 = com.android.settings/.Settings
+|   noiseContext_noise < 51.5
+|   |   audioContext_volumeSystem < 59
+|   |   |   locationContext_longitude < 8.37 : King Crimson (2/0)
+|   |   |   locationContext_longitude >= 8.37 : Daft Punk (0.02/0)
+|   |   audioContext_volumeSystem >= 59 : Die Fantastischen Vier (0.04/0)
+|   noiseContext_noise >= 51.5 : Kanye West (0.21/0.13)
+taskContext_runningTask5 = com.google.android.googlequicksearchbox/.SearchActivity
+|   deviceId = 85489c9176d02c1c : The Heavy (0/0)
+|   deviceId = 61e096280605612a : The Heavy (0/0)
+|   deviceId = b71838ff8961b583 : The Heavy (0/0)
+|   deviceId = ebcd05765a833bb7 : The Heavy (0/0)
+|   deviceId = 108b26b494744513 : Red Hot Chili Peppers (0.02/0)
+|   deviceId = 5c99cad42ef244fd : The Heavy (0/0)
+|   deviceId = 75a05d52c1655b1a : Kanye West (0.11/0.02)
+|   deviceId = 631c56126be93e92 : Sportfreunde Stiller (0.02/0)
+|   deviceId = 43ccaa83e7bb26e4 : The Heavy (0/0)
+|   deviceId = c70bf403998e888c : The Heavy (0/0)
+|   deviceId = 9217ac1e8119c8b : The Heavy (0/0)
+|   deviceId = 7f91cffa32bcbcc0 : The Heavy (0/0)
+|   deviceId = 6b877438c2c581b6 : The Heavy (0/0)
+|   deviceId = 6d2333614f593455 : The Heavy (0/0)
+|   deviceId = 69486ceb6f11136b : The Heavy (0/0)
+|   deviceId = 1c76f53a429494ba : The Heavy (0/0)
+|   deviceId = 61b2451072b54ecd : Die Fantastischen Vier (0.11/0.04)
+|   deviceId = 8779d41d6cec5e2e : The Heavy (0/0)
+|   deviceId = a525f642fe51df0b : King Crimson (2/0)
+|   deviceId = 669145874db13a6 : Die Fantastischen Vier (0.02/0)
+taskContext_runningTask5 = com.android.settings/.Settings$WifiSettingsActivity : Sportfreunde Stiller (1.14/0.13)
+taskContext_runningTask5 = at.jku/.activities.StartActivity : Asian Dub Foundation (1.14/0.14)
+taskContext_runningTask5 = com.amazon.mp3/.download.activity.DownloadActivity : Sportfreunde Stiller (1.14/0.13)
+taskContext_runningTask5 = me.pou.app/.App : STS (1.14/0.14)
+taskContext_runningTask5 = com.android.deskclock/.AlarmClock : Bob Dylan (1.14/0.14)
+taskContext_runningTask5 = com.android.deskclock/.DeskClock : Mumford & Sons (1.14/0.14)
+taskContext_runningTask5 = com.android.gallery3d/com.android.camera.CameraLauncher
+|   activityContext_activity = unspecified : Kanye West (0.19/0.11)
+|   activityContext_activity = eating : Die Fantastischen Vier (0.04/0)
+|   activityContext_activity = working : Die Fantastischen Vier (0.02/0)
+|   activityContext_activity = traveling : Mumford & Sons (1/0)
+|   activityContext_activity = relaxing : The Heavy (0/0)
+|   activityContext_activity = sports : Red Hot Chili Peppers (0.02/0)
+|   activityContext_activity = shopping : Bob Dylan (1/0)
+|   activityContext_activity = romancing : The Heavy (0/0)
+taskContext_runningTask5 = jp.co.sega.vtc/.VTCActivity : Sportfreunde Stiller (1.14/0.13)
+taskContext_runningTask5 = com.shazam.encore.android/com.shazam.android.Home : Daft Punk (1.14/0.13)
+taskContext_runningTask5 = com.citc.weather/.activities.Main : Casper (1.14/0.14)
+
+Size of the tree : 489
+
+Time taken to build model: 0.09 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         106               98.1481 %
+Incorrectly Classified Instances         2                1.8519 %
+Kappa statistic                          0.9804
+Mean absolute error                      0.0106
+Root mean squared error                  0.0537
+Relative absolute error                 11.1737 %
+Root relative squared error             24.6996 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      14.1204 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.010    0.909      1.000    0.952      0.949    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 0.800    0.000    1.000      0.800    0.889      0.890    1.000     1.000     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 1.000    0.010    0.800      1.000    0.889      0.890    0.999     0.950     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.999     0.950     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.981    0.001    0.984      0.981    0.981      0.981    1.000     0.996     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  1  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  3  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          62               57.4074 %
+Incorrectly Classified Instances        46               42.5926 %
+Kappa statistic                          0.5467
+Mean absolute error                      0.0466
+Root mean squared error                  0.1798
+Relative absolute error                 49.1258 %
+Root relative squared error             82.4442 %
+Coverage of cases (0.95 level)          75.9259 %
+Mean rel. region size (0.95 level)      23.6111 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.020    0.500      0.333    0.400      0.381    0.615     0.266     The Heavy
+                 0.571    0.020    0.667      0.571    0.615      0.593    0.889     0.509     Fiona Apple
+                 0.700    0.153    0.318      0.700    0.438      0.394    0.842     0.673     Die Fantastischen Vier
+                 0.500    0.010    0.667      0.500    0.571      0.564    0.698     0.310     P!nk
+                 0.600    0.019    0.600      0.600    0.600      0.581    0.937     0.680     Red Hot Chili Peppers
+                 0.600    0.010    0.750      0.600    0.667      0.657    0.759     0.619     Ani DiFranco
+                 0.200    0.029    0.250      0.200    0.222      0.190    0.725     0.172     Daft Punk
+                 1.000    0.010    0.875      1.000    0.933      0.931    0.994     0.843     Pearl Jam
+                 0.500    0.038    0.333      0.500    0.400      0.381    0.623     0.152     Kanye West
+                 0.667    0.010    0.800      0.667    0.727      0.716    0.881     0.542     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.600    0.031    0.667      0.600    0.632      0.597    0.830     0.673     Sportfreunde Stiller
+                 0.500    0.010    0.750      0.500    0.600      0.595    0.882     0.577     Bob Dylan
+                 1.000    0.010    0.800      1.000    0.889      0.890    1.000     1.000     Casper
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.516     0.046     Caravan Palace
+                 0.750    0.029    0.500      0.750    0.600      0.595    0.835     0.334     Lamb of God
+                 0.000    0.019    0.000      0.000    0.000      -0.027   0.662     0.068     Wizkid
+                 0.000    0.010    0.000      0.000    0.000      -0.019   0.671     0.128     Asian Dub Foundation
+                 0.600    0.029    0.500      0.600    0.545      0.524    0.947     0.472     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.574    0.029    0.561      0.574    0.555      0.537    0.824     0.529     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 0 1 0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | a = The Heavy
+ 0 4 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 7 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 2 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 1 0 3 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 1 1 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 3 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 1 0 0 0 0 0 0 2 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 1 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 1 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 2 0 0 0 0 0 0 1 0 6 0 0 0 0 0 0 1 0 | l = Sportfreunde Stiller
+ 0 0 1 0 0 1 0 0 0 0 0 0 3 0 0 0 1 0 0 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Casper
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 1 0 0 | p = Lamb of God
+ 0 0 1 0 0 0 0 0 2 0 0 1 0 0 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 | r = Asian Dub Foundation
+ 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+

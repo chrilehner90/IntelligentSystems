@@ -1,0 +1,112 @@
+@relation 'mmg-weka.filters.unsupervised.instance.ReservoirSample-S1-Z500-weka.filters.unsupervised.attribute.Remove-V-R5,9,38,81,83,97,99-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-Clast-L195-weka.filters.unsupervised.instance.RemoveFrequentValues-Clast-N20-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.attribute.NominalToString-Cfirst-last'
+
+@attribute timeContext_timeZone string
+@attribute locationContext_provider string
+@attribute phoneContext_state numeric
+@attribute accelerationContext_accelerationStandardDeviation numeric
+@attribute orientationContext_orientationDevice numeric
+@attribute activityContext_activity string
+@attribute musicContext_Artist string
+
+@data
+
+Europe/Vienna,network,0,0.07,0,unspecified,'The Heavy'
+Europe/Vienna,network,0,0.03,0,unspecified,'Fiona Apple'
+Europe/Vienna,network,0,0.14,1,unspecified,'The Heavy'
+Europe/Vienna,network,0,?,3,eating,'Die Fantastischen Vier'
+Europe/Vienna,network,0,0,0,working,P!nk
+Europe/Vienna,network,0,2.81,4,unspecified,'Red Hot Chili Peppers'
+Europe/Vienna,gps,0,2.1,1,unspecified,'Ani DiFranco'
+Europe/Vienna,network,0,0.4,0,traveling,'Daft Punk'
+Europe/Vienna,network,0,0.04,1,working,'Ani DiFranco'
+Europe/Vienna,network,0,0,1,traveling,'Pearl Jam'
+Europe/Vienna,network,2,0,4,unspecified,'Kanye West'
+Europe/Amsterdam,network,1,0.15,3,relaxing,STS
+Europe/Vienna,network,0,0,1,unspecified,'Letzte Instanz'
+Europe/Zurich,network,0,0,1,unspecified,'Red Hot Chili Peppers'
+Europe/Vienna,gps,0,0.04,0,unspecified,'Die Fantastischen Vier'
+Europe/Vienna,network,0,0.04,1,unspecified,'Fiona Apple'
+Europe/Sarajevo,network,0,0.28,4,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,gps,0,1.41,3,unspecified,'Die Fantastischen Vier'
+Europe/Vienna,network,0,0.03,1,relaxing,'Bob Dylan'
+Europe/London,gps,0,0.24,0,unspecified,'Bob Dylan'
+Europe/Vienna,network,0,0.32,3,unspecified,Casper
+Europe/Sarajevo,gps,0,1.48,?,sports,'Caravan Palace'
+Europe/Sarajevo,gps,0,1.72,?,sports,'Caravan Palace'
+Europe/Sarajevo,network,0,0.23,?,traveling,'Lamb of God'
+Europe/Vienna,network,0,0.06,2,unspecified,Wizkid
+Europe/Sarajevo,gps,0,2.57,?,unspecified,'Caravan Palace'
+Europe/Vienna,gps,1,0,4,working,'Asian Dub Foundation'
+Europe/Vienna,gps,0,0.81,1,unspecified,'Ani DiFranco'
+Europe/Vienna,network,0,0.03,1,relaxing,'Asian Dub Foundation'
+Europe/Sarajevo,network,0,2.37,2,unspecified,STS
+Europe/Amsterdam,network,1,0.03,0,unspecified,'Sportfreunde Stiller'
+Europe/Budapest,network,0,0.28,?,traveling,'Caravan Palace'
+Europe/Vienna,network,0,0.85,1,unspecified,'Kanye West'
+Europe/Vienna,gps,2,0,3,unspecified,'Kanye West'
+Europe/Amsterdam,network,1,0.2,3,relaxing,STS
+Europe/Amsterdam,network,1,0.21,4,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,network,0,0.33,3,traveling,'Daft Punk'
+Europe/Sarajevo,network,0,0.3,?,traveling,'Lamb of God'
+Europe/Vienna,gps,0,0,3,unspecified,Wizkid
+Europe/Vienna,gps,0,1.15,1,unspecified,'Fiona Apple'
+Europe/Vienna,gps,0,1.31,3,unspecified,Casper
+Europe/Vienna,network,0,0,1,working,'Pearl Jam'
+Europe/Vienna,?,0,3.46,1,shopping,'Bob Dylan'
+Europe/Vienna,network,1,0.02,4,eating,'Die Fantastischen Vier'
+Europe/Vienna,network,1,3.35,4,eating,'Die Fantastischen Vier'
+Europe/Vienna,network,0,0,1,working,'Asian Dub Foundation'
+Europe/Sarajevo,network,0,0.23,4,unspecified,'Sportfreunde Stiller'
+Europe/Sarajevo,network,0,0.05,1,relaxing,'Mumford & Sons'
+Europe/Vienna,network,0,0.75,0,unspecified,'The Heavy'
+Europe/Amsterdam,network,1,0.09,0,relaxing,'Sportfreunde Stiller'
+Europe/Vienna,network,1,0.05,1,unspecified,'The Heavy'
+Europe/Amsterdam,network,1,0.39,3,relaxing,STS
+Europe/Vienna,network,0,4.28,3,sports,'Red Hot Chili Peppers'
+Europe/Vienna,network,0,0.47,1,unspecified,'Fiona Apple'
+Europe/Vienna,network,1,0,1,unspecified,'Pearl Jam'
+Europe/Vienna,network,1,0.01,1,unspecified,'Pearl Jam'
+Europe/Vienna,network,0,0.14,4,unspecified,'Die Fantastischen Vier'
+Europe/Zurich,network,0,0.49,5,sports,'Red Hot Chili Peppers'
+Europe/Vienna,gps,0,0.91,1,unspecified,'Kanye West'
+Africa/Ceuta,network,0,0.49,3,unspecified,'King Crimson'
+Europe/Vienna,network,0,0.05,0,working,P!nk
+Europe/Sarajevo,network,0,0.87,1,unspecified,STS
+Europe/Vienna,gps,0,0.93,1,relaxing,'Die Fantastischen Vier'
+Europe/Amsterdam,network,1,0.07,3,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,gps,2,0,1,unspecified,Wizkid
+Africa/Ceuta,network,0,0.05,1,unspecified,'King Crimson'
+Europe/Vienna,network,0,0.02,1,romancing,'Mumford & Sons'
+Europe/Vienna,gps,0,3.86,1,sports,'Fiona Apple'
+Europe/Amsterdam,network,1,0.11,3,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,gps,0,1.12,5,unspecified,Casper
+Europe/Vienna,network,0,0,0,unspecified,P!nk
+Europe/Vienna,network,0,0.03,1,working,'Pearl Jam'
+Europe/Vienna,network,0,0,4,traveling,'Asian Dub Foundation'
+Europe/Sarajevo,network,0,0.16,4,unspecified,'Sportfreunde Stiller'
+Europe/Sarajevo,network,0,0.08,4,unspecified,STS
+Europe/Vienna,?,0,2.01,4,shopping,'Bob Dylan'
+Europe/Vienna,network,0,0.28,1,unspecified,'Fiona Apple'
+Europe/Vienna,network,0,0.29,1,sports,'Mumford & Sons'
+Europe/Vienna,gps,0,0.05,1,traveling,'Mumford & Sons'
+Europe/Vienna,gps,0,1.3,3,sports,'Fiona Apple'
+Europe/Amsterdam,network,1,0.1,0,unspecified,'Sportfreunde Stiller'
+Europe/Vienna,network,0,0.96,5,unspecified,'Letzte Instanz'
+Europe/Vienna,network,0,0,5,unspecified,Wizkid
+Europe/Vienna,network,0,0.27,0,relaxing,'Daft Punk'
+Europe/Vienna,?,0,2.02,1,shopping,'Bob Dylan'
+Europe/Vienna,network,1,0,4,unspecified,'Daft Punk'
+Europe/Vienna,gps,0,0.22,1,working,'Die Fantastischen Vier'
+Europe/Vienna,network,1,0,1,unspecified,'Die Fantastischen Vier'
+Europe/Amsterdam,network,1,0.06,0,unspecified,'Sportfreunde Stiller'
+Africa/Ceuta,network,0,0.04,1,unspecified,'King Crimson'
+Europe/Sarajevo,network,0,0.34,?,traveling,'Lamb of God'
+Europe/Vienna,network,0,0.04,1,relaxing,'Bob Dylan'
+Europe/Vienna,network,0,0.15,1,unspecified,'The Heavy'
+Europe/Vienna,network,0,0.02,1,working,'Ani DiFranco'
+Europe/Vienna,gps,0,0.58,1,unspecified,Casper
+Europe/Sarajevo,gps,0,3.73,?,sports,'Lamb of God'
+Europe/Vienna,network,0,0.75,5,unspecified,'Red Hot Chili Peppers'
+Africa/Ceuta,gps,0,0.38,1,working,'King Crimson'
+Europe/Vienna,network,0,0.05,5,relaxing,'Daft Punk'
+Europe/Vienna,network,0,0.14,5,unspecified,'The Heavy'

@@ -1,0 +1,30 @@
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 1143
+	Merit of best subset found:    0.375
+
+Attribute Subset Evaluator (supervised, Class (numeric): 30 audioContext_volumeMusic):
+	CFS Subset Evaluator
+	Treating missing values as a separate value
+	Including locally predictive attributes
+
+Selected attributes: 7,8,31,35,62,68,69,78,88,89,100 : 11
+                     timeContext_hourOfDay
+                     timeContext_utc
+                     audioContext_volumeNotif
+                     audioContext_vibrateNotif
+                     networkContext_activeNetworkRoaming
+                     networkContext_bluetoothAvailable
+                     networkContext_bluetoothEnabled
+                     noiseContext_noise
+                     playerContext_apmMode
+                     soundEffectContext_equalizerEnabled
+                     musicContext_Title
+

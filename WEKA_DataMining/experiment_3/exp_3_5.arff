@@ -1,0 +1,125 @@
+@relation 'mmg-weka.filters.unsupervised.instance.ReservoirSample-S1-Z500-weka.filters.unsupervised.attribute.Remove-V-R7,8,31,35,46,62,68,69,78,88,89,99-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-Clast-L195-weka.filters.unsupervised.instance.RemoveFrequentValues-Clast-N20-weka.filters.unsupervised.instance.RemoveDuplicates-weka.filters.unsupervised.attribute.NominalToString-Cfirst-last'
+
+@attribute timeContext_hourOfDay numeric
+@attribute timeContext_utc numeric
+@attribute audioContext_volumeNotif numeric
+@attribute audioContext_vibrateNotif numeric
+@attribute taskContext_runningTask4 string
+@attribute networkContext_activeNetworkRoaming numeric
+@attribute networkContext_bluetoothAvailable numeric
+@attribute networkContext_bluetoothEnabled numeric
+@attribute noiseContext_noise numeric
+@attribute playerContext_apmMode numeric
+@attribute soundEffectContext_equalizerEnabled numeric
+@attribute musicContext_Artist string
+
+@data
+
+17,390703570,100,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,1,78,0,0,'The Heavy'
+15,1702921426,0,2,com.nianticproject.ingress/.NemesisActivity,0,1,0,36,0,0,'Fiona Apple'
+17,-1721357822,0,2,com.android.phone/.InCallScreen,0,1,1,76,0,0,'The Heavy'
+17,0,100,2,com.hughes.android.dictionary/.DictionaryActivity,0,?,0,75,0,0,'Die Fantastischen Vier'
+11,848542399,29,2,com.dynamicg.timerecording/.Main,0,1,0,54,0,1,P!nk
+18,0,100,2,com.hughes.android.dictionary/.DictionaryActivity,0,?,0,76,0,0,'Die Fantastischen Vier'
+21,-325516958,0,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,65,0,0,'Red Hot Chili Peppers'
+21,-757131928,0,2,com.android.settings/.Settings,0,1,0,67,0,0,'Ani DiFranco'
+22,-927379172,57,1,ch.teamtasks.tasks.paid/ch.teamtasks.tasks.MainActivity,0,1,0,68,0,0,'Daft Punk'
+12,-294978090,0,2,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,49,0,0,'Ani DiFranco'
+12,-209573830,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,39,0,0,'Pearl Jam'
+6,200423049,0,2,?,0,1,0,90,0,1,'Kanye West'
+8,-1666494230,0,0,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,60,0,0,STS
+17,-859520385,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,63,1,1,'Letzte Instanz'
+13,-2083491843,43,2,com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity,0,1,0,60,0,0,'Red Hot Chili Peppers'
+8,2021080530,71,2,com.android.browser/.BrowserActivity,0,1,0,41,0,0,'Die Fantastischen Vier'
+15,1702024009,0,2,com.facebook.katana/.RequestsActivity,0,1,0,38,0,0,'Fiona Apple'
+12,-702092267,71,0,me.pou.app/.App,0,1,0,72,0,0,'Sportfreunde Stiller'
+16,-861071245,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,65,1,1,'Letzte Instanz'
+7,2019702866,71,2,com.android.browser/.BrowserActivity,0,1,0,60,0,0,'Die Fantastischen Vier'
+22,-172225299,71,2,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,31,0,0,'Bob Dylan'
+19,620701573,0,2,com.instagram.android/.activity.MainTabActivity,0,1,0,78,0,0,'Bob Dylan'
+16,-110784242,0,2,com.android.systemui/.recent.RecentsActivity,0,1,0,70,0,0,Casper
+12,335249946,14,2,com.android.settings/.Settings,0,1,0,80,0,0,'Caravan Palace'
+18,503940327,71,1,hu.koin/.ui.MainTabActivity,0,1,0,75,1,0,'Caravan Palace'
+14,-1213892181,14,1,hu.koin/.ui.MainTabActivity,0,1,0,68,0,0,'Lamb of God'
+17,1016990680,0,2,cc.dict.dictcc/.DictCcActivity,0,1,0,87,0,1,Wizkid
+20,-1971759994,14,1,com.htc.android.worldclock/.WorldClockTabControl,0,1,0,66,0,0,'Caravan Palace'
+10,1944693216,71,0,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,68,0,0,'Asian Dub Foundation'
+10,1449331392,0,2,com.android.browser/.BrowserActivity,0,1,0,53,0,0,'Ani DiFranco'
+18,1565319022,14,2,com.fsck.k9/.activity.MessageList,0,1,0,66,0,1,'Asian Dub Foundation'
+15,2134198857,0,1,org.mobilemusicgenius.android/.ui.MusicPlayerActivity,0,1,0,73,0,0,STS
+11,-708126043,0,0,com.android.email/.activity.EmailActivity,0,1,1,78,0,0,'Sportfreunde Stiller'
+13,-1303196516,14,1,hu.koin/.ui.MainTabActivity,0,1,0,76,0,0,'Caravan Palace'
+16,1877155550,0,2,?,0,1,0,64,0,1,'Kanye West'
+22,-173634726,0,2,?,0,1,0,84,0,1,'Kanye West'
+9,-1665550891,0,0,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,61,0,0,STS
+6,-230599013,0,0,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,54,0,0,'Sportfreunde Stiller'
+21,-929125870,57,1,com.android.contacts/.activities.DialtactsActivity,0,1,0,67,0,0,'Daft Punk'
+17,-1720279357,14,1,com.facebook.katana/.LoginActivity,0,1,0,77,0,0,'Lamb of God'
+5,-1507276079,0,2,com.android.browser/.BrowserActivity,0,1,0,83,0,1,Wizkid
+21,427318197,0,2,com.android.mms/.ui.ConversationComposer,0,1,0,46,0,0,'Fiona Apple'
+15,-111742147,0,2,com.android.systemui/.recent.RecentsActivity,0,1,0,80,0,0,Casper
+11,-301047589,0,2,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,29,0,0,'Pearl Jam'
+17,-2130404497,14,2,com.android.settings/.Settings,0,1,0,73,0,0,'Bob Dylan'
+22,1938753363,100,0,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,80,0,0,'Die Fantastischen Vier'
+23,1944378879,100,0,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,52,0,0,'Die Fantastischen Vier'
+15,404759542,0,2,com.fsck.k9/.activity.MessageList,0,1,0,47,0,0,'Asian Dub Foundation'
+13,-701069344,71,0,me.pou.app/.App,0,1,0,73,0,0,'Sportfreunde Stiller'
+18,-276027968,0,1,com.facebook.orca/.threadlist.ThreadListActivity,0,1,0,43,0,1,'Mumford & Sons'
+18,912734032,0,2,com.android.contacts/.activities.PeopleActivity,0,1,1,69,0,0,'The Heavy'
+13,-293278154,0,2,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,50,0,0,'Ani DiFranco'
+22,801326017,0,0,com.teamlava.petshop26/com.storm8.app.activity.GameActivity,0,1,0,45,0,0,'Sportfreunde Stiller'
+1,1909146501,100,0,?,0,1,0,67,0,0,'The Heavy'
+13,831651036,29,2,com.android.mms/.ui.ConversationList,0,1,0,51,0,0,P!nk
+9,-1663952294,0,0,com.swipeentertainment.wingsuit/com.unity3d.player.UnityPlayerNativeActivity,0,1,0,67,0,0,STS
+20,-1193173650,0,2,com.android.contacts/.activities.DialtactsActivity,0,1,0,53,0,0,'Red Hot Chili Peppers'
+14,1696634434,0,2,com.gombosdev.ingressportalcalc/.Activity_Start,0,1,0,39,0,0,'Fiona Apple'
+23,2030488957,100,0,com.android.systemui/.recent.RecentsActivity,0,1,0,44,0,0,'Pearl Jam'
+17,-277259554,0,1,com.facebook.orca/.threadlist.ThreadListActivity,0,1,0,41,0,1,'Mumford & Sons'
+23,2030993500,100,0,com.android.systemui/.recent.RecentsActivity,0,1,0,45,0,0,'Pearl Jam'
+18,1951668138,100,2,com.android.phone/.InCallScreen,0,1,1,74,0,0,'Die Fantastischen Vier'
+5,1062107686,43,2,com.android.mms/.ui.ConversationComposer,0,1,0,61,0,0,'Red Hot Chili Peppers'
+22,-1704025497,0,2,?,0,1,0,86,0,1,'Kanye West'
+22,259079716,71,2,com.android.browser/.BrowserActivity,0,1,0,44,0,0,'King Crimson'
+11,848154209,29,2,com.dynamicg.timerecording/.Main,0,1,0,54,0,1,P!nk
+15,2133944336,0,1,org.mobilemusicgenius.android/.ui.MusicPlayerActivity,0,1,0,70,0,0,STS
+11,-212867401,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,48,0,0,'Pearl Jam'
+18,417216371,71,2,com.android.email/.activity.MessageListXL,0,1,0,49,0,0,'Die Fantastischen Vier'
+21,-496992201,0,0,org.mobilemusicgenius.android/.ui.MusicPlayerActivity,0,1,0,51,0,0,'Sportfreunde Stiller'
+2,-160732652,0,2,?,0,1,0,86,0,1,Wizkid
+19,1890421361,0,2,com.android.browser/.BrowserActivity,0,1,0,70,0,0,'King Crimson'
+9,-1233194212,100,2,com.android.gallery3d/com.android.camera.CameraLauncher,0,1,0,78,0,0,'Mumford & Sons'
+13,-1563532908,0,2,com.whatsapp/.Conversation,0,1,0,56,0,0,'Fiona Apple'
+21,-498467632,0,0,com.teamlava.petshop/com.storm8.app.activity.GameActivity,0,1,0,58,0,0,'Sportfreunde Stiller'
+16,-110412618,0,2,com.android.systemui/.recent.RecentsActivity,0,1,0,78,0,0,Casper
+16,1038747313,14,2,com.fsck.k9/.activity.FolderList,0,1,0,58,0,1,P!nk
+11,-301548454,0,2,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,43,0,0,'Pearl Jam'
+10,1510583583,29,2,com.dynamicg.timerecording/.Main,0,1,0,51,0,0,'Asian Dub Foundation'
+12,-704610633,0,1,com.android.mms/.ui.ConversationList,0,1,0,80,0,0,'Sportfreunde Stiller'
+13,2127510380,0,1,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,77,0,0,STS
+16,-2131343672,33,2,com.android.settings/.Settings,0,1,0,70,0,0,'Bob Dylan'
+15,1702322766,0,2,com.nianticproject.ingress/.NemesisActivity,0,1,0,42,0,0,'Fiona Apple'
+6,720534205,100,2,com.google.android.apps.genie.geniewidget/.activities.NewsActivity,0,1,0,57,0,0,'Mumford & Sons'
+19,1631506369,100,2,com.google.android.apps.maps/com.google.android.maps.MapsActivity,0,1,0,63,0,0,'Mumford & Sons'
+13,-1562593279,0,2,com.whatsapp/.Conversation,0,1,0,70,0,0,'Fiona Apple'
+12,1000899561,0,0,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,44,0,0,'Sportfreunde Stiller'
+12,-209273426,0,2,org.mobilemusicgenius.android/.ui.MusicBrowserActivity,0,1,0,37,0,0,'Pearl Jam'
+17,-857988244,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,69,1,1,'Letzte Instanz'
+17,-103885999,0,2,com.google.android.youtube/.app.honeycomb.phone.HomeActivity,0,1,0,54,0,1,Wizkid
+0,-1437286232,57,1,com.android.contacts/.activities.DialtactsActivity,0,1,0,45,0,0,'Daft Punk'
+16,-2133203897,43,2,com.android.deskclock/.AlarmClock,0,1,0,63,0,0,'Bob Dylan'
+23,-836840694,100,0,?,0,1,0,42,0,0,'Daft Punk'
+22,84810286,100,2,com.franco.kernel/.Main,0,1,1,45,0,0,'Die Fantastischen Vier'
+23,-834821528,100,0,?,0,1,0,46,0,0,'Die Fantastischen Vier'
+9,-712308815,0,0,com.android.email/.activity.EmailActivity,0,1,0,71,0,0,'Sportfreunde Stiller'
+20,1891182332,0,2,com.android.browser/.BrowserActivity,0,1,0,72,0,0,'King Crimson'
+14,-1214317643,14,1,hu.koin/.ui.MainTabActivity,0,1,0,72,0,0,'Lamb of God'
+22,-172755167,71,2,com.facebook.katana/.activity.FbFragmentChromeActivity,0,1,0,34,0,0,'Bob Dylan'
+15,-863844135,57,2,nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity,0,1,0,65,1,1,'Letzte Instanz'
+23,951544839,0,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,1,71,0,0,'The Heavy'
+11,-298147890,0,2,com.estrongs.android.pop/.view.FileExplorerActivity,0,1,0,42,0,0,'Ani DiFranco'
+16,1879864710,71,2,com.android.chrome/com.google.android.apps.chrome.Main,0,1,0,77,0,0,Casper
+19,-2147368282,14,1,com.android.htcdialer/.DialerActivity,0,1,0,77,1,0,'Lamb of God'
+20,-328165898,0,2,com.android.phone/.InCallScreen,0,1,0,58,0,0,'Red Hot Chili Peppers'
+17,325745757,0,2,com.google.android.talk/.SigningInActivity,0,1,0,51,0,0,'King Crimson'
+14,-953566461,100,1,com.android.mms/.ui.ConversationList,0,1,0,49,0,0,'Daft Punk'
+11,370757805,100,2,com.android.phone/.InCallScreen,0,1,1,75,0,0,'The Heavy'

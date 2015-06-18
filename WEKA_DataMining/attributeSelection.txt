@@ -1,0 +1,130 @@
+
+
+=== Attribute Selection on all input data ===
+
+Search Method:
+	Best first.
+	Start set: no attributes
+	Search direction: forward
+	Stale search after 5 node expansions
+	Total number of subsets evaluated: 686
+	Merit of best subset found:    0.617
+
+Attribute Subset Evaluator (supervised, Class (numeric): 80 accelerationContext_acceleration):
+	CFS Subset Evaluator
+	Treating missing values as a separate value
+	Including locally predictive attributes
+
+Selected attributes: 5,9,38,81,83,97 : 6
+                     timeContext_timeZone
+                     locationContext_provider
+                     phoneContext_state
+                     accelerationContext_accelerationStandardDeviation
+                     orientationContext_orientationDevice
+                     activityContext_activity
+
+
+=== Attribute selection 10 fold cross-validation seed: 1 ===
+
+number of folds (%)  attribute
+           0(  0 %)      1 contextId
+           0(  0 %)      2 userId
+           0(  0 %)      3 deviceId
+           0(  0 %)      4 context_datetime
+           9( 90 %)      5 timeContext_timeZone
+           0(  0 %)      6 timeContext_dayOfWeek
+           0(  0 %)      7 timeContext_hourOfDay
+           0(  0 %)      8 timeContext_utc
+           7( 70 %)      9 locationContext_provider
+           0(  0 %)     10 locationContext_latitude
+           1( 10 %)     11 locationContext_longitude
+           0(  0 %)     12 locationContext_accuracy
+           3( 30 %)     13 locationContext_altitude
+           0(  0 %)     14 weatherContext_temperature
+           0(  0 %)     15 weatherContext_windSpeed
+           0(  0 %)     16 weatherContext_windDirection
+           0(  0 %)     17 weatherContext_precipitation
+           0(  0 %)     18 weatherContext_humidity
+           0(  0 %)     19 weatherContext_visibility
+           0(  0 %)     20 weatherContext_pressure
+           0(  0 %)     21 weatherContext_cloudCover
+           0(  0 %)     22 weatherContext_weatherCode
+           0(  0 %)     23 batteryContext_batteryLevel
+           0(  0 %)     24 batteryContext_batteryPlugged
+           1( 10 %)     25 batteryContext_batteryStatus
+           0(  0 %)     26 memoryContext_memory
+           0(  0 %)     27 storageContext_storageInternal
+           0(  0 %)     28 storageContext_storageExternal
+           0(  0 %)     29 audioContext_volumeAlarm
+           0(  0 %)     30 audioContext_volumeMusic
+           0(  0 %)     31 audioContext_volumeNotif
+           0(  0 %)     32 audioContext_volumeRinger
+           0(  0 %)     33 audioContext_volumeSystem
+           0(  0 %)     34 audioContext_volumeVoice
+           0(  0 %)     35 audioContext_vibrateNotif
+           0(  0 %)     36 audioContext_vibrateRinger
+           0(  0 %)     37 audioContext_audioOutput
+           3( 30 %)     38 phoneContext_state
+           0(  0 %)     39 phoneContext_roaming
+           0(  0 %)     40 phoneContext_signalStrength
+           0(  0 %)     41 phoneContext_gsm
+           0(  0 %)     42 phoneContext_networkType
+           0(  0 %)     43 taskContext_runningTask1
+           0(  0 %)     44 taskContext_runningTask2
+           0(  0 %)     45 taskContext_runningTask3
+           0(  0 %)     46 taskContext_runningTask4
+           0(  0 %)     47 taskContext_runningTask5
+           0(  0 %)     48 taskContext_runningTask6
+           0(  0 %)     49 taskContext_runningTask7
+           0(  0 %)     50 taskContext_runningTask8
+           0(  0 %)     51 taskContext_runningTask9
+           0(  0 %)     52 taskContext_runningTask10
+           0(  0 %)     53 displayContext_screenOn
+           0(  0 %)     54 displayContext_dockState
+           2( 20 %)     55 networkContext_mobileAvailable
+           0(  0 %)     56 networkContext_mobileConnected
+           0(  0 %)     57 networkContext_wifiEnabled
+           0(  0 %)     58 networkContext_wifiAvailable
+           3( 30 %)     59 networkContext_wifiConnected
+           1( 10 %)     60 networkContext_activeNetworkType
+           0(  0 %)     61 networkContext_activeNetworkSubtype
+           0(  0 %)     62 networkContext_activeNetworkRoaming
+           0(  0 %)     63 networkContext_wifiBssid
+           0(  0 %)     64 networkContext_wifiSsid
+           0(  0 %)     65 networkContext_wifiIpAddress
+           0(  0 %)     66 networkContext_wifiLinkSpeed
+           0(  0 %)     67 networkContext_wifiRssi
+           0(  0 %)     68 networkContext_bluetoothAvailable
+           0(  0 %)     69 networkContext_bluetoothEnabled
+           0(  0 %)     70 lightContext_light
+           0(  0 %)     71 lightContext_lightStandardDeviation
+           0(  0 %)     72 proximityContext_proximity
+           0(  0 %)     73 proximityContext_proximityStandardDeviation
+           0(  0 %)     74 temperatureContext_temperature
+           0(  0 %)     75 temperatureContext_temperatureStandardDeviation
+           0(  0 %)     76 pressureContext_pressure
+           0(  0 %)     77 pressureContext_pressureStandardDeviation
+           0(  0 %)     78 noiseContext_noise
+           0(  0 %)     79 noiseContext_noiseStandardDeviation
+          10(100 %)     81 accelerationContext_accelerationStandardDeviation
+           0(  0 %)     82 orientationContext_orientationUser
+           6( 60 %)     83 orientationContext_orientationDevice
+           4( 40 %)     84 rotationContext_rotation
+           0(  0 %)     85 rotationContext_rotationStandardDeviation
+           1( 10 %)     86 playerContext_repeatMode
+           0(  0 %)     87 playerContext_shuffleMode
+           8( 80 %)     88 playerContext_apmMode
+           0(  0 %)     89 soundEffectContext_equalizerEnabled
+           0(  0 %)     90 soundEffectContext_equalizerPreset
+           0(  0 %)     91 soundEffectContext_bassBoostEnabled
+           0(  0 %)     92 soundEffectContext_bassBoostStrength
+           0(  0 %)     93 soundEffectContext_virtualizerEnabled
+           0(  0 %)     94 soundEffectContext_virtualizerStrength
+           0(  0 %)     95 soundEffectContext_reverbEnabled
+           0(  0 %)     96 soundEffectContext_reverbPreset
+           6( 60 %)     97 activityContext_activity
+           0(  0 %)     98 activityContext_mood
+           0(  0 %)     99 musicContext_Artist
+           0(  0 %)    100 musicContext_Title
+           0(  0 %)    101 musicContext_duration
+

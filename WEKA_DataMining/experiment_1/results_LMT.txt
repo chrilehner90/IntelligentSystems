@@ -1,0 +1,6414 @@
+
+Options: -I -1 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+
+audioContext_volumeMusic <= 53
+|   accelerationContext_acceleration <= 0.2
+|   |   activityContext_mood <= 50: LM_1:6/24 (17)
+|   |   activityContext_mood > 50: LM_2:6/24 (15)
+|   accelerationContext_acceleration > 0.2: LM_3:6/18 (21)
+audioContext_volumeMusic > 53
+|   timeContext_dayOfWeek <= 3: LM_4:6/18 (20)
+|   timeContext_dayOfWeek > 3: LM_5:6/18 (29)
+
+Number of Leaves  : 	5
+
+Size of the Tree : 	9
+
+
+
+LM_1:
+Class 0 :
+-24.45 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.12 +
+[activityContext_mood] * 0   
+
+Class 1 :
+-14.46 + 
+[timeContext_dayOfWeek] * 0.24 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.2  +
+[activityContext_mood] * 0.06
+
+Class 2 :
+15.03 + 
+[timeContext_dayOfWeek] * -4.59 +
+[timeContext_hourOfDay] * -0.67 +
+[audioContext_volumeMusic] * 0.07 +
+[accelerationContext_acceleration] * -0.2 +
+[activityContext_mood] * 0.07
+
+Class 3 :
+12.33 + 
+[timeContext_dayOfWeek] * 0.15 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -10.09 +
+[activityContext_mood] * -0.26
+
+Class 4 :
+24.16 + 
+[timeContext_dayOfWeek] * 0.99 +
+[timeContext_hourOfDay] * -0.61 +
+[audioContext_volumeMusic] * -1.62 +
+[accelerationContext_acceleration] * 0.38 +
+[activityContext_mood] * -0.07
+
+Class 5 :
+-12.16 + 
+[timeContext_dayOfWeek] * -0.33 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * -0.14 +
+[accelerationContext_acceleration] * -13 +
+[activityContext_mood] * 0.2 
+
+Class 6 :
+-357.18 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 15.49 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+-7.84 + 
+[timeContext_dayOfWeek] * 0.4  +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -40.49 +
+[activityContext_mood] * 0.05
+
+Class 8 :
+-33.74 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 2.61 +
+[accelerationContext_acceleration] * -64.18 +
+[activityContext_mood] * -0.22
+
+Class 9 :
+-15.83 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+-7.49 + 
+[timeContext_dayOfWeek] * 1.3  +
+[timeContext_hourOfDay] * 1.53 +
+[audioContext_volumeMusic] * -0.58 +
+[accelerationContext_acceleration] * -8.52 +
+[activityContext_mood] * -0.2
+
+Class 11 :
+-36.26 + 
+[timeContext_dayOfWeek] * -1.19 +
+[timeContext_hourOfDay] * 0.17 +
+[audioContext_volumeMusic] * -0.17 +
+[accelerationContext_acceleration] * 62.05 +
+[activityContext_mood] * 0.85
+
+Class 12 :
+-21.66 + 
+[timeContext_dayOfWeek] * -0.24 +
+[timeContext_hourOfDay] * 0.63 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * -33.04 +
+[activityContext_mood] * 0.09
+
+Class 13 :
+-18.4 + 
+[timeContext_dayOfWeek] * 2.46 +
+[timeContext_hourOfDay] * -0.21 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.09
+
+Class 14 :
+-24.64 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 1.02 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-22.71 + 
+[timeContext_dayOfWeek] * -0.49 +
+[audioContext_volumeMusic] * 0.13 +
+[accelerationContext_acceleration] * 0.56 +
+[activityContext_mood] * 0.06
+
+Class 16 :
+-21.62 + 
+[timeContext_dayOfWeek] * 1.27 +
+[timeContext_hourOfDay] * -0.54 +
+[audioContext_volumeMusic] * 0.12 +
+[accelerationContext_acceleration] * 19.65 +
+[activityContext_mood] * 0.42
+
+Class 17 :
+2.91 + 
+[timeContext_dayOfWeek] * -0.25 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * 0.55 +
+[accelerationContext_acceleration] * -66.18 +
+[activityContext_mood] * -0.48
+
+Class 18 :
+-15.78 + 
+[timeContext_dayOfWeek] * -0.29 +
+[timeContext_hourOfDay] * -0.25 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 45.51 +
+[activityContext_mood] * 0.24
+
+Class 19 :
+-22.87 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.44
+
+LM_2:
+Class 0 :
+-24.45 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.12 +
+[activityContext_mood] * 0   
+
+Class 1 :
+-14.46 + 
+[timeContext_dayOfWeek] * 0.24 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.2  +
+[activityContext_mood] * 0.06
+
+Class 2 :
+-23.96 + 
+[timeContext_dayOfWeek] * 2.12 +
+[timeContext_hourOfDay] * 0.43 +
+[audioContext_volumeMusic] * 0.07 +
+[accelerationContext_acceleration] * -0.2 +
+[activityContext_mood] * 0.07
+
+Class 3 :
+3    + 
+[timeContext_dayOfWeek] * 0.15 +
+[timeContext_hourOfDay] * 0.1  +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -2.41 +
+[activityContext_mood] * -0.17
+
+Class 4 :
+4.19 + 
+[timeContext_dayOfWeek] * 0.99 +
+[timeContext_hourOfDay] * -0.12 +
+[audioContext_volumeMusic] * -0.72 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.07
+
+Class 5 :
+-6.78 + 
+[timeContext_dayOfWeek] * -0.33 +
+[timeContext_hourOfDay] * 0.03 +
+[audioContext_volumeMusic] * -0.17 +
+[accelerationContext_acceleration] * -57.5 +
+[activityContext_mood] * 0.2 
+
+Class 6 :
+-608.4 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 26.91 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+23.32 + 
+[timeContext_dayOfWeek] * 0.42 +
+[timeContext_hourOfDay] * -1.58 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * -40.49 +
+[activityContext_mood] * -0.04
+
+Class 8 :
+-17.33 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 1.35 +
+[accelerationContext_acceleration] * -24.85 +
+[activityContext_mood] * -0.22
+
+Class 9 :
+-15.83 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+-3.22 + 
+[timeContext_dayOfWeek] * 1.3  +
+[timeContext_hourOfDay] * 0.64 +
+[audioContext_volumeMusic] * -0.35 +
+[accelerationContext_acceleration] * -8.79 +
+[activityContext_mood] * -0.2
+
+Class 11 :
+-58.1 + 
+[timeContext_dayOfWeek] * -1.56 +
+[timeContext_hourOfDay] * 1.66 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 51.86 +
+[activityContext_mood] * 0.42
+
+Class 12 :
+-22.49 + 
+[timeContext_dayOfWeek] * -0.24 +
+[timeContext_hourOfDay] * 1.07 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * -81.78 +
+[activityContext_mood] * 0.09
+
+Class 13 :
+-18.4 + 
+[timeContext_dayOfWeek] * 2.46 +
+[timeContext_hourOfDay] * -0.21 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.09
+
+Class 14 :
+-24.64 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 1.02 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-22.71 + 
+[timeContext_dayOfWeek] * -0.49 +
+[audioContext_volumeMusic] * 0.13 +
+[accelerationContext_acceleration] * 0.56 +
+[activityContext_mood] * 0.06
+
+Class 16 :
+-4.18 + 
+[timeContext_dayOfWeek] * 1.27 +
+[timeContext_hourOfDay] * -0.38 +
+[audioContext_volumeMusic] * 0.08 +
+[accelerationContext_acceleration] * 6.2  +
+[activityContext_mood] * -0.07
+
+Class 17 :
+17.09 + 
+[timeContext_dayOfWeek] * -6.09 +
+[timeContext_hourOfDay] * -0.42 +
+[audioContext_volumeMusic] * 0.4  +
+[accelerationContext_acceleration] * -66.18
+
+Class 18 :
+-14.85 + 
+[timeContext_dayOfWeek] * -0.18 +
+[timeContext_hourOfDay] * -0.34 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * 73.53 +
+[activityContext_mood] * 0.29
+
+Class 19 :
+-22.87 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.44
+
+LM_3:
+Class 0 :
+-18.75 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.12 +
+[activityContext_mood] * 0   
+
+Class 1 :
+3.83 + 
+[timeContext_dayOfWeek] * 0.71 +
+[timeContext_hourOfDay] * -0.1 +
+[audioContext_volumeMusic] * -0.21 +
+[accelerationContext_acceleration] * 0.02 +
+[activityContext_mood] * 0.06
+
+Class 2 :
+1.71 + 
+[timeContext_dayOfWeek] * -1.09 +
+[timeContext_hourOfDay] * -0.01 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -0.34 +
+[activityContext_mood] * 0.1 
+
+Class 3 :
+6.71 + 
+[timeContext_hourOfDay] * -0.1 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -2.25 +
+[activityContext_mood] * -0.19
+
+Class 4 :
+-3.7 + 
+[timeContext_dayOfWeek] * 1.31 +
+[timeContext_hourOfDay] * -0.18 +
+[audioContext_volumeMusic] * -0.07 +
+[accelerationContext_acceleration] * 0.65 +
+[activityContext_mood] * 0.04
+
+Class 5 :
+-3.11 + 
+[timeContext_dayOfWeek] * 0.22 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 0.4  +
+[activityContext_mood] * -0.07
+
+Class 6 :
+-89.27 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 3.58 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+-4.5 + 
+[timeContext_hourOfDay] * -0.12 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -31.54 +
+[activityContext_mood] * 0.04
+
+Class 8 :
+-14.75 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 0.81 +
+[accelerationContext_acceleration] * -0.96 +
+[activityContext_mood] * -0.1
+
+Class 9 :
+-10.13 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+26.03 + 
+[timeContext_dayOfWeek] * 3.05 +
+[timeContext_hourOfDay] * 0.21 +
+[audioContext_volumeMusic] * -1.35 +
+[activityContext_mood] * -0.13
+
+Class 11 :
+-3.37 + 
+[timeContext_dayOfWeek] * -1.18 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -1.2
+
+Class 12 :
+-9.88 + 
+[timeContext_dayOfWeek] * -1.14 +
+[timeContext_hourOfDay] * 0.19 +
+[audioContext_volumeMusic] * 0.38 +
+[accelerationContext_acceleration] * -0.33 +
+[activityContext_mood] * -0.04
+
+Class 13 :
+-32.72 + 
+[timeContext_dayOfWeek] * 6.1  +
+[timeContext_hourOfDay] * -0.21 +
+[audioContext_volumeMusic] * 0.12 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.09
+
+Class 14 :
+-39.3 + 
+[timeContext_dayOfWeek] * 2.38 +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 2.25 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-19.96 + 
+[timeContext_dayOfWeek] * -1.29 +
+[audioContext_volumeMusic] * 0.27 +
+[accelerationContext_acceleration] * 0.84 +
+[activityContext_mood] * 0.12
+
+Class 16 :
+-1.94 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * -0.31 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -2.16 +
+[activityContext_mood] * -0.05
+
+Class 17 :
+-4.73 + 
+[timeContext_dayOfWeek] * -0.25 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * 0.1  +
+[accelerationContext_acceleration] * -29.3 +
+[activityContext_mood] * 0   
+
+Class 18 :
+6.19 + 
+[timeContext_dayOfWeek] * -2.88 +
+[audioContext_volumeMusic] * -0.31 +
+[accelerationContext_acceleration] * -0.95 +
+[activityContext_mood] * 0.18
+
+Class 19 :
+-17.17 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.44
+
+
+LM_4:
+Class 0 :
+-43.67 + 
+[timeContext_dayOfWeek] * -2.03 +
+[audioContext_volumeMusic] * 0.46 +
+[activityContext_mood] * 0.15
+
+Class 1 :
+0.48 + 
+[timeContext_dayOfWeek] * 0.14 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -5.08 +
+[activityContext_mood] * -0.01
+
+Class 2 :
+-20.91 + 
+[timeContext_dayOfWeek] * 0.82 +
+[timeContext_hourOfDay] * 0.13 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.79 +
+[activityContext_mood] * 0.15
+
+Class 3 :
+-4.13 + 
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.65 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-11.7 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.31 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-10.72 + 
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-11.16 + 
+[timeContext_dayOfWeek] * 3.81 +
+[timeContext_hourOfDay] * 0.09 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.66 +
+[activityContext_mood] * 0.06
+
+Class 7 :
+-28.49 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * 1.17 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -7.13 +
+[activityContext_mood] * -0.08
+
+Class 8 :
+22.88 + 
+[timeContext_dayOfWeek] * -2.53 +
+[timeContext_hourOfDay] * -0.02 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -5.41 +
+[activityContext_mood] * -0.24
+
+Class 9 :
+5.26 + 
+[timeContext_dayOfWeek] * 1.63 +
+[timeContext_hourOfDay] * -0.28 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 1.05
+
+Class 10 :
+-5.9 + 
+[timeContext_dayOfWeek] * 0.71 +
+[audioContext_volumeMusic] * -0.15 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+-5.88 + 
+[timeContext_dayOfWeek] * 0.57 +
+[timeContext_hourOfDay] * -0.39 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -0.56
+
+Class 12 :
+-19.38 + 
+[timeContext_dayOfWeek] * 1.22 +
+[timeContext_hourOfDay] * 0.37 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 0.71
+
+Class 13 :
+-26.3 + 
+[timeContext_dayOfWeek] * -0.28 +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 1.01 +
+[activityContext_mood] * -0.02
+
+Class 14 :
+1.96 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.44 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 0.86 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-4.74 + 
+[timeContext_dayOfWeek] * -2.38 +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 2.04 +
+[activityContext_mood] * 0.18
+
+Class 16 :
+19.24 + 
+[timeContext_dayOfWeek] * 0.3  +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.36 +
+[accelerationContext_acceleration] * -7.39
+
+Class 17 :
+90.68 + 
+[timeContext_dayOfWeek] * -1 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * -7.19 +
+[activityContext_mood] * -2.03
+
+Class 18 :
+-14.88 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.42 +
+[activityContext_mood] * 0.09
+
+Class 19 :
+-0.72 + 
+[timeContext_hourOfDay] * 0.36 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * -6.87 +
+[activityContext_mood] * 0.1 
+
+LM_5:
+Class 0 :
+-30.59 + 
+[timeContext_dayOfWeek] * -1.21 +
+[audioContext_volumeMusic] * 0.28 +
+[activityContext_mood] * 0.06
+
+Class 1 :
+14.66 + 
+[timeContext_dayOfWeek] * -0.47 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * -0.08 +
+[accelerationContext_acceleration] * -8.9 +
+[activityContext_mood] * -0.05
+
+Class 2 :
+-28.4 + 
+[timeContext_dayOfWeek] * 0.82 +
+[timeContext_hourOfDay] * 0.45 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.3 +
+[activityContext_mood] * 0.26
+
+Class 3 :
+-4.13 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.65 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-11.7 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.31 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-10.72 + 
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-11.98 + 
+[timeContext_dayOfWeek] * -0.14 +
+[timeContext_hourOfDay] * -0.3 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.27
+
+Class 7 :
+-60.59 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * 3.35 +
+[accelerationContext_acceleration] * -7.13 +
+[activityContext_mood] * -0.24
+
+Class 8 :
+-4.57 + 
+[timeContext_dayOfWeek] * 2.18 +
+[timeContext_hourOfDay] * -0.02 +
+[audioContext_volumeMusic] * -0.13 +
+[accelerationContext_acceleration] * -1.69 +
+[activityContext_mood] * 0.05
+
+Class 9 :
+1.84 + 
+[timeContext_dayOfWeek] * -0.6 +
+[timeContext_hourOfDay] * -0.22 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.48 +
+[activityContext_mood] * 0   
+
+Class 10 :
+-5.9 + 
+[timeContext_dayOfWeek] * 0.71 +
+[audioContext_volumeMusic] * -0.15 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+8.39 + 
+[timeContext_dayOfWeek] * -0.69 +
+[timeContext_hourOfDay] * -0.73 +
+[audioContext_volumeMusic] * 0.08 +
+[accelerationContext_acceleration] * -0.82
+
+Class 12 :
+-48.33 + 
+[timeContext_dayOfWeek] * 4.92 +
+[timeContext_hourOfDay] * 0.79 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 2.37
+
+Class 13 :
+-5.56 + 
+[timeContext_dayOfWeek] * -3.56 +
+[timeContext_hourOfDay] * 0.4  +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 1.34 +
+[activityContext_mood] * -0.06
+
+Class 14 :
+12.2 + 
+[timeContext_dayOfWeek] * 0.01 +
+[timeContext_hourOfDay] * -0.44 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 1.53 +
+[activityContext_mood] * -0.09
+
+Class 15 :
+-17.11 + 
+[timeContext_dayOfWeek] * 5.12 +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.26 +
+[activityContext_mood] * -0.31
+
+Class 16 :
+60.89 + 
+[timeContext_dayOfWeek] * 3.68 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -1.18 +
+[accelerationContext_acceleration] * -7.73
+
+Class 17 :
+-18.98 + 
+[timeContext_dayOfWeek] * -3.44 +
+[audioContext_volumeMusic] * 0.16 +
+[accelerationContext_acceleration] * -7.19 +
+[activityContext_mood] * 0.34
+
+Class 18 :
+-14.88 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.42 +
+[activityContext_mood] * 0.09
+
+Class 19 :
+-18.33 + 
+[timeContext_dayOfWeek] * 2.39 +
+[timeContext_hourOfDay] * 0.28 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -9.58 +
+[activityContext_mood] * 0.02
+
+
+Time taken to build model: 0.6 seconds
+Time taken to test model on training data: 0 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          97               95.098  %
+Incorrectly Classified Instances         5                4.902  %
+Kappa statistic                          0.9481
+Mean absolute error                      0.0155
+Root mean squared error                  0.0679
+Relative absolute error                 16.3613 %
+Root relative squared error             31.2498 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       9.8529 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.010    0.857      1.000    0.923      0.921    0.998     0.976     The Heavy
+                 1.000    0.021    0.750      1.000    0.857      0.857    0.998     0.976     Fiona Apple
+                 0.900    0.000    1.000      0.900    0.947      0.944    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 0.800    0.000    1.000      0.800    0.889      0.890    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.010    0.833      1.000    0.909      0.908    0.997     0.927     Ani DiFranco
+                 0.800    0.000    1.000      0.800    0.889      0.890    1.000     1.000     Daft Punk
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.999     0.950     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 0.800    0.010    0.800      0.800    0.800      0.790    0.994     0.925     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.951    0.003    0.959      0.951    0.951      0.950    0.999     0.988     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  1  9  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  1  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  4  0  0  1  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  1  0  3  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  1  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  5  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          36               35.2941 %
+Incorrectly Classified Instances        66               64.7059 %
+Kappa statistic                          0.3144
+Mean absolute error                      0.0664
+Root mean squared error                  0.2324
+Relative absolute error                 69.9631 %
+Root relative squared error            106.4876 %
+Coverage of cases (0.95 level)          45.098  %
+Mean rel. region size (0.95 level)      12.1078 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.010    0.667      0.333    0.444      0.450    0.925     0.604     The Heavy
+                 0.333    0.042    0.333      0.333    0.333      0.292    0.821     0.261     Fiona Apple
+                 0.500    0.054    0.500      0.500    0.500      0.446    0.722     0.437     Die Fantastischen Vier
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.921     0.318     P!nk
+                 0.000    0.031    0.000      0.000    0.000      -0.040   0.627     0.121     Red Hot Chili Peppers
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.656     0.429     Ani DiFranco
+                 0.000    0.031    0.000      0.000    0.000      -0.040   0.658     0.102     Daft Punk
+                 0.250    0.041    0.200      0.250    0.222      0.188    0.755     0.322     Pearl Jam
+                 0.000    0.041    0.000      0.000    0.000      -0.041   0.281     0.033     Kanye West
+                 0.400    0.041    0.333      0.400    0.364      0.329    0.720     0.473     STS
+                 0.750    0.031    0.500      0.750    0.600      0.593    0.839     0.325     Letzte Instanz
+                 0.700    0.054    0.583      0.700    0.636      0.596    0.842     0.523     Sportfreunde Stiller
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.843     0.340     Bob Dylan
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.867     0.706     Casper
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.753     0.319     Caravan Palace
+                 0.250    0.051    0.167      0.250    0.200      0.164    0.824     0.346     Lamb of God
+                 0.000    0.010    0.000      0.000    0.000      -0.020   0.691     0.093     Wizkid
+                 0.000    0.020    0.000      0.000    0.000      -0.029   0.485     0.046     Asian Dub Foundation
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.715     0.295     Mumford & Sons
+                 0.500    0.082    0.200      0.500    0.286      0.273    0.806     0.206     King Crimson
+Weighted Avg.    0.353    0.036    0.338      0.353    0.337      0.306    0.746     0.338     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 1 | a = The Heavy
+ 0 2 0 0 0 0 0 1 0 0 1 1 0 0 0 1 0 0 0 0 | b = Fiona Apple
+ 0 1 5 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 1 | c = Die Fantastischen Vier
+ 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 | d = P!nk
+ 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 1 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 1 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 2 | g = Daft Punk
+ 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 1 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 0 2 1 0 0 1 0 0 0 0 0 0 | i = Kanye West
+ 1 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 1 | j = STS
+ 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 1 0 0 7 1 0 0 0 1 0 0 0 | l = Sportfreunde Stiller
+ 0 1 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 | m = Bob Dylan
+ 0 0 0 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 | p = Lamb of God
+ 0 1 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 2 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 2 | t = King Crimson
+
+
+Options: -I -1 -M 7 -W 0.0 
+
+Logistic model tree 
+------------------
+
+audioContext_volumeMusic <= 53
+|   accelerationContext_acceleration <= 0.2
+|   |   activityContext_mood <= 50: LM_1:6/24 (17)
+|   |   activityContext_mood > 50: LM_2:6/24 (15)
+|   accelerationContext_acceleration > 0.2
+|   |   audioContext_volumeMusic <= 36: LM_3:6/24 (11)
+|   |   audioContext_volumeMusic > 36: LM_4:6/24 (10)
+audioContext_volumeMusic > 53
+|   timeContext_dayOfWeek <= 3
+|   |   audioContext_volumeMusic <= 90: LM_5:6/24 (12)
+|   |   audioContext_volumeMusic > 90
+|   |   |   accelerationContext_acceleration <= 0.2: LM_6:0/24 (2)
+|   |   |   accelerationContext_acceleration > 0.2: LM_7:6/30 (6)
+|   timeContext_dayOfWeek > 3: LM_8:6/18 (29)
+
+Number of Leaves  : 	8
+
+Size of the Tree : 	15
+
+
+
+LM_1:
+Class 0 :
+-24.45 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.12 +
+[activityContext_mood] * 0   
+
+Class 1 :
+-14.46 + 
+[timeContext_dayOfWeek] * 0.24 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.2  +
+[activityContext_mood] * 0.06
+
+Class 2 :
+15.03 + 
+[timeContext_dayOfWeek] * -4.59 +
+[timeContext_hourOfDay] * -0.67 +
+[audioContext_volumeMusic] * 0.07 +
+[accelerationContext_acceleration] * -0.2 +
+[activityContext_mood] * 0.07
+
+Class 3 :
+12.33 + 
+[timeContext_dayOfWeek] * 0.15 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -10.09 +
+[activityContext_mood] * -0.26
+
+Class 4 :
+24.16 + 
+[timeContext_dayOfWeek] * 0.99 +
+[timeContext_hourOfDay] * -0.61 +
+[audioContext_volumeMusic] * -1.62 +
+[accelerationContext_acceleration] * 0.38 +
+[activityContext_mood] * -0.07
+
+Class 5 :
+-12.16 + 
+[timeContext_dayOfWeek] * -0.33 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * -0.14 +
+[accelerationContext_acceleration] * -13 +
+[activityContext_mood] * 0.2 
+
+Class 6 :
+-357.18 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 15.49 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+-7.84 + 
+[timeContext_dayOfWeek] * 0.4  +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -40.49 +
+[activityContext_mood] * 0.05
+
+Class 8 :
+-33.74 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 2.61 +
+[accelerationContext_acceleration] * -64.18 +
+[activityContext_mood] * -0.22
+
+Class 9 :
+-15.83 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+-7.49 + 
+[timeContext_dayOfWeek] * 1.3  +
+[timeContext_hourOfDay] * 1.53 +
+[audioContext_volumeMusic] * -0.58 +
+[accelerationContext_acceleration] * -8.52 +
+[activityContext_mood] * -0.2
+
+Class 11 :
+-36.26 + 
+[timeContext_dayOfWeek] * -1.19 +
+[timeContext_hourOfDay] * 0.17 +
+[audioContext_volumeMusic] * -0.17 +
+[accelerationContext_acceleration] * 62.05 +
+[activityContext_mood] * 0.85
+
+Class 12 :
+-21.66 + 
+[timeContext_dayOfWeek] * -0.24 +
+[timeContext_hourOfDay] * 0.63 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * -33.04 +
+[activityContext_mood] * 0.09
+
+Class 13 :
+-18.4 + 
+[timeContext_dayOfWeek] * 2.46 +
+[timeContext_hourOfDay] * -0.21 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.09
+
+Class 14 :
+-24.64 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 1.02 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-22.71 + 
+[timeContext_dayOfWeek] * -0.49 +
+[audioContext_volumeMusic] * 0.13 +
+[accelerationContext_acceleration] * 0.56 +
+[activityContext_mood] * 0.06
+
+Class 16 :
+-21.62 + 
+[timeContext_dayOfWeek] * 1.27 +
+[timeContext_hourOfDay] * -0.54 +
+[audioContext_volumeMusic] * 0.12 +
+[accelerationContext_acceleration] * 19.65 +
+[activityContext_mood] * 0.42
+
+Class 17 :
+2.91 + 
+[timeContext_dayOfWeek] * -0.25 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * 0.55 +
+[accelerationContext_acceleration] * -66.18 +
+[activityContext_mood] * -0.48
+
+Class 18 :
+-15.78 + 
+[timeContext_dayOfWeek] * -0.29 +
+[timeContext_hourOfDay] * -0.25 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 45.51 +
+[activityContext_mood] * 0.24
+
+Class 19 :
+-22.87 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.44
+
+LM_2:
+Class 0 :
+-24.45 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.12 +
+[activityContext_mood] * 0   
+
+Class 1 :
+-14.46 + 
+[timeContext_dayOfWeek] * 0.24 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.2  +
+[activityContext_mood] * 0.06
+
+Class 2 :
+-23.96 + 
+[timeContext_dayOfWeek] * 2.12 +
+[timeContext_hourOfDay] * 0.43 +
+[audioContext_volumeMusic] * 0.07 +
+[accelerationContext_acceleration] * -0.2 +
+[activityContext_mood] * 0.07
+
+Class 3 :
+3    + 
+[timeContext_dayOfWeek] * 0.15 +
+[timeContext_hourOfDay] * 0.1  +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -2.41 +
+[activityContext_mood] * -0.17
+
+Class 4 :
+4.19 + 
+[timeContext_dayOfWeek] * 0.99 +
+[timeContext_hourOfDay] * -0.12 +
+[audioContext_volumeMusic] * -0.72 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.07
+
+Class 5 :
+-6.78 + 
+[timeContext_dayOfWeek] * -0.33 +
+[timeContext_hourOfDay] * 0.03 +
+[audioContext_volumeMusic] * -0.17 +
+[accelerationContext_acceleration] * -57.5 +
+[activityContext_mood] * 0.2 
+
+Class 6 :
+-608.4 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 26.91 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+23.32 + 
+[timeContext_dayOfWeek] * 0.42 +
+[timeContext_hourOfDay] * -1.58 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * -40.49 +
+[activityContext_mood] * -0.04
+
+Class 8 :
+-17.33 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 1.35 +
+[accelerationContext_acceleration] * -24.85 +
+[activityContext_mood] * -0.22
+
+Class 9 :
+-15.83 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+-3.22 + 
+[timeContext_dayOfWeek] * 1.3  +
+[timeContext_hourOfDay] * 0.64 +
+[audioContext_volumeMusic] * -0.35 +
+[accelerationContext_acceleration] * -8.79 +
+[activityContext_mood] * -0.2
+
+Class 11 :
+-58.1 + 
+[timeContext_dayOfWeek] * -1.56 +
+[timeContext_hourOfDay] * 1.66 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 51.86 +
+[activityContext_mood] * 0.42
+
+Class 12 :
+-22.49 + 
+[timeContext_dayOfWeek] * -0.24 +
+[timeContext_hourOfDay] * 1.07 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * -81.78 +
+[activityContext_mood] * 0.09
+
+Class 13 :
+-18.4 + 
+[timeContext_dayOfWeek] * 2.46 +
+[timeContext_hourOfDay] * -0.21 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.09
+
+Class 14 :
+-24.64 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 1.02 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-22.71 + 
+[timeContext_dayOfWeek] * -0.49 +
+[audioContext_volumeMusic] * 0.13 +
+[accelerationContext_acceleration] * 0.56 +
+[activityContext_mood] * 0.06
+
+Class 16 :
+-4.18 + 
+[timeContext_dayOfWeek] * 1.27 +
+[timeContext_hourOfDay] * -0.38 +
+[audioContext_volumeMusic] * 0.08 +
+[accelerationContext_acceleration] * 6.2  +
+[activityContext_mood] * -0.07
+
+Class 17 :
+17.09 + 
+[timeContext_dayOfWeek] * -6.09 +
+[timeContext_hourOfDay] * -0.42 +
+[audioContext_volumeMusic] * 0.4  +
+[accelerationContext_acceleration] * -66.18
+
+Class 18 :
+-14.85 + 
+[timeContext_dayOfWeek] * -0.18 +
+[timeContext_hourOfDay] * -0.34 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * 73.53 +
+[activityContext_mood] * 0.29
+
+Class 19 :
+-22.87 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.44
+
+
+LM_3:
+Class 0 :
+-24.45 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.12 +
+[activityContext_mood] * 0   
+
+Class 1 :
+5.67 + 
+[timeContext_dayOfWeek] * 1.76 +
+[timeContext_hourOfDay] * -0.1 +
+[audioContext_volumeMusic] * -0.36 +
+[accelerationContext_acceleration] * -0.08 +
+[activityContext_mood] * 0.06
+
+Class 2 :
+-4.86 + 
+[timeContext_dayOfWeek] * -1.62 +
+[timeContext_hourOfDay] * -0.01 +
+[audioContext_volumeMusic] * 0.14 +
+[accelerationContext_acceleration] * -0.87 +
+[activityContext_mood] * 0.17
+
+Class 3 :
+1.01 + 
+[timeContext_hourOfDay] * -0.1 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -2.25 +
+[activityContext_mood] * -0.19
+
+Class 4 :
+-11.74 + 
+[timeContext_dayOfWeek] * 1.31 +
+[timeContext_hourOfDay] * 0.55 +
+[audioContext_volumeMusic] * -0.32 +
+[accelerationContext_acceleration] * 1.08 +
+[activityContext_mood] * 0.04
+
+Class 5 :
+-8.94 + 
+[timeContext_dayOfWeek] * 0.22 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 0.4  +
+[activityContext_mood] * -0.07
+
+Class 6 :
+-94.97 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 3.58 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+-10.2 + 
+[timeContext_hourOfDay] * -0.12 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -31.54 +
+[activityContext_mood] * 0.04
+
+Class 8 :
+-20.45 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 0.81 +
+[accelerationContext_acceleration] * -0.96 +
+[activityContext_mood] * -0.1
+
+Class 9 :
+-15.83 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+58.83 + 
+[timeContext_dayOfWeek] * 3.05 +
+[timeContext_hourOfDay] * 0.21 +
+[audioContext_volumeMusic] * -2.22 +
+[accelerationContext_acceleration] * -0.37 +
+[activityContext_mood] * -0.32
+
+Class 11 :
+-9.07 + 
+[timeContext_dayOfWeek] * -1.18 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -1.2
+
+Class 12 :
+-15.53 + 
+[timeContext_dayOfWeek] * -1.14 +
+[timeContext_hourOfDay] * 0.18 +
+[audioContext_volumeMusic] * 0.38 +
+[accelerationContext_acceleration] * -0.33 +
+[activityContext_mood] * -0.04
+
+Class 13 :
+-38.42 + 
+[timeContext_dayOfWeek] * 6.1  +
+[timeContext_hourOfDay] * -0.21 +
+[audioContext_volumeMusic] * 0.12 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.09
+
+Class 14 :
+-45 + 
+[timeContext_dayOfWeek] * 2.38 +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 2.25 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-25.66 + 
+[timeContext_dayOfWeek] * -1.29 +
+[audioContext_volumeMusic] * 0.27 +
+[accelerationContext_acceleration] * 0.84 +
+[activityContext_mood] * 0.12
+
+Class 16 :
+-7.64 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * -0.31 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -2.16 +
+[activityContext_mood] * -0.05
+
+Class 17 :
+-10.43 + 
+[timeContext_dayOfWeek] * -0.25 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * 0.1  +
+[accelerationContext_acceleration] * -29.3 +
+[activityContext_mood] * 0   
+
+Class 18 :
+16.85 + 
+[timeContext_dayOfWeek] * -4.78 +
+[audioContext_volumeMusic] * -0.46 +
+[accelerationContext_acceleration] * -2.94 +
+[activityContext_mood] * 0.18
+
+Class 19 :
+-22.87 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.44
+
+LM_4:
+Class 0 :
+-24.45 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.12 +
+[activityContext_mood] * 0   
+
+Class 1 :
+-2.1 + 
+[timeContext_dayOfWeek] * 0.71 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.21 +
+[accelerationContext_acceleration] * 0.02 +
+[activityContext_mood] * 0.06
+
+Class 2 :
+-4.36 + 
+[timeContext_dayOfWeek] * -1.04 +
+[timeContext_hourOfDay] * -0.01 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -0.34 +
+[activityContext_mood] * 0.1 
+
+Class 3 :
+1.01 + 
+[timeContext_hourOfDay] * -0.1 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -2.25 +
+[activityContext_mood] * -0.19
+
+Class 4 :
+-23.23 + 
+[timeContext_dayOfWeek] * 1.31 +
+[timeContext_hourOfDay] * -0.43 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * 0.65 +
+[activityContext_mood] * 0.26
+
+Class 5 :
+23.51 + 
+[timeContext_dayOfWeek] * 1.03 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * -0.58 +
+[accelerationContext_acceleration] * 1.24 +
+[activityContext_mood] * -0.07
+
+Class 6 :
+-94.97 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 3.58 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+-10.2 + 
+[timeContext_hourOfDay] * -0.12 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -31.54 +
+[activityContext_mood] * 0.04
+
+Class 8 :
+-20.45 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 0.81 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -0.96 +
+[activityContext_mood] * -0.1
+
+Class 9 :
+-15.83 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+20.33 + 
+[timeContext_dayOfWeek] * 3.05 +
+[timeContext_hourOfDay] * 0.21 +
+[audioContext_volumeMusic] * -1.35 +
+[activityContext_mood] * -0.13
+
+Class 11 :
+-9.07 + 
+[timeContext_dayOfWeek] * -1.18 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -1.2
+
+Class 12 :
+-13.99 + 
+[timeContext_dayOfWeek] * -1.88 +
+[timeContext_hourOfDay] * 0.42 +
+[audioContext_volumeMusic] * 0.54 +
+[accelerationContext_acceleration] * -1.24 +
+[activityContext_mood] * -0.04
+
+Class 13 :
+-66.91 + 
+[timeContext_dayOfWeek] * 11.8 +
+[timeContext_hourOfDay] * -0.21 +
+[audioContext_volumeMusic] * 0.12 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.09
+
+Class 14 :
+-134.64 + 
+[timeContext_dayOfWeek] * 2.38 +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 2.05 +
+[accelerationContext_acceleration] * 2.25 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-25.43 + 
+[timeContext_dayOfWeek] * -3.27 +
+[audioContext_volumeMusic] * 0.27 +
+[accelerationContext_acceleration] * 1.21 +
+[activityContext_mood] * 0.29
+
+Class 16 :
+-7.64 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * -0.31 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -2.16 +
+[activityContext_mood] * -0.05
+
+Class 17 :
+-10.43 + 
+[timeContext_dayOfWeek] * -0.25 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * 0.1  +
+[accelerationContext_acceleration] * -29.3 +
+[activityContext_mood] * 0   
+
+Class 18 :
+0.49 + 
+[timeContext_dayOfWeek] * -2.88 +
+[audioContext_volumeMusic] * -0.31 +
+[accelerationContext_acceleration] * -0.95 +
+[activityContext_mood] * 0.18
+
+Class 19 :
+-22.87 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.44
+
+
+
+LM_5:
+Class 0 :
+-49.4 + 
+[timeContext_dayOfWeek] * -2.03 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.46 +
+[activityContext_mood] * 0.15
+
+Class 1 :
+-5.23 + 
+[timeContext_dayOfWeek] * 0.14 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -5.08 +
+[activityContext_mood] * -0.01
+
+Class 2 :
+-26.61 + 
+[timeContext_dayOfWeek] * 0.82 +
+[timeContext_hourOfDay] * 0.13 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.79 +
+[activityContext_mood] * 0.15
+
+Class 3 :
+-9.83 + 
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.65 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-17.4 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.31 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-16.42 + 
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-27.71 + 
+[timeContext_dayOfWeek] * 5.01 +
+[timeContext_hourOfDay] * 0.35 +
+[audioContext_volumeMusic] * 0.08 +
+[accelerationContext_acceleration] * 1.55 +
+[activityContext_mood] * 0.06
+
+Class 7 :
+-34.19 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * 1.17 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -7.13 +
+[activityContext_mood] * -0.08
+
+Class 8 :
+24.63 + 
+[timeContext_dayOfWeek] * -8.05 +
+[timeContext_hourOfDay] * -0.02 +
+[audioContext_volumeMusic] * 0.09 +
+[accelerationContext_acceleration] * -5.41 +
+[activityContext_mood] * -0.24
+
+Class 9 :
+19.43 + 
+[timeContext_dayOfWeek] * 1.63 +
+[timeContext_hourOfDay] * -0.54 +
+[audioContext_volumeMusic] * -0.21 +
+[accelerationContext_acceleration] * 1.94
+
+Class 10 :
+-11.6 + 
+[timeContext_dayOfWeek] * 0.71 +
+[audioContext_volumeMusic] * -0.15 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+-11.59 + 
+[timeContext_dayOfWeek] * 0.57 +
+[timeContext_hourOfDay] * -0.39 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -0.56
+
+Class 12 :
+-25.08 + 
+[timeContext_dayOfWeek] * 1.22 +
+[timeContext_hourOfDay] * 0.37 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 0.71
+
+Class 13 :
+-32 + 
+[timeContext_dayOfWeek] * -0.28 +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 1.01 +
+[activityContext_mood] * -0.02
+
+Class 14 :
+-3.74 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.44 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 0.86 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-17.35 + 
+[timeContext_dayOfWeek] * -4.79 +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * 0.09 +
+[accelerationContext_acceleration] * 2.04 +
+[activityContext_mood] * 0.27
+
+Class 16 :
+13.54 + 
+[timeContext_dayOfWeek] * 0.3  +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.36 +
+[accelerationContext_acceleration] * -7.39
+
+Class 17 :
+84.98 + 
+[timeContext_dayOfWeek] * -1.01 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * -7.19 +
+[activityContext_mood] * -2.03
+
+Class 18 :
+-20.58 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.42 +
+[activityContext_mood] * 0.09
+
+Class 19 :
+-0.6 + 
+[timeContext_dayOfWeek] * -0.07 +
+[timeContext_hourOfDay] * 0.48 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * -10.55 +
+[activityContext_mood] * 0.1 
+
+
+LM_6:
+Class 0 :
+-41.95 + 
+[timeContext_dayOfWeek] * -3.12 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.46 +
+[accelerationContext_acceleration] * 6.16 +
+[activityContext_mood] * 0.15
+
+Class 1 :
+-5.22 + 
+[timeContext_dayOfWeek] * 0.14 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -5.08 +
+[activityContext_mood] * -0.01
+
+Class 2 :
+-26.61 + 
+[timeContext_dayOfWeek] * 0.82 +
+[timeContext_hourOfDay] * 0.13 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.79 +
+[activityContext_mood] * 0.15
+
+Class 3 :
+-9.83 + 
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.65 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-17.4 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.31 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-16.42 + 
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-16.7 + 
+[timeContext_dayOfWeek] * 3.81 +
+[timeContext_hourOfDay] * 0.07 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.66 +
+[activityContext_mood] * 0.06
+
+Class 7 :
+-34.19 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * 1.17 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -7.13 +
+[activityContext_mood] * -0.08
+
+Class 8 :
+16.99 + 
+[timeContext_dayOfWeek] * -2.53 +
+[timeContext_hourOfDay] * -0.01 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -5.4 +
+[activityContext_mood] * -0.24
+
+Class 9 :
+7.08 + 
+[timeContext_dayOfWeek] * 2.2  +
+[timeContext_hourOfDay] * -0.08 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * -10.56
+
+Class 10 :
+-11.6 + 
+[timeContext_dayOfWeek] * 0.71 +
+[audioContext_volumeMusic] * -0.15 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+-11.58 + 
+[timeContext_dayOfWeek] * 0.57 +
+[timeContext_hourOfDay] * -0.39 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -0.56
+
+Class 12 :
+-25.08 + 
+[timeContext_dayOfWeek] * 1.22 +
+[timeContext_hourOfDay] * 0.37 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 0.71
+
+Class 13 :
+-32 + 
+[timeContext_dayOfWeek] * -0.28 +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 1.01 +
+[activityContext_mood] * -0.02
+
+Class 14 :
+-3.74 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.44 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 0.86 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-10.44 + 
+[timeContext_dayOfWeek] * -2.38 +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 2.04 +
+[activityContext_mood] * 0.18
+
+Class 16 :
+13.54 + 
+[timeContext_dayOfWeek] * 0.3  +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.36 +
+[accelerationContext_acceleration] * -7.39
+
+Class 17 :
+180.28 + 
+[timeContext_dayOfWeek] * -1 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * -7.19 +
+[activityContext_mood] * -3.93
+
+Class 18 :
+-20.58 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.42 +
+[activityContext_mood] * 0.09
+
+Class 19 :
+-6.38 + 
+[timeContext_hourOfDay] * 0.36 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * -6.87 +
+[activityContext_mood] * 0.1 
+
+LM_7:
+Class 0 :
+-59.77 + 
+[timeContext_dayOfWeek] * -3.12 +
+[timeContext_hourOfDay] * -0.64 +
+[audioContext_volumeMusic] * 0.46 +
+[accelerationContext_acceleration] * 68.72 +
+[activityContext_mood] * 0.15
+
+Class 1 :
+-10.92 + 
+[timeContext_dayOfWeek] * 0.14 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -5.08 +
+[activityContext_mood] * -0.01
+
+Class 2 :
+-32.31 + 
+[timeContext_dayOfWeek] * 0.82 +
+[timeContext_hourOfDay] * 0.13 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.79 +
+[activityContext_mood] * 0.15
+
+Class 3 :
+-15.53 + 
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.65 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-23.1 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.31 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-22.12 + 
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-22.4 + 
+[timeContext_dayOfWeek] * 3.81 +
+[timeContext_hourOfDay] * 0.07 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.66 +
+[activityContext_mood] * 0.06
+
+Class 7 :
+-39.89 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * 1.17 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -7.13 +
+[activityContext_mood] * -0.08
+
+Class 8 :
+11.29 + 
+[timeContext_dayOfWeek] * -2.53 +
+[timeContext_hourOfDay] * -0.01 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -5.4 +
+[activityContext_mood] * -0.24
+
+Class 9 :
+24.9 + 
+[timeContext_dayOfWeek] * 2.2  +
+[timeContext_hourOfDay] * 0.5  +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * -73.16
+
+Class 10 :
+-15.82 + 
+[timeContext_dayOfWeek] * 0.71 +
+[audioContext_volumeMusic] * -0.16 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+-17.28 + 
+[timeContext_dayOfWeek] * 0.57 +
+[timeContext_hourOfDay] * -0.39 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -0.56
+
+Class 12 :
+-30.78 + 
+[timeContext_dayOfWeek] * 1.22 +
+[timeContext_hourOfDay] * 0.37 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 0.71
+
+Class 13 :
+-37.7 + 
+[timeContext_dayOfWeek] * -0.28 +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 1.01 +
+[activityContext_mood] * -0.02
+
+Class 14 :
+-9.44 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.44 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 0.86 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-16.14 + 
+[timeContext_dayOfWeek] * -2.38 +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 2.04 +
+[activityContext_mood] * 0.18
+
+Class 16 :
+7.84 + 
+[timeContext_dayOfWeek] * 0.3  +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.36 +
+[accelerationContext_acceleration] * -7.39
+
+Class 17 :
+174.58 + 
+[timeContext_dayOfWeek] * -1 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * -7.19 +
+[activityContext_mood] * -3.93
+
+Class 18 :
+-26.28 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.42 +
+[activityContext_mood] * 0.09
+
+Class 19 :
+-12.08 + 
+[timeContext_hourOfDay] * 0.36 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * -6.87 +
+[activityContext_mood] * 0.1 
+
+LM_8:
+Class 0 :
+-30.59 + 
+[timeContext_dayOfWeek] * -1.21 +
+[audioContext_volumeMusic] * 0.28 +
+[activityContext_mood] * 0.06
+
+Class 1 :
+14.66 + 
+[timeContext_dayOfWeek] * -0.47 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * -0.08 +
+[accelerationContext_acceleration] * -8.9 +
+[activityContext_mood] * -0.05
+
+Class 2 :
+-28.4 + 
+[timeContext_dayOfWeek] * 0.82 +
+[timeContext_hourOfDay] * 0.45 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.3 +
+[activityContext_mood] * 0.26
+
+Class 3 :
+-4.13 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.65 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-11.7 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.31 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-10.72 + 
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-11.98 + 
+[timeContext_dayOfWeek] * -0.14 +
+[timeContext_hourOfDay] * -0.3 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.27
+
+Class 7 :
+-60.59 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * 3.35 +
+[accelerationContext_acceleration] * -7.13 +
+[activityContext_mood] * -0.24
+
+Class 8 :
+-4.57 + 
+[timeContext_dayOfWeek] * 2.18 +
+[timeContext_hourOfDay] * -0.02 +
+[audioContext_volumeMusic] * -0.13 +
+[accelerationContext_acceleration] * -1.69 +
+[activityContext_mood] * 0.05
+
+Class 9 :
+1.84 + 
+[timeContext_dayOfWeek] * -0.6 +
+[timeContext_hourOfDay] * -0.22 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.48 +
+[activityContext_mood] * 0   
+
+Class 10 :
+-5.9 + 
+[timeContext_dayOfWeek] * 0.71 +
+[audioContext_volumeMusic] * -0.15 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+8.39 + 
+[timeContext_dayOfWeek] * -0.69 +
+[timeContext_hourOfDay] * -0.73 +
+[audioContext_volumeMusic] * 0.08 +
+[accelerationContext_acceleration] * -0.82
+
+Class 12 :
+-48.33 + 
+[timeContext_dayOfWeek] * 4.92 +
+[timeContext_hourOfDay] * 0.79 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 2.37
+
+Class 13 :
+-5.56 + 
+[timeContext_dayOfWeek] * -3.56 +
+[timeContext_hourOfDay] * 0.4  +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 1.34 +
+[activityContext_mood] * -0.06
+
+Class 14 :
+12.2 + 
+[timeContext_dayOfWeek] * 0.01 +
+[timeContext_hourOfDay] * -0.44 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 1.53 +
+[activityContext_mood] * -0.09
+
+Class 15 :
+-17.11 + 
+[timeContext_dayOfWeek] * 5.12 +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.26 +
+[activityContext_mood] * -0.31
+
+Class 16 :
+60.89 + 
+[timeContext_dayOfWeek] * 3.68 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -1.18 +
+[accelerationContext_acceleration] * -7.73
+
+Class 17 :
+-18.98 + 
+[timeContext_dayOfWeek] * -3.44 +
+[audioContext_volumeMusic] * 0.16 +
+[accelerationContext_acceleration] * -7.19 +
+[activityContext_mood] * 0.34
+
+Class 18 :
+-14.88 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.42 +
+[activityContext_mood] * 0.09
+
+Class 19 :
+-18.33 + 
+[timeContext_dayOfWeek] * 2.39 +
+[timeContext_hourOfDay] * 0.28 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -9.58 +
+[activityContext_mood] * 0.02
+
+
+Time taken to build model: 0.65 seconds
+Time taken to test model on training data: 0 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         101               99.0196 %
+Incorrectly Classified Instances         1                0.9804 %
+Kappa statistic                          0.9896
+Mean absolute error                      0.0076
+Root mean squared error                  0.0377
+Relative absolute error                  8.0075 %
+Root relative squared error             17.3573 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       7.7941 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.010    0.833      1.000    0.909      0.908    0.999     0.967     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.999     0.950     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.990    0.001    0.992      0.990    0.990      0.990    1.000     0.996     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  1  0  3  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  5  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          37               36.2745 %
+Incorrectly Classified Instances        65               63.7255 %
+Kappa statistic                          0.3248
+Mean absolute error                      0.0656
+Root mean squared error                  0.2306
+Relative absolute error                 69.1563 %
+Root relative squared error            105.6606 %
+Coverage of cases (0.95 level)          46.0784 %
+Mean rel. region size (0.95 level)      12.1078 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.010    0.667      0.333    0.444      0.450    0.929     0.606     The Heavy
+                 0.333    0.031    0.400      0.333    0.364      0.329    0.826     0.317     Fiona Apple
+                 0.500    0.054    0.500      0.500    0.500      0.446    0.732     0.474     Die Fantastischen Vier
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.921     0.318     P!nk
+                 0.200    0.041    0.200      0.200    0.200      0.159    0.668     0.187     Red Hot Chili Peppers
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.658     0.430     Ani DiFranco
+                 0.000    0.031    0.000      0.000    0.000      -0.040   0.672     0.105     Daft Punk
+                 0.250    0.041    0.200      0.250    0.222      0.188    0.758     0.322     Pearl Jam
+                 0.000    0.041    0.000      0.000    0.000      -0.041   0.301     0.034     Kanye West
+                 0.400    0.041    0.333      0.400    0.364      0.329    0.722     0.475     STS
+                 0.750    0.031    0.500      0.750    0.600      0.593    0.796     0.321     Letzte Instanz
+                 0.700    0.054    0.583      0.700    0.636      0.596    0.846     0.524     Sportfreunde Stiller
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.852     0.341     Bob Dylan
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.875     0.707     Casper
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.722     0.313     Caravan Palace
+                 0.250    0.051    0.167      0.250    0.200      0.164    0.834     0.349     Lamb of God
+                 0.000    0.010    0.000      0.000    0.000      -0.020   0.691     0.093     Wizkid
+                 0.000    0.020    0.000      0.000    0.000      -0.029   0.492     0.046     Asian Dub Foundation
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.720     0.296     Mumford & Sons
+                 0.500    0.071    0.222      0.500    0.308      0.293    0.814     0.213     King Crimson
+Weighted Avg.    0.363    0.036    0.352      0.363    0.349      0.319    0.751     0.348     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 1 | a = The Heavy
+ 0 2 0 0 0 0 0 1 0 0 1 1 0 0 0 1 0 0 0 0 | b = Fiona Apple
+ 0 1 5 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 1 | c = Die Fantastischen Vier
+ 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 | d = P!nk
+ 0 0 1 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 1 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 2 | g = Daft Punk
+ 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 1 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 0 2 1 0 0 1 0 0 0 0 0 0 | i = Kanye West
+ 1 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 1 | j = STS
+ 0 0 0 0 1 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 1 0 0 7 1 0 0 0 1 0 0 0 | l = Sportfreunde Stiller
+ 0 1 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 | m = Bob Dylan
+ 0 0 0 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 | p = Lamb of God
+ 0 1 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 2 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 2 | t = King Crimson
+
+
+Options: -I -1 -M 30 -W 0.0 
+
+Logistic model tree 
+------------------
+
+audioContext_volumeMusic <= 53
+|   accelerationContext_acceleration <= 0.2
+|   |   activityContext_mood <= 50: LM_1:6/24 (17)
+|   |   activityContext_mood > 50: LM_2:6/24 (15)
+|   accelerationContext_acceleration > 0.2: LM_3:6/18 (21)
+audioContext_volumeMusic > 53
+|   timeContext_dayOfWeek <= 3: LM_4:6/18 (20)
+|   timeContext_dayOfWeek > 3: LM_5:6/18 (29)
+
+Number of Leaves  : 	5
+
+Size of the Tree : 	9
+
+
+
+LM_1:
+Class 0 :
+-24.45 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.12 +
+[activityContext_mood] * 0   
+
+Class 1 :
+-14.46 + 
+[timeContext_dayOfWeek] * 0.24 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.2  +
+[activityContext_mood] * 0.06
+
+Class 2 :
+15.03 + 
+[timeContext_dayOfWeek] * -4.59 +
+[timeContext_hourOfDay] * -0.67 +
+[audioContext_volumeMusic] * 0.07 +
+[accelerationContext_acceleration] * -0.2 +
+[activityContext_mood] * 0.07
+
+Class 3 :
+12.33 + 
+[timeContext_dayOfWeek] * 0.15 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -10.09 +
+[activityContext_mood] * -0.26
+
+Class 4 :
+24.16 + 
+[timeContext_dayOfWeek] * 0.99 +
+[timeContext_hourOfDay] * -0.61 +
+[audioContext_volumeMusic] * -1.62 +
+[accelerationContext_acceleration] * 0.38 +
+[activityContext_mood] * -0.07
+
+Class 5 :
+-12.16 + 
+[timeContext_dayOfWeek] * -0.33 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * -0.14 +
+[accelerationContext_acceleration] * -13 +
+[activityContext_mood] * 0.2 
+
+Class 6 :
+-357.18 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 15.49 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+-7.84 + 
+[timeContext_dayOfWeek] * 0.4  +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -40.49 +
+[activityContext_mood] * 0.05
+
+Class 8 :
+-33.74 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 2.61 +
+[accelerationContext_acceleration] * -64.18 +
+[activityContext_mood] * -0.22
+
+Class 9 :
+-15.83 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+-7.49 + 
+[timeContext_dayOfWeek] * 1.3  +
+[timeContext_hourOfDay] * 1.53 +
+[audioContext_volumeMusic] * -0.58 +
+[accelerationContext_acceleration] * -8.52 +
+[activityContext_mood] * -0.2
+
+Class 11 :
+-36.26 + 
+[timeContext_dayOfWeek] * -1.19 +
+[timeContext_hourOfDay] * 0.17 +
+[audioContext_volumeMusic] * -0.17 +
+[accelerationContext_acceleration] * 62.05 +
+[activityContext_mood] * 0.85
+
+Class 12 :
+-21.66 + 
+[timeContext_dayOfWeek] * -0.24 +
+[timeContext_hourOfDay] * 0.63 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * -33.04 +
+[activityContext_mood] * 0.09
+
+Class 13 :
+-18.4 + 
+[timeContext_dayOfWeek] * 2.46 +
+[timeContext_hourOfDay] * -0.21 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.09
+
+Class 14 :
+-24.64 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 1.02 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-22.71 + 
+[timeContext_dayOfWeek] * -0.49 +
+[audioContext_volumeMusic] * 0.13 +
+[accelerationContext_acceleration] * 0.56 +
+[activityContext_mood] * 0.06
+
+Class 16 :
+-21.62 + 
+[timeContext_dayOfWeek] * 1.27 +
+[timeContext_hourOfDay] * -0.54 +
+[audioContext_volumeMusic] * 0.12 +
+[accelerationContext_acceleration] * 19.65 +
+[activityContext_mood] * 0.42
+
+Class 17 :
+2.91 + 
+[timeContext_dayOfWeek] * -0.25 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * 0.55 +
+[accelerationContext_acceleration] * -66.18 +
+[activityContext_mood] * -0.48
+
+Class 18 :
+-15.78 + 
+[timeContext_dayOfWeek] * -0.29 +
+[timeContext_hourOfDay] * -0.25 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 45.51 +
+[activityContext_mood] * 0.24
+
+Class 19 :
+-22.87 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.44
+
+LM_2:
+Class 0 :
+-24.45 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.12 +
+[activityContext_mood] * 0   
+
+Class 1 :
+-14.46 + 
+[timeContext_dayOfWeek] * 0.24 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.2  +
+[activityContext_mood] * 0.06
+
+Class 2 :
+-23.96 + 
+[timeContext_dayOfWeek] * 2.12 +
+[timeContext_hourOfDay] * 0.43 +
+[audioContext_volumeMusic] * 0.07 +
+[accelerationContext_acceleration] * -0.2 +
+[activityContext_mood] * 0.07
+
+Class 3 :
+3    + 
+[timeContext_dayOfWeek] * 0.15 +
+[timeContext_hourOfDay] * 0.1  +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -2.41 +
+[activityContext_mood] * -0.17
+
+Class 4 :
+4.19 + 
+[timeContext_dayOfWeek] * 0.99 +
+[timeContext_hourOfDay] * -0.12 +
+[audioContext_volumeMusic] * -0.72 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.07
+
+Class 5 :
+-6.78 + 
+[timeContext_dayOfWeek] * -0.33 +
+[timeContext_hourOfDay] * 0.03 +
+[audioContext_volumeMusic] * -0.17 +
+[accelerationContext_acceleration] * -57.5 +
+[activityContext_mood] * 0.2 
+
+Class 6 :
+-608.4 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 26.91 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+23.32 + 
+[timeContext_dayOfWeek] * 0.42 +
+[timeContext_hourOfDay] * -1.58 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * -40.49 +
+[activityContext_mood] * -0.04
+
+Class 8 :
+-17.33 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 1.35 +
+[accelerationContext_acceleration] * -24.85 +
+[activityContext_mood] * -0.22
+
+Class 9 :
+-15.83 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+-3.22 + 
+[timeContext_dayOfWeek] * 1.3  +
+[timeContext_hourOfDay] * 0.64 +
+[audioContext_volumeMusic] * -0.35 +
+[accelerationContext_acceleration] * -8.79 +
+[activityContext_mood] * -0.2
+
+Class 11 :
+-58.1 + 
+[timeContext_dayOfWeek] * -1.56 +
+[timeContext_hourOfDay] * 1.66 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 51.86 +
+[activityContext_mood] * 0.42
+
+Class 12 :
+-22.49 + 
+[timeContext_dayOfWeek] * -0.24 +
+[timeContext_hourOfDay] * 1.07 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * -81.78 +
+[activityContext_mood] * 0.09
+
+Class 13 :
+-18.4 + 
+[timeContext_dayOfWeek] * 2.46 +
+[timeContext_hourOfDay] * -0.21 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.09
+
+Class 14 :
+-24.64 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 1.02 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-22.71 + 
+[timeContext_dayOfWeek] * -0.49 +
+[audioContext_volumeMusic] * 0.13 +
+[accelerationContext_acceleration] * 0.56 +
+[activityContext_mood] * 0.06
+
+Class 16 :
+-4.18 + 
+[timeContext_dayOfWeek] * 1.27 +
+[timeContext_hourOfDay] * -0.38 +
+[audioContext_volumeMusic] * 0.08 +
+[accelerationContext_acceleration] * 6.2  +
+[activityContext_mood] * -0.07
+
+Class 17 :
+17.09 + 
+[timeContext_dayOfWeek] * -6.09 +
+[timeContext_hourOfDay] * -0.42 +
+[audioContext_volumeMusic] * 0.4  +
+[accelerationContext_acceleration] * -66.18
+
+Class 18 :
+-14.85 + 
+[timeContext_dayOfWeek] * -0.18 +
+[timeContext_hourOfDay] * -0.34 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * 73.53 +
+[activityContext_mood] * 0.29
+
+Class 19 :
+-22.87 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.44
+
+LM_3:
+Class 0 :
+-18.75 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.12 +
+[activityContext_mood] * 0   
+
+Class 1 :
+3.83 + 
+[timeContext_dayOfWeek] * 0.71 +
+[timeContext_hourOfDay] * -0.1 +
+[audioContext_volumeMusic] * -0.21 +
+[accelerationContext_acceleration] * 0.02 +
+[activityContext_mood] * 0.06
+
+Class 2 :
+1.71 + 
+[timeContext_dayOfWeek] * -1.09 +
+[timeContext_hourOfDay] * -0.01 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -0.34 +
+[activityContext_mood] * 0.1 
+
+Class 3 :
+6.71 + 
+[timeContext_hourOfDay] * -0.1 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -2.25 +
+[activityContext_mood] * -0.19
+
+Class 4 :
+-3.7 + 
+[timeContext_dayOfWeek] * 1.31 +
+[timeContext_hourOfDay] * -0.18 +
+[audioContext_volumeMusic] * -0.07 +
+[accelerationContext_acceleration] * 0.65 +
+[activityContext_mood] * 0.04
+
+Class 5 :
+-3.11 + 
+[timeContext_dayOfWeek] * 0.22 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 0.4  +
+[activityContext_mood] * -0.07
+
+Class 6 :
+-89.27 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 3.58 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+-4.5 + 
+[timeContext_hourOfDay] * -0.12 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -31.54 +
+[activityContext_mood] * 0.04
+
+Class 8 :
+-14.75 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 0.81 +
+[accelerationContext_acceleration] * -0.96 +
+[activityContext_mood] * -0.1
+
+Class 9 :
+-10.13 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+26.03 + 
+[timeContext_dayOfWeek] * 3.05 +
+[timeContext_hourOfDay] * 0.21 +
+[audioContext_volumeMusic] * -1.35 +
+[activityContext_mood] * -0.13
+
+Class 11 :
+-3.37 + 
+[timeContext_dayOfWeek] * -1.18 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -1.2
+
+Class 12 :
+-9.88 + 
+[timeContext_dayOfWeek] * -1.14 +
+[timeContext_hourOfDay] * 0.19 +
+[audioContext_volumeMusic] * 0.38 +
+[accelerationContext_acceleration] * -0.33 +
+[activityContext_mood] * -0.04
+
+Class 13 :
+-32.72 + 
+[timeContext_dayOfWeek] * 6.1  +
+[timeContext_hourOfDay] * -0.21 +
+[audioContext_volumeMusic] * 0.12 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * -0.09
+
+Class 14 :
+-39.3 + 
+[timeContext_dayOfWeek] * 2.38 +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 2.25 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-19.96 + 
+[timeContext_dayOfWeek] * -1.29 +
+[audioContext_volumeMusic] * 0.27 +
+[accelerationContext_acceleration] * 0.84 +
+[activityContext_mood] * 0.12
+
+Class 16 :
+-1.94 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * -0.31 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -2.16 +
+[activityContext_mood] * -0.05
+
+Class 17 :
+-4.73 + 
+[timeContext_dayOfWeek] * -0.25 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * 0.1  +
+[accelerationContext_acceleration] * -29.3 +
+[activityContext_mood] * 0   
+
+Class 18 :
+6.19 + 
+[timeContext_dayOfWeek] * -2.88 +
+[audioContext_volumeMusic] * -0.31 +
+[accelerationContext_acceleration] * -0.95 +
+[activityContext_mood] * 0.18
+
+Class 19 :
+-17.17 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.44
+
+
+LM_4:
+Class 0 :
+-43.67 + 
+[timeContext_dayOfWeek] * -2.03 +
+[audioContext_volumeMusic] * 0.46 +
+[activityContext_mood] * 0.15
+
+Class 1 :
+0.48 + 
+[timeContext_dayOfWeek] * 0.14 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -5.08 +
+[activityContext_mood] * -0.01
+
+Class 2 :
+-20.91 + 
+[timeContext_dayOfWeek] * 0.82 +
+[timeContext_hourOfDay] * 0.13 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.79 +
+[activityContext_mood] * 0.15
+
+Class 3 :
+-4.13 + 
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.65 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-11.7 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.31 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-10.72 + 
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-11.16 + 
+[timeContext_dayOfWeek] * 3.81 +
+[timeContext_hourOfDay] * 0.09 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.66 +
+[activityContext_mood] * 0.06
+
+Class 7 :
+-28.49 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * 1.17 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -7.13 +
+[activityContext_mood] * -0.08
+
+Class 8 :
+22.88 + 
+[timeContext_dayOfWeek] * -2.53 +
+[timeContext_hourOfDay] * -0.02 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -5.41 +
+[activityContext_mood] * -0.24
+
+Class 9 :
+5.26 + 
+[timeContext_dayOfWeek] * 1.63 +
+[timeContext_hourOfDay] * -0.28 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 1.05
+
+Class 10 :
+-5.9 + 
+[timeContext_dayOfWeek] * 0.71 +
+[audioContext_volumeMusic] * -0.15 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+-5.88 + 
+[timeContext_dayOfWeek] * 0.57 +
+[timeContext_hourOfDay] * -0.39 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -0.56
+
+Class 12 :
+-19.38 + 
+[timeContext_dayOfWeek] * 1.22 +
+[timeContext_hourOfDay] * 0.37 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 0.71
+
+Class 13 :
+-26.3 + 
+[timeContext_dayOfWeek] * -0.28 +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 1.01 +
+[activityContext_mood] * -0.02
+
+Class 14 :
+1.96 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.44 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 0.86 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-4.74 + 
+[timeContext_dayOfWeek] * -2.38 +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 2.04 +
+[activityContext_mood] * 0.18
+
+Class 16 :
+19.24 + 
+[timeContext_dayOfWeek] * 0.3  +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.36 +
+[accelerationContext_acceleration] * -7.39
+
+Class 17 :
+90.68 + 
+[timeContext_dayOfWeek] * -1 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * -7.19 +
+[activityContext_mood] * -2.03
+
+Class 18 :
+-14.88 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.42 +
+[activityContext_mood] * 0.09
+
+Class 19 :
+-0.72 + 
+[timeContext_hourOfDay] * 0.36 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * -6.87 +
+[activityContext_mood] * 0.1 
+
+LM_5:
+Class 0 :
+-30.59 + 
+[timeContext_dayOfWeek] * -1.21 +
+[audioContext_volumeMusic] * 0.28 +
+[activityContext_mood] * 0.06
+
+Class 1 :
+14.66 + 
+[timeContext_dayOfWeek] * -0.47 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * -0.08 +
+[accelerationContext_acceleration] * -8.9 +
+[activityContext_mood] * -0.05
+
+Class 2 :
+-28.4 + 
+[timeContext_dayOfWeek] * 0.82 +
+[timeContext_hourOfDay] * 0.45 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.3 +
+[activityContext_mood] * 0.26
+
+Class 3 :
+-4.13 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.65 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-11.7 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.31 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-10.72 + 
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-11.98 + 
+[timeContext_dayOfWeek] * -0.14 +
+[timeContext_hourOfDay] * -0.3 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.27
+
+Class 7 :
+-60.59 + 
+[timeContext_dayOfWeek] * 0.74 +
+[timeContext_hourOfDay] * 3.35 +
+[accelerationContext_acceleration] * -7.13 +
+[activityContext_mood] * -0.24
+
+Class 8 :
+-4.57 + 
+[timeContext_dayOfWeek] * 2.18 +
+[timeContext_hourOfDay] * -0.02 +
+[audioContext_volumeMusic] * -0.13 +
+[accelerationContext_acceleration] * -1.69 +
+[activityContext_mood] * 0.05
+
+Class 9 :
+1.84 + 
+[timeContext_dayOfWeek] * -0.6 +
+[timeContext_hourOfDay] * -0.22 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.48 +
+[activityContext_mood] * 0   
+
+Class 10 :
+-5.9 + 
+[timeContext_dayOfWeek] * 0.71 +
+[audioContext_volumeMusic] * -0.15 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+8.39 + 
+[timeContext_dayOfWeek] * -0.69 +
+[timeContext_hourOfDay] * -0.73 +
+[audioContext_volumeMusic] * 0.08 +
+[accelerationContext_acceleration] * -0.82
+
+Class 12 :
+-48.33 + 
+[timeContext_dayOfWeek] * 4.92 +
+[timeContext_hourOfDay] * 0.79 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 2.37
+
+Class 13 :
+-5.56 + 
+[timeContext_dayOfWeek] * -3.56 +
+[timeContext_hourOfDay] * 0.4  +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 1.34 +
+[activityContext_mood] * -0.06
+
+Class 14 :
+12.2 + 
+[timeContext_dayOfWeek] * 0.01 +
+[timeContext_hourOfDay] * -0.44 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 1.53 +
+[activityContext_mood] * -0.09
+
+Class 15 :
+-17.11 + 
+[timeContext_dayOfWeek] * 5.12 +
+[timeContext_hourOfDay] * -0.03 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.26 +
+[activityContext_mood] * -0.31
+
+Class 16 :
+60.89 + 
+[timeContext_dayOfWeek] * 3.68 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -1.18 +
+[accelerationContext_acceleration] * -7.73
+
+Class 17 :
+-18.98 + 
+[timeContext_dayOfWeek] * -3.44 +
+[audioContext_volumeMusic] * 0.16 +
+[accelerationContext_acceleration] * -7.19 +
+[activityContext_mood] * 0.34
+
+Class 18 :
+-14.88 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.42 +
+[activityContext_mood] * 0.09
+
+Class 19 :
+-18.33 + 
+[timeContext_dayOfWeek] * 2.39 +
+[timeContext_hourOfDay] * 0.28 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -9.58 +
+[activityContext_mood] * 0.02
+
+
+Time taken to build model: 0.66 seconds
+Time taken to test model on training data: 0 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          97               95.098  %
+Incorrectly Classified Instances         5                4.902  %
+Kappa statistic                          0.9481
+Mean absolute error                      0.0155
+Root mean squared error                  0.0679
+Relative absolute error                 16.3613 %
+Root relative squared error             31.2498 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       9.8529 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.010    0.857      1.000    0.923      0.921    0.998     0.976     The Heavy
+                 1.000    0.021    0.750      1.000    0.857      0.857    0.998     0.976     Fiona Apple
+                 0.900    0.000    1.000      0.900    0.947      0.944    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 0.800    0.000    1.000      0.800    0.889      0.890    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.010    0.833      1.000    0.909      0.908    0.997     0.927     Ani DiFranco
+                 0.800    0.000    1.000      0.800    0.889      0.890    1.000     1.000     Daft Punk
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.999     0.950     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 0.800    0.010    0.800      0.800    0.800      0.790    0.994     0.925     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.951    0.003    0.959      0.951    0.951      0.950    0.999     0.988     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  1  9  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  1  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  4  0  0  1  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  1  0  3  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  1  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  5  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          39               38.2353 %
+Incorrectly Classified Instances        63               61.7647 %
+Kappa statistic                          0.345 
+Mean absolute error                      0.0671
+Root mean squared error                  0.2262
+Relative absolute error                 70.7244 %
+Root relative squared error            103.6609 %
+Coverage of cases (0.95 level)          47.0588 %
+Mean rel. region size (0.95 level)      14.3137 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.500    0.010    0.750      0.500    0.600      0.593    0.976     0.773     The Heavy
+                 0.333    0.052    0.286      0.333    0.308      0.262    0.767     0.205     Fiona Apple
+                 0.500    0.065    0.455      0.500    0.476      0.417    0.686     0.493     Die Fantastischen Vier
+                 0.500    0.020    0.500      0.500    0.500      0.480    0.901     0.341     P!nk
+                 0.000    0.031    0.000      0.000    0.000      -0.040   0.610     0.119     Red Hot Chili Peppers
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.631     0.328     Ani DiFranco
+                 0.000    0.021    0.000      0.000    0.000      -0.032   0.586     0.104     Daft Punk
+                 0.250    0.041    0.200      0.250    0.222      0.188    0.714     0.308     Pearl Jam
+                 0.000    0.041    0.000      0.000    0.000      -0.041   0.242     0.031     Kanye West
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.755     0.502     STS
+                 0.750    0.031    0.500      0.750    0.600      0.593    0.842     0.375     Letzte Instanz
+                 0.700    0.054    0.583      0.700    0.636      0.596    0.843     0.556     Sportfreunde Stiller
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.812     0.322     Bob Dylan
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.849     0.621     Casper
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.763     0.318     Caravan Palace
+                 0.250    0.051    0.167      0.250    0.200      0.164    0.793     0.333     Lamb of God
+                 0.250    0.010    0.500      0.250    0.333      0.336    0.691     0.191     Wizkid
+                 0.000    0.010    0.000      0.000    0.000      -0.020   0.513     0.048     Asian Dub Foundation
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.734     0.301     Mumford & Sons
+                 0.500    0.061    0.250      0.500    0.333      0.317    0.786     0.168     King Crimson
+Weighted Avg.    0.382    0.036    0.367      0.382    0.367      0.337    0.733     0.350     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 3 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 | a = The Heavy
+ 0 2 0 0 0 0 0 1 0 0 1 1 0 0 0 1 0 0 0 0 | b = Fiona Apple
+ 0 1 5 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 1 | c = Die Fantastischen Vier
+ 0 0 0 2 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 1 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 1 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 2 | g = Daft Punk
+ 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 1 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 0 2 1 0 0 1 0 0 0 0 0 0 | i = Kanye West
+ 1 0 0 0 0 0 0 0 0 2 0 1 0 0 0 1 0 0 0 0 | j = STS
+ 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 1 0 0 7 1 0 0 0 1 0 0 0 | l = Sportfreunde Stiller
+ 0 1 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 | m = Bob Dylan
+ 0 0 0 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 0 1 | p = Lamb of God
+ 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 | q = Wizkid
+ 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 2 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 2 | t = King Crimson
+
+
+Options: -I 10 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+
+audioContext_volumeMusic <= 53
+|   accelerationContext_acceleration <= 0.2
+|   |   activityContext_mood <= 50: LM_1:10/40 (17)
+|   |   activityContext_mood > 50: LM_2:10/40 (15)
+|   accelerationContext_acceleration > 0.2: LM_3:10/30 (21)
+audioContext_volumeMusic > 53
+|   timeContext_dayOfWeek <= 3: LM_4:10/30 (20)
+|   timeContext_dayOfWeek > 3: LM_5:10/30 (29)
+
+Number of Leaves  : 	5
+
+Size of the Tree : 	9
+
+
+
+LM_1:
+Class 0 :
+-42.82 + 
+[timeContext_dayOfWeek] * -1.31 +
+[audioContext_volumeMusic] * 0.21
+
+Class 1 :
+-23.07 + 
+[timeContext_dayOfWeek] * 0.49 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * 0.24 +
+[activityContext_mood] * 0.07
+
+Class 2 :
+20.33 + 
+[timeContext_dayOfWeek] * -6.35 +
+[timeContext_hourOfDay] * -1.13 +
+[audioContext_volumeMusic] * 0.07 +
+[accelerationContext_acceleration] * -8.5 +
+[activityContext_mood] * 0.15
+
+Class 3 :
+20.08 + 
+[timeContext_dayOfWeek] * 1.33 +
+[timeContext_hourOfDay] * 0.33 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -20.73 +
+[activityContext_mood] * -0.52
+
+Class 4 :
+38.86 + 
+[timeContext_dayOfWeek] * 1.4  +
+[timeContext_hourOfDay] * -0.82 +
+[audioContext_volumeMusic] * -2.66 +
+[accelerationContext_acceleration] * 0.48 +
+[activityContext_mood] * -0.14
+
+Class 5 :
+-16.44 + 
+[timeContext_dayOfWeek] * -0.55 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * -0.16 +
+[accelerationContext_acceleration] * -42.15 +
+[activityContext_mood] * 0.23
+
+Class 6 :
+-714.52 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 31.21 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.78 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+-11.62 + 
+[timeContext_dayOfWeek] * 0.48 +
+[timeContext_hourOfDay] * 0.06 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -59.43 +
+[activityContext_mood] * 0.05
+
+Class 8 :
+-59.33 + 
+[timeContext_dayOfWeek] * 0.18 +
+[timeContext_hourOfDay] * 4.39 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -100.28 +
+[activityContext_mood] * -0.38
+
+Class 9 :
+-26.56 + 
+[timeContext_dayOfWeek] * -0.74 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * 0.17 +
+[activityContext_mood] * -0.02
+
+Class 10 :
+-15.38 + 
+[timeContext_dayOfWeek] * 1.74 +
+[timeContext_hourOfDay] * 2.47 +
+[audioContext_volumeMusic] * -0.76 +
+[accelerationContext_acceleration] * -59.89 +
+[activityContext_mood] * -0.27
+
+Class 11 :
+-53.89 + 
+[timeContext_dayOfWeek] * -0.93 +
+[timeContext_hourOfDay] * 0.26 +
+[audioContext_volumeMusic] * -0.23 +
+[accelerationContext_acceleration] * 80.77 +
+[activityContext_mood] * 1.17
+
+Class 12 :
+-27.61 + 
+[timeContext_dayOfWeek] * -0.28 +
+[timeContext_hourOfDay] * 0.91 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -75.74 +
+[activityContext_mood] * 0.07
+
+Class 13 :
+-33.58 + 
+[timeContext_dayOfWeek] * 4.66 +
+[timeContext_hourOfDay] * -0.27 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.08 +
+[activityContext_mood] * -0.2
+
+Class 14 :
+-43.53 + 
+[timeContext_dayOfWeek] * 1.49 +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.2  +
+[accelerationContext_acceleration] * 1.54 +
+[activityContext_mood] * -0.1
+
+Class 15 :
+-40.57 + 
+[timeContext_dayOfWeek] * -0.51 +
+[timeContext_hourOfDay] * 0.02 +
+[audioContext_volumeMusic] * 0.21 +
+[accelerationContext_acceleration] * 0.78 +
+[activityContext_mood] * 0.13
+
+Class 16 :
+-24.15 + 
+[timeContext_dayOfWeek] * 1.26 +
+[timeContext_hourOfDay] * -0.82 +
+[audioContext_volumeMusic] * 0.24 +
+[accelerationContext_acceleration] * 12.44 +
+[activityContext_mood] * 0.48
+
+Class 17 :
+-12.9 + 
+[timeContext_dayOfWeek] * -0.14 +
+[audioContext_volumeMusic] * 1    +
+[accelerationContext_acceleration] * -122.89 +
+[activityContext_mood] * -0.56
+
+Class 18 :
+-21.61 + 
+[timeContext_dayOfWeek] * -0.66 +
+[timeContext_hourOfDay] * -0.26 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 51.72 +
+[activityContext_mood] * 0.28
+
+Class 19 :
+-35.5 + 
+[timeContext_hourOfDay] * 0.25 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -1.26 +
+[activityContext_mood] * 0.02
+
+LM_2:
+Class 0 :
+-42.82 + 
+[timeContext_dayOfWeek] * -1.31 +
+[audioContext_volumeMusic] * 0.21
+
+Class 1 :
+-23.07 + 
+[timeContext_dayOfWeek] * 0.49 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * 0.24 +
+[activityContext_mood] * 0.07
+
+Class 2 :
+-31.14 + 
+[timeContext_dayOfWeek] * 3.07 +
+[timeContext_hourOfDay] * 0.62 +
+[audioContext_volumeMusic] * 0.07 +
+[accelerationContext_acceleration] * -8.5 +
+[activityContext_mood] * 0.04
+
+Class 3 :
+1.06 + 
+[timeContext_dayOfWeek] * 0.35 +
+[timeContext_hourOfDay] * 0.19 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -8.47 +
+[activityContext_mood] * -0.24
+
+Class 4 :
+9.85 + 
+[timeContext_dayOfWeek] * 1.4  +
+[timeContext_hourOfDay] * -0.29 +
+[audioContext_volumeMusic] * -1.22 +
+[accelerationContext_acceleration] * 0.4  +
+[activityContext_mood] * -0.14
+
+Class 5 :
+-10.84 + 
+[timeContext_dayOfWeek] * -1.14 +
+[timeContext_hourOfDay] * 0.51 +
+[audioContext_volumeMusic] * -0.2 +
+[accelerationContext_acceleration] * -95.62 +
+[activityContext_mood] * 0.23
+
+Class 6 :
+-1132.52 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 50.21 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.78 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+39.67 + 
+[timeContext_dayOfWeek] * 0.49 +
+[timeContext_hourOfDay] * -2.46 +
+[audioContext_volumeMusic] * -0.07 +
+[accelerationContext_acceleration] * -59.43 +
+[activityContext_mood] * -0.13
+
+Class 8 :
+-26.75 + 
+[timeContext_dayOfWeek] * 0.18 +
+[timeContext_hourOfDay] * 2.06 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -45.29 +
+[activityContext_mood] * -0.38
+
+Class 9 :
+-26.56 + 
+[timeContext_dayOfWeek] * -0.74 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * 0.17 +
+[activityContext_mood] * -0.02
+
+Class 10 :
+-12.29 + 
+[timeContext_dayOfWeek] * 1.74 +
+[timeContext_hourOfDay] * 1.29 +
+[audioContext_volumeMusic] * -0.47 +
+[accelerationContext_acceleration] * -36.18 +
+[activityContext_mood] * -0.27
+
+Class 11 :
+-66.95 + 
+[timeContext_dayOfWeek] * -1.69 +
+[timeContext_hourOfDay] * 3.66 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 58.06 +
+[activityContext_mood] * -0.04
+
+Class 12 :
+-33.97 + 
+[timeContext_dayOfWeek] * -0.27 +
+[timeContext_hourOfDay] * 1.92 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -138.7 +
+[activityContext_mood] * 0.07
+
+Class 13 :
+-33.58 + 
+[timeContext_dayOfWeek] * 4.66 +
+[timeContext_hourOfDay] * -0.27 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.08 +
+[activityContext_mood] * -0.2
+
+Class 14 :
+-43.53 + 
+[timeContext_dayOfWeek] * 1.49 +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.2  +
+[accelerationContext_acceleration] * 1.54 +
+[activityContext_mood] * -0.1
+
+Class 15 :
+-40.57 + 
+[timeContext_dayOfWeek] * -0.51 +
+[timeContext_hourOfDay] * 0.02 +
+[audioContext_volumeMusic] * 0.21 +
+[accelerationContext_acceleration] * 0.78 +
+[activityContext_mood] * 0.13
+
+Class 16 :
+-5.64 + 
+[timeContext_dayOfWeek] * 1.34 +
+[timeContext_hourOfDay] * -0.61 +
+[audioContext_volumeMusic] * 0.17 +
+[accelerationContext_acceleration] * 1.08 +
+[activityContext_mood] * -0.11
+
+Class 17 :
+27.82 + 
+[timeContext_dayOfWeek] * -11.2 +
+[timeContext_hourOfDay] * -0.37 +
+[audioContext_volumeMusic] * 0.63 +
+[accelerationContext_acceleration] * -122.89
+
+Class 18 :
+-24.26 + 
+[timeContext_dayOfWeek] * -0.59 +
+[timeContext_hourOfDay] * -0.39 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * 87.44 +
+[activityContext_mood] * 0.43
+
+Class 19 :
+-35.5 + 
+[timeContext_hourOfDay] * 0.25 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -1.26 +
+[activityContext_mood] * 0.02
+
+LM_3:
+Class 0 :
+-33.32 + 
+[timeContext_dayOfWeek] * -1.31 +
+[audioContext_volumeMusic] * 0.21
+
+Class 1 :
+2.91 + 
+[timeContext_dayOfWeek] * 1.38 +
+[timeContext_hourOfDay] * -0.12 +
+[audioContext_volumeMusic] * -0.3 +
+[accelerationContext_acceleration] * -0.03 +
+[activityContext_mood] * 0.09
+
+Class 2 :
+4.08 + 
+[timeContext_dayOfWeek] * -1.46 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.1 +
+[accelerationContext_acceleration] * -0.99 +
+[activityContext_mood] * 0.13
+
+Class 3 :
+2.45 + 
+[timeContext_hourOfDay] * 0.04 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -10.98 +
+[activityContext_mood] * -0.2
+
+Class 4 :
+-5.67 + 
+[timeContext_dayOfWeek] * 1.55 +
+[timeContext_hourOfDay] * -0.18 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.79 +
+[activityContext_mood] * 0.03
+
+Class 5 :
+-4.81 + 
+[timeContext_dayOfWeek] * 0.4  +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * 0.24 +
+[accelerationContext_acceleration] * 0.5  +
+[activityContext_mood] * -0.12
+
+Class 6 :
+-286.75 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 12.2 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.78 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+-8 + 
+[timeContext_dayOfWeek] * 0.49 +
+[timeContext_hourOfDay] * -0.11 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -50.03 +
+[activityContext_mood] * 0.02
+
+Class 8 :
+-20.17 + 
+[timeContext_dayOfWeek] * 0.18 +
+[timeContext_hourOfDay] * 1.17 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -2.11 +
+[activityContext_mood] * -0.22
+
+Class 9 :
+-17.06 + 
+[timeContext_dayOfWeek] * -0.74 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * 0.17 +
+[activityContext_mood] * -0.02
+
+Class 10 :
+49.59 + 
+[timeContext_dayOfWeek] * 3.54 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * -1.85 +
+[accelerationContext_acceleration] * -0.12 +
+[activityContext_mood] * -0.27
+
+Class 11 :
+-4.32 + 
+[timeContext_dayOfWeek] * -1.35 +
+[timeContext_hourOfDay] * 0.26 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -2.12 +
+[activityContext_mood] * -0.04
+
+Class 12 :
+-14.31 + 
+[timeContext_dayOfWeek] * -1.16 +
+[timeContext_hourOfDay] * 0.27 +
+[audioContext_volumeMusic] * 0.58 +
+[accelerationContext_acceleration] * -0.52 +
+[activityContext_mood] * -0.14
+
+Class 13 :
+-47.04 + 
+[timeContext_dayOfWeek] * 8.56 +
+[timeContext_hourOfDay] * -0.27 +
+[audioContext_volumeMusic] * 0.28 +
+[accelerationContext_acceleration] * 0    +
+[activityContext_mood] * -0.2
+
+Class 14 :
+-68.82 + 
+[timeContext_dayOfWeek] * 2.39 +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * 0.36 +
+[accelerationContext_acceleration] * 3.82 +
+[activityContext_mood] * -0.1
+
+Class 15 :
+-28.39 + 
+[timeContext_dayOfWeek] * -2.73 +
+[timeContext_hourOfDay] * 0.02 +
+[audioContext_volumeMusic] * 0.5  +
+[accelerationContext_acceleration] * 1.22 +
+[activityContext_mood] * 0.13
+
+Class 16 :
+-6.7 + 
+[timeContext_dayOfWeek] * 0.96 +
+[timeContext_hourOfDay] * -0.43 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * -7.37 +
+[activityContext_mood] * -0.06
+
+Class 17 :
+-15 + 
+[timeContext_dayOfWeek] * -0.55 +
+[audioContext_volumeMusic] * 0.29 +
+[accelerationContext_acceleration] * -80.61
+
+Class 18 :
+12.07 + 
+[timeContext_dayOfWeek] * -4.26 +
+[timeContext_hourOfDay] * 0.05 +
+[audioContext_volumeMusic] * -0.45 +
+[accelerationContext_acceleration] * -2.51 +
+[activityContext_mood] * 0.21
+
+Class 19 :
+-26 + 
+[timeContext_hourOfDay] * 0.25 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -1.26 +
+[activityContext_mood] * 0.02
+
+
+LM_4:
+Class 0 :
+-39.82 + 
+[timeContext_dayOfWeek] * -4.53 +
+[audioContext_volumeMusic] * 0.54 +
+[accelerationContext_acceleration] * 3    +
+[activityContext_mood] * 0.05
+
+Class 1 :
+1.42 + 
+[timeContext_dayOfWeek] * 0.32 +
+[audioContext_volumeMusic] * -0.1 +
+[accelerationContext_acceleration] * -10.42 +
+[activityContext_mood] * -0.04
+
+Class 2 :
+-28.07 + 
+[timeContext_dayOfWeek] * 1.12 +
+[timeContext_hourOfDay] * 0.38 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -2.02 +
+[activityContext_mood] * 0.19
+
+Class 3 :
+-8.55 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -4.8 +
+[activityContext_mood] * -0.15
+
+Class 4 :
+-18.26 + 
+[timeContext_dayOfWeek] * 0.64 +
+[timeContext_hourOfDay] * -0.04 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * 0.31 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-17.74 + 
+[timeContext_dayOfWeek] * 0.11 +
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.07 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-15.52 + 
+[timeContext_dayOfWeek] * 6.06 +
+[timeContext_hourOfDay] * 0.11 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -1.41 +
+[activityContext_mood] * 0.03
+
+Class 7 :
+-60.53 + 
+[timeContext_dayOfWeek] * 2.06 +
+[timeContext_hourOfDay] * 2.36 +
+[accelerationContext_acceleration] * -30 +
+[activityContext_mood] * -0.17
+
+Class 8 :
+49.44 + 
+[timeContext_dayOfWeek] * -3.74 +
+[timeContext_hourOfDay] * -0.04 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -7.98 +
+[activityContext_mood] * -0.7
+
+Class 9 :
+6.62 + 
+[timeContext_dayOfWeek] * 2.01 +
+[timeContext_hourOfDay] * -0.39 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 3    +
+[activityContext_mood] * -0.04
+
+Class 10 :
+-12.12 + 
+[timeContext_dayOfWeek] * 1.12 +
+[timeContext_hourOfDay] * 0.11 +
+[audioContext_volumeMusic] * -0.19 +
+[activityContext_mood] * -0.15
+
+Class 11 :
+-8.38 + 
+[timeContext_dayOfWeek] * 0.48 +
+[timeContext_hourOfDay] * -0.51 +
+[audioContext_volumeMusic] * 0.06 +
+[accelerationContext_acceleration] * -1.06 +
+[activityContext_mood] * -0.02
+
+Class 12 :
+-31.79 + 
+[timeContext_dayOfWeek] * 2.12 +
+[timeContext_hourOfDay] * 0.57 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 1.84 +
+[activityContext_mood] * -0.04
+
+Class 13 :
+-35.95 + 
+[timeContext_dayOfWeek] * -0.56 +
+[timeContext_hourOfDay] * 0.02 +
+[audioContext_volumeMusic] * 0.3  +
+[accelerationContext_acceleration] * 1.1  +
+[activityContext_mood] * -0.02
+
+Class 14 :
+2.75 + 
+[timeContext_dayOfWeek] * 0.24 +
+[timeContext_hourOfDay] * -0.48 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.98 +
+[activityContext_mood] * -0.15
+
+Class 15 :
+-8.62 + 
+[timeContext_dayOfWeek] * -3.76 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 2.99 +
+[activityContext_mood] * 0.26
+
+Class 16 :
+44.14 + 
+[timeContext_dayOfWeek] * 1.72 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.85 +
+[accelerationContext_acceleration] * -12.26 +
+[activityContext_mood] * -0.07
+
+Class 17 :
+151.62 + 
+[timeContext_dayOfWeek] * -1.59 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.24 +
+[accelerationContext_acceleration] * -15.28 +
+[activityContext_mood] * -3.59
+
+Class 18 :
+-24.77 + 
+[timeContext_hourOfDay] * 0.04 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -1.01 +
+[activityContext_mood] * 0.12
+
+Class 19 :
+-1.9 + 
+[timeContext_hourOfDay] * 0.44 +
+[audioContext_volumeMusic] * -0.08 +
+[accelerationContext_acceleration] * -10.07 +
+[activityContext_mood] * 0.1 
+
+LM_5:
+Class 0 :
+-40.91 + 
+[timeContext_dayOfWeek] * -2.48 +
+[audioContext_volumeMusic] * 0.4  +
+[accelerationContext_acceleration] * 0.54 +
+[activityContext_mood] * 0.05
+
+Class 1 :
+24.64 + 
+[timeContext_dayOfWeek] * -0.09 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.15 +
+[accelerationContext_acceleration] * -15.57 +
+[activityContext_mood] * -0.16
+
+Class 2 :
+-44.28 + 
+[timeContext_dayOfWeek] * 1.12 +
+[timeContext_hourOfDay] * 0.45 +
+[audioContext_volumeMusic] * 0.09 +
+[accelerationContext_acceleration] * -2.02 +
+[activityContext_mood] * 0.42
+
+Class 3 :
+-8.55 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -4.8 +
+[activityContext_mood] * -0.15
+
+Class 4 :
+-18.26 + 
+[timeContext_dayOfWeek] * 0.64 +
+[timeContext_hourOfDay] * -0.04 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * 0.31 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-17.74 + 
+[timeContext_dayOfWeek] * 0.11 +
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.07 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-20.86 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * -0.4 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -1.41 +
+[activityContext_mood] * 0.39
+
+Class 7 :
+-91.22 + 
+[timeContext_dayOfWeek] * 2.06 +
+[timeContext_hourOfDay] * 5.29 +
+[accelerationContext_acceleration] * -30 +
+[activityContext_mood] * -0.57
+
+Class 8 :
+-5.07 + 
+[timeContext_dayOfWeek] * 3.16 +
+[timeContext_hourOfDay] * -0.04 +
+[audioContext_volumeMusic] * -0.2 +
+[accelerationContext_acceleration] * -2.75 +
+[activityContext_mood] * 0.04
+
+Class 9 :
+0.39 + 
+[timeContext_dayOfWeek] * -0.8 +
+[timeContext_hourOfDay] * -0.27 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 0.58 +
+[activityContext_mood] * -0.04
+
+Class 10 :
+-12.12 + 
+[timeContext_dayOfWeek] * 1.12 +
+[timeContext_hourOfDay] * 0.11 +
+[audioContext_volumeMusic] * -0.19 +
+[activityContext_mood] * -0.15
+
+Class 11 :
+11.09 + 
+[timeContext_dayOfWeek] * -0.82 +
+[timeContext_hourOfDay] * -0.99 +
+[audioContext_volumeMusic] * 0.12 +
+[accelerationContext_acceleration] * -3.29 +
+[activityContext_mood] * -0.02
+
+Class 12 :
+-37.11 + 
+[timeContext_dayOfWeek] * 3.94 +
+[timeContext_hourOfDay] * 1.43 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * 1.84 +
+[activityContext_mood] * -0.19
+
+Class 13 :
+-4.16 + 
+[timeContext_dayOfWeek] * -5.38 +
+[timeContext_hourOfDay] * 0.62 +
+[audioContext_volumeMusic] * 0.33 +
+[accelerationContext_acceleration] * 1.1  +
+[activityContext_mood] * -0.15
+
+Class 14 :
+25.24 + 
+[timeContext_dayOfWeek] * -0.79 +
+[timeContext_hourOfDay] * -0.24 +
+[audioContext_volumeMusic] * -0.07 +
+[accelerationContext_acceleration] * 1.28 +
+[activityContext_mood] * -0.3
+
+Class 15 :
+-20.36 + 
+[timeContext_dayOfWeek] * 7.13 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.24 +
+[activityContext_mood] * -0.57
+
+Class 16 :
+86.7 + 
+[timeContext_dayOfWeek] * 7.35 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -1.75 +
+[accelerationContext_acceleration] * -12.28 +
+[activityContext_mood] * -0.11
+
+Class 17 :
+-62.49 + 
+[timeContext_dayOfWeek] * -4.46 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.39 +
+[accelerationContext_acceleration] * -15.28 +
+[activityContext_mood] * 0.67
+
+Class 18 :
+-24.77 + 
+[timeContext_hourOfDay] * 0.04 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -1.01 +
+[activityContext_mood] * 0.12
+
+Class 19 :
+-32 + 
+[timeContext_dayOfWeek] * 4.49 +
+[timeContext_hourOfDay] * 0.33 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -16.3 +
+[activityContext_mood] * 0.03
+
+
+Time taken to build model: 0.42 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         100               98.0392 %
+Incorrectly Classified Instances         2                1.9608 %
+Kappa statistic                          0.9792
+Mean absolute error                      0.0093
+Root mean squared error                  0.053 
+Relative absolute error                  9.8298 %
+Root relative squared error             24.4034 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       7.5    %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.010    0.857      1.000    0.923      0.921    0.998     0.976     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.010    0.833      1.000    0.909      0.908    0.997     0.927     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.999     0.950     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 0.800    0.000    1.000      0.800    0.889      0.890    0.994     0.925     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.980    0.001    0.983      0.980    0.980      0.980    0.999     0.989     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  1  0  3  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  1  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  5  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          42               41.1765 %
+Incorrectly Classified Instances        60               58.8235 %
+Kappa statistic                          0.3758
+Mean absolute error                      0.0618
+Root mean squared error                  0.2328
+Relative absolute error                 65.1666 %
+Root relative squared error            106.6978 %
+Coverage of cases (0.95 level)          43.1373 %
+Mean rel. region size (0.95 level)       8.9216 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.500    0.010    0.750      0.500    0.600      0.593    0.958     0.673     The Heavy
+                 0.333    0.052    0.286      0.333    0.308      0.262    0.646     0.179     Fiona Apple
+                 0.600    0.065    0.500      0.600    0.545      0.494    0.754     0.336     Die Fantastischen Vier
+                 0.500    0.031    0.400      0.500    0.444      0.422    0.824     0.431     P!nk
+                 0.200    0.010    0.500      0.200    0.286      0.295    0.575     0.165     Red Hot Chili Peppers
+                 0.400    0.041    0.333      0.400    0.364      0.329    0.672     0.240     Ani DiFranco
+                 0.000    0.031    0.000      0.000    0.000      -0.040   0.680     0.095     Daft Punk
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.837     0.235     Pearl Jam
+                 0.000    0.041    0.000      0.000    0.000      -0.041   0.240     0.031     Kanye West
+                 0.400    0.021    0.500      0.400    0.444      0.422    0.664     0.352     STS
+                 0.750    0.020    0.600      0.750    0.667      0.656    0.913     0.390     Letzte Instanz
+                 0.800    0.043    0.667      0.800    0.727      0.698    0.898     0.516     Sportfreunde Stiller
+                 0.600    0.021    0.600      0.600    0.600      0.579    0.753     0.514     Bob Dylan
+                 0.500    0.010    0.667      0.500    0.571      0.563    0.819     0.608     Casper
+                 0.250    0.000    1.000      0.250    0.400      0.493    0.707     0.457     Caravan Palace
+                 0.500    0.051    0.286      0.500    0.364      0.345    0.804     0.546     Lamb of God
+                 0.000    0.031    0.000      0.000    0.000      -0.035   0.571     0.139     Wizkid
+                 0.000    0.020    0.000      0.000    0.000      -0.029   0.513     0.052     Asian Dub Foundation
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.662     0.194     Mumford & Sons
+                 0.500    0.071    0.222      0.500    0.308      0.293    0.704     0.176     King Crimson
+Weighted Avg.    0.412    0.034    0.427      0.412    0.400      0.378    0.725     0.330     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 | a = The Heavy
+ 0 2 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 0 1 0 | b = Fiona Apple
+ 0 1 6 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 | d = P!nk
+ 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 2 0 1 0 0 0 0 1 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 0 0 0 0 0 2 1 0 0 0 0 0 0 2 | g = Daft Punk
+ 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 1 | h = Pearl Jam
+ 0 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 | i = Kanye West
+ 1 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 1 | j = STS
+ 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 0 1 0 1 0 | l = Sportfreunde Stiller
+ 0 0 1 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 | m = Bob Dylan
+ 0 0 0 1 0 0 0 0 0 0 0 0 0 2 0 1 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 1 | p = Lamb of God
+ 0 1 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 2 | t = King Crimson
+
+
+Options: -I 5 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+
+audioContext_volumeMusic <= 53
+|   accelerationContext_acceleration <= 0.2
+|   |   activityContext_mood <= 50: LM_1:5/20 (17)
+|   |   activityContext_mood > 50: LM_2:5/20 (15)
+|   accelerationContext_acceleration > 0.2
+|   |   audioContext_volumeMusic <= 36: LM_3:5/20 (11)
+|   |   audioContext_volumeMusic > 36: LM_4:5/20 (10)
+audioContext_volumeMusic > 53
+|   timeContext_dayOfWeek <= 3
+|   |   audioContext_volumeMusic <= 90: LM_5:5/20 (12)
+|   |   audioContext_volumeMusic > 90: LM_6:5/20 (8)
+|   timeContext_dayOfWeek > 3: LM_7:5/15 (29)
+
+Number of Leaves  : 	7
+
+Size of the Tree : 	13
+
+
+
+LM_1:
+Class 0 :
+-18.13 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.09
+
+Class 1 :
+-12.56 + 
+[timeContext_dayOfWeek] * 0.23 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.22 +
+[activityContext_mood] * 0.06
+
+Class 2 :
+4.44 + 
+[timeContext_dayOfWeek] * -3.68 +
+[timeContext_hourOfDay] * -0.3 +
+[audioContext_volumeMusic] * 0.06 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.18
+
+Class 3 :
+12.75 + 
+[timeContext_hourOfDay] * 0.17 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -8.97 +
+[activityContext_mood] * -0.25
+
+Class 4 :
+19.05 + 
+[timeContext_dayOfWeek] * 0.78 +
+[timeContext_hourOfDay] * -0.27 +
+[audioContext_volumeMusic] * -1.41 +
+[accelerationContext_acceleration] * 0.39 +
+[activityContext_mood] * -0.08
+
+Class 5 :
+-12.18 + 
+[timeContext_dayOfWeek] * -0.37 +
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.1 +
+[accelerationContext_acceleration] * -12.11 +
+[activityContext_mood] * 0.2 
+
+Class 6 :
+-277.64 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 12.05 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.08
+
+Class 7 :
+-5.93 + 
+[timeContext_dayOfWeek] * 0.38 +
+[timeContext_hourOfDay] * -0.04 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -32.34 +
+[activityContext_mood] * 0.04
+
+Class 8 :
+-25.16 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 2.19 +
+[accelerationContext_acceleration] * -48.12 +
+[activityContext_mood] * -0.24
+
+Class 9 :
+-12.4 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+-5.48 + 
+[timeContext_dayOfWeek] * 1.35 +
+[timeContext_hourOfDay] * 1.31 +
+[audioContext_volumeMusic] * -0.46 +
+[activityContext_mood] * -0.21
+
+Class 11 :
+-34.04 + 
+[timeContext_dayOfWeek] * -1.22 +
+[timeContext_hourOfDay] * 0.03 +
+[audioContext_volumeMusic] * -0.13 +
+[accelerationContext_acceleration] * 53.18 +
+[activityContext_mood] * 0.82
+
+Class 12 :
+-15.08 + 
+[timeContext_dayOfWeek] * -0.08 +
+[timeContext_hourOfDay] * 0.42 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -26.1 +
+[activityContext_mood] * 0.08
+
+Class 13 :
+-16.88 + 
+[timeContext_dayOfWeek] * 2.81 +
+[timeContext_hourOfDay] * -0.29 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.27 +
+[activityContext_mood] * -0.1
+
+Class 14 :
+-22.8 + 
+[timeContext_dayOfWeek] * 0.5  +
+[audioContext_volumeMusic] * 0.14 +
+[accelerationContext_acceleration] * 0.87 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-22.54 + 
+[audioContext_volumeMusic] * 0.06 +
+[accelerationContext_acceleration] * 0.59 +
+[activityContext_mood] * 0.11
+
+Class 16 :
+-15.14 + 
+[timeContext_dayOfWeek] * 1.2  +
+[timeContext_hourOfDay] * -0.55 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * 21.43 +
+[activityContext_mood] * 0.3 
+
+Class 17 :
+2.4  + 
+[timeContext_dayOfWeek] * -0.25 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * 0.46 +
+[accelerationContext_acceleration] * -49.61 +
+[activityContext_mood] * -0.39
+
+Class 18 :
+-16.83 + 
+[timeContext_dayOfWeek] * -0.09 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 48.09 +
+[activityContext_mood] * 0.23
+
+Class 19 :
+-20.2 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.16
+
+LM_2:
+Class 0 :
+-18.13 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.09
+
+Class 1 :
+-12.56 + 
+[timeContext_dayOfWeek] * 0.23 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 0.23 +
+[activityContext_mood] * 0.06
+
+Class 2 :
+-20.81 + 
+[timeContext_dayOfWeek] * 2.08 +
+[timeContext_hourOfDay] * 0.28 +
+[audioContext_volumeMusic] * 0.06 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.07
+
+Class 3 :
+4.37 + 
+[timeContext_hourOfDay] * 0.1  +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -2.56 +
+[activityContext_mood] * -0.17
+
+Class 4 :
+3.53 + 
+[timeContext_dayOfWeek] * 0.78 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * -0.45 +
+[accelerationContext_acceleration] * 0.21 +
+[activityContext_mood] * -0.08
+
+Class 5 :
+-5.89 + 
+[timeContext_dayOfWeek] * -0.37 +
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.17 +
+[accelerationContext_acceleration] * -46.67 +
+[activityContext_mood] * 0.2 
+
+Class 6 :
+-487.11 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 21.57 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.08
+
+Class 7 :
+17.04 + 
+[timeContext_dayOfWeek] * 0.4  +
+[timeContext_hourOfDay] * -0.92 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -32.34 +
+[activityContext_mood] * -0.06
+
+Class 8 :
+-13.69 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 1.25 +
+[accelerationContext_acceleration] * -14.9 +
+[activityContext_mood] * -0.24
+
+Class 9 :
+-12.4 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+-0.44 + 
+[timeContext_dayOfWeek] * 1.35 +
+[timeContext_hourOfDay] * 0.51 +
+[audioContext_volumeMusic] * -0.3 +
+[accelerationContext_acceleration] * -0.28 +
+[activityContext_mood] * -0.21
+
+Class 11 :
+-45.85 + 
+[timeContext_dayOfWeek] * -1.97 +
+[timeContext_hourOfDay] * 0.87 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 53.18 +
+[activityContext_mood] * 0.48
+
+Class 12 :
+-18.68 + 
+[timeContext_dayOfWeek] * -0.07 +
+[timeContext_hourOfDay] * 0.9  +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -50.11 +
+[activityContext_mood] * 0.08
+
+Class 13 :
+-16.88 + 
+[timeContext_dayOfWeek] * 2.81 +
+[timeContext_hourOfDay] * -0.29 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.27 +
+[activityContext_mood] * -0.1
+
+Class 14 :
+-22.8 + 
+[timeContext_dayOfWeek] * 0.5  +
+[audioContext_volumeMusic] * 0.14 +
+[accelerationContext_acceleration] * 0.87 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-22.54 + 
+[audioContext_volumeMusic] * 0.06 +
+[accelerationContext_acceleration] * 0.59 +
+[activityContext_mood] * 0.11
+
+Class 16 :
+-3.44 + 
+[timeContext_dayOfWeek] * 1.2  +
+[timeContext_hourOfDay] * -0.39 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * 8.32 +
+[activityContext_mood] * -0.04
+
+Class 17 :
+21.04 + 
+[timeContext_dayOfWeek] * -6.1 +
+[timeContext_hourOfDay] * -0.38 +
+[audioContext_volumeMusic] * 0.3  +
+[accelerationContext_acceleration] * -49.61 +
+[activityContext_mood] * -0.03
+
+Class 18 :
+-10.62 + 
+[timeContext_hourOfDay] * -0.33 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 67.53 +
+[activityContext_mood] * 0.23
+
+Class 19 :
+-20.2 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.16
+
+
+LM_3:
+Class 0 :
+-18.13 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.09
+
+Class 1 :
+3.29 + 
+[timeContext_dayOfWeek] * 1.66 +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * -0.25 +
+[accelerationContext_acceleration] * -0.04 +
+[activityContext_mood] * 0.06
+
+Class 2 :
+-3.92 + 
+[timeContext_dayOfWeek] * -1.48 +
+[timeContext_hourOfDay] * -0.01 +
+[audioContext_volumeMusic] * 0.19 +
+[accelerationContext_acceleration] * -0.87 +
+[activityContext_mood] * 0.12
+
+Class 3 :
+2.63 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -2.42 +
+[activityContext_mood] * -0.2
+
+Class 4 :
+-18.62 + 
+[timeContext_dayOfWeek] * 1.25 +
+[timeContext_hourOfDay] * 0.57 +
+[audioContext_volumeMusic] * -0.07 +
+[accelerationContext_acceleration] * 1    +
+[activityContext_mood] * 0.04
+
+Class 5 :
+-6.34 + 
+[timeContext_dayOfWeek] * 0.16 +
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * 0.12 +
+[accelerationContext_acceleration] * 0.34 +
+[activityContext_mood] * -0.07
+
+Class 6 :
+-50.83 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 1.74 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.08
+
+Class 7 :
+-8.68 + 
+[timeContext_hourOfDay] * -0.12 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -22.4 +
+[activityContext_mood] * 0.04
+
+Class 8 :
+-21.05 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 0.88 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -0.22 +
+[activityContext_mood] * -0.1
+
+Class 9 :
+-12.41 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+50.89 + 
+[timeContext_dayOfWeek] * 3.17 +
+[timeContext_hourOfDay] * 0.11 +
+[audioContext_volumeMusic] * -2.1 +
+[activityContext_mood] * -0.24
+
+Class 11 :
+-7.46 + 
+[timeContext_dayOfWeek] * -1.21 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.82
+
+Class 12 :
+-11.27 + 
+[timeContext_dayOfWeek] * -0.81 +
+[timeContext_hourOfDay] * 0.17 +
+[audioContext_volumeMusic] * 0.28 +
+[accelerationContext_acceleration] * -0.29 +
+[activityContext_mood] * -0.05
+
+Class 13 :
+-26.36 + 
+[timeContext_dayOfWeek] * 5.03 +
+[timeContext_hourOfDay] * -0.29 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * 0.27 +
+[activityContext_mood] * -0.14
+
+Class 14 :
+-33.97 + 
+[timeContext_dayOfWeek] * 1.45 +
+[audioContext_volumeMusic] * 0.21 +
+[accelerationContext_acceleration] * 1.51 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-23.7 + 
+[timeContext_dayOfWeek] * -0.76 +
+[audioContext_volumeMusic] * 0.25 +
+[accelerationContext_acceleration] * 0.72 +
+[activityContext_mood] * 0.11
+
+Class 16 :
+-4.78 + 
+[timeContext_dayOfWeek] * 0.69 +
+[timeContext_hourOfDay] * -0.3 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -1.04 +
+[activityContext_mood] * -0.05
+
+Class 17 :
+-7.99 + 
+[timeContext_dayOfWeek] * -0.25 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * -2.58 +
+[activityContext_mood] * -0.03
+
+Class 18 :
+11.6 + 
+[timeContext_dayOfWeek] * -3.64 +
+[audioContext_volumeMusic] * -0.33 +
+[accelerationContext_acceleration] * -2.74 +
+[activityContext_mood] * 0.17
+
+Class 19 :
+-20.2 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.16
+
+LM_4:
+Class 0 :
+-18.13 + 
+[timeContext_dayOfWeek] * -0.84 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * 0.09
+
+Class 1 :
+-2.88 + 
+[timeContext_dayOfWeek] * 0.66 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * -0.16 +
+[accelerationContext_acceleration] * 0.05 +
+[activityContext_mood] * 0.06
+
+Class 2 :
+-5.05 + 
+[timeContext_dayOfWeek] * -0.92 +
+[timeContext_hourOfDay] * 0.02 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.29 +
+[activityContext_mood] * 0.1 
+
+Class 3 :
+2.64 + 
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -2.42 +
+[activityContext_mood] * -0.2
+
+Class 4 :
+-15.41 + 
+[timeContext_dayOfWeek] * 1.25 +
+[timeContext_hourOfDay] * -0.36 +
+[audioContext_volumeMusic] * -0.07 +
+[accelerationContext_acceleration] * 0.5  +
+[activityContext_mood] * 0.27
+
+Class 5 :
+29.37 + 
+[timeContext_dayOfWeek] * 1.03 +
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.67 +
+[accelerationContext_acceleration] * 0.65 +
+[activityContext_mood] * -0.07
+
+Class 6 :
+-50.83 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 1.74 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.08
+
+Class 7 :
+-8.68 + 
+[timeContext_hourOfDay] * -0.12 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -22.4 +
+[activityContext_mood] * 0.04
+
+Class 8 :
+-21.06 + 
+[timeContext_dayOfWeek] * -0.16 +
+[timeContext_hourOfDay] * 0.88 +
+[accelerationContext_acceleration] * -0.22 +
+[activityContext_mood] * -0.1
+
+Class 9 :
+-12.41 + 
+[timeContext_dayOfWeek] * -0.63 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * 0.17
+
+Class 10 :
+25.76 + 
+[timeContext_dayOfWeek] * 1.35 +
+[timeContext_hourOfDay] * 0.11 +
+[audioContext_volumeMusic] * -1.18 +
+[activityContext_mood] * -0.14
+
+Class 11 :
+-7.46 + 
+[timeContext_dayOfWeek] * -1.21 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.82
+
+Class 12 :
+-12.83 + 
+[timeContext_dayOfWeek] * -0.81 +
+[timeContext_hourOfDay] * 0.32 +
+[audioContext_volumeMusic] * 0.46 +
+[accelerationContext_acceleration] * -1.22 +
+[activityContext_mood] * -0.05
+
+Class 13 :
+-50.02 + 
+[timeContext_dayOfWeek] * 9.77 +
+[timeContext_hourOfDay] * -0.29 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * 0.27 +
+[activityContext_mood] * -0.14
+
+Class 14 :
+-108.57 + 
+[timeContext_dayOfWeek] * 1.44 +
+[audioContext_volumeMusic] * 1.8  +
+[accelerationContext_acceleration] * 1.51 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-19.44 + 
+[timeContext_dayOfWeek] * -2.75 +
+[audioContext_volumeMusic] * 0.25 +
+[accelerationContext_acceleration] * 1.1  +
+[activityContext_mood] * 0.19
+
+Class 16 :
+-4.77 + 
+[timeContext_dayOfWeek] * 0.69 +
+[timeContext_hourOfDay] * -0.3 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -1.04 +
+[activityContext_mood] * -0.05
+
+Class 17 :
+-7.99 + 
+[timeContext_dayOfWeek] * -0.25 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * -2.58 +
+[activityContext_mood] * -0.03
+
+Class 18 :
+-1.87 + 
+[timeContext_dayOfWeek] * -2.78 +
+[audioContext_volumeMusic] * -0.18 +
+[accelerationContext_acceleration] * -1 +
+[activityContext_mood] * 0.17
+
+Class 19 :
+-20.2 + 
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -0.16
+
+
+
+LM_5:
+Class 0 :
+-45.01 + 
+[timeContext_dayOfWeek] * -1.32 +
+[audioContext_volumeMusic] * 0.4  +
+[accelerationContext_acceleration] * 2.2  +
+[activityContext_mood] * 0.15
+
+Class 1 :
+-4.98 + 
+[timeContext_dayOfWeek] * 0.14 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -4.89 +
+[activityContext_mood] * 0.02
+
+Class 2 :
+-23.97 + 
+[timeContext_dayOfWeek] * 0.84 +
+[timeContext_hourOfDay] * 0.06 +
+[audioContext_volumeMusic] * 0.01 +
+[accelerationContext_acceleration] * 0    +
+[activityContext_mood] * 0.15
+
+Class 3 :
+-7.22 + 
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.22 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-14.26 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.23 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-14.23 + 
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-33.19 + 
+[timeContext_dayOfWeek] * 7.09 +
+[timeContext_hourOfDay] * 0.52 +
+[audioContext_volumeMusic] * 0.09 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.02
+
+Class 7 :
+-33.26 + 
+[timeContext_dayOfWeek] * 0.58 +
+[timeContext_hourOfDay] * 1.04 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -4.03 +
+[activityContext_mood] * 0   
+
+Class 8 :
+16.77 + 
+[timeContext_dayOfWeek] * -6.45 +
+[timeContext_hourOfDay] * 0.04 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * -6.58 +
+[activityContext_mood] * -0.09
+
+Class 9 :
+22.85 + 
+[timeContext_dayOfWeek] * 0.97 +
+[timeContext_hourOfDay] * -0.51 +
+[audioContext_volumeMusic] * -0.22 +
+[accelerationContext_acceleration] * 1.78 +
+[activityContext_mood] * -0.02
+
+Class 10 :
+-6.29 + 
+[audioContext_volumeMusic] * -0.15 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+-9.16 + 
+[timeContext_dayOfWeek] * 0.38 +
+[timeContext_hourOfDay] * -0.35 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -0.59
+
+Class 12 :
+-20.62 + 
+[timeContext_dayOfWeek] * 0.83 +
+[timeContext_hourOfDay] * 0.35 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * 0.69 +
+[activityContext_mood] * 0   
+
+Class 13 :
+-33.07 + 
+[timeContext_dayOfWeek] * 0.24 +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 0.99 +
+[activityContext_mood] * -0.02
+
+Class 14 :
+-3.56 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.3 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 0.84 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-18.03 + 
+[timeContext_dayOfWeek] * -3.39 +
+[timeContext_hourOfDay] * -0.04 +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * 2.66 +
+[activityContext_mood] * 0.19
+
+Class 16 :
+4.1  + 
+[timeContext_dayOfWeek] * 0.3  +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.18 +
+[accelerationContext_acceleration] * -5.92
+
+Class 17 :
+13.31 + 
+[timeContext_dayOfWeek] * -2.13 +
+[timeContext_hourOfDay] * 0.24 +
+[audioContext_volumeMusic] * 0.1  +
+[accelerationContext_acceleration] * -7.73 +
+[activityContext_mood] * -0.48
+
+Class 18 :
+-18.55 + 
+[timeContext_hourOfDay] * 0.02 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.19 +
+[activityContext_mood] * 0.1 
+
+Class 19 :
+-4.18 + 
+[timeContext_dayOfWeek] * 0.18 +
+[timeContext_hourOfDay] * 0.5  +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -7.6 +
+[activityContext_mood] * 0.09
+
+LM_6:
+Class 0 :
+-37.96 + 
+[timeContext_dayOfWeek] * -2.36 +
+[timeContext_hourOfDay] * -0.08 +
+[audioContext_volumeMusic] * 0.4  +
+[accelerationContext_acceleration] * 6.81 +
+[activityContext_mood] * 0.15
+
+Class 1 :
+-4.98 + 
+[timeContext_dayOfWeek] * 0.14 +
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -4.89 +
+[activityContext_mood] * 0.02
+
+Class 2 :
+-23.97 + 
+[timeContext_dayOfWeek] * 0.84 +
+[timeContext_hourOfDay] * 0.06 +
+[audioContext_volumeMusic] * 0.01 +
+[activityContext_mood] * 0.15
+
+Class 3 :
+-7.22 + 
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.22 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-14.26 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.23 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-14.23 + 
+[timeContext_hourOfDay] * 0    +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-13.74 + 
+[timeContext_dayOfWeek] * 4.13 +
+[timeContext_hourOfDay] * 0.05 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.02
+
+Class 7 :
+-33.26 + 
+[timeContext_dayOfWeek] * 0.58 +
+[timeContext_hourOfDay] * 1.04 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -4.03
+
+Class 8 :
+8.1  + 
+[timeContext_dayOfWeek] * -1.86 +
+[timeContext_hourOfDay] * 0.06 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -4.75 +
+[activityContext_mood] * -0.09
+
+Class 9 :
+4.43 + 
+[timeContext_dayOfWeek] * 2.55 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -4.62 +
+[activityContext_mood] * -0.02
+
+Class 10 :
+-6.29 + 
+[audioContext_volumeMusic] * -0.15 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+-9.16 + 
+[timeContext_dayOfWeek] * 0.38 +
+[timeContext_hourOfDay] * -0.35 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -0.59
+
+Class 12 :
+-20.62 + 
+[timeContext_dayOfWeek] * 0.83 +
+[timeContext_hourOfDay] * 0.35 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * 0.69
+
+Class 13 :
+-33.07 + 
+[timeContext_dayOfWeek] * 0.24 +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 0.99 +
+[activityContext_mood] * -0.02
+
+Class 14 :
+-3.56 + 
+[timeContext_dayOfWeek] * 0.5  +
+[timeContext_hourOfDay] * -0.3 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 0.84 +
+[activityContext_mood] * -0.06
+
+Class 15 :
+-7.46 + 
+[timeContext_dayOfWeek] * -1.78 +
+[timeContext_hourOfDay] * -0.04 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 3.05 +
+[activityContext_mood] * 0.14
+
+Class 16 :
+4.1  + 
+[timeContext_dayOfWeek] * 0.3  +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.18 +
+[accelerationContext_acceleration] * -5.92
+
+Class 17 :
+94.53 + 
+[timeContext_dayOfWeek] * -2.13 +
+[timeContext_hourOfDay] * 0.24 +
+[audioContext_volumeMusic] * 0.1  +
+[accelerationContext_acceleration] * -7.73 +
+[activityContext_mood] * -2.1
+
+Class 18 :
+-18.55 + 
+[timeContext_hourOfDay] * 0.02 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.19 +
+[activityContext_mood] * 0.1 
+
+Class 19 :
+-4.63 + 
+[timeContext_dayOfWeek] * -0.21 +
+[timeContext_hourOfDay] * 0.22 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -5.31 +
+[activityContext_mood] * 0.09
+
+LM_7:
+Class 0 :
+-20.64 + 
+[timeContext_dayOfWeek] * -1.28 +
+[audioContext_volumeMusic] * 0.22
+
+Class 1 :
+12.21 + 
+[timeContext_dayOfWeek] * -0.4 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -8.06 +
+[activityContext_mood] * -0.06
+
+Class 2 :
+-26.86 + 
+[timeContext_dayOfWeek] * 0.84 +
+[timeContext_hourOfDay] * 0.45 +
+[audioContext_volumeMusic] * 0.01 +
+[activityContext_mood] * 0.26
+
+Class 3 :
+-2.47 + 
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.22 +
+[activityContext_mood] * -0.1
+
+Class 4 :
+-9.51 + 
+[timeContext_dayOfWeek] * 0.43 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.23 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-9.48 + 
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.03
+
+Class 6 :
+-11.64 + 
+[timeContext_dayOfWeek] * -0.15 +
+[timeContext_hourOfDay] * -0.2 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -0.14 +
+[activityContext_mood] * 0.25
+
+Class 7 :
+-49.26 + 
+[timeContext_dayOfWeek] * 0.58 +
+[timeContext_hourOfDay] * 2.67 +
+[accelerationContext_acceleration] * -4.03 +
+[activityContext_mood] * -0.16
+
+Class 8 :
+-7.83 + 
+[timeContext_dayOfWeek] * 2.1  +
+[timeContext_hourOfDay] * -0.02 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * -1.14 +
+[activityContext_mood] * 0.05
+
+Class 9 :
+4.38 + 
+[timeContext_dayOfWeek] * -0.8 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 0.47 +
+[activityContext_mood] * -0.02
+
+Class 10 :
+-1.54 + 
+[audioContext_volumeMusic] * -0.15 +
+[activityContext_mood] * -0.07
+
+Class 11 :
+5.72 + 
+[timeContext_dayOfWeek] * -0.36 +
+[timeContext_hourOfDay] * -0.69 +
+[audioContext_volumeMusic] * 0.08 +
+[accelerationContext_acceleration] * -0.82
+
+Class 12 :
+-37.73 + 
+[timeContext_dayOfWeek] * 3.4  +
+[timeContext_hourOfDay] * 0.77 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * 2.26
+
+Class 13 :
+-6.55 + 
+[timeContext_dayOfWeek] * -3.4 +
+[timeContext_hourOfDay] * 0.26 +
+[audioContext_volumeMusic] * 0.23 +
+[accelerationContext_acceleration] * 1.38 +
+[activityContext_mood] * -0.02
+
+Class 14 :
+11.51 + 
+[timeContext_dayOfWeek] * 0.03 +
+[timeContext_hourOfDay] * -0.3 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 1.35 +
+[activityContext_mood] * -0.11
+
+Class 15 :
+-5.01 + 
+[timeContext_dayOfWeek] * 3.41 +
+[timeContext_hourOfDay] * -0.04 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.13 +
+[activityContext_mood] * -0.32
+
+Class 16 :
+40.01 + 
+[timeContext_dayOfWeek] * 3.12 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.81 +
+[accelerationContext_acceleration] * -6.07
+
+Class 17 :
+-7.75 + 
+[timeContext_dayOfWeek] * -2.76 +
+[audioContext_volumeMusic] * 0.11 +
+[accelerationContext_acceleration] * -7.73 +
+[activityContext_mood] * 0.2 
+
+Class 18 :
+-13.8 + 
+[timeContext_hourOfDay] * 0.02 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -0.19 +
+[activityContext_mood] * 0.1 
+
+Class 19 :
+-18.66 + 
+[timeContext_dayOfWeek] * 2.46 +
+[timeContext_hourOfDay] * 0.23 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * -6.21 +
+[activityContext_mood] * 0.02
+
+
+Time taken to build model: 0.34 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          99               97.0588 %
+Incorrectly Classified Instances         3                2.9412 %
+Kappa statistic                          0.9688
+Mean absolute error                      0.0109
+Root mean squared error                  0.0565
+Relative absolute error                 11.5003 %
+Root relative squared error             25.9977 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       8.5294 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.010    0.857      1.000    0.923      0.921    0.998     0.976     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.010    0.833      1.000    0.909      0.908    0.999     0.967     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.999     0.950     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 0.800    0.000    1.000      0.800    0.889      0.890    0.998     0.967     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.010    0.833      1.000    0.909      0.908    0.996     0.927     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.997     0.950     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.971    0.002    0.975      0.971    0.970      0.970    0.999     0.988     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  1  0  3  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  1  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  5  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  1  0  3  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          41               40.1961 %
+Incorrectly Classified Instances        61               59.8039 %
+Kappa statistic                          0.3649
+Mean absolute error                      0.0634
+Root mean squared error                  0.2319
+Relative absolute error                 66.8113 %
+Root relative squared error            106.2895 %
+Coverage of cases (0.95 level)          48.0392 %
+Mean rel. region size (0.95 level)       9.5098 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.500    0.010    0.750      0.500    0.600      0.593    0.983     0.769     The Heavy
+                 0.333    0.031    0.400      0.333    0.364      0.329    0.552     0.156     Fiona Apple
+                 0.500    0.065    0.455      0.500    0.476      0.417    0.695     0.327     Die Fantastischen Vier
+                 0.500    0.020    0.500      0.500    0.500      0.480    0.832     0.414     P!nk
+                 0.200    0.010    0.500      0.200    0.286      0.295    0.645     0.191     Red Hot Chili Peppers
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.678     0.307     Ani DiFranco
+                 0.000    0.041    0.000      0.000    0.000      -0.046   0.637     0.121     Daft Punk
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.793     0.332     Pearl Jam
+                 0.000    0.041    0.000      0.000    0.000      -0.041   0.219     0.030     Kanye West
+                 0.400    0.021    0.500      0.400    0.444      0.422    0.705     0.291     STS
+                 0.750    0.020    0.600      0.750    0.667      0.656    0.946     0.411     Letzte Instanz
+                 0.800    0.076    0.533      0.800    0.640      0.608    0.902     0.610     Sportfreunde Stiller
+                 0.600    0.021    0.600      0.600    0.600      0.579    0.767     0.517     Bob Dylan
+                 0.500    0.010    0.667      0.500    0.571      0.563    0.829     0.702     Casper
+                 0.250    0.000    1.000      0.250    0.400      0.493    0.714     0.366     Caravan Palace
+                 0.500    0.041    0.333      0.500    0.400      0.379    0.788     0.546     Lamb of God
+                 0.000    0.031    0.000      0.000    0.000      -0.035   0.776     0.192     Wizkid
+                 0.000    0.020    0.000      0.000    0.000      -0.029   0.551     0.061     Asian Dub Foundation
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.645     0.225     Mumford & Sons
+                 0.500    0.092    0.182      0.500    0.267      0.255    0.663     0.139     King Crimson
+Weighted Avg.    0.402    0.035    0.424      0.402    0.392      0.369    0.726     0.352     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 3 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 | a = The Heavy
+ 0 2 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 0 1 0 | b = Fiona Apple
+ 0 2 5 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 1 | c = Die Fantastischen Vier
+ 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 | d = P!nk
+ 0 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 2 0 1 0 0 0 0 1 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 2 | g = Daft Punk
+ 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 1 | h = Pearl Jam
+ 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 1 | i = Kanye West
+ 1 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 1 | j = STS
+ 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 0 0 8 0 0 0 0 1 0 1 0 | l = Sportfreunde Stiller
+ 0 0 1 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 | m = Bob Dylan
+ 0 0 0 1 0 0 0 0 0 0 0 1 0 2 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 1 | p = Lamb of God
+ 0 0 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 0 2 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 2 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 2 | t = King Crimson
+
+
+Options: -I 20 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+
+audioContext_volumeMusic <= 53
+|   accelerationContext_acceleration <= 0.2
+|   |   activityContext_mood <= 50: LM_1:20/80 (17)
+|   |   activityContext_mood > 50: LM_2:20/80 (15)
+|   accelerationContext_acceleration > 0.2: LM_3:20/60 (21)
+audioContext_volumeMusic > 53
+|   timeContext_dayOfWeek <= 3
+|   |   audioContext_volumeMusic <= 90: LM_4:20/80 (12)
+|   |   audioContext_volumeMusic > 90: LM_5:20/80 (8)
+|   timeContext_dayOfWeek > 3: LM_6:20/60 (29)
+
+Number of Leaves  : 	6
+
+Size of the Tree : 	11
+
+
+
+LM_1:
+Class 0 :
+-90.33 + 
+[timeContext_dayOfWeek] * -2.03 +
+[timeContext_hourOfDay] * 0.04 +
+[audioContext_volumeMusic] * 0.4  +
+[activityContext_mood] * 0.04
+
+Class 1 :
+-41.73 + 
+[timeContext_dayOfWeek] * 0.81 +
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.1 +
+[accelerationContext_acceleration] * 0.29 +
+[activityContext_mood] * 0.07
+
+Class 2 :
+39.31 + 
+[timeContext_dayOfWeek] * -15.02 +
+[timeContext_hourOfDay] * -2.15 +
+[audioContext_volumeMusic] * 0.13 +
+[accelerationContext_acceleration] * -13.96 +
+[activityContext_mood] * 0.43
+
+Class 3 :
+29.72 + 
+[timeContext_dayOfWeek] * 3.23 +
+[timeContext_hourOfDay] * 0.74 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -28.21 +
+[activityContext_mood] * -0.95
+
+Class 4 :
+83.2 + 
+[timeContext_dayOfWeek] * 1.96 +
+[timeContext_hourOfDay] * -1.96 +
+[audioContext_volumeMusic] * -5.52 +
+[accelerationContext_acceleration] * 0.63 +
+[activityContext_mood] * -0.29
+
+Class 5 :
+-31.67 + 
+[timeContext_dayOfWeek] * -0.08 +
+[timeContext_hourOfDay] * 0.61 +
+[audioContext_volumeMusic] * -0.23 +
+[accelerationContext_acceleration] * -118.23 +
+[activityContext_mood] * 0.2 
+
+Class 6 :
+-1584.9 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 69.41 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * -1.36 +
+[activityContext_mood] * 0.11
+
+Class 7 :
+-23.5 + 
+[timeContext_dayOfWeek] * 0.93 +
+[timeContext_hourOfDay] * 0.27 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -98.93 +
+[activityContext_mood] * 0.04
+
+Class 8 :
+-116.99 + 
+[timeContext_dayOfWeek] * 0.26 +
+[timeContext_hourOfDay] * 9.78 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -377.17 +
+[activityContext_mood] * -1.09
+
+Class 9 :
+-54.23 + 
+[timeContext_dayOfWeek] * -1.06 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * 0.17 +
+[activityContext_mood] * -0.04
+
+Class 10 :
+-38.23 + 
+[timeContext_dayOfWeek] * 2.37 +
+[timeContext_hourOfDay] * 4.73 +
+[audioContext_volumeMusic] * -0.73 +
+[accelerationContext_acceleration] * -216.51 +
+[activityContext_mood] * -0.44
+
+Class 11 :
+-88.32 + 
+[timeContext_dayOfWeek] * -0.81 +
+[timeContext_hourOfDay] * 0.36 +
+[audioContext_volumeMusic] * -0.33 +
+[accelerationContext_acceleration] * 129.6 +
+[activityContext_mood] * 1.83
+
+Class 12 :
+-46.56 + 
+[timeContext_dayOfWeek] * -0.57 +
+[timeContext_hourOfDay] * 2.05 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -156.23 +
+[activityContext_mood] * 0   
+
+Class 13 :
+-54.2 + 
+[timeContext_dayOfWeek] * 7.24 +
+[timeContext_hourOfDay] * -0.47 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.33 +
+[activityContext_mood] * -0.4
+
+Class 14 :
+-88.12 + 
+[timeContext_dayOfWeek] * 3.33 +
+[timeContext_hourOfDay] * -0.34 +
+[audioContext_volumeMusic] * 0.44 +
+[accelerationContext_acceleration] * 2.63 +
+[activityContext_mood] * -0.16
+
+Class 15 :
+-72.31 + 
+[timeContext_dayOfWeek] * -1.81 +
+[timeContext_hourOfDay] * 0.01 +
+[audioContext_volumeMusic] * 0.46 +
+[accelerationContext_acceleration] * 1.24 +
+[activityContext_mood] * 0.16
+
+Class 16 :
+-46.31 + 
+[timeContext_dayOfWeek] * -0.11 +
+[timeContext_hourOfDay] * -1.13 +
+[audioContext_volumeMusic] * 0.38 +
+[accelerationContext_acceleration] * 13.17 +
+[activityContext_mood] * 1.03
+
+Class 17 :
+-8.9 + 
+[timeContext_dayOfWeek] * 0.77 +
+[timeContext_hourOfDay] * 0.32 +
+[audioContext_volumeMusic] * 1.45 +
+[accelerationContext_acceleration] * -189.04 +
+[activityContext_mood] * -1.23
+
+Class 18 :
+-32.23 + 
+[timeContext_dayOfWeek] * -1.02 +
+[timeContext_hourOfDay] * -0.57 +
+[audioContext_volumeMusic] * 0    +
+[accelerationContext_acceleration] * 78.35 +
+[activityContext_mood] * 0.35
+
+Class 19 :
+-65.54 + 
+[timeContext_dayOfWeek] * -0.1 +
+[timeContext_hourOfDay] * 0.28 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -1.8 +
+[activityContext_mood] * 0.03
+
+LM_2:
+Class 0 :
+-90.33 + 
+[timeContext_dayOfWeek] * -2.03 +
+[timeContext_hourOfDay] * 0.04 +
+[audioContext_volumeMusic] * 0.4  +
+[activityContext_mood] * 0.04
+
+Class 1 :
+-41.73 + 
+[timeContext_dayOfWeek] * 0.81 +
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.1 +
+[accelerationContext_acceleration] * 0.29 +
+[activityContext_mood] * 0.07
+
+Class 2 :
+-59.63 + 
+[timeContext_dayOfWeek] * 5.94 +
+[timeContext_hourOfDay] * 1.28 +
+[audioContext_volumeMusic] * 0.13 +
+[accelerationContext_acceleration] * -13.96 +
+[activityContext_mood] * 0.02
+
+Class 3 :
+-6 + 
+[timeContext_dayOfWeek] * 0.83 +
+[timeContext_hourOfDay] * 0.5  +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -13.49 +
+[activityContext_mood] * -0.35
+
+Class 4 :
+23.86 + 
+[timeContext_dayOfWeek] * 1.96 +
+[timeContext_hourOfDay] * -0.7 +
+[audioContext_volumeMusic] * -2.65 +
+[accelerationContext_acceleration] * 0.63 +
+[activityContext_mood] * -0.29
+
+Class 5 :
+-37.88 + 
+[timeContext_dayOfWeek] * -0.88 +
+[timeContext_hourOfDay] * 1.4  +
+[audioContext_volumeMusic] * -0.34 +
+[accelerationContext_acceleration] * -206.14 +
+[activityContext_mood] * 0.49
+
+Class 6 :
+-2420.9 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 107.41 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * -1.36 +
+[activityContext_mood] * 0.11
+
+Class 7 :
+80.31 + 
+[timeContext_dayOfWeek] * 0.93 +
+[timeContext_hourOfDay] * -5.18 +
+[audioContext_volumeMusic] * -0.08 +
+[accelerationContext_acceleration] * -98.93 +
+[activityContext_mood] * -0.31
+
+Class 8 :
+-77.79 + 
+[timeContext_dayOfWeek] * 0.26 +
+[timeContext_hourOfDay] * 6.28 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -206.53 +
+[activityContext_mood] * -1.09
+
+Class 9 :
+-54.23 + 
+[timeContext_dayOfWeek] * -1.06 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * 0.17 +
+[activityContext_mood] * -0.04
+
+Class 10 :
+-28.97 + 
+[timeContext_dayOfWeek] * 2.37 +
+[timeContext_hourOfDay] * 2.43 +
+[audioContext_volumeMusic] * -0.51 +
+[accelerationContext_acceleration] * -129.48 +
+[activityContext_mood] * -0.44
+
+Class 11 :
+-112.65 + 
+[timeContext_dayOfWeek] * -3.03 +
+[timeContext_hourOfDay] * 6.23 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * 74.53 +
+[activityContext_mood] * -0.1
+
+Class 12 :
+-61.56 + 
+[timeContext_dayOfWeek] * -0.57 +
+[timeContext_hourOfDay] * 4.16 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * -274 +
+[activityContext_mood] * 0   
+
+Class 13 :
+-54.2 + 
+[timeContext_dayOfWeek] * 7.24 +
+[timeContext_hourOfDay] * -0.47 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 0.33 +
+[activityContext_mood] * -0.4
+
+Class 14 :
+-88.12 + 
+[timeContext_dayOfWeek] * 3.33 +
+[timeContext_hourOfDay] * -0.34 +
+[audioContext_volumeMusic] * 0.44 +
+[accelerationContext_acceleration] * 2.63 +
+[activityContext_mood] * -0.16
+
+Class 15 :
+-72.31 + 
+[timeContext_dayOfWeek] * -1.81 +
+[timeContext_hourOfDay] * 0.01 +
+[audioContext_volumeMusic] * 0.46 +
+[accelerationContext_acceleration] * 1.24 +
+[activityContext_mood] * 0.16
+
+Class 16 :
+-13.91 + 
+[timeContext_dayOfWeek] * 2.29 +
+[timeContext_hourOfDay] * -0.94 +
+[audioContext_volumeMusic] * 0.3  +
+[accelerationContext_acceleration] * 4.52 +
+[activityContext_mood] * -0.21
+
+Class 17 :
+113.2 + 
+[timeContext_dayOfWeek] * -8.36 +
+[timeContext_hourOfDay] * -9.35 +
+[audioContext_volumeMusic] * 0.71 +
+[accelerationContext_acceleration] * -189.04 +
+[activityContext_mood] * 0   
+
+Class 18 :
+-39.09 + 
+[timeContext_dayOfWeek] * -0.86 +
+[timeContext_hourOfDay] * -0.68 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * 152.42 +
+[activityContext_mood] * 0.64
+
+Class 19 :
+-65.54 + 
+[timeContext_dayOfWeek] * -0.1 +
+[timeContext_hourOfDay] * 0.28 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -1.8 +
+[activityContext_mood] * 0.03
+
+LM_3:
+Class 0 :
+-71.33 + 
+[timeContext_dayOfWeek] * -2.03 +
+[timeContext_hourOfDay] * 0.04 +
+[audioContext_volumeMusic] * 0.4  +
+[activityContext_mood] * 0.04
+
+Class 1 :
+5.02 + 
+[timeContext_dayOfWeek] * 2.6  +
+[timeContext_hourOfDay] * -0.25 +
+[audioContext_volumeMusic] * -0.5 +
+[accelerationContext_acceleration] * -0.01 +
+[activityContext_mood] * 0.11
+
+Class 2 :
+3.23 + 
+[timeContext_dayOfWeek] * -2.81 +
+[timeContext_hourOfDay] * 0.03 +
+[audioContext_volumeMusic] * -0.16 +
+[accelerationContext_acceleration] * -1.69 +
+[activityContext_mood] * 0.26
+
+Class 3 :
+-3.36 + 
+[timeContext_dayOfWeek] * 0.43 +
+[timeContext_hourOfDay] * 0.07 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -17.53 +
+[activityContext_mood] * -0.3
+
+Class 4 :
+-9.75 + 
+[timeContext_dayOfWeek] * 2.48 +
+[timeContext_hourOfDay] * -0.28 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 1.23 +
+[activityContext_mood] * 0.02
+
+Class 5 :
+-7.21 + 
+[timeContext_dayOfWeek] * 0.6  +
+[timeContext_hourOfDay] * -0.16 +
+[audioContext_volumeMusic] * 0.38 +
+[accelerationContext_acceleration] * 1.03 +
+[activityContext_mood] * -0.22
+
+Class 6 :
+-729.9 + 
+[timeContext_dayOfWeek] * -0.23 +
+[timeContext_hourOfDay] * 31.41 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * -1.36 +
+[activityContext_mood] * 0.11
+
+Class 7 :
+-16.57 + 
+[timeContext_dayOfWeek] * 0.72 +
+[timeContext_hourOfDay] * -0.14 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * -79.84 +
+[activityContext_mood] * 0   
+
+Class 8 :
+-116.97 + 
+[timeContext_dayOfWeek] * 0.26 +
+[timeContext_hourOfDay] * 5.99 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -3.1 +
+[activityContext_mood] * -0.5
+
+Class 9 :
+-35.23 + 
+[timeContext_dayOfWeek] * -1.06 +
+[timeContext_hourOfDay] * -0.07 +
+[audioContext_volumeMusic] * 0.05 +
+[accelerationContext_acceleration] * 0.17 +
+[activityContext_mood] * -0.04
+
+Class 10 :
+70.03 + 
+[timeContext_dayOfWeek] * 5.94 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * -2.43 +
+[accelerationContext_acceleration] * -1.93 +
+[activityContext_mood] * -0.44
+
+Class 11 :
+-12.2 + 
+[timeContext_dayOfWeek] * -1.46 +
+[timeContext_hourOfDay] * 0.36 +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -3.02 +
+[activityContext_mood] * -0.08
+
+Class 12 :
+-28.8 + 
+[timeContext_dayOfWeek] * -2.08 +
+[timeContext_hourOfDay] * 0.52 +
+[audioContext_volumeMusic] * 0.97 +
+[accelerationContext_acceleration] * -0.58 +
+[activityContext_mood] * -0.2
+
+Class 13 :
+-85.95 + 
+[timeContext_dayOfWeek] * 15.79 +
+[timeContext_hourOfDay] * -0.47 +
+[audioContext_volumeMusic] * 0.57 +
+[accelerationContext_acceleration] * 0.02 +
+[activityContext_mood] * -0.46
+
+Class 14 :
+-176.43 + 
+[timeContext_dayOfWeek] * 5.23 +
+[timeContext_hourOfDay] * -0.34 +
+[audioContext_volumeMusic] * 0.51 +
+[accelerationContext_acceleration] * 10.01 +
+[activityContext_mood] * -0.16
+
+Class 15 :
+-52.35 + 
+[timeContext_dayOfWeek] * -5.2 +
+[timeContext_hourOfDay] * 0.01 +
+[audioContext_volumeMusic] * 0.95 +
+[accelerationContext_acceleration] * 2.1  +
+[activityContext_mood] * 0.21
+
+Class 16 :
+-12.16 + 
+[timeContext_dayOfWeek] * 1.5  +
+[timeContext_hourOfDay] * -0.71 +
+[audioContext_volumeMusic] * 0.17 +
+[accelerationContext_acceleration] * -10.68 +
+[activityContext_mood] * -0.15
+
+Class 17 :
+-31.88 + 
+[timeContext_dayOfWeek] * -1.32 +
+[timeContext_hourOfDay] * 0.05 +
+[audioContext_volumeMusic] * 0.56 +
+[accelerationContext_acceleration] * -139.16
+
+Class 18 :
+36.4 + 
+[timeContext_dayOfWeek] * -5.83 +
+[timeContext_hourOfDay] * 0.09 +
+[audioContext_volumeMusic] * -1.17 +
+[accelerationContext_acceleration] * -5.54 +
+[activityContext_mood] * 0.24
+
+Class 19 :
+-46.54 + 
+[timeContext_dayOfWeek] * -0.1 +
+[timeContext_hourOfDay] * 0.28 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -1.8 +
+[activityContext_mood] * 0.03
+
+
+
+LM_4:
+Class 0 :
+-70.54 + 
+[timeContext_dayOfWeek] * -9.01 +
+[timeContext_hourOfDay] * 0.08 +
+[audioContext_volumeMusic] * 0.73 +
+[accelerationContext_acceleration] * 6.54 +
+[activityContext_mood] * 0.11
+
+Class 1 :
+-15.89 + 
+[timeContext_dayOfWeek] * 0.44 +
+[audioContext_volumeMusic] * -0.17 +
+[accelerationContext_acceleration] * -20.89 +
+[activityContext_mood] * -0.13
+
+Class 2 :
+-64.26 + 
+[timeContext_dayOfWeek] * 1.78 +
+[timeContext_hourOfDay] * 0.58 +
+[audioContext_volumeMusic] * -0.12 +
+[accelerationContext_acceleration] * -3.68 +
+[activityContext_mood] * 0.27
+
+Class 3 :
+-42.98 + 
+[timeContext_dayOfWeek] * 0.04 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * -10.83 +
+[activityContext_mood] * -0.2
+
+Class 4 :
+-56.42 + 
+[timeContext_dayOfWeek] * 1.13 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * -0.12 +
+[accelerationContext_acceleration] * 0.43 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-55.04 + 
+[timeContext_dayOfWeek] * 0.38 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.02
+
+Class 6 :
+-76.64 + 
+[timeContext_dayOfWeek] * 19.29 +
+[timeContext_hourOfDay] * 1.1  +
+[audioContext_volumeMusic] * 0.15 +
+[accelerationContext_acceleration] * -1.67 +
+[activityContext_mood] * -0.07
+
+Class 7 :
+-123.36 + 
+[timeContext_dayOfWeek] * 13.04 +
+[timeContext_hourOfDay] * 0.42 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -164.35
+
+Class 8 :
+84.45 + 
+[timeContext_dayOfWeek] * -23.21 +
+[timeContext_hourOfDay] * 0.01 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -26.49 +
+[activityContext_mood] * -0.64
+
+Class 9 :
+62.26 + 
+[timeContext_dayOfWeek] * 3.98 +
+[timeContext_hourOfDay] * -1.63 +
+[audioContext_volumeMusic] * -0.71 +
+[accelerationContext_acceleration] * 5.57 +
+[activityContext_mood] * -0.02
+
+Class 10 :
+-47.96 + 
+[timeContext_dayOfWeek] * 1.89 +
+[timeContext_hourOfDay] * 0.28 +
+[audioContext_volumeMusic] * -0.3 +
+[activityContext_mood] * -0.26
+
+Class 11 :
+-36.61 + 
+[timeContext_dayOfWeek] * 0.64 +
+[timeContext_hourOfDay] * -0.72 +
+[audioContext_volumeMusic] * 0.08 +
+[accelerationContext_acceleration] * -0.77 +
+[activityContext_mood] * -0.04
+
+Class 12 :
+-128.87 + 
+[timeContext_dayOfWeek] * 10.31 +
+[timeContext_hourOfDay] * 0.97 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 4.05 +
+[activityContext_mood] * 0   
+
+Class 13 :
+-76.67 + 
+[timeContext_dayOfWeek] * -0.47 +
+[timeContext_hourOfDay] * 0.07 +
+[audioContext_volumeMusic] * 0.4  +
+[accelerationContext_acceleration] * 1.86 +
+[activityContext_mood] * -0.02
+
+Class 14 :
+-23.23 + 
+[timeContext_dayOfWeek] * -0.24 +
+[timeContext_hourOfDay] * -0.65 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 1.76 +
+[activityContext_mood] * -0.23
+
+Class 15 :
+-20.22 + 
+[timeContext_dayOfWeek] * -15.41 +
+[timeContext_hourOfDay] * -0.8 +
+[audioContext_volumeMusic] * 0.03 +
+[accelerationContext_acceleration] * 8.52 +
+[activityContext_mood] * 0.74
+
+Class 16 :
+49.82 + 
+[timeContext_dayOfWeek] * 4.81 +
+[timeContext_hourOfDay] * 0.03 +
+[audioContext_volumeMusic] * -1.55 +
+[accelerationContext_acceleration] * -19.89 +
+[activityContext_mood] * -0.17
+
+Class 17 :
+233.27 + 
+[timeContext_dayOfWeek] * -3.01 +
+[timeContext_hourOfDay] * 0.79 +
+[audioContext_volumeMusic] * 0.66 +
+[accelerationContext_acceleration] * -42.9 +
+[activityContext_mood] * -6.6
+
+Class 18 :
+-65.14 + 
+[timeContext_dayOfWeek] * 0.06 +
+[timeContext_hourOfDay] * 0.08 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -2.06 +
+[activityContext_mood] * 0.15
+
+Class 19 :
+-0.18 + 
+[timeContext_dayOfWeek] * -4.37 +
+[timeContext_hourOfDay] * 1.1  +
+[audioContext_volumeMusic] * -0.17 +
+[accelerationContext_acceleration] * -25.87 +
+[activityContext_mood] * 0.29
+
+LM_5:
+Class 0 :
+-53.78 + 
+[timeContext_dayOfWeek] * -14.39 +
+[timeContext_hourOfDay] * -0.15 +
+[audioContext_volumeMusic] * 0.73 +
+[accelerationContext_acceleration] * 60.86 +
+[activityContext_mood] * 0.11
+
+Class 1 :
+-15.89 + 
+[timeContext_dayOfWeek] * 0.44 +
+[audioContext_volumeMusic] * -0.17 +
+[accelerationContext_acceleration] * -20.89 +
+[activityContext_mood] * -0.13
+
+Class 2 :
+-64.26 + 
+[timeContext_dayOfWeek] * 1.78 +
+[timeContext_hourOfDay] * 0.58 +
+[audioContext_volumeMusic] * -0.12 +
+[accelerationContext_acceleration] * -3.68 +
+[activityContext_mood] * 0.27
+
+Class 3 :
+-42.98 + 
+[timeContext_dayOfWeek] * 0.04 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * -10.83 +
+[activityContext_mood] * -0.2
+
+Class 4 :
+-56.42 + 
+[timeContext_dayOfWeek] * 1.13 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * -0.12 +
+[accelerationContext_acceleration] * 0.43 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-55.04 + 
+[timeContext_dayOfWeek] * 0.38 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.02
+
+Class 6 :
+-40.05 + 
+[timeContext_dayOfWeek] * 8.95 +
+[timeContext_hourOfDay] * 0.2  +
+[audioContext_volumeMusic] * -0.07 +
+[accelerationContext_acceleration] * -4.12 +
+[activityContext_mood] * 0.02
+
+Class 7 :
+-123.36 + 
+[timeContext_dayOfWeek] * 13.04 +
+[timeContext_hourOfDay] * 0.42 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -164.35
+
+Class 8 :
+29.96 + 
+[timeContext_dayOfWeek] * -7.29 +
+[timeContext_hourOfDay] * 0.01 +
+[audioContext_volumeMusic] * 0.04 +
+[accelerationContext_acceleration] * -11.52 +
+[activityContext_mood] * -0.64
+
+Class 9 :
+2.34 + 
+[timeContext_dayOfWeek] * 7.78 +
+[timeContext_hourOfDay] * 0.7  +
+[audioContext_volumeMusic] * -0.04 +
+[accelerationContext_acceleration] * -62.19 +
+[activityContext_mood] * -0.02
+
+Class 10 :
+-47.96 + 
+[timeContext_dayOfWeek] * 1.89 +
+[timeContext_hourOfDay] * 0.28 +
+[audioContext_volumeMusic] * -0.3 +
+[activityContext_mood] * -0.26
+
+Class 11 :
+-36.61 + 
+[timeContext_dayOfWeek] * 0.64 +
+[timeContext_hourOfDay] * -0.72 +
+[audioContext_volumeMusic] * 0.08 +
+[accelerationContext_acceleration] * -0.77 +
+[activityContext_mood] * -0.04
+
+Class 12 :
+-128.87 + 
+[timeContext_dayOfWeek] * 10.31 +
+[timeContext_hourOfDay] * 0.97 +
+[audioContext_volumeMusic] * -0.03 +
+[accelerationContext_acceleration] * 4.05 +
+[activityContext_mood] * 0   
+
+Class 13 :
+-76.67 + 
+[timeContext_dayOfWeek] * -0.47 +
+[timeContext_hourOfDay] * 0.07 +
+[audioContext_volumeMusic] * 0.4  +
+[accelerationContext_acceleration] * 1.86 +
+[activityContext_mood] * -0.02
+
+Class 14 :
+-23.23 + 
+[timeContext_dayOfWeek] * -0.24 +
+[timeContext_hourOfDay] * -0.65 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * 1.76 +
+[activityContext_mood] * -0.23
+
+Class 15 :
+-37.12 + 
+[timeContext_dayOfWeek] * -8.77 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 6.9  +
+[activityContext_mood] * 0.51
+
+Class 16 :
+49.82 + 
+[timeContext_dayOfWeek] * 4.81 +
+[timeContext_hourOfDay] * 0.03 +
+[audioContext_volumeMusic] * -1.55 +
+[accelerationContext_acceleration] * -19.89 +
+[activityContext_mood] * -0.17
+
+Class 17 :
+534.11 + 
+[timeContext_dayOfWeek] * -3.01 +
+[timeContext_hourOfDay] * 0.79 +
+[audioContext_volumeMusic] * 0.66 +
+[accelerationContext_acceleration] * -42.9 +
+[activityContext_mood] * -12.61
+
+Class 18 :
+-65.14 + 
+[timeContext_dayOfWeek] * 0.06 +
+[timeContext_hourOfDay] * 0.08 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -2.06 +
+[activityContext_mood] * 0.15
+
+Class 19 :
+-21.6 + 
+[timeContext_dayOfWeek] * -0.07 +
+[timeContext_hourOfDay] * 0.73 +
+[audioContext_volumeMusic] * -0.12 +
+[accelerationContext_acceleration] * -16.76 +
+[activityContext_mood] * 0.12
+
+LM_6:
+Class 0 :
+-74.85 + 
+[timeContext_dayOfWeek] * -4.27 +
+[timeContext_hourOfDay] * 0.04 +
+[audioContext_volumeMusic] * 0.66 +
+[accelerationContext_acceleration] * 1.4  +
+[activityContext_mood] * 0.11
+
+Class 1 :
+47.36 + 
+[timeContext_dayOfWeek] * 0.07 +
+[timeContext_hourOfDay] * -0.05 +
+[audioContext_volumeMusic] * -0.23 +
+[accelerationContext_acceleration] * -28.7 +
+[activityContext_mood] * -0.47
+
+Class 2 :
+-80.91 + 
+[timeContext_dayOfWeek] * 1.26 +
+[timeContext_hourOfDay] * 0.58 +
+[audioContext_volumeMusic] * 0.3  +
+[accelerationContext_acceleration] * -1.73 +
+[activityContext_mood] * 0.69
+
+Class 3 :
+-23.98 + 
+[timeContext_dayOfWeek] * 0.04 +
+[timeContext_hourOfDay] * -0.06 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * -10.83 +
+[activityContext_mood] * -0.2
+
+Class 4 :
+-37.42 + 
+[timeContext_dayOfWeek] * 1.13 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * -0.12 +
+[accelerationContext_acceleration] * 0.43 +
+[activityContext_mood] * 0   
+
+Class 5 :
+-36.04 + 
+[timeContext_dayOfWeek] * 0.38 +
+[timeContext_hourOfDay] * -0.09 +
+[audioContext_volumeMusic] * -0.09 +
+[accelerationContext_acceleration] * 0.1  +
+[activityContext_mood] * 0.02
+
+Class 6 :
+-33.84 + 
+[timeContext_dayOfWeek] * -0.19 +
+[timeContext_hourOfDay] * -0.86 +
+[audioContext_volumeMusic] * -0.01 +
+[accelerationContext_acceleration] * -3.53 +
+[activityContext_mood] * 0.62
+
+Class 7 :
+-303.61 + 
+[timeContext_dayOfWeek] * 29.25 +
+[timeContext_hourOfDay] * 5.68 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * -210.31
+
+Class 8 :
+-15.09 + 
+[timeContext_dayOfWeek] * 7.14 +
+[timeContext_hourOfDay] * -0.02 +
+[audioContext_volumeMusic] * -0.41 +
+[accelerationContext_acceleration] * -4.58 +
+[activityContext_mood] * 0.05
+
+Class 9 :
+-6.79 + 
+[timeContext_dayOfWeek] * -1.2 +
+[timeContext_hourOfDay] * -0.27 +
+[audioContext_volumeMusic] * -0.02 +
+[accelerationContext_acceleration] * 1.27 +
+[activityContext_mood] * -0.06
+
+Class 10 :
+-28.96 + 
+[timeContext_dayOfWeek] * 1.89 +
+[timeContext_hourOfDay] * 0.28 +
+[audioContext_volumeMusic] * -0.3 +
+[activityContext_mood] * -0.26
+
+Class 11 :
+13.54 + 
+[timeContext_dayOfWeek] * -0.85 +
+[timeContext_hourOfDay] * -1.75 +
+[audioContext_volumeMusic] * 0.25 +
+[accelerationContext_acceleration] * -7.2 +
+[activityContext_mood] * -0.06
+
+Class 12 :
+-104.51 + 
+[timeContext_dayOfWeek] * 11.24 +
+[timeContext_hourOfDay] * 3.3  +
+[audioContext_volumeMusic] * -0.27 +
+[accelerationContext_acceleration] * 4.05 +
+[activityContext_mood] * -0.26
+
+Class 13 :
+-31.02 + 
+[timeContext_dayOfWeek] * -7.54 +
+[timeContext_hourOfDay] * 1.18 +
+[audioContext_volumeMusic] * 0.6  +
+[accelerationContext_acceleration] * 1.98 +
+[activityContext_mood] * -0.09
+
+Class 14 :
+36.57 + 
+[timeContext_dayOfWeek] * -1.7 +
+[timeContext_hourOfDay] * -0.11 +
+[audioContext_volumeMusic] * -0.07 +
+[accelerationContext_acceleration] * 2.2  +
+[activityContext_mood] * -0.5
+
+Class 15 :
+-55.96 + 
+[timeContext_dayOfWeek] * 14.96 +
+[timeContext_hourOfDay] * -0.13 +
+[audioContext_volumeMusic] * -0.05 +
+[accelerationContext_acceleration] * 0.73 +
+[activityContext_mood] * -1.01
+
+Class 16 :
+153.04 + 
+[timeContext_dayOfWeek] * 13.11 +
+[timeContext_hourOfDay] * 0.03 +
+[audioContext_volumeMusic] * -3.06 +
+[accelerationContext_acceleration] * -23.41 +
+[activityContext_mood] * -0.34
+
+Class 17 :
+-193.86 + 
+[timeContext_dayOfWeek] * -6.32 +
+[timeContext_hourOfDay] * 0.79 +
+[audioContext_volumeMusic] * 0.79 +
+[accelerationContext_acceleration] * -42.9 +
+[activityContext_mood] * 1.91
+
+Class 18 :
+-46.14 + 
+[timeContext_dayOfWeek] * 0.06 +
+[timeContext_hourOfDay] * 0.08 +
+[audioContext_volumeMusic] * -0.06 +
+[accelerationContext_acceleration] * -2.06 +
+[activityContext_mood] * 0.15
+
+Class 19 :
+-72.25 + 
+[timeContext_dayOfWeek] * 10.8 +
+[timeContext_hourOfDay] * 0.35 +
+[audioContext_volumeMusic] * 0.02 +
+[accelerationContext_acceleration] * -34.28 +
+[activityContext_mood] * 0.06
+
+
+Time taken to build model: 0.54 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         101               99.0196 %
+Incorrectly Classified Instances         1                0.9804 %
+Kappa statistic                          0.9896
+Mean absolute error                      0.0035
+Root mean squared error                  0.0309
+Relative absolute error                  3.7333 %
+Root relative squared error             14.2138 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       5.9804 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.010    0.833      1.000    0.909      0.908    0.999     0.967     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.999     0.950     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.990    0.001    0.992      0.990    0.990      0.990    1.000     0.996     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  1  0  3  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  5  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          34               33.3333 %
+Incorrectly Classified Instances        68               66.6667 %
+Kappa statistic                          0.2939
+Mean absolute error                      0.0665
+Root mean squared error                  0.2351
+Relative absolute error                 70.115  %
+Root relative squared error            107.734  %
+Coverage of cases (0.95 level)          41.1765 %
+Mean rel. region size (0.95 level)      11.5196 %
+Total Number of Instances              102     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.010    0.667      0.333    0.444      0.450    0.882     0.530     The Heavy
+                 0.333    0.042    0.333      0.333    0.333      0.292    0.851     0.314     Fiona Apple
+                 0.400    0.054    0.444      0.400    0.421      0.362    0.721     0.472     Die Fantastischen Vier
+                 0.250    0.031    0.250      0.250    0.250      0.219    0.918     0.308     P!nk
+                 0.000    0.041    0.000      0.000    0.000      -0.046   0.590     0.088     Red Hot Chili Peppers
+                 0.400    0.031    0.400      0.400    0.400      0.369    0.827     0.427     Ani DiFranco
+                 0.000    0.031    0.000      0.000    0.000      -0.040   0.652     0.099     Daft Punk
+                 0.250    0.041    0.200      0.250    0.222      0.188    0.745     0.311     Pearl Jam
+                 0.000    0.031    0.000      0.000    0.000      -0.035   0.385     0.040     Kanye West
+                 0.400    0.052    0.286      0.400    0.333      0.298    0.629     0.458     STS
+                 0.750    0.031    0.500      0.750    0.600      0.593    0.788     0.321     Letzte Instanz
+                 0.700    0.054    0.583      0.700    0.636      0.596    0.870     0.486     Sportfreunde Stiller
+                 0.200    0.021    0.333      0.200    0.250      0.229    0.816     0.421     Bob Dylan
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.934     0.783     Casper
+                 0.250    0.020    0.333      0.250    0.286      0.264    0.551     0.290     Caravan Palace
+                 0.250    0.041    0.200      0.250    0.222      0.188    0.855     0.352     Lamb of God
+                 0.000    0.010    0.000      0.000    0.000      -0.020   0.495     0.058     Wizkid
+                 0.000    0.020    0.000      0.000    0.000      -0.029   0.508     0.049     Asian Dub Foundation
+                 0.400    0.052    0.286      0.400    0.333      0.298    0.726     0.251     Mumford & Sons
+                 0.500    0.082    0.200      0.500    0.286      0.273    0.829     0.239     King Crimson
+Weighted Avg.    0.333    0.037    0.319      0.333    0.317      0.285    0.740     0.337     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 1 | a = The Heavy
+ 0 2 0 0 0 0 0 1 0 0 1 1 0 0 0 1 0 0 0 0 | b = Fiona Apple
+ 0 1 4 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 1 1 | c = Die Fantastischen Vier
+ 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 | d = P!nk
+ 0 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 1 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 1 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 2 | g = Daft Punk
+ 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 1 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 0 2 1 0 0 1 0 0 0 0 0 0 | i = Kanye West
+ 1 0 0 0 0 0 0 0 0 2 0 0 0 0 0 1 0 0 0 1 | j = STS
+ 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 1 0 0 0 0 0 0 0 7 0 0 0 0 1 0 1 0 | l = Sportfreunde Stiller
+ 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 | m = Bob Dylan
+ 0 0 0 0 1 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 2 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 1 0 0 0 1 | p = Lamb of God
+ 0 1 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 2 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 2 | t = King Crimson
+

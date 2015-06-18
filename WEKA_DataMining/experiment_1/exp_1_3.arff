@@ -1,0 +1,119 @@
+@relation 'mmg-weka.filters.unsupervised.instance.ReservoirSample-S1-Z500-weka.filters.unsupervised.attribute.Remove-V-R6,7,30,80,98,99-weka.filters.unsupervised.instance.RemoveWithValues-S0.0-Clast-L195-weka.filters.unsupervised.instance.RemoveFrequentValues-Clast-N20'
+
+@attribute timeContext_dayOfWeek numeric
+@attribute timeContext_hourOfDay numeric
+@attribute audioContext_volumeMusic numeric
+@attribute accelerationContext_acceleration numeric
+@attribute activityContext_mood numeric
+@attribute musicContext_Artist {'The Birthday Massacre','Jack White','Die Fantastischen Vier','Massive Attack',Nightwish,Metallica,DragonForce,Powerwolf,'Letzte Instanz',Propellerheads,Sabaton,Equilibrium,'Groove Armada',Kent,Falchion,Turisas,Månegarm,'Subway To Sally','Mono Inc.','The Strokes','Steaming Satellites','The Black Keys',Ensiferum,'The Watts 103rd St Rhythm Band','The Bar-Kays','Brother Jack McDuff','Jimmy Norman','Rufus Thomas','Grassella Oliphant','Eddie Harris','Natural Bridge Bunch','The Freedom Sounds','Clarence Carter','Artie Christopher','The T.S.U. Toronadoes','Tony Alvon & The Belairs','Mark Putney',Commodores,'The Southshore Commission','Eldridge Holmes','Cold Grits','Soul Angels','Johnny Cameron & The Camerons','Joyce Jones','Lou Johnson','King Curtis & The Noble Knights','Titus Turner','Phil Moore Jr.','The Fabulous Counts','The Rhine Oaks','Cyril Neville','The Mighty Hannibal','Little Sister','Ananda Shankar','Brute Force','Don Covay & The Jefferson Lemon Blues Band','Clarence Wheeler & The Enforcers','Curtis Mayfield','Johnny Harris','Darrow Fletcher','Young-Holt Unlimited','King Curtis','Harlem River Drive','Wilson Pickett','Ed Robinson','Gene McDaniels','Fred Wesley & The Horny Horns','Tami Lynn','Oscar Brown Jr.','Howard Tate',Lulu,'Herbie Mann','Clarence Reid','Junior Mance','Willie West','The Gaturs','Black Heat','Eddie Hazel','Claudia Lennear',LaBelle,'Shirley Scott','The Unemployed','Dr. John',Macondo,'Black Haze Express',Houseguests,Seatrain,'The Mystic Moods Orchestra','The Beginning of the End',Malo,'Cornell Dupree','Cold Blood',Moby,Leftfield,'All Saints','Asian Dub Foundation/Harry Beckett/Simon DeSouza','The Rolling Stones','Link Wray',Faces,Cream,'Ram Jam','Manfred Mann\'s Earth Band','Willie Rosario','KC and The Sunshine Band','J GIRLS','Lynyrd Skynyrd','Bob Dylan','The Marshall Tucker Band',Radiohead,'Johnny Cash',Filter,'Kings Of Leon','Pearl Jam','Chris Cornell',Incubus,'Mt. Desolation','System of a Down','Tenacious D','The Cure','The Raconteurs','Snow Patrol','It\'s A Beautiful Day','Mumford & Sons',Air,Awolnation,Suuns,'Builders & The Butchers',LaBrassBanda,'Element of Crime','Cold War Kids',Estampie,Rage,'Gamma Ray',Helloween,Firewind,'Iron Savior',Labyrinth,Stratovarius,Dillon,'Paul Banks',Klangkarussell,'Peter Fox',Brasstronaut,Coppelius,Schandmaul,'Jake Bugg','Roman Polansky',Therion,'Paradise Lost',Edenbridge,MGMT,'Aphex Twin',Soulwax,M.I.A.,Lützenkirchen,'Daft Punk','The Chemical Brothers','Kaiser Chiefs',Babyshambles,'La Roux','The xx','Django Django',Alt-J,'Beastie Boys','Thiasos Dionysos',Heidevolk,'In Extremo',Tanzwut,Odroerir,Versengold,'The Heavy',Kasabian,'Anthony Hamilton & Elayna Boynton',Pond,'Josh Woodward','The Ting Tings',Björk,Justice,M83,'Sofa Surfers','Electric President',Pixies,Covenant,'The Mentor',Refused,'Asta Kask','The Clash',Offspring,'The Ramones','Bad Religion','White Denim','Fritz Kalkbrenner','Mike Candys feat. Evelyn & Patrick Miller','Sean Paul',<unknown>,Budzillus,'Das Broadway-Musical Im Hamburger Hafen','5/8erl in Ehr\'n',Schelmish,blink-182,'Trevor Jones; Randy Edelman',Eminem,'Ani DiFranco',Nachtgeschrei,'Tim Burton\'s Corpse Bride Soundtrack','Eros Ramazzotti',unbekannt,'Sportfreunde Stiller','Farin Urlaub Racing Team','Simon and Garfunkel',Revolverheld,'Dean Martin','Toto Cotugno','Ricchi e Poveri',Zaz,'Édith Piaf','France Gall','Kris feat. Dante Thomas','Adiano Celentano','The Herbaliser','Dope D.O.D.','Wu-Tang Clan','Two Steps From Hell',Orianthi,'culcha candela','Die Toten Hosen','Robbie Williams','Robbie Williams and Nicole Kidman','Robbie Williams And Frank Sinatra','Robbie Williams And Jon Lovitz','Robbie Williams And Jane Horrocks','Robbie Williams And Rupert Everett','Robbie Williams And Jonathan Wilkes','Ray Charles',Adele,'harry jen',Coldplay,'Red Hot Chili Peppers','Maurice Ravel',Akon,'The Animal Parade',Sido,'Stephane Pompougnac','Luis Bacalov, Edda Dell\'Orso','Frank Sinatra','San2 And His Soul Patrol','Paul Elstak','DISCO DELUXE','Dave Grusin','Swizz Beats','Linkin Park','Drake feat. Rihanna',Drake,'Wale ft Omarion, Rick Ross & Nas',Fabolous,Wizkid,'Trey Songz','Mario Vazquez','Maroon 5 feat. Wiz Khalifa - Payphone_(musiclife.kz)','2Face Idibia','JAY SEAN','2 Face',Skyzoo,eLDee,'Asher Roth','Shania Twain','2 Face Idibia - @Recessonline','John Legend ft Ludacris',Lenka,'The Black Eyed Peas','Emeli Sande','Tim Bendzko','Paul Van Dyk','Aura Dione','Yeah Yeah Yeahs','Alan Parsons Project','Wolfgang Ambros',Wilco,'The Who','Eric Clapton','Los Lobos','Oscar Peterson',U2,Aswad,'Amanda Palmer Featuring The Grand Theft Orchestra','Les Poppys','Ja, Panik',P!nk,'Rage Against The Machine','Lamb of God','The Bamboos','Led Zeppelin','Georges Bizet','David Garrett','Gerard Presgurvic','Wise Guys','Modest Mouse','Crystal Fighters','Plus 44','RX Bandits',Millencolin,'Ron Hawkins','No Use For A Name',Pennywise,Lagwagon,Audiomachine,'Five Finger Death Punch','Sam Hulick','Johan Skugge & Jukka Rintamäki','Lorne Balfe','Sam Hulick/Jack Wall/Richard Jacques','Hans Zimmer','Dan Popplewell','Camo & Krooked','Chris Brown - Dont Wake Me Up  ( Www.Ahanghaa52.Com )','Drake feat. Lil\' Wayne & Tyga','Burna Boy','Kanye West',P-SQUARE,'Rick Ross',Demarco,Iyaz,'Justin Bieber - As Long As You Love Me (Www.4FunMusic.com)','WANDE COAL','Chris Brown feat. Justin Bieber','David Guetta','Banky W.',Evanesence,'B.I.G. + Puff Daddy + Mase','Naeto C  Tony ft. DBanj','John Legend/Kanye West/Slum Village','sum 41','Culcha Candela','May D','Lil Wayne',Tyga,'Chris Brown','Fabolous Ft Pdiddy JE','Justin Timberlake','Gotye  Feat. Kimbra','deafrodrumbeat.blogspot.com (@deafrodrumbeat)','Jay Sean氀','Thelonious Monk','Queens Of The Stone Age','Pepe Deluxé','Super Mash Bros.','The White Panda',Milkman,'Johann Strauss',Atmosphere,'Tayyib Ali',Mastodon,Evanescence,'Big Bad Voodoo Daddy','Adam Green & Bikini Shapiro','Natalie Cole','Mean Mr Mustard',Texta,Frittenbude,Kettcar,'17 Hippies','Sammy Adams',Casper,Bonobo,'Amon Tobin',Apparat,'Ben Frost','The Flashbulb',Pitbull,Deichkind,'The Bosshoss','Funny van Dannen',Silverstein,jive(43),Skalpel,'Neck Sprain','Puddle of Mudd','Stevie Wonder','Flo Rida Ft. David Guetta - Club Can_t Handle','Die Ärzte','Mark Ronson','Michael Bublé','Dr. Dre',Emil.RuleZ!,'Caravan Palace','Mestizo & Mike Gao','Jazz K Lipa','Mac Miller','Wax Tailor','Black Sheep','Donna Summer',Muse,'All Time Low','Limp Bizkit','The Offspring','Rusted Root','Simple Plan','The Subways','Good Charlotte','ALO (Animal Liberation Orchestra)','Wiz Khalifa','Lucinda Williams','The Blind Boys Of Alabama','The Proclaimers','Lady Gaga','Herre, Max','Flo Rida',Pink,Charlee,'Asaf Avidan & the Mojos','James Arthur','Avicii vs Nicky Romero','Lukas Graham','R.I.O. feat. U-Jean','Snoop Dog',Hadouken!,Heino,'Bone Thugs-n-Harmony','The Corrs','Katrina and the Waves','Udo Jürgens','Jürgen Drews',STS,'DJ Antoine','Farin Urlaub','Mountain Mocha Kilimanjaro','Kispál és a Borz','Creedence Clearwater Revival','Wild Cherry',Jazz.k.lipa,'James Brown','Don Omar & Lucenzo','Pepe Deluxe','King Crimson','Papa Roach','Breaking Benjamin',Yellowcard,Example,'Kid Cudi','Katy Perry feat. Snoop Dogg','Alicia Keys',Sin,'Sak Noel','Of Monsters and Men','Beth Ditto',Tetris,'The Guild','Remady feat. Manu-L','Afrojack feat. Eva Simons','The Gossip','Andreas Gabalier',Gorillaz,'Jason Mraz','Asaf Avidan & The Mojos','Maroon 5','David Guetta feat. Neyo & Akon',Fun,Rihanna,'Philipp Poisel','Rea Garvey',Cro,Labrassbanda,'Antônio Carlos Jobim','Die Atzen Mit Nena',Loona,'James Morrison','The BossHoss','Terror Squad',Samsung,'David Guetta feat. Sia',Capone,'Kelly Rowland',@MS4,'Roger Sanchez','Fairy Tail','Nanba Shiho',Avicii,'Duran Duran','Eddy Grant','Parov Stelar','Chase & Status','Buena Vista Social Club','Tom Waits','Boards Of Canada','David Gilmour','Frank Zappa','Knife Party',Placebo,'Ivan Gough & Feenixpawl ft. Georgi Kay','Eddie Vedder','Rolling Stones','The Lumineers',Ektomorf,'David Bowie','Brad Mehldau','Secondhand Serenade',DevilDriver,'Fiona Apple','Austria 3 (Ambros, Fendrich, Danzer)','Joint Venture',Surrender!,'Berk & the Virtual Band','NORAH JONES',Soulfly,'Austrian Death Machine','Asian Dub Foundation','Bon Jovi','Panic At The Disco','City and Colour',Pique,'Dweezil Zappa',Kraftwerk,'ZZ Top','Icona Pop feat. Charli Xcx','Will.I.Am feat. Britney Spears','Gabin & Dee Dee Brigdewater','Cure For The Common','Jonny L',Tool,S.P.Y,Cornershop,'Fleetwood Mac','Huey Lewis & The News','New Kids Feat. Paul Elstak','Kanye West Ft. Raekwon & KiD CuDi','Adam Green','Stereo Total','Smashing Pumpkins','Various Artists','David Gray','Plain White T\'s','Israel Kamakawiwo\'ole','Kate Nash',Ke$ha,'Luis Bacalov & Rocky Roberts','Swedish House Mafia feat. John Martin','Eva Croissant',Loreen,Labrinth,'Pitbull feat. Christina Aguilera',Ne-Yo,Caligola,'Anthony Hamilton And Elayna Boynton','A$ap Rocky feat. 2 Drake','Max Herre feat. Cro',Psy,'Major Lazer & Amber Coffman','Ed Sheeran','The Script feat. Will.I.Am','Rita Ora',Blue,'Avicii vs. Nicky Romero','Lykke LI',Triggerfinger,Ola,'Imagine Dragons','White Lion','Bryan Adams','Green Day',Beatles,'Yolanda be cool & Dcup',Dj`s@Work,'Taylor Swift',Helmet,Kesha,Chingy,'Killing Joke','Shakira feat. Freshlyground','Taio Cruz feat. Flo Rida','Dropkick Murphys','Katy Perry','Colbie Caillat','One Direction','Flo Rida Feat. David Guetta','Howard Shore','Bloc Party','Biffy Clyro',Pendulum,Iamx,'Days in Grief','We Are Scientists','Hubert von Goisern','The Infadels','Erste Allgemeine Verunsicherung (EAV)','Barrio Katz','Chinese Man',Waldeck,'16 Horsepower','Akkezdet Phiai','Esclin Syndo',Beatallica,'Poison the Well',Hatebreed,'(hed) p.e.','Pink Martini','Theophilus London','Barry White',Will.I.Am,'Monica Reyes','Mo Horizons','Broken Bells',Kosheen,'Netsky Feat. Jenna G',Beatsteaks,Friction,'Tantrum Desire','Jack Johnson',Volbeat,AC/DC,'Old Boy',Subscribe,'Skunk Anansie',Nickelback,Various,'The Alan Parsons Project','Van Morrison',E.M.E,'Sono Rhizmo\'','Daft Punk ( feat.Pharrel Williams & Nile Rodgers)','George Harrison',Audio,'Hybrid Minds',Upbeats,Unknown,Instra:mental,Burial,'Yesterday Once More','Love Me With Your Heart',cdcity.shop@gmail.com,'Macklemore & Ryan Lewis','Johann Pachelbel','Brandi Carlile',Daveskii08,'Lupe Fiasco','Hot Chocolate',Hedley,Beethoven,'P!nk featuring Nate Ruess',Liquido,'Jessica Simpson','dZihan & Kamien',Shaggy,'Gigi D´Agostino','JÜRGEN DREWS','DJ Antoine vs. Mad Mark 2k13','Taio Cruz :: Teh-Music.Us ::','2Pac ft. Dj Alex Sp',Q&A,'Alter Bridge',Architects,'The Cult','Miles Davis','David Dallas','John Mayer','Peter Gunn','Gabriella Climi','Bliss N Eso','Krafty Kuts Feat Dynamite MC','Sound of Stereo','Maryam Heydar zade _ [Yazd-PatoGh.coM]',saeeeeeeeed,'Unknown Artist',JoJo,'Albrigtsen Steinar/Secret Garden','Naser Abdollahi','The End Of World','Barbra Streisand/Secret Garden',www.Newmusic10.com,01,'Blink 182','Marco Petralia & DJ Monique vs. Gastone','Sarah McLachlan',Apocalyptica,Nemesea,'Liv Kristine','Inkubus Sukkubus','Neil Young','Hami (www.MyMusicBAran.Org)渀渀渀','Hamed MalekLou-wWw.sOngBsOng.cOm','Hami (www.MyMusicBAran.Org)挀挀挀','Calvin Harris feat. Ellie Goulding','Flo Rida feat. Jennifer Lopez','Eve feat Gwen Stefani',VA,'The Naked And Famous',Survivor,'Status Quo','Alice Cooper','Jethro Tull',Toto,'The Hooters','Kruder & Dorfmeister','Utah Jazz','Jackson 5','Dj Fresh','[dunkelbunt] & Analogik','Marina and The Diamonds','Ryan Adams & The Cardinals','KiD CuDi','Enter Shikari',Rammstein,'Clara Luzia','Petsch Moser',Skrillex,'Mashup Germany','Blumentopf feat. Musikkapelle Münsing','The Buggles','Bright Eyes','Urbs & Cutex','Pharoah Sanders','A Forest Mighty Black',Laugh,'King Britt',Amewu,'Ann Takle/Secret Garden','Hami ( www.BirMusic22.com )','Brian Kennedy/Secret Garden','Ernesto Vs Bastian','MacKlemore feat. Wanz','J.O.B feat Anjulie (with MadV & 12th Planet)','Andre Crom, Martin Dawson','D\'Prince Ft. Wizkid','JAMIE FOXX',Wax,'Pink Floyd','50 Cent','Rise Against','Ali Lohrasbi (2seda.com | 2seda2.com)','Roham (www.Yazd-Music3.com)',07,'Nasser Abdollahi','FARSDJ.COM - RAPOPOP.COM','Bruno Mars','Whizz Vienna','Gang Starr','The Killers','Depeche Mode','Rainhard Fendrich','Lipps, Inc','Pitbull - Rain over me ft. marc anthony  bY CaviD™','Ellie Goulding','Doodge & Viper',Shakira,'Xavier Naidoo',Cheryl,'Velile & Safri Duo',T.I.,www.ToxicWap.com,'Drake ft Nicki Minaj','Elton John','Christina Perri','Ilan Eshkeri','Charlie Winston',Tomorrowland,'Kenmochi Hidefumi','Fünf Sterne Deluxe','Arik Brauer','Mehrnoosh ( www.1.Mihan2Music.com )','Secret Garden','Over The Rainbow','B Mortazavi','Rain And Tears','Richard Claydermann','(coming.soon) 0915 101 66 76','Maryam Heydar zade - [Yazd-PatoGh.coM].','Ali Hasanpour.::wWw.PcLord.Ir::.',Moon,'Hafa (www.MYmusicbaran.org)','Secret Garden/Tommy Korberg','Fereydoon (www.MyMusicBaran.org)','Ever Green A Star Has Born','Hosseyn Panahi','Richard Clayderman',Donna,(www.MusicBaran3.com),Vangelis,'Paul Kalkbrenner','Pax & Pry','The Jimi Hendrix Experience','Amy Winehouse','Bromheads Jacket',Bush,'Mr. SOS',Ska-P,'Angelika Express','Fettes Brot','The Beatsteaks','Ok go',Wizo,'Reel Big Fish','Peter Bjorn And John','Lady Sovereign','Manu Chao','Jan Delay',Editors,'Chief Rebel Angel',Clutch,'Kool & The Gang',Mumüzumundi,'Guns N\' Roses',Jet,'Queens of the Stone Age','Paul & Linda McCartney','Booty luv',Baccara,Kansas,'Silver Convention','Billy Squier','The Knack',Journey,Hello,'Blind Myself',Pentagram,'Chet Faker',Sigma,'Don Diablo','Sally J Johnson','PPP (feat Karma)','Shirley Bassey','Jamie Lidell','Jazz Liberatorz (feat Tre HArdson, Fat Lip & Omni)','MC Hawking','Bloodhound Gang','David Guetta & Joachim Garraud','Eminem - CanalQuo.Com','Guano Apes',Dappy,'Nicki Minaj','Dolla Boy ft 2 Chainz & Slik','Akon (www.Akonwap.com n www.Pagalworld.com)',2Pac,'The Prodigy','Swedish House Mafia','Martin Solveig feat Kele','Alexandra Stan','Bow Wow ft Chris Brown',Bracket,'Roman Rai','The Jonesz',Feist,'Aceyalone & RJD2','R2bees ft wizkid dance _prod_by_KIllbeatz',Tupac,'Cancer Bats','Jukebox The Ghost','Kaleidoscope Sunday','Eve Feat. Sean Paul',Lustra,Slipknot,'Akon (www.AkonWap.com)','Nate Dogg/Snoop Dogg/Warren G',Samklef,'Micheal W Smith','Various artists','Ice prince Feat Braymo',2face,'Kirk Franklin','Feat. Lloyd Banks & Swizz Beatz','2 Chainz',Iyanya,'Pleasure P ft Tyga','michael smith','Rihanna feat. Calvin Harris - We Found Love_(musiclife.kz)','Tupac Shakur',Afroman,'Lil Wayne [mp3songsclub.com]','Kevin Lyttle','Akon Feat. Rick Ross','DJ Firestorm','The Game','Kirk Franklin & The Family',www.tooxclusive.com,'Rick Ross feat. The Clipse','2 Pac',MI,'Kardinal Offishall','Pastor Anita Oyakhilome','Alicia Keys feat. Nicki Minaj','Rick Ross feat Young Dro',Davido,'Bow Wow','Tupac, Dr. Dre','Taylor Swift [wWw.Baran-DL.Com]','Masspike Miles ft Ace Hood',Train,'Respect Me','David Guetta (feat. Sia)',Timaya,'Kanye West/Pusha T','Dante Thomas','Bell, Book & Candle','The Boo Radleys','Fiction Factory','The Romantics','The Outfield','Blind Date','Max Werner','The Nits','Karel Fialka','Orange Blue','Sinéad O\'Connor','Soul Asylum','4 Non Blondes','Otis Redding','Bullet For My Valentine','Fool\'s Garden','Kate Winslet','Mr. Big','The Underdog Project',Whitesnake,'James Blunt','Josh Groban','Cassandra Steen & Adel Tawil',Beyoncé,'Roger Bart',Sookee,'Dave Grohl, Josh Homme & Trent Reznor','Robert Levon Been, Dave Grohl & Peter Hayes','Benny Goodman',Blame,'Tinie Tempah','M.i.s.t. Vs High Contrast','Fred Hersch',Pro7-dieBand,'Katy B','Alanis Morissette','Die Prinzen','Vaya Con Dios','Lily Allen','Yolanda Be Cool & Dcup','Amy MacDonald','Jerry Reed','Thomas D','Klaus Doldinger','Inca Son','Suzanne Vega','Paul McCartney','Pat Metheny Group',El-P,'Tha Connection',Afu-Ra,'Oh No','Apollo Gold','XIV Dark Centuries','Experiment Nnord',Madsen,Pantera,'High On Fire','Erykah Badu','Amp Fiddler','Cody ChesnuTT','El Michels Affair',Duffy,'7 Samurai','Chris Goss, Tim Commerford, Dave Grohl & Brad Wilk','Shakira ft. Pitbull','Natasha Bedingfield','Jennifer Lopez ft. Pitbull','Brooke Fraser','The Real Booty Babes','Citrus Hill',Jasper,'4 Strings','Del Monte vs. Topless','Master Blaster','Ben Bedrock',Accuface,Paffendorf,'Mario Lopez','David May','Dennis Christopher','De La Soul','The Isley Brothers','Hamid Hami ( 98Music.Info )',Mix,'Owl City feat. Carly Rae Jepsen','Crooked I ft Freeway & Rick Ross','Lloyd Banks','Dharsaw ft Sossick','Meredith Brooks','Tina Turner','Joan Jett & the Blackhearts','Lynard Skynard','Chubby Checker',Silbermond,'Christina Stürmer',Juli,Krautschädl,'Unbekannter Künstler','Stephan Remmler','Midnight Oil',Steppenwolf,Nekta,'The Matthew Herbert Big Band',Koop,'Lyn Collins',Mocky,'Milez Benjiman','Menahan Street Band','Wir Sind Helden','Hamid Askari (www.MusicBaran6.com)','Mstislav Rostropovich','Hami (www.MusicBaran6.com)',(www.Sound30t.com),Azeshge,'Changiz Habibian.::wWw.PcLord.Ir::.','Edvard Grieg','Double Vision',Exhaust,king,'The Eagles','Bruce Springsteen','DJ Visage','Michael Jackson','Natalie Imbruglia','Dschinghis Khan',2raumwohnung,ACDC,'Ras G','N.Y. Oil','Kamp & Whizz Vienna','John Coltrane','Mr. Scruff','Louie Austen','Thomas Siffling','One Self','The Roots','Fiva MC & DJ Radrum',Asa,'Dilated Peoples','Ohmega Watts',Aceyalone,'The Wanted',Tacabro,'Johannes Oerding','Jean Knight','Crowded House','Penguin Cafe Orchestra','The Beatles','Jakob Dylan','Paolo Nutini','The Cardigans',BeeGees,'Taio Cruz','David Guetta feat. Ne-Yo & Akon',LMFAO,'Demi Lovato','Selena Gomez & The Scene','Dizzee Rascal','Will.I.Am & Britney Spears',Glasperlenspiel,Fluke,'Rock Massive','The Police',Passenger,'Lee Ving, Dave Grohl, Taylor Hawkins, Alain Johannes & Pat Smear','Stevie Nicks, Dave Grohl, Taylor Hawkins & Rami Jaffee','Rick Springfield, Dave Grohl, Taylor Hawkins, Nate Mendel & Pat Smear','Corey Taylor, Dave Grohl, Rick Nielsen & Scott Reeder','Josh Homme, Chris Goss, Dave Grohl & Alain Johannes','Alain Johannes, Dave Grohl & Josh Homme','Paul McCartney, Dave Grohl, Krist Novoselic & Pat Smear','Dave Grohl, Jessy Greene, Rami Jaffee & Jim Keltner',Lena,'Lana Del Rey','Donavon Frankenreiter',KRS-One,'Cypress Hill','The Cranberries','Iced Earth','Blind Guardian','Portugal. The Man','Calvin Harris feat. Florence Welch','Macklemore&Ray Dalton','Fort Knox Five','Capital Cities','The Stone Roses',Garbage,'Äl Jawala',Stereophonics,'Aloe Blacc','Stacy Epps','Jill Scott','Talib Kweli & Madlib','Kid Kopphausen','The Asteroids Galaxy Tour','Hugh Laurie','Sin With Sebastian',Faithless,'Fatboy Slim','Robert Plant & Alison Krauss','Sohrab & Amir',Autumn,'Club Des Belugas','Black Eyed Peas','Ken Follett','Arctic Monkeys','Bloc Party.',Queen,Giantree,'Get Well Soon',Gazebo,'Foster The People','Paradise Oskar','Mandy Moore',Amorphis,'Astor Piazzolla',03,04,06,'Hayseed Dixie',R.E.M.,'Caro Emerald',Bastille,'Bill Haley & His Comets','The Streets','The Sound Providers',Asmegin,Moonsorrow,Vintersorg,'Nomans Land',Folkearth,Radigost,Einherjer,Finntroll,'Cumulo Nimbus',Korpiklaani,'Butterfly Temple','Corvus Corax',Skyforger,Lumsk,'Adorned Brood',Hel,'Rhymes Of Destruction',ASP,Borknagar,'Vicious Crusade','Saltatio Mortis','Dark Reality',MIA.,'The Blues Brothers','The Specifics','Frequent Flyers','ShinSight Trio','The Globetraddaz',Nomak,Nujabes,'Jazz Liberatorz','The J. Davis Trio','Michel Teló','Olivia Newton-John & John Travolta',RHCP,'In Flames','Jason Skills','The Hip Bop Experiment','J. Rawls',Headnodic,'Longevity Crew','DJ Motive','Shin-Ski of Martiangang','Mr. Confuse','Giant Panda',Rhymefest,Cocktailpodcast,Stormwarrior,Edguy,Rhapsody,Lunatica,Forefather,'Beverley Craven -'}
+
+@data
+
+3,17,100,0.8,50,'The Heavy'
+5,15,67,0,50,'Fiona Apple'
+1,17,100,0.6,50,'The Heavy'
+6,17,100,0.1,70,'Die Fantastischen Vier'
+3,11,27,0,43,P!nk
+6,18,100,0.1,70,'Die Fantastischen Vier'
+3,21,27,7,50,'Red Hot Chili Peppers'
+5,21,47,6.3,50,'Ani DiFranco'
+3,22,75,0.8,80,'Daft Punk'
+3,12,13,0,68,'Ani DiFranco'
+4,12,27,0,55,'Pearl Jam'
+2,6,87,0,50,'Kanye West'
+2,8,60,0.3,56,STS
+4,17,7,0,50,'Letzte Instanz'
+4,13,7,0,50,'Red Hot Chili Peppers'
+2,8,33,0,50,'Die Fantastischen Vier'
+5,15,67,0,50,'Fiona Apple'
+6,12,100,0.7,50,'Sportfreunde Stiller'
+4,16,7,0,50,'Letzte Instanz'
+2,7,33,2.8,50,'Die Fantastischen Vier'
+4,22,27,0,70,'Bob Dylan'
+7,19,90,1.2,50,'Bob Dylan'
+5,16,100,0.6,50,Casper
+4,12,67,18.5,62,'Caravan Palace'
+5,18,53,21.6,38,'Caravan Palace'
+7,14,73,0.5,30,'Lamb of God'
+4,17,53,0.1,50,Wizkid
+5,20,53,17.8,50,'Caravan Palace'
+1,10,100,0,44,'Asian Dub Foundation'
+3,10,40,2.8,50,'Ani DiFranco'
+4,18,100,0,81,'Asian Dub Foundation'
+3,15,60,7,50,STS
+6,11,100,0,50,'Sportfreunde Stiller'
+6,13,73,0.7,34,'Caravan Palace'
+7,16,73,0.6,50,'Kanye West'
+4,22,27,0,50,'Kanye West'
+2,9,60,0.2,56,STS
+4,6,60,0.4,50,'Sportfreunde Stiller'
+3,21,63,0.7,65,'Daft Punk'
+1,17,73,1,81,'Lamb of God'
+4,5,13,0,50,Wizkid
+4,21,33,1.9,50,'Fiona Apple'
+5,15,100,5,50,Casper
+3,11,13,0,68,'Pearl Jam'
+4,17,46,4,50,'Bob Dylan'
+6,22,87,0,70,'Die Fantastischen Vier'
+6,23,87,1.9,70,'Die Fantastischen Vier'
+4,15,47,0,32,'Asian Dub Foundation'
+6,13,100,0.5,50,'Sportfreunde Stiller'
+3,18,7,0.1,66,'Mumford & Sons'
+2,18,100,0.6,50,'The Heavy'
+3,13,13,0,68,'Ani DiFranco'
+2,22,7,0.1,72,'Sportfreunde Stiller'
+1,1,100,0,50,'The Heavy'
+2,13,33,0,33,P!nk
+2,9,60,0.2,56,STS
+7,20,27,11,70,'Red Hot Chili Peppers'
+5,14,36,0.3,50,'Fiona Apple'
+7,23,100,0,50,'Pearl Jam'
+3,17,7,0.1,66,'Mumford & Sons'
+7,23,100,0,50,'Pearl Jam'
+7,18,100,0.6,50,'Die Fantastischen Vier'
+5,5,53,1,81,'Red Hot Chili Peppers'
+1,22,63,0.6,50,'Kanye West'
+2,22,67,0.7,50,'King Crimson'
+3,11,27,0.1,43,P!nk
+3,15,60,0.8,50,STS
+4,11,27,0,55,'Pearl Jam'
+4,18,33,1.5,76,'Die Fantastischen Vier'
+1,21,13,0.1,50,'Sportfreunde Stiller'
+5,2,27,0,50,Wizkid
+7,19,100,0.1,50,'King Crimson'
+7,9,47,0,100,'Mumford & Sons'
+3,13,23,4,69,'Fiona Apple'
+1,21,26,0.2,50,'Sportfreunde Stiller'
+5,16,100,4.9,50,Casper
+5,16,40,0,50,P!nk
+3,11,13,0,68,'Pearl Jam'
+3,10,33,0,64,'Asian Dub Foundation'
+6,12,100,0.5,50,'Sportfreunde Stiller'
+3,13,100,0.4,50,STS
+4,16,44,1.4,50,'Bob Dylan'
+5,15,67,0.1,50,'Fiona Apple'
+1,6,20,0.3,75,'Mumford & Sons'
+4,19,53,0.1,69,'Mumford & Sons'
+3,13,27,7.3,89,'Fiona Apple'
+4,12,28,0.1,50,'Sportfreunde Stiller'
+4,12,27,0,55,'Pearl Jam'
+4,17,20,1,50,'Letzte Instanz'
+5,17,60,0,50,Wizkid
+5,0,60,0.2,100,'Daft Punk'
+4,16,47,1.3,50,'Bob Dylan'
+4,23,40,0,73,'Daft Punk'
+7,22,47,0.1,75,'Die Fantastischen Vier'
+4,23,60,0,73,'Die Fantastischen Vier'
+6,9,100,0,50,'Sportfreunde Stiller'
+7,20,100,0.1,50,'King Crimson'
+7,14,73,0.8,30,'Lamb of God'
+4,22,27,0,70,'Bob Dylan'
+4,15,7,0,50,'Letzte Instanz'
+3,23,100,0.5,50,'The Heavy'
+3,11,13,0,68,'Ani DiFranco'
+7,16,47,0.5,50,Casper
+3,19,47,12.7,72,'Lamb of God'
+3,20,27,13.7,50,'Red Hot Chili Peppers'
+3,17,67,0.3,85,'King Crimson'
+3,14,87,0.2,49,'Daft Punk'
+3,11,100,0.4,50,'The Heavy'

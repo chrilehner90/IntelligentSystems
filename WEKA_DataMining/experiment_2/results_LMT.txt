@@ -1,0 +1,1874 @@
+
+Options: -I -1 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:14/14 (100)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-5.95 + 
+[timeContext_timeZone=Europe/Vienna] * 3.12 +
+[locationContext_provider] * -4.26 +
+[accelerationContext_accelerationStandardDeviation] * -0.37 +
+[orientationContext_orientationDevice] * -0.31 +
+[activityContext_activity=unspecified] * 4.74
+
+Class 1 :
+-1.9 + 
+[timeContext_timeZone=Europe/Vienna] * 1.67 +
+[phoneContext_state] * -1.91 +
+[accelerationContext_accelerationStandardDeviation] * 0.39 +
+[orientationContext_orientationDevice] * -0.71 +
+[activityContext_activity=unspecified] * 1.94 +
+[activityContext_activity=traveling] * -0.99 +
+[activityContext_activity=relaxing] * -0.97 +
+[activityContext_activity=sports] * 2.69
+
+Class 2 :
+-1.27 + 
+[timeContext_timeZone=Europe/Vienna] * 1.23 +
+[locationContext_provider] * 1.81 +
+[accelerationContext_accelerationStandardDeviation] * -0.37 +
+[activityContext_activity=eating] * 8.06 +
+[activityContext_activity=working] * 0.98 +
+[activityContext_activity=traveling] * -1.2 +
+[activityContext_activity=relaxing] * 0.92 +
+[activityContext_activity=sports] * -2.37
+
+Class 3 :
+4.22 + 
+[accelerationContext_accelerationStandardDeviation] * -66.71 +
+[orientationContext_orientationDevice] * -6.98 +
+[activityContext_activity=working] * 3.55
+
+Class 4 :
+-4.64 + 
+[timeContext_timeZone=Europe/Zurich] * 8.79 +
+[locationContext_provider] * -2.55 +
+[phoneContext_state] * -1.1 +
+[accelerationContext_accelerationStandardDeviation] * 1.71 +
+[orientationContext_orientationDevice] * 0.74 +
+[activityContext_activity=unspecified] * 0.91
+
+Class 5 :
+-0.47 + 
+[locationContext_provider] * 0.97 +
+[phoneContext_state] * -0.85 +
+[accelerationContext_accelerationStandardDeviation] * 1.05 +
+[orientationContext_orientationDevice] * -0.63 +
+[activityContext_activity=working] * 3.07 +
+[activityContext_activity=traveling] * -1.07 +
+[activityContext_activity=relaxing] * -1.08 +
+[activityContext_activity=sports] * -2.34
+
+Class 6 :
+-4.74 + 
+[timeContext_timeZone=Europe/Vienna] * 3.3  +
+[locationContext_provider] * -3.39 +
+[phoneContext_state] * 1.31 +
+[orientationContext_orientationDevice] * 0.23 +
+[activityContext_activity=traveling] * 2.83 +
+[activityContext_activity=relaxing] * 3.45
+
+Class 7 :
+2.54 + 
+[locationContext_provider] * -1.29 +
+[phoneContext_state] * 1.08 +
+[accelerationContext_accelerationStandardDeviation] * -50.74 +
+[orientationContext_orientationDevice] * -0.68 +
+[activityContext_activity=unspecified] * -0.55 +
+[activityContext_activity=working] * 1.69 +
+[activityContext_activity=traveling] * 1.52
+
+Class 8 :
+-7.45 + 
+[timeContext_timeZone=Europe/Vienna] * 2.02 +
+[locationContext_provider] * 1.01 +
+[phoneContext_state] * 2.15 +
+[accelerationContext_accelerationStandardDeviation] * 0.67 +
+[activityContext_activity=unspecified] * 4.36
+
+Class 9 :
+0.8  + 
+[timeContext_timeZone=Europe/Vienna] * -6.33 +
+[timeContext_timeZone=Europe/Amsterdam] * 0.71 +
+[locationContext_provider] * -2.7 +
+[accelerationContext_accelerationStandardDeviation] * 1.25 +
+[orientationContext_orientationDevice] * 0.49 +
+[activityContext_activity=traveling] * -1.05 +
+[activityContext_activity=relaxing] * 1.94
+
+Class 10 :
+-6.32 + 
+[timeContext_timeZone=Europe/Vienna] * 2.04 +
+[locationContext_provider] * -3.11 +
+[phoneContext_state] * -2.63 +
+[accelerationContext_accelerationStandardDeviation] * 0.31 +
+[orientationContext_orientationDevice] * 0.21 +
+[activityContext_activity=unspecified] * 3.89
+
+Class 11 :
+2.22 + 
+[timeContext_timeZone=Europe/Vienna] * -7.55 +
+[timeContext_timeZone=Europe/Amsterdam] * 2.25 +
+[timeContext_timeZone=Europe/Zurich] * -1.22 +
+[locationContext_provider] * -1.2 +
+[accelerationContext_accelerationStandardDeviation] * -3.61 +
+[activityContext_activity=unspecified] * 2.42
+
+Class 12 :
+-1.44 + 
+[timeContext_timeZone=Europe/London] * 8.88 +
+[locationContext_provider] * -0.75 +
+[phoneContext_state] * -1.18 +
+[activityContext_activity=unspecified] * -1 +
+[activityContext_activity=relaxing] * 3.64 +
+[activityContext_activity=shopping] * 7.6 
+
+Class 13 :
+-7.71 + 
+[timeContext_timeZone=Europe/Vienna] * 1.98 +
+[locationContext_provider] * 2.62 +
+[phoneContext_state] * -2.02 +
+[accelerationContext_accelerationStandardDeviation] * -0.27 +
+[orientationContext_orientationDevice] * 0.38 +
+[activityContext_activity=unspecified] * 4.36
+
+Class 14 :
+-2.36 + 
+[timeContext_timeZone=Europe/Vienna] * -5.71 +
+[timeContext_timeZone=Europe/Sarajevo] * 2.2  +
+[timeContext_timeZone=Europe/Budapest] * 7.03 +
+[locationContext_provider] * 5.47 +
+[accelerationContext_accelerationStandardDeviation] * -0.27 +
+[activityContext_activity=sports] * 1.16
+
+Class 15 :
+-7.66 + 
+[timeContext_timeZone=Europe/Sarajevo] * 7.42 +
+[accelerationContext_accelerationStandardDeviation] * 1.86 +
+[activityContext_activity=unspecified] * -3.25 +
+[activityContext_activity=traveling] * 6.07
+
+Class 16 :
+-2.65 + 
+[locationContext_provider] * 2.27 +
+[phoneContext_state] * -0.3 +
+[accelerationContext_accelerationStandardDeviation] * -16.49 +
+[orientationContext_orientationDevice] * 0.3  +
+[activityContext_activity=unspecified] * 3.58
+
+Class 17 :
+1.77 + 
+[accelerationContext_accelerationStandardDeviation] * -85.53 +
+[orientationContext_orientationDevice] * 0.36 +
+[activityContext_activity=unspecified] * -2.75 +
+[activityContext_activity=working] * 1.63 +
+[activityContext_activity=relaxing] * 2.19
+
+Class 18 :
+1.23 + 
+[timeContext_timeZone=Europe/Sarajevo] * 3.04 +
+[locationContext_provider] * 1.52 +
+[accelerationContext_accelerationStandardDeviation] * -3.16 +
+[orientationContext_orientationDevice] * -0.39 +
+[activityContext_activity=unspecified] * -2.85 +
+[activityContext_activity=working] * -1.24 +
+[activityContext_activity=sports] * 2.9  +
+[activityContext_activity=romancing] * 3.11
+
+Class 19 :
+-13.38 + 
+[timeContext_timeZone=Africa/Ceuta] * 30.2
+
+
+Time taken to build model: 0.86 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          72               72      %
+Incorrectly Classified Instances        28               28      %
+Kappa statistic                          0.7031
+Mean absolute error                      0.0413
+Root mean squared error                  0.1334
+Relative absolute error                 43.7108 %
+Root relative squared error             61.4107 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      21.15   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.074    0.364      0.667    0.471      0.449    0.966     0.731     The Heavy
+                 0.429    0.022    0.600      0.429    0.500      0.477    0.949     0.611     Fiona Apple
+                 0.444    0.033    0.571      0.444    0.500      0.462    0.926     0.748     Die Fantastischen Vier
+                 1.000    0.010    0.750      1.000    0.857      0.862    1.000     1.000     P!nk
+                 1.000    0.011    0.833      1.000    0.909      0.908    0.998     0.967     Red Hot Chili Peppers
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.974     0.542     Ani DiFranco
+                 0.600    0.032    0.500      0.600    0.545      0.522    0.989     0.900     Daft Punk
+                 0.800    0.021    0.667      0.800    0.727      0.715    0.981     0.673     Pearl Jam
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.932     0.405     Kanye West
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.991     0.924     STS
+                 0.000    0.010    0.000      0.000    0.000      -0.014   0.923     0.313     Letzte Instanz
+                 1.000    0.011    0.909      1.000    0.952      0.948    0.996     0.957     Sportfreunde Stiller
+                 0.667    0.011    0.800      0.667    0.727      0.715    0.996     0.931     Bob Dylan
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.971     0.759     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.979     0.732     Wizkid
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.992     0.830     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.720    0.017    0.727      0.720    0.715      0.703    0.977     0.815     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  4  1  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  3  3  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  1  0  4  0  0  1  0  1  0  0  0  0  0  1  0  0  1  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  1  0  0  2  0  1  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  3  0  0  0  0  0  1  0  0  0  1  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  1  0  0 |  h = Pearl Jam
+  0  1  1  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  5  0  1  0  0  0  0  0  0  0  0 |  j = STS
+  1  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  2  0  0  0  0  0  4  0  0  0  0  0  0  0 |  m = Bob Dylan
+  1  0  1  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  1  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  2  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  3  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          33               33      %
+Incorrectly Classified Instances        67               67      %
+Kappa statistic                          0.2883
+Mean absolute error                      0.0688
+Root mean squared error                  0.2098
+Relative absolute error                 72.5559 %
+Root relative squared error             96.2077 %
+Coverage of cases (0.95 level)          74      %
+Mean rel. region size (0.95 level)      25.2    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.128    0.143      0.333    0.200      0.141    0.770     0.198     The Heavy
+                 0.143    0.054    0.167      0.143    0.154      0.096    0.876     0.297     Fiona Apple
+                 0.222    0.044    0.333      0.222    0.267      0.215    0.727     0.415     Die Fantastischen Vier
+                 0.333    0.010    0.500      0.333    0.400      0.394    0.701     0.373     P!nk
+                 0.200    0.032    0.250      0.200    0.222      0.187    0.897     0.431     Red Hot Chili Peppers
+                 0.250    0.052    0.167      0.250    0.200      0.163    0.901     0.204     Ani DiFranco
+                 0.200    0.042    0.200      0.200    0.200      0.158    0.724     0.293     Daft Punk
+                 0.000    0.053    0.000      0.000    0.000      -0.053   0.862     0.181     Pearl Jam
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.724     0.082     Kanye West
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.941     0.404     STS
+                 0.000    0.020    0.000      0.000    0.000      -0.020   0.173     0.018     Letzte Instanz
+                 0.800    0.056    0.615      0.800    0.696      0.664    0.910     0.791     Sportfreunde Stiller
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.819     0.504     Bob Dylan
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.859     0.454     Casper
+                 0.250    0.021    0.333      0.250    0.286      0.263    0.797     0.347     Caravan Palace
+                 0.750    0.021    0.600      0.750    0.667      0.656    0.820     0.764     Lamb of God
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.641     0.090     Wizkid
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.740     0.114     Asian Dub Foundation
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.458     0.057     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.330    0.040    0.313      0.330    0.316      0.281    0.796     0.385     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 2 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 3 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 2 0 2 0 1 2 0 0 0 0 0 0 0 1 0 0 1 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 1 0 0 1 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 1 1 0 0 0 0 2 0 0 0 1 0 0 0 | g = Daft Punk
+ 2 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 | h = Pearl Jam
+ 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 | j = STS
+ 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 2 0 8 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 1 0 0 0 0 0 3 0 1 0 0 1 0 0 | m = Bob Dylan
+ 1 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 2 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I -1 -M 7 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:14/14 (100)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-5.95 + 
+[timeContext_timeZone=Europe/Vienna] * 3.12 +
+[locationContext_provider] * -4.26 +
+[accelerationContext_accelerationStandardDeviation] * -0.37 +
+[orientationContext_orientationDevice] * -0.31 +
+[activityContext_activity=unspecified] * 4.74
+
+Class 1 :
+-1.9 + 
+[timeContext_timeZone=Europe/Vienna] * 1.67 +
+[phoneContext_state] * -1.91 +
+[accelerationContext_accelerationStandardDeviation] * 0.39 +
+[orientationContext_orientationDevice] * -0.71 +
+[activityContext_activity=unspecified] * 1.94 +
+[activityContext_activity=traveling] * -0.99 +
+[activityContext_activity=relaxing] * -0.97 +
+[activityContext_activity=sports] * 2.69
+
+Class 2 :
+-1.27 + 
+[timeContext_timeZone=Europe/Vienna] * 1.23 +
+[locationContext_provider] * 1.81 +
+[accelerationContext_accelerationStandardDeviation] * -0.37 +
+[activityContext_activity=eating] * 8.06 +
+[activityContext_activity=working] * 0.98 +
+[activityContext_activity=traveling] * -1.2 +
+[activityContext_activity=relaxing] * 0.92 +
+[activityContext_activity=sports] * -2.37
+
+Class 3 :
+4.22 + 
+[accelerationContext_accelerationStandardDeviation] * -66.71 +
+[orientationContext_orientationDevice] * -6.98 +
+[activityContext_activity=working] * 3.55
+
+Class 4 :
+-4.64 + 
+[timeContext_timeZone=Europe/Zurich] * 8.79 +
+[locationContext_provider] * -2.55 +
+[phoneContext_state] * -1.1 +
+[accelerationContext_accelerationStandardDeviation] * 1.71 +
+[orientationContext_orientationDevice] * 0.74 +
+[activityContext_activity=unspecified] * 0.91
+
+Class 5 :
+-0.47 + 
+[locationContext_provider] * 0.97 +
+[phoneContext_state] * -0.85 +
+[accelerationContext_accelerationStandardDeviation] * 1.05 +
+[orientationContext_orientationDevice] * -0.63 +
+[activityContext_activity=working] * 3.07 +
+[activityContext_activity=traveling] * -1.07 +
+[activityContext_activity=relaxing] * -1.08 +
+[activityContext_activity=sports] * -2.34
+
+Class 6 :
+-4.74 + 
+[timeContext_timeZone=Europe/Vienna] * 3.3  +
+[locationContext_provider] * -3.39 +
+[phoneContext_state] * 1.31 +
+[orientationContext_orientationDevice] * 0.23 +
+[activityContext_activity=traveling] * 2.83 +
+[activityContext_activity=relaxing] * 3.45
+
+Class 7 :
+2.54 + 
+[locationContext_provider] * -1.29 +
+[phoneContext_state] * 1.08 +
+[accelerationContext_accelerationStandardDeviation] * -50.74 +
+[orientationContext_orientationDevice] * -0.68 +
+[activityContext_activity=unspecified] * -0.55 +
+[activityContext_activity=working] * 1.69 +
+[activityContext_activity=traveling] * 1.52
+
+Class 8 :
+-7.45 + 
+[timeContext_timeZone=Europe/Vienna] * 2.02 +
+[locationContext_provider] * 1.01 +
+[phoneContext_state] * 2.15 +
+[accelerationContext_accelerationStandardDeviation] * 0.67 +
+[activityContext_activity=unspecified] * 4.36
+
+Class 9 :
+0.8  + 
+[timeContext_timeZone=Europe/Vienna] * -6.33 +
+[timeContext_timeZone=Europe/Amsterdam] * 0.71 +
+[locationContext_provider] * -2.7 +
+[accelerationContext_accelerationStandardDeviation] * 1.25 +
+[orientationContext_orientationDevice] * 0.49 +
+[activityContext_activity=traveling] * -1.05 +
+[activityContext_activity=relaxing] * 1.94
+
+Class 10 :
+-6.32 + 
+[timeContext_timeZone=Europe/Vienna] * 2.04 +
+[locationContext_provider] * -3.11 +
+[phoneContext_state] * -2.63 +
+[accelerationContext_accelerationStandardDeviation] * 0.31 +
+[orientationContext_orientationDevice] * 0.21 +
+[activityContext_activity=unspecified] * 3.89
+
+Class 11 :
+2.22 + 
+[timeContext_timeZone=Europe/Vienna] * -7.55 +
+[timeContext_timeZone=Europe/Amsterdam] * 2.25 +
+[timeContext_timeZone=Europe/Zurich] * -1.22 +
+[locationContext_provider] * -1.2 +
+[accelerationContext_accelerationStandardDeviation] * -3.61 +
+[activityContext_activity=unspecified] * 2.42
+
+Class 12 :
+-1.44 + 
+[timeContext_timeZone=Europe/London] * 8.88 +
+[locationContext_provider] * -0.75 +
+[phoneContext_state] * -1.18 +
+[activityContext_activity=unspecified] * -1 +
+[activityContext_activity=relaxing] * 3.64 +
+[activityContext_activity=shopping] * 7.6 
+
+Class 13 :
+-7.71 + 
+[timeContext_timeZone=Europe/Vienna] * 1.98 +
+[locationContext_provider] * 2.62 +
+[phoneContext_state] * -2.02 +
+[accelerationContext_accelerationStandardDeviation] * -0.27 +
+[orientationContext_orientationDevice] * 0.38 +
+[activityContext_activity=unspecified] * 4.36
+
+Class 14 :
+-2.36 + 
+[timeContext_timeZone=Europe/Vienna] * -5.71 +
+[timeContext_timeZone=Europe/Sarajevo] * 2.2  +
+[timeContext_timeZone=Europe/Budapest] * 7.03 +
+[locationContext_provider] * 5.47 +
+[accelerationContext_accelerationStandardDeviation] * -0.27 +
+[activityContext_activity=sports] * 1.16
+
+Class 15 :
+-7.66 + 
+[timeContext_timeZone=Europe/Sarajevo] * 7.42 +
+[accelerationContext_accelerationStandardDeviation] * 1.86 +
+[activityContext_activity=unspecified] * -3.25 +
+[activityContext_activity=traveling] * 6.07
+
+Class 16 :
+-2.65 + 
+[locationContext_provider] * 2.27 +
+[phoneContext_state] * -0.3 +
+[accelerationContext_accelerationStandardDeviation] * -16.49 +
+[orientationContext_orientationDevice] * 0.3  +
+[activityContext_activity=unspecified] * 3.58
+
+Class 17 :
+1.77 + 
+[accelerationContext_accelerationStandardDeviation] * -85.53 +
+[orientationContext_orientationDevice] * 0.36 +
+[activityContext_activity=unspecified] * -2.75 +
+[activityContext_activity=working] * 1.63 +
+[activityContext_activity=relaxing] * 2.19
+
+Class 18 :
+1.23 + 
+[timeContext_timeZone=Europe/Sarajevo] * 3.04 +
+[locationContext_provider] * 1.52 +
+[accelerationContext_accelerationStandardDeviation] * -3.16 +
+[orientationContext_orientationDevice] * -0.39 +
+[activityContext_activity=unspecified] * -2.85 +
+[activityContext_activity=working] * -1.24 +
+[activityContext_activity=sports] * 2.9  +
+[activityContext_activity=romancing] * 3.11
+
+Class 19 :
+-13.38 + 
+[timeContext_timeZone=Africa/Ceuta] * 30.2
+
+
+Time taken to build model: 0.77 seconds
+Time taken to test model on training data: 0 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          72               72      %
+Incorrectly Classified Instances        28               28      %
+Kappa statistic                          0.7031
+Mean absolute error                      0.0413
+Root mean squared error                  0.1334
+Relative absolute error                 43.7108 %
+Root relative squared error             61.4107 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      21.15   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.074    0.364      0.667    0.471      0.449    0.966     0.731     The Heavy
+                 0.429    0.022    0.600      0.429    0.500      0.477    0.949     0.611     Fiona Apple
+                 0.444    0.033    0.571      0.444    0.500      0.462    0.926     0.748     Die Fantastischen Vier
+                 1.000    0.010    0.750      1.000    0.857      0.862    1.000     1.000     P!nk
+                 1.000    0.011    0.833      1.000    0.909      0.908    0.998     0.967     Red Hot Chili Peppers
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.974     0.542     Ani DiFranco
+                 0.600    0.032    0.500      0.600    0.545      0.522    0.989     0.900     Daft Punk
+                 0.800    0.021    0.667      0.800    0.727      0.715    0.981     0.673     Pearl Jam
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.932     0.405     Kanye West
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.991     0.924     STS
+                 0.000    0.010    0.000      0.000    0.000      -0.014   0.923     0.313     Letzte Instanz
+                 1.000    0.011    0.909      1.000    0.952      0.948    0.996     0.957     Sportfreunde Stiller
+                 0.667    0.011    0.800      0.667    0.727      0.715    0.996     0.931     Bob Dylan
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.971     0.759     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.979     0.732     Wizkid
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.992     0.830     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.720    0.017    0.727      0.720    0.715      0.703    0.977     0.815     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  4  1  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  3  3  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  1  0  4  0  0  1  0  1  0  0  0  0  0  1  0  0  1  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  1  0  0  2  0  1  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  3  0  0  0  0  0  1  0  0  0  1  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  1  0  0 |  h = Pearl Jam
+  0  1  1  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  5  0  1  0  0  0  0  0  0  0  0 |  j = STS
+  1  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  2  0  0  0  0  0  4  0  0  0  0  0  0  0 |  m = Bob Dylan
+  1  0  1  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  1  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  2  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  3  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          33               33      %
+Incorrectly Classified Instances        67               67      %
+Kappa statistic                          0.2883
+Mean absolute error                      0.0688
+Root mean squared error                  0.2098
+Relative absolute error                 72.5559 %
+Root relative squared error             96.2077 %
+Coverage of cases (0.95 level)          74      %
+Mean rel. region size (0.95 level)      25.2    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.128    0.143      0.333    0.200      0.141    0.770     0.198     The Heavy
+                 0.143    0.054    0.167      0.143    0.154      0.096    0.876     0.297     Fiona Apple
+                 0.222    0.044    0.333      0.222    0.267      0.215    0.727     0.415     Die Fantastischen Vier
+                 0.333    0.010    0.500      0.333    0.400      0.394    0.701     0.373     P!nk
+                 0.200    0.032    0.250      0.200    0.222      0.187    0.897     0.431     Red Hot Chili Peppers
+                 0.250    0.052    0.167      0.250    0.200      0.163    0.901     0.204     Ani DiFranco
+                 0.200    0.042    0.200      0.200    0.200      0.158    0.724     0.293     Daft Punk
+                 0.000    0.053    0.000      0.000    0.000      -0.053   0.862     0.181     Pearl Jam
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.724     0.082     Kanye West
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.941     0.404     STS
+                 0.000    0.020    0.000      0.000    0.000      -0.020   0.173     0.018     Letzte Instanz
+                 0.800    0.056    0.615      0.800    0.696      0.664    0.910     0.791     Sportfreunde Stiller
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.819     0.504     Bob Dylan
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.859     0.454     Casper
+                 0.250    0.021    0.333      0.250    0.286      0.263    0.797     0.347     Caravan Palace
+                 0.750    0.021    0.600      0.750    0.667      0.656    0.820     0.764     Lamb of God
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.641     0.090     Wizkid
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.740     0.114     Asian Dub Foundation
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.458     0.057     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.330    0.040    0.313      0.330    0.316      0.281    0.796     0.385     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 2 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 3 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 2 0 2 0 1 2 0 0 0 0 0 0 0 1 0 0 1 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 1 0 0 1 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 1 1 0 0 0 0 2 0 0 0 1 0 0 0 | g = Daft Punk
+ 2 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 | h = Pearl Jam
+ 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 | j = STS
+ 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 2 0 8 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 1 0 0 0 0 0 3 0 1 0 0 1 0 0 | m = Bob Dylan
+ 1 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 2 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I -1 -M 30 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:14/14 (100)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-5.95 + 
+[timeContext_timeZone=Europe/Vienna] * 3.12 +
+[locationContext_provider] * -4.26 +
+[accelerationContext_accelerationStandardDeviation] * -0.37 +
+[orientationContext_orientationDevice] * -0.31 +
+[activityContext_activity=unspecified] * 4.74
+
+Class 1 :
+-1.9 + 
+[timeContext_timeZone=Europe/Vienna] * 1.67 +
+[phoneContext_state] * -1.91 +
+[accelerationContext_accelerationStandardDeviation] * 0.39 +
+[orientationContext_orientationDevice] * -0.71 +
+[activityContext_activity=unspecified] * 1.94 +
+[activityContext_activity=traveling] * -0.99 +
+[activityContext_activity=relaxing] * -0.97 +
+[activityContext_activity=sports] * 2.69
+
+Class 2 :
+-1.27 + 
+[timeContext_timeZone=Europe/Vienna] * 1.23 +
+[locationContext_provider] * 1.81 +
+[accelerationContext_accelerationStandardDeviation] * -0.37 +
+[activityContext_activity=eating] * 8.06 +
+[activityContext_activity=working] * 0.98 +
+[activityContext_activity=traveling] * -1.2 +
+[activityContext_activity=relaxing] * 0.92 +
+[activityContext_activity=sports] * -2.37
+
+Class 3 :
+4.22 + 
+[accelerationContext_accelerationStandardDeviation] * -66.71 +
+[orientationContext_orientationDevice] * -6.98 +
+[activityContext_activity=working] * 3.55
+
+Class 4 :
+-4.64 + 
+[timeContext_timeZone=Europe/Zurich] * 8.79 +
+[locationContext_provider] * -2.55 +
+[phoneContext_state] * -1.1 +
+[accelerationContext_accelerationStandardDeviation] * 1.71 +
+[orientationContext_orientationDevice] * 0.74 +
+[activityContext_activity=unspecified] * 0.91
+
+Class 5 :
+-0.47 + 
+[locationContext_provider] * 0.97 +
+[phoneContext_state] * -0.85 +
+[accelerationContext_accelerationStandardDeviation] * 1.05 +
+[orientationContext_orientationDevice] * -0.63 +
+[activityContext_activity=working] * 3.07 +
+[activityContext_activity=traveling] * -1.07 +
+[activityContext_activity=relaxing] * -1.08 +
+[activityContext_activity=sports] * -2.34
+
+Class 6 :
+-4.74 + 
+[timeContext_timeZone=Europe/Vienna] * 3.3  +
+[locationContext_provider] * -3.39 +
+[phoneContext_state] * 1.31 +
+[orientationContext_orientationDevice] * 0.23 +
+[activityContext_activity=traveling] * 2.83 +
+[activityContext_activity=relaxing] * 3.45
+
+Class 7 :
+2.54 + 
+[locationContext_provider] * -1.29 +
+[phoneContext_state] * 1.08 +
+[accelerationContext_accelerationStandardDeviation] * -50.74 +
+[orientationContext_orientationDevice] * -0.68 +
+[activityContext_activity=unspecified] * -0.55 +
+[activityContext_activity=working] * 1.69 +
+[activityContext_activity=traveling] * 1.52
+
+Class 8 :
+-7.45 + 
+[timeContext_timeZone=Europe/Vienna] * 2.02 +
+[locationContext_provider] * 1.01 +
+[phoneContext_state] * 2.15 +
+[accelerationContext_accelerationStandardDeviation] * 0.67 +
+[activityContext_activity=unspecified] * 4.36
+
+Class 9 :
+0.8  + 
+[timeContext_timeZone=Europe/Vienna] * -6.33 +
+[timeContext_timeZone=Europe/Amsterdam] * 0.71 +
+[locationContext_provider] * -2.7 +
+[accelerationContext_accelerationStandardDeviation] * 1.25 +
+[orientationContext_orientationDevice] * 0.49 +
+[activityContext_activity=traveling] * -1.05 +
+[activityContext_activity=relaxing] * 1.94
+
+Class 10 :
+-6.32 + 
+[timeContext_timeZone=Europe/Vienna] * 2.04 +
+[locationContext_provider] * -3.11 +
+[phoneContext_state] * -2.63 +
+[accelerationContext_accelerationStandardDeviation] * 0.31 +
+[orientationContext_orientationDevice] * 0.21 +
+[activityContext_activity=unspecified] * 3.89
+
+Class 11 :
+2.22 + 
+[timeContext_timeZone=Europe/Vienna] * -7.55 +
+[timeContext_timeZone=Europe/Amsterdam] * 2.25 +
+[timeContext_timeZone=Europe/Zurich] * -1.22 +
+[locationContext_provider] * -1.2 +
+[accelerationContext_accelerationStandardDeviation] * -3.61 +
+[activityContext_activity=unspecified] * 2.42
+
+Class 12 :
+-1.44 + 
+[timeContext_timeZone=Europe/London] * 8.88 +
+[locationContext_provider] * -0.75 +
+[phoneContext_state] * -1.18 +
+[activityContext_activity=unspecified] * -1 +
+[activityContext_activity=relaxing] * 3.64 +
+[activityContext_activity=shopping] * 7.6 
+
+Class 13 :
+-7.71 + 
+[timeContext_timeZone=Europe/Vienna] * 1.98 +
+[locationContext_provider] * 2.62 +
+[phoneContext_state] * -2.02 +
+[accelerationContext_accelerationStandardDeviation] * -0.27 +
+[orientationContext_orientationDevice] * 0.38 +
+[activityContext_activity=unspecified] * 4.36
+
+Class 14 :
+-2.36 + 
+[timeContext_timeZone=Europe/Vienna] * -5.71 +
+[timeContext_timeZone=Europe/Sarajevo] * 2.2  +
+[timeContext_timeZone=Europe/Budapest] * 7.03 +
+[locationContext_provider] * 5.47 +
+[accelerationContext_accelerationStandardDeviation] * -0.27 +
+[activityContext_activity=sports] * 1.16
+
+Class 15 :
+-7.66 + 
+[timeContext_timeZone=Europe/Sarajevo] * 7.42 +
+[accelerationContext_accelerationStandardDeviation] * 1.86 +
+[activityContext_activity=unspecified] * -3.25 +
+[activityContext_activity=traveling] * 6.07
+
+Class 16 :
+-2.65 + 
+[locationContext_provider] * 2.27 +
+[phoneContext_state] * -0.3 +
+[accelerationContext_accelerationStandardDeviation] * -16.49 +
+[orientationContext_orientationDevice] * 0.3  +
+[activityContext_activity=unspecified] * 3.58
+
+Class 17 :
+1.77 + 
+[accelerationContext_accelerationStandardDeviation] * -85.53 +
+[orientationContext_orientationDevice] * 0.36 +
+[activityContext_activity=unspecified] * -2.75 +
+[activityContext_activity=working] * 1.63 +
+[activityContext_activity=relaxing] * 2.19
+
+Class 18 :
+1.23 + 
+[timeContext_timeZone=Europe/Sarajevo] * 3.04 +
+[locationContext_provider] * 1.52 +
+[accelerationContext_accelerationStandardDeviation] * -3.16 +
+[orientationContext_orientationDevice] * -0.39 +
+[activityContext_activity=unspecified] * -2.85 +
+[activityContext_activity=working] * -1.24 +
+[activityContext_activity=sports] * 2.9  +
+[activityContext_activity=romancing] * 3.11
+
+Class 19 :
+-13.38 + 
+[timeContext_timeZone=Africa/Ceuta] * 30.2
+
+
+Time taken to build model: 0.7 seconds
+Time taken to test model on training data: 0 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          72               72      %
+Incorrectly Classified Instances        28               28      %
+Kappa statistic                          0.7031
+Mean absolute error                      0.0413
+Root mean squared error                  0.1334
+Relative absolute error                 43.7108 %
+Root relative squared error             61.4107 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      21.15   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.074    0.364      0.667    0.471      0.449    0.966     0.731     The Heavy
+                 0.429    0.022    0.600      0.429    0.500      0.477    0.949     0.611     Fiona Apple
+                 0.444    0.033    0.571      0.444    0.500      0.462    0.926     0.748     Die Fantastischen Vier
+                 1.000    0.010    0.750      1.000    0.857      0.862    1.000     1.000     P!nk
+                 1.000    0.011    0.833      1.000    0.909      0.908    0.998     0.967     Red Hot Chili Peppers
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.974     0.542     Ani DiFranco
+                 0.600    0.032    0.500      0.600    0.545      0.522    0.989     0.900     Daft Punk
+                 0.800    0.021    0.667      0.800    0.727      0.715    0.981     0.673     Pearl Jam
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.932     0.405     Kanye West
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.991     0.924     STS
+                 0.000    0.010    0.000      0.000    0.000      -0.014   0.923     0.313     Letzte Instanz
+                 1.000    0.011    0.909      1.000    0.952      0.948    0.996     0.957     Sportfreunde Stiller
+                 0.667    0.011    0.800      0.667    0.727      0.715    0.996     0.931     Bob Dylan
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.971     0.759     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.979     0.732     Wizkid
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.992     0.830     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.720    0.017    0.727      0.720    0.715      0.703    0.977     0.815     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  4  1  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  3  3  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  1  0  4  0  0  1  0  1  0  0  0  0  0  1  0  0  1  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  1  0  0  2  0  1  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  3  0  0  0  0  0  1  0  0  0  1  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  1  0  0 |  h = Pearl Jam
+  0  1  1  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  5  0  1  0  0  0  0  0  0  0  0 |  j = STS
+  1  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  2  0  0  0  0  0  4  0  0  0  0  0  0  0 |  m = Bob Dylan
+  1  0  1  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  1  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  2  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  3  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          33               33      %
+Incorrectly Classified Instances        67               67      %
+Kappa statistic                          0.2883
+Mean absolute error                      0.0688
+Root mean squared error                  0.2098
+Relative absolute error                 72.5559 %
+Root relative squared error             96.2077 %
+Coverage of cases (0.95 level)          74      %
+Mean rel. region size (0.95 level)      25.2    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.128    0.143      0.333    0.200      0.141    0.770     0.198     The Heavy
+                 0.143    0.054    0.167      0.143    0.154      0.096    0.876     0.297     Fiona Apple
+                 0.222    0.044    0.333      0.222    0.267      0.215    0.727     0.415     Die Fantastischen Vier
+                 0.333    0.010    0.500      0.333    0.400      0.394    0.701     0.373     P!nk
+                 0.200    0.032    0.250      0.200    0.222      0.187    0.897     0.431     Red Hot Chili Peppers
+                 0.250    0.052    0.167      0.250    0.200      0.163    0.901     0.204     Ani DiFranco
+                 0.200    0.042    0.200      0.200    0.200      0.158    0.724     0.293     Daft Punk
+                 0.000    0.053    0.000      0.000    0.000      -0.053   0.862     0.181     Pearl Jam
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.724     0.082     Kanye West
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.941     0.404     STS
+                 0.000    0.020    0.000      0.000    0.000      -0.020   0.173     0.018     Letzte Instanz
+                 0.800    0.056    0.615      0.800    0.696      0.664    0.910     0.791     Sportfreunde Stiller
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.819     0.504     Bob Dylan
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.859     0.454     Casper
+                 0.250    0.021    0.333      0.250    0.286      0.263    0.797     0.347     Caravan Palace
+                 0.750    0.021    0.600      0.750    0.667      0.656    0.820     0.764     Lamb of God
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.641     0.090     Wizkid
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.740     0.114     Asian Dub Foundation
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.458     0.057     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.330    0.040    0.313      0.330    0.316      0.281    0.796     0.385     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 2 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 3 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 2 0 2 0 1 2 0 0 0 0 0 0 0 1 0 0 1 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 1 0 0 1 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 1 1 0 0 0 0 2 0 0 0 1 0 0 0 | g = Daft Punk
+ 2 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 0 0 | h = Pearl Jam
+ 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 | j = STS
+ 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 2 0 8 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 1 0 0 0 0 0 3 0 1 0 0 1 0 0 | m = Bob Dylan
+ 1 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 2 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I 10 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:10/10 (100)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-4.21 + 
+[timeContext_timeZone=Europe/Vienna] * 2.15 +
+[locationContext_provider] * -3.3 +
+[accelerationContext_accelerationStandardDeviation] * -0.37 +
+[orientationContext_orientationDevice] * -0.21 +
+[activityContext_activity=unspecified] * 3.76
+
+Class 1 :
+-2.1 + 
+[timeContext_timeZone=Europe/Vienna] * 1.67 +
+[phoneContext_state] * -0.96 +
+[accelerationContext_accelerationStandardDeviation] * 0.39 +
+[orientationContext_orientationDevice] * -0.53 +
+[activityContext_activity=unspecified] * 1.94 +
+[activityContext_activity=sports] * 2.69
+
+Class 2 :
+-1.46 + 
+[timeContext_timeZone=Europe/Vienna] * 1.23 +
+[locationContext_provider] * 1.81 +
+[activityContext_activity=eating] * 5.68 +
+[activityContext_activity=working] * 0.98 +
+[activityContext_activity=traveling] * -1.2 +
+[activityContext_activity=relaxing] * 0.92 +
+[activityContext_activity=sports] * -1.17
+
+Class 3 :
+2.2  + 
+[accelerationContext_accelerationStandardDeviation] * -10.42 +
+[orientationContext_orientationDevice] * -5.58 +
+[activityContext_activity=working] * 3.55
+
+Class 4 :
+-3.79 + 
+[timeContext_timeZone=Europe/Zurich] * 8.79 +
+[locationContext_provider] * -1.47 +
+[accelerationContext_accelerationStandardDeviation] * 1.48 +
+[orientationContext_orientationDevice] * 0.74
+
+Class 5 :
+-0.6 + 
+[locationContext_provider] * 0.97 +
+[phoneContext_state] * -0.85 +
+[accelerationContext_accelerationStandardDeviation] * 0.73 +
+[orientationContext_orientationDevice] * -0.38 +
+[activityContext_activity=working] * 3.07 +
+[activityContext_activity=relaxing] * -1.08 +
+[activityContext_activity=sports] * -1.24
+
+Class 6 :
+-3.45 + 
+[timeContext_timeZone=Europe/Vienna] * 2.27 +
+[locationContext_provider] * -2.39 +
+[phoneContext_state] * 0.77 +
+[orientationContext_orientationDevice] * 0.23 +
+[activityContext_activity=traveling] * 2.83 +
+[activityContext_activity=relaxing] * 2.72
+
+Class 7 :
+1.31 + 
+[locationContext_provider] * -1.29 +
+[phoneContext_state] * 1.08 +
+[accelerationContext_accelerationStandardDeviation] * -20.32 +
+[orientationContext_orientationDevice] * -0.37 +
+[activityContext_activity=working] * 1.69 +
+[activityContext_activity=traveling] * 1.52
+
+Class 8 :
+-6.21 + 
+[timeContext_timeZone=Europe/Vienna] * 2.02 +
+[locationContext_provider] * 1.01 +
+[phoneContext_state] * 1.74 +
+[accelerationContext_accelerationStandardDeviation] * 0.44 +
+[activityContext_activity=unspecified] * 3.37
+
+Class 9 :
+1.02 + 
+[timeContext_timeZone=Europe/Vienna] * -5.26 +
+[timeContext_timeZone=Europe/Amsterdam] * 0.71 +
+[locationContext_provider] * -2.7 +
+[accelerationContext_accelerationStandardDeviation] * 0.94 +
+[orientationContext_orientationDevice] * 0.36 +
+[activityContext_activity=relaxing] * 1.94
+
+Class 10 :
+-5.26 + 
+[timeContext_timeZone=Europe/Vienna] * 2.04 +
+[locationContext_provider] * -2.15 +
+[phoneContext_state] * -1.71 +
+[orientationContext_orientationDevice] * 0.21 +
+[activityContext_activity=unspecified] * 2.93
+
+Class 11 :
+2.27 + 
+[timeContext_timeZone=Europe/Vienna] * -6.48 +
+[timeContext_timeZone=Europe/Amsterdam] * 2.25 +
+[accelerationContext_accelerationStandardDeviation] * -3.61 +
+[activityContext_activity=unspecified] * 1.87
+
+Class 12 :
+-1.04 + 
+[timeContext_timeZone=Europe/London] * 7.49 +
+[locationContext_provider] * -0.75 +
+[activityContext_activity=unspecified] * -1 +
+[activityContext_activity=relaxing] * 2.85 +
+[activityContext_activity=shopping] * 6.52
+
+Class 13 :
+-6.76 + 
+[timeContext_timeZone=Europe/Vienna] * 1.98 +
+[locationContext_provider] * 2.35 +
+[phoneContext_state] * -1.32 +
+[orientationContext_orientationDevice] * 0.38 +
+[activityContext_activity=unspecified] * 3.4 
+
+Class 14 :
+-1.97 + 
+[timeContext_timeZone=Europe/Vienna] * -4.48 +
+[timeContext_timeZone=Europe/Sarajevo] * 2.2  +
+[timeContext_timeZone=Europe/Budapest] * 7.03 +
+[locationContext_provider] * 3.79 +
+[activityContext_activity=sports] * 1.16
+
+Class 15 :
+-5.67 + 
+[timeContext_timeZone=Europe/Sarajevo] * 7.42 +
+[accelerationContext_accelerationStandardDeviation] * 1.09 +
+[activityContext_activity=unspecified] * -3.25 +
+[activityContext_activity=traveling] * 4.26
+
+Class 16 :
+-2.21 + 
+[locationContext_provider] * 2.27 +
+[accelerationContext_accelerationStandardDeviation] * -7.68 +
+[orientationContext_orientationDevice] * 0.3  +
+[activityContext_activity=unspecified] * 2.52
+
+Class 17 :
+1    + 
+[accelerationContext_accelerationStandardDeviation] * -25.12 +
+[orientationContext_orientationDevice] * 0.36 +
+[activityContext_activity=unspecified] * -2.75 +
+[activityContext_activity=working] * 1.63
+
+Class 18 :
+1.36 + 
+[timeContext_timeZone=Europe/Sarajevo] * 3.04 +
+[accelerationContext_accelerationStandardDeviation] * -1.19 +
+[orientationContext_orientationDevice] * -0.39 +
+[activityContext_activity=unspecified] * -2.85 +
+[activityContext_activity=working] * -1.24 +
+[activityContext_activity=sports] * 1.35 +
+[activityContext_activity=romancing] * 3.11
+
+Class 19 :
+-9.58 + 
+[timeContext_timeZone=Africa/Ceuta] * 22.6
+
+
+Time taken to build model: 0.42 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          70               70      %
+Incorrectly Classified Instances        30               30      %
+Kappa statistic                          0.6816
+Mean absolute error                      0.0469
+Root mean squared error                  0.1423
+Relative absolute error                 49.7161 %
+Root relative squared error             65.5237 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      25.65   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.074    0.364      0.667    0.471      0.449    0.950     0.610     The Heavy
+                 0.286    0.032    0.400      0.286    0.333      0.297    0.949     0.611     Fiona Apple
+                 0.444    0.044    0.500      0.444    0.471      0.422    0.910     0.720     Die Fantastischen Vier
+                 1.000    0.010    0.750      1.000    0.857      0.862    1.000     1.000     P!nk
+                 1.000    0.011    0.833      1.000    0.909      0.908    0.998     0.967     Red Hot Chili Peppers
+                 0.250    0.010    0.500      0.250    0.333      0.335    0.969     0.491     Ani DiFranco
+                 0.600    0.011    0.750      0.600    0.667      0.656    0.979     0.791     Daft Punk
+                 0.600    0.011    0.750      0.600    0.667      0.656    0.987     0.742     Pearl Jam
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.932     0.405     Kanye West
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.991     0.924     STS
+                 0.000    0.010    0.000      0.000    0.000      -0.014   0.929     0.238     Letzte Instanz
+                 1.000    0.011    0.909      1.000    0.952      0.948    0.996     0.957     Sportfreunde Stiller
+                 1.000    0.021    0.750      1.000    0.857      0.857    0.996     0.931     Bob Dylan
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.969     0.754     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.977     0.653     Wizkid
+                 0.500    0.031    0.400      0.500    0.444      0.421    0.977     0.688     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.700    0.018    0.699      0.700    0.690      0.677    0.974     0.790     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  4  1  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  3  2  1  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  1  0  4  0  0  1  0  1  0  0  0  0  0  1  0  0  1  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  1  1  0  0  1  0  0  0  0  0  0  0  0  0  0  0  1  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  3  0  0  0  0  0  1  0  0  0  1  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  3  0  0  0  0  0  0  0  0  0  2  0  0 |  h = Pearl Jam
+  0  1  1  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  5  0  1  0  0  0  0  0  0  0  0 |  j = STS
+  1  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  1  0  1  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  1  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  2  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  1  0  0  0  0  0  1  0  0  0  0  2  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          33               33      %
+Incorrectly Classified Instances        67               67      %
+Kappa statistic                          0.2872
+Mean absolute error                      0.0668
+Root mean squared error                  0.2158
+Relative absolute error                 70.4493 %
+Root relative squared error             98.9441 %
+Coverage of cases (0.95 level)          70      %
+Mean rel. region size (0.95 level)      19.65   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.096    0.182      0.333    0.235      0.180    0.833     0.216     The Heavy
+                 0.143    0.075    0.125      0.143    0.133      0.064    0.782     0.229     Fiona Apple
+                 0.222    0.055    0.286      0.222    0.250      0.188    0.687     0.347     Die Fantastischen Vier
+                 0.333    0.010    0.500      0.333    0.400      0.394    0.729     0.568     P!nk
+                 0.200    0.032    0.250      0.200    0.222      0.187    0.747     0.397     Red Hot Chili Peppers
+                 0.250    0.042    0.200      0.250    0.222      0.187    0.753     0.224     Ani DiFranco
+                 0.200    0.042    0.200      0.200    0.200      0.158    0.674     0.282     Daft Punk
+                 0.000    0.053    0.000      0.000    0.000      -0.053   0.721     0.117     Pearl Jam
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.865     0.180     Kanye West
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.828     0.482     STS
+                 0.000    0.041    0.000      0.000    0.000      -0.029   0.056     0.016     Letzte Instanz
+                 0.900    0.067    0.600      0.900    0.720      0.700    0.967     0.750     Sportfreunde Stiller
+                 0.500    0.043    0.429      0.500    0.462      0.426    0.867     0.430     Bob Dylan
+                 0.000    0.021    0.000      0.000    0.000      -0.029   0.727     0.287     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.831     0.432     Caravan Palace
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.802     0.763     Lamb of God
+                 0.000    0.042    0.000      0.000    0.000      -0.042   0.711     0.155     Wizkid
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.831     0.177     Asian Dub Foundation
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.596     0.070     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.330    0.041    0.313      0.330    0.315      0.280    0.780     0.379     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 2 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 3 1 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 2 0 2 0 1 1 0 0 0 0 0 0 1 1 0 0 1 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 1 0 0 1 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 1 0 1 0 | g = Daft Punk
+ 2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 2 0 0 | h = Pearl Jam
+ 0 2 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 2 0 0 0 0 1 3 0 0 0 0 0 0 0 | m = Bob Dylan
+ 0 0 3 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 1 0 1 0 0 2 0 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 2 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 0 0 0 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I 5 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:5/5 (100)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-2.46 + 
+[timeContext_timeZone=Europe/Vienna] * 1.15 +
+[locationContext_provider] * -1.23 +
+[orientationContext_orientationDevice] * -0.21 +
+[activityContext_activity=unspecified] * 2.82
+
+Class 1 :
+-1.11 + 
+[timeContext_timeZone=Europe/Vienna] * 1.67 +
+[phoneContext_state] * -0.96 +
+[orientationContext_orientationDevice] * -0.34 +
+[activityContext_activity=unspecified] * 0.85 +
+[activityContext_activity=sports] * 1.9 
+
+Class 2 :
+-1.07 + 
+[timeContext_timeZone=Europe/Vienna] * 1.23 +
+[locationContext_provider] * 1.26 +
+[activityContext_activity=eating] * 4.49 +
+[activityContext_activity=sports] * -1.17
+
+Class 3 :
+1.51 + 
+[orientationContext_orientationDevice] * -4.24 +
+[activityContext_activity=working] * 2.14
+
+Class 4 :
+-2.66 + 
+[timeContext_timeZone=Europe/Zurich] * 5.66 +
+[accelerationContext_accelerationStandardDeviation] * 1.1  +
+[orientationContext_orientationDevice] * 0.48
+
+Class 5 :
+-0.24 + 
+[locationContext_provider] * 0.97 +
+[accelerationContext_accelerationStandardDeviation] * 0.39 +
+[orientationContext_orientationDevice] * -0.38 +
+[activityContext_activity=working] * 1.9  +
+[activityContext_activity=sports] * -1.24
+
+Class 6 :
+-1.61 + 
+[timeContext_timeZone=Europe/Vienna] * 1.28 +
+[locationContext_provider] * -1.28 +
+[phoneContext_state] * 0.77 +
+[activityContext_activity=traveling] * 1.81 +
+[activityContext_activity=relaxing] * 1.87
+
+Class 7 :
+0.27 + 
+[locationContext_provider] * -1.29 +
+[phoneContext_state] * 1.08 +
+[orientationContext_orientationDevice] * -0.37 +
+[activityContext_activity=working] * 1.69 +
+[activityContext_activity=traveling] * 1.52
+
+Class 8 :
+-3.06 + 
+[locationContext_provider] * 1.01 +
+[phoneContext_state] * 1.54 +
+[activityContext_activity=unspecified] * 2.36
+
+Class 9 :
+0.64 + 
+[timeContext_timeZone=Europe/Vienna] * -4.07 +
+[accelerationContext_accelerationStandardDeviation] * 0.61 +
+[orientationContext_orientationDevice] * 0.36 +
+[activityContext_activity=relaxing] * 1.94
+
+Class 10 :
+-2.5 + 
+[locationContext_provider] * -1.07 +
+[phoneContext_state] * -0.84 +
+[orientationContext_orientationDevice] * 0.21 +
+[activityContext_activity=unspecified] * 1.92
+
+Class 11 :
+1.1  + 
+[timeContext_timeZone=Europe/Vienna] * -4.19 +
+[timeContext_timeZone=Europe/Amsterdam] * 2.25 +
+[accelerationContext_accelerationStandardDeviation] * -0.77 +
+[activityContext_activity=unspecified] * 1.87
+
+Class 12 :
+-1 + 
+[timeContext_timeZone=Europe/London] * 5.88 +
+[activityContext_activity=relaxing] * 2.09 +
+[activityContext_activity=shopping] * 5.25
+
+Class 13 :
+-3.99 + 
+[locationContext_provider] * 2.35 +
+[orientationContext_orientationDevice] * 0.38 +
+[activityContext_activity=unspecified] * 2.37
+
+Class 14 :
+-0.88 + 
+[timeContext_timeZone=Europe/Vienna] * -2.26 +
+[timeContext_timeZone=Europe/Sarajevo] * 2.2  +
+[timeContext_timeZone=Europe/Budapest] * 5.49 +
+[locationContext_provider] * 1.89
+
+Class 15 :
+-2.97 + 
+[timeContext_timeZone=Europe/Sarajevo] * 4.32 +
+[accelerationContext_accelerationStandardDeviation] * 0.68 +
+[activityContext_activity=unspecified] * -1.77 +
+[activityContext_activity=traveling] * 3.14
+
+Class 16 :
+-0.59 + 
+[locationContext_provider] * 1.37 +
+[accelerationContext_accelerationStandardDeviation] * -3.41 +
+[activityContext_activity=unspecified] * 1.32
+
+Class 17 :
+-0.16 + 
+[accelerationContext_accelerationStandardDeviation] * -0.45 +
+[orientationContext_orientationDevice] * 0.36 +
+[activityContext_activity=unspecified] * -2.75 +
+[activityContext_activity=working] * 1.63
+
+Class 18 :
+1.02 + 
+[timeContext_timeZone=Europe/Sarajevo] * 1.85 +
+[orientationContext_orientationDevice] * -0.39 +
+[activityContext_activity=unspecified] * -2.85 +
+[activityContext_activity=romancing] * 3.11
+
+Class 19 :
+-4.83 + 
+[timeContext_timeZone=Africa/Ceuta] * 13.08
+
+
+Time taken to build model: 0.36 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          59               59      %
+Incorrectly Classified Instances        41               41      %
+Kappa statistic                          0.5641
+Mean absolute error                      0.0584
+Root mean squared error                  0.1599
+Relative absolute error                 61.8857 %
+Root relative squared error             73.6254 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      43.45   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.138    0.278      0.833    0.417      0.430    0.922     0.328     The Heavy
+                 0.286    0.011    0.667      0.286    0.400      0.411    0.957     0.544     Fiona Apple
+                 0.444    0.066    0.400      0.444    0.421      0.361    0.914     0.655     Die Fantastischen Vier
+                 0.667    0.000    1.000      0.667    0.800      0.812    0.990     0.833     P!nk
+                 1.000    0.011    0.833      1.000    0.909      0.908    0.996     0.943     Red Hot Chili Peppers
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.971     0.533     Ani DiFranco
+                 0.400    0.053    0.286      0.400    0.333      0.297    0.958     0.521     Daft Punk
+                 0.000    0.011    0.000      0.000    0.000      -0.023   0.964     0.466     Pearl Jam
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.922     0.413     Kanye West
+                 0.667    0.011    0.800      0.667    0.727      0.715    0.973     0.808     STS
+                 0.000    0.010    0.000      0.000    0.000      -0.014   0.923     0.233     Letzte Instanz
+                 1.000    0.022    0.833      1.000    0.909      0.903    0.996     0.957     Sportfreunde Stiller
+                 0.667    0.000    1.000      0.667    0.800      0.808    0.999     0.976     Bob Dylan
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.945     0.644     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.984     0.729     Wizkid
+                 0.500    0.052    0.286      0.500    0.364      0.344    0.964     0.587     Asian Dub Foundation
+                 0.250    0.000    1.000      0.250    0.400      0.492    0.977     0.741     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.590    0.026    0.621      0.590    0.576      0.569    0.967     0.711     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  5  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  4  2  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  2  0  4  0  0  1  0  0  0  0  0  0  0  1  0  0  1  0  0  0 |  c = Die Fantastischen Vier
+  1  0  0  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  2  0  0  0  0  0  0  0  0  0  0  0  0  0  0  2  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  2  1  1  0  0  0  0  0  0  0  0  1  0  0 |  g = Daft Punk
+  2  0  0  0  0  0  1  0  0  0  0  0  0  0  0  0  0  2  0  0 |  h = Pearl Jam
+  1  0  1  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  4  0  2  0  0  0  0  0  0  0  0 |  j = STS
+  1  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  2  0  0  0  0  0  4  0  0  0  0  0  0  0 |  m = Bob Dylan
+  1  0  1  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  1  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  2  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  2  0  0 |  r = Asian Dub Foundation
+  0  1  1  0  0  0  0  0  0  1  0  0  0  0  0  0  0  0  1  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          30               30      %
+Incorrectly Classified Instances        70               70      %
+Kappa statistic                          0.2547
+Mean absolute error                      0.0689
+Root mean squared error                  0.217 
+Relative absolute error                 72.7057 %
+Root relative squared error             99.4837 %
+Coverage of cases (0.95 level)          70      %
+Mean rel. region size (0.95 level)      23.4    %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.167    0.117    0.083      0.167    0.111      0.036    0.732     0.169     The Heavy
+                 0.286    0.054    0.286      0.286    0.286      0.232    0.891     0.290     Fiona Apple
+                 0.222    0.088    0.200      0.222    0.211      0.128    0.627     0.335     Die Fantastischen Vier
+                 0.667    0.010    0.667      0.667    0.667      0.656    0.983     0.792     P!nk
+                 0.200    0.032    0.250      0.200    0.222      0.187    0.568     0.329     Red Hot Chili Peppers
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.810     0.204     Ani DiFranco
+                 0.200    0.042    0.200      0.200    0.200      0.158    0.684     0.117     Daft Punk
+                 0.000    0.053    0.000      0.000    0.000      -0.053   0.826     0.178     Pearl Jam
+                 0.000    0.021    0.000      0.000    0.000      -0.029   0.763     0.189     Kanye West
+                 0.500    0.053    0.375      0.500    0.429      0.391    0.849     0.292     STS
+                 0.000    0.020    0.000      0.000    0.000      -0.020   0.367     0.027     Letzte Instanz
+                 0.700    0.067    0.538      0.700    0.609      0.565    0.886     0.683     Sportfreunde Stiller
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.901     0.458     Bob Dylan
+                 0.000    0.021    0.000      0.000    0.000      -0.029   0.898     0.322     Casper
+                 0.250    0.010    0.500      0.250    0.333      0.335    0.872     0.370     Caravan Palace
+                 0.750    0.010    0.750      0.750    0.750      0.740    0.823     0.764     Lamb of God
+                 0.000    0.031    0.000      0.000    0.000      -0.036   0.586     0.079     Wizkid
+                 0.000    0.052    0.000      0.000    0.000      -0.047   0.766     0.099     Asian Dub Foundation
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.701     0.106     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.300    0.045    0.282      0.300    0.287      0.248    0.786     0.355     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 1 2 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 2 2 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 2 0 2 0 1 1 1 0 0 0 0 0 0 1 0 0 1 0 0 0 | c = Die Fantastischen Vier
+ 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 1 0 0 1 0 0 0 0 0 2 1 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 1 1 0 0 0 0 2 0 0 0 1 0 0 0 | g = Daft Punk
+ 2 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 2 0 0 | h = Pearl Jam
+ 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 3 0 3 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 3 0 7 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 1 0 0 0 0 1 3 0 0 0 0 1 0 0 | m = Bob Dylan
+ 1 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 1 0 1 0 0 1 1 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 2 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | q = Wizkid
+ 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I 20 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:20/20 (100)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-7.7 + 
+[timeContext_timeZone=Europe/Vienna] * 4.09 +
+[locationContext_provider] * -5.22 +
+[phoneContext_state] * -0.4 +
+[accelerationContext_accelerationStandardDeviation] * -0.37 +
+[orientationContext_orientationDevice] * -0.36 +
+[activityContext_activity=unspecified] * 5.68
+
+Class 1 :
+-3.23 + 
+[timeContext_timeZone=Europe/Vienna] * 2.7  +
+[phoneContext_state] * -2.89 +
+[accelerationContext_accelerationStandardDeviation] * 0.39 +
+[orientationContext_orientationDevice] * -0.82 +
+[activityContext_activity=unspecified] * 2.48 +
+[activityContext_activity=traveling] * -1.95 +
+[activityContext_activity=relaxing] * -0.97 +
+[activityContext_activity=sports] * 3.25
+
+Class 2 :
+-1.42 + 
+[timeContext_timeZone=Europe/Vienna] * 1.23 +
+[locationContext_provider] * 2.17 +
+[accelerationContext_accelerationStandardDeviation] * -0.75 +
+[activityContext_activity=unspecified] * 0.35 +
+[activityContext_activity=eating] * 9.15 +
+[activityContext_activity=working] * 0.98 +
+[activityContext_activity=traveling] * -3.34 +
+[activityContext_activity=relaxing] * 0.92 +
+[activityContext_activity=sports] * -2.37
+
+Class 3 :
+5.15 + 
+[accelerationContext_accelerationStandardDeviation] * -116.6 +
+[orientationContext_orientationDevice] * -9.47 +
+[activityContext_activity=working] * 5.4 
+
+Class 4 :
+-6.05 + 
+[timeContext_timeZone=Europe/Zurich] * 11.03 +
+[locationContext_provider] * -3.65 +
+[phoneContext_state] * -2.14 +
+[accelerationContext_accelerationStandardDeviation] * 1.97 +
+[orientationContext_orientationDevice] * 1.02 +
+[activityContext_activity=unspecified] * 0.91
+
+Class 5 :
+-1.55 + 
+[timeContext_timeZone=Europe/Vienna] * 1.09 +
+[locationContext_provider] * 0.97 +
+[phoneContext_state] * -0.85 +
+[accelerationContext_accelerationStandardDeviation] * 1.31 +
+[orientationContext_orientationDevice] * -0.63 +
+[activityContext_activity=working] * 3.07 +
+[activityContext_activity=traveling] * -2.1 +
+[activityContext_activity=relaxing] * -2.11 +
+[activityContext_activity=sports] * -4.58
+
+Class 6 :
+-5.22 + 
+[timeContext_timeZone=Europe/Vienna] * 3.3  +
+[locationContext_provider] * -4.35 +
+[phoneContext_state] * 1.58 +
+[orientationContext_orientationDevice] * 0.4  +
+[activityContext_activity=unspecified] * -0.32 +
+[activityContext_activity=traveling] * 2.83 +
+[activityContext_activity=relaxing] * 3.76
+
+Class 7 :
+2.91 + 
+[locationContext_provider] * -2.43 +
+[phoneContext_state] * 1.38 +
+[accelerationContext_accelerationStandardDeviation] * -67.95 +
+[orientationContext_orientationDevice] * -0.97 +
+[activityContext_activity=unspecified] * -0.55 +
+[activityContext_activity=working] * 2.04 +
+[activityContext_activity=traveling] * 2.31
+
+Class 8 :
+-10.45 + 
+[timeContext_timeZone=Europe/Vienna] * 3.01 +
+[locationContext_provider] * 0.79 +
+[phoneContext_state] * 2.15 +
+[accelerationContext_accelerationStandardDeviation] * 1.02 +
+[activityContext_activity=unspecified] * 6.24
+
+Class 9 :
+0.52 + 
+[timeContext_timeZone=Europe/Vienna] * -8.32 +
+[timeContext_timeZone=Europe/Amsterdam] * 0.71 +
+[locationContext_provider] * -4.8 +
+[accelerationContext_accelerationStandardDeviation] * 1.55 +
+[orientationContext_orientationDevice] * 0.64 +
+[activityContext_activity=traveling] * -1.05 +
+[activityContext_activity=relaxing] * 1.94
+
+Class 10 :
+-8.23 + 
+[timeContext_timeZone=Europe/Vienna] * 3    +
+[locationContext_provider] * -5.07 +
+[phoneContext_state] * -3.58 +
+[accelerationContext_accelerationStandardDeviation] * 0.51 +
+[orientationContext_orientationDevice] * 0.21 +
+[activityContext_activity=unspecified] * 4.85
+
+Class 11 :
+1.78 + 
+[timeContext_timeZone=Europe/Vienna] * -8.54 +
+[timeContext_timeZone=Europe/Amsterdam] * 2.7  +
+[timeContext_timeZone=Europe/Zurich] * -2.21 +
+[locationContext_provider] * -1.2 +
+[accelerationContext_accelerationStandardDeviation] * -4.39 +
+[activityContext_activity=unspecified] * 3.3 
+
+Class 12 :
+-1.24 + 
+[timeContext_timeZone=Europe/London] * 10.09 +
+[locationContext_provider] * -1.78 +
+[phoneContext_state] * -1.18 +
+[accelerationContext_accelerationStandardDeviation] * -0.5 +
+[activityContext_activity=unspecified] * -1 +
+[activityContext_activity=traveling] * -1.12 +
+[activityContext_activity=relaxing] * 3.64 +
+[activityContext_activity=shopping] * 9.85
+
+Class 13 :
+-9.84 + 
+[timeContext_timeZone=Europe/Vienna] * 1.98 +
+[locationContext_provider] * 2.88 +
+[phoneContext_state] * -2.77 +
+[accelerationContext_accelerationStandardDeviation] * -0.48 +
+[orientationContext_orientationDevice] * 0.46 +
+[activityContext_activity=unspecified] * 6.36
+
+Class 14 :
+-3.89 + 
+[timeContext_timeZone=Europe/Vienna] * -6.92 +
+[timeContext_timeZone=Europe/Sarajevo] * 3.23 +
+[timeContext_timeZone=Europe/London] * -0.97 +
+[timeContext_timeZone=Europe/Budapest] * 9.52 +
+[locationContext_provider] * 6.48 +
+[accelerationContext_accelerationStandardDeviation] * -0.27 +
+[activityContext_activity=sports] * 1.16
+
+Class 15 :
+-11.05 + 
+[timeContext_timeZone=Europe/Sarajevo] * 10.25 +
+[accelerationContext_accelerationStandardDeviation] * 2.3  +
+[activityContext_activity=unspecified] * -4.25 +
+[activityContext_activity=traveling] * 7.84
+
+Class 16 :
+-3.96 + 
+[locationContext_provider] * 3.11 +
+[phoneContext_state] * -0.55 +
+[accelerationContext_accelerationStandardDeviation] * -19.64 +
+[orientationContext_orientationDevice] * 0.44 +
+[activityContext_activity=unspecified] * 4.54
+
+Class 17 :
+2.13 + 
+[accelerationContext_accelerationStandardDeviation] * -133.59 +
+[orientationContext_orientationDevice] * 0.36 +
+[activityContext_activity=unspecified] * -3.91 +
+[activityContext_activity=working] * 1.63 +
+[activityContext_activity=relaxing] * 4.37
+
+Class 18 :
+1.09 + 
+[timeContext_timeZone=Europe/Sarajevo] * 4.36 +
+[locationContext_provider] * 1.52 +
+[accelerationContext_accelerationStandardDeviation] * -5.38 +
+[orientationContext_orientationDevice] * -0.39 +
+[activityContext_activity=unspecified] * -3.87 +
+[activityContext_activity=working] * -1.24 +
+[activityContext_activity=sports] * 4.59 +
+[activityContext_activity=romancing] * 3.11
+
+Class 19 :
+-19.08 + 
+[timeContext_timeZone=Africa/Ceuta] * 41.6
+
+
+Time taken to build model: 0.49 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances          73               73      %
+Incorrectly Classified Instances        27               27      %
+Kappa statistic                          0.7136
+Mean absolute error                      0.0368
+Root mean squared error                  0.1279
+Relative absolute error                 38.9947 %
+Root relative squared error             58.9053 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      18.25   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.667    0.085    0.333      0.667    0.444      0.425    0.959     0.673     The Heavy
+                 0.429    0.022    0.600      0.429    0.500      0.477    0.969     0.683     Fiona Apple
+                 0.444    0.033    0.571      0.444    0.500      0.462    0.936     0.768     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.011    0.833      1.000    0.909      0.908    0.998     0.967     Red Hot Chili Peppers
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.979     0.567     Ani DiFranco
+                 0.600    0.000    1.000      0.600    0.750      0.767    0.989     0.900     Daft Punk
+                 0.600    0.021    0.600      0.600    0.600      0.579    0.983     0.693     Pearl Jam
+                 0.500    0.010    0.667      0.500    0.571      0.562    0.935     0.408     Kanye West
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.993     0.933     STS
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.923     0.313     Letzte Instanz
+                 1.000    0.011    0.909      1.000    0.952      0.948    0.996     0.957     Sportfreunde Stiller
+                 0.833    0.011    0.833      0.833    0.833      0.823    0.996     0.931     Bob Dylan
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.979     0.778     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.982     0.750     Wizkid
+                 1.000    0.021    0.667      1.000    0.800      0.808    0.995     0.854     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.730    0.017    0.739      0.730    0.724      0.714    0.980     0.823     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  4  1  0  0  0  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0 |  a = The Heavy
+  4  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  1  0  4  0  0  1  0  1  0  0  0  0  0  1  0  0  1  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  3  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  1  0  0  2  0  1  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  3  0  0  0  0  0  1  0  0  0  1  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  1  0  3  0  0  0  0  0  0  0  0  0  1  0  0 |  h = Pearl Jam
+  0  1  1  0  0  0  0  0  2  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  5  0  1  0  0  0  0  0  0  0  0 |  j = STS
+  1  0  0  0  1  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  5  0  0  0  0  1  0  0 |  m = Bob Dylan
+  1  0  1  0  0  0  0  0  0  0  0  0  0  2  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  1  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  2  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          38               38      %
+Incorrectly Classified Instances        62               62      %
+Kappa statistic                          0.3411
+Mean absolute error                      0.063 
+Root mean squared error                  0.2218
+Relative absolute error                 66.4431 %
+Root relative squared error            101.6791 %
+Coverage of cases (0.95 level)          60      %
+Mean rel. region size (0.95 level)      12.75   %
+Total Number of Instances              100     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.085    0.200      0.333    0.250      0.197    0.656     0.192     The Heavy
+                 0.143    0.054    0.167      0.143    0.154      0.096    0.797     0.290     Fiona Apple
+                 0.222    0.055    0.286      0.222    0.250      0.188    0.516     0.192     Die Fantastischen Vier
+                 0.333    0.010    0.500      0.333    0.400      0.394    0.770     0.515     P!nk
+                 0.200    0.032    0.250      0.200    0.222      0.187    0.945     0.399     Red Hot Chili Peppers
+                 0.250    0.052    0.167      0.250    0.200      0.163    0.883     0.260     Ani DiFranco
+                 0.200    0.042    0.200      0.200    0.200      0.158    0.669     0.179     Daft Punk
+                 0.200    0.053    0.167      0.200    0.182      0.135    0.828     0.215     Pearl Jam
+                 0.250    0.031    0.250      0.250    0.250      0.219    0.695     0.202     Kanye West
+                 0.667    0.021    0.667      0.667    0.667      0.645    0.832     0.421     STS
+                 0.000    0.020    0.000      0.000    0.000      -0.020   0.031     0.016     Letzte Instanz
+                 0.900    0.056    0.643      0.900    0.750      0.730    0.909     0.751     Sportfreunde Stiller
+                 0.500    0.032    0.500      0.500    0.500      0.468    0.878     0.534     Bob Dylan
+                 0.250    0.010    0.500      0.250    0.333      0.335    0.740     0.409     Casper
+                 0.500    0.021    0.500      0.500    0.500      0.479    0.852     0.459     Caravan Palace
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.953     0.795     Lamb of God
+                 0.250    0.031    0.250      0.250    0.250      0.219    0.849     0.382     Wizkid
+                 0.000    0.042    0.000      0.000    0.000      -0.042   0.846     0.158     Asian Dub Foundation
+                 0.000    0.010    0.000      0.000    0.000      -0.021   0.526     0.160     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.380    0.038    0.376      0.380    0.371      0.339    0.775     0.390     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 2 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 3 1 0 1 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 2 0 1 1 1 1 0 0 0 0 0 1 0 0 1 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 1 0 0 1 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 0 0 0 0 1 0 0 0 0 0 2 0 0 0 1 0 1 0 | g = Daft Punk
+ 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 2 0 0 | h = Pearl Jam
+ 1 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 4 0 2 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 1 0 0 0 0 0 3 0 1 0 0 1 0 0 | m = Bob Dylan
+ 0 0 2 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 2 0 0 2 0 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 2 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 | q = Wizkid
+ 0 0 1 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 | r = Asian Dub Foundation
+ 0 1 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 1 0 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+

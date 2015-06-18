@@ -1,0 +1,1993 @@
+
+Options: -I -1 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:11/11 (108)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-143.49 + 
+[userId] * -0.1 +
+[timeContext_dayOfWeek] * -1.09 +
+[weatherContext_precipitation] * 1.54 +
+[weatherContext_pressure] * 0.14 +
+[audioContext_volumeMusic] * 0.03 +
+[taskContext_runningTask3=com.android.chrome/com.google.android.apps.chrome.Main] * 2.06 +
+[networkContext_bluetoothEnabled] * 3.29 +
+[orientationContext_orientationDevice] * -0.43
+
+Class 1 :
+3.04 + 
+[deviceId=61e096280605612a] * 2.91 +
+[weatherContext_temperature] * 0.15 +
+[weatherContext_visibility] * -0.97 +
+[audioContext_volumeSystem] * -0.02 +
+[taskContext_runningTask1=com.anddoes.launcher/.Launcher] * 6.49 +
+[taskContext_runningTask4=com.whatsapp/.Conversation] * 4.16 +
+[taskContext_runningTask5=com.android.mms/.ui.ConversationComposer] * 3.09
+
+Class 2 :
+-6.21 + 
+[timeContext_dayOfWeek] * 0.28 +
+[audioContext_volumeNotif] * 0.05 +
+[taskContext_runningTask1=com.nianticproject.ingress/.NemesisActivity] * 2.97 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.92 +
+[taskContext_runningTask7=com.whatsapp/.Conversations] * 2.77 +
+[noiseContext_noiseStandardDeviation] * 0.22 +
+[playerContext_repeatMode] * -0.61 +
+[activityContext_activity=eating] * 2.74
+
+Class 3 :
+-6.27 + 
+[deviceId=ebcd05765a833bb7] * 4.95 +
+[weatherContext_precipitation] * 0.33 +
+[batteryContext_batteryPlugged] * 0.86 +
+[taskContext_runningTask2=com.android.mms/.ui.ConversationList] * 6.06 +
+[taskContext_runningTask3=com.dynamicg.timerecording/.Main] * 5.25 +
+[networkContext_wifiEnabled] * -1.94 +
+[soundEffectContext_equalizerEnabled] * 1.65 +
+[activityContext_activity=working] * 1.54
+
+Class 4 :
+-10.43 + 
+[userId] * 0.11 +
+[deviceId=108b26b494744513] * 3.41 +
+[deviceId=c70bf403998e888c] * 6.47 +
+[locationContext_accuracy] * 0    +
+[taskContext_runningTask8=com.android.browser/.BrowserActivity] * 1.53 +
+[taskContext_runningTask9=com.facebook.katana/.activity.FbFragmentChromeActivity] * 1.72 +
+[taskContext_runningTask10=com.sec.android.app.clockpackage/.ClockPackage] * 1.68
+
+Class 5 :
+129.83 + 
+[deviceId=61e096280605612a] * 2.55 +
+[weatherContext_windSpeed] * -0.39 +
+[weatherContext_pressure] * -0.13 +
+[batteryContext_batteryStatus] * 1.66 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * 5.98 +
+[pressureContext_pressureStandardDeviation] * 3.31
+
+Class 6 :
+-1.43 + 
+[deviceId=5c99cad42ef244fd] * 4.95 +
+[storageContext_storageExternal] * -0.03 +
+[audioContext_vibrateNotif] * -0.95 +
+[taskContext_runningTask1=org.mobilemusicgenius.android/.ui.MusicPlayerActivity] * 1.57 +
+[networkContext_wifiBssid=00:16:b6:b1:02:9e] * 3.06 +
+[noiseContext_noiseStandardDeviation] * -0.68 +
+[orientationContext_orientationUser] * 0.9  +
+[soundEffectContext_reverbPreset] * 0.36
+
+Class 7 :
+10.7 + 
+[contextId] * 0    +
+[weatherContext_temperature] * -0.15 +
+[weatherContext_precipitation] * 0.56 +
+[batteryContext_batteryStatus] * -0.53 +
+[taskContext_runningTask1=com.android.mms/.ui.ConversationComposer] * 2.59 +
+[networkContext_wifiConnected] * 2.37 +
+[noiseContext_noise] * -0.1 +
+[activityContext_mood] * -0.07
+
+Class 8 :
+-6.65 + 
+[deviceId=75a05d52c1655b1a] * 6.12 +
+[batteryContext_batteryStatus] * -0.42 +
+[memoryContext_memory] * -0.05 +
+[taskContext_runningTask3=org.mobilemusicgenius.android/.ui.MusicBrowserActivity] * 1.43 +
+[taskContext_runningTask4=com.android.browser/.BrowserActivity] * 2.81 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.45 +
+[displayContext_screenOn] * 1.46 +
+[orientationContext_orientationUser] * 0.36
+
+Class 9 :
+-3.43 + 
+[timeContext_timeZone=Europe/Vienna] * -3.68 +
+[weatherContext_cloudCover] * 0.04 +
+[audioContext_audioOutput] * -1.47 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * -2.86 +
+[taskContext_runningTask2=com.google.android.googlequicksearchbox/.SearchActivity] * 2.48 +
+[taskContext_runningTask4=com.facebook.katana/.activity.FbFragmentChromeActivity] * 1.55 +
+[displayContext_screenOn] * 1.26 +
+[networkContext_wifiBssid=00:1f:9f:73:61:3d] * 3.41 +
+[lightContext_lightStandardDeviation] * 0   
+
+Class 10 :
+-10.53 + 
+[deviceId=43ccaa83e7bb26e4] * 23.52
+
+Class 11 :
+0.76 + 
+[timeContext_timeZone=Europe/Vienna] * -3.18 +
+[weatherContext_precipitation] * 1.41 +
+[audioContext_vibrateNotif] * -1.63 +
+[taskContext_runningTask2=com.android.htcdialer/.Dialer] * 3.19 +
+[taskContext_runningTask3=com.android.settings/.SoundSettings] * 3.21 +
+[displayContext_dockState] * 0.61 +
+[playerContext_shuffleMode] * -1.58
+
+Class 12 :
+-288.06 + 
+[userId] * 0.03 +
+[deviceId=1c76f53a429494ba] * 4.62 +
+[timeContext_hourOfDay] * 0.13 +
+[locationContext_longitude] * -0.26 +
+[taskContext_runningTask3=com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity] * 7.27 +
+[displayContext_screenOn] * -1.41
+
+Class 13 :
+-10.53 + 
+[deviceId=6b877438c2c581b6] * 23.47
+
+Class 14 :
+-1.5 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[taskContext_runningTask5=com.omgpop.dstfree/.Main] * 4.51 +
+[taskContext_runningTask5=com.lyrebirdstudio.tinyplanet/.MainActivity] * 2.01 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 3.21 +
+[accelerationContext_acceleration] * 0.33 +
+[activityContext_mood] * -0.08
+
+Class 15 :
+-6.68 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[timeContext_timeZone=Europe/Sarajevo] * 3.08 +
+[taskContext_runningTask1=com.htc.launcher/.Launcher] * 1.29 +
+[taskContext_runningTask4=com.android.htcdialer/.DialerActivity] * 5.05 +
+[taskContext_runningTask6=com.htc.android.worldclock/.WorldClockTabControl] * 4.16 +
+[taskContext_runningTask7=com.android.browser/.BrowserActivity] * -1.54 +
+[activityContext_activity=traveling] * 1.26
+
+Class 16 :
+-15.08 + 
+[deviceId=75a05d52c1655b1a] * 4.76 +
+[timeContext_dayOfWeek] * 0.4  +
+[weatherContext_temperature] * 0.1  +
+[batteryContext_batteryStatus] * 2.16 +
+[taskContext_runningTask2=com.sec.android.app.launcher/com.android.launcher2.Launcher] * 3.39 +
+[taskContext_runningTask3=com.android.calendar/.AllInOneActivity] * 1.63 +
+[taskContext_runningTask4=com.google.android.youtube/.app.honeycomb.phone.HomeActivity] * 1.44
+
+Class 17 :
+-4.11 + 
+[userId] * 0.04 +
+[deviceId=ebcd05765a833bb7] * 2.6  +
+[deviceId=69486ceb6f11136b] * 5.02 +
+[taskContext_runningTask4=com.fsck.k9/.activity.MessageList] * 4.82 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 3.42 +
+[pressureContext_pressureStandardDeviation] * -2.45 +
+[activityContext_activity=unspecified] * -1.54
+
+Class 18 :
+-1.61 + 
+[userId] * 0.03 +
+[deviceId=ebcd05765a833bb7] * 2.74 +
+[deviceId=8779d41d6cec5e2e] * 3.22 +
+[weatherContext_windDirection] * -0.01 +
+[audioContext_volumeMusic] * -0.02 +
+[audioContext_volumeNotif] * 0.02 +
+[audioContext_audioOutput] * -2.29 +
+[taskContext_runningTask2=com.cyanogenmod.trebuchet/.Launcher] * 1.13 +
+[networkContext_wifiEnabled] * 2.59 +
+[activityContext_activity=unspecified] * -1.34
+
+Class 19 :
+-10.53 + 
+[deviceId=a525f642fe51df0b] * 23.76
+
+
+Time taken to build model: 3.01 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         108              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0007
+Root mean squared error                  0.0035
+Relative absolute error                  0.7924 %
+Root relative squared error              1.6214 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       5.0926 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          81               75      %
+Incorrectly Classified Instances        27               25      %
+Kappa statistic                          0.735 
+Mean absolute error                      0.0267
+Root mean squared error                  0.1473
+Relative absolute error                 28.1921 %
+Root relative squared error             67.5341 %
+Coverage of cases (0.95 level)          80.5556 %
+Mean rel. region size (0.95 level)       7.8704 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.029    0.625      0.833    0.714      0.703    0.958     0.765     The Heavy
+                 0.714    0.010    0.833      0.714    0.769      0.757    0.958     0.830     Fiona Apple
+                 0.700    0.041    0.636      0.700    0.667      0.632    0.962     0.833     Die Fantastischen Vier
+                 1.000    0.010    0.800      1.000    0.889      0.890    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.600    0.010    0.750      0.600    0.667      0.657    0.901     0.560     Ani DiFranco
+                 0.800    0.019    0.667      0.800    0.727      0.716    0.852     0.723     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 0.250    0.019    0.333      0.250    0.286      0.265    0.846     0.319     Kanye West
+                 0.500    0.020    0.600      0.500    0.545      0.524    0.948     0.666     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.900    0.020    0.818      0.900    0.857      0.843    0.958     0.873     Sportfreunde Stiller
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.941     0.857     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.564    0.692     0.322     Caravan Palace
+                 0.750    0.019    0.600      0.750    0.667      0.657    0.897     0.548     Lamb of God
+                 0.500    0.029    0.400      0.500    0.444      0.423    0.957     0.410     Wizkid
+                 0.250    0.010    0.500      0.250    0.333      0.337    0.853     0.347     Asian Dub Foundation
+                 0.600    0.019    0.600      0.600    0.600      0.581    0.988     0.796     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.750    0.015    0.750      0.750    0.744      0.733    0.941     0.767     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 5 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 1 7 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 | i = Kanye West
+ 1 0 0 0 0 0 0 0 0 3 0 2 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 1 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 | q = Wizkid
+ 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 | r = Asian Dub Foundation
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I -1 -M 7 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:11/11 (108)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-143.49 + 
+[userId] * -0.1 +
+[timeContext_dayOfWeek] * -1.09 +
+[weatherContext_precipitation] * 1.54 +
+[weatherContext_pressure] * 0.14 +
+[audioContext_volumeMusic] * 0.03 +
+[taskContext_runningTask3=com.android.chrome/com.google.android.apps.chrome.Main] * 2.06 +
+[networkContext_bluetoothEnabled] * 3.29 +
+[orientationContext_orientationDevice] * -0.43
+
+Class 1 :
+3.04 + 
+[deviceId=61e096280605612a] * 2.91 +
+[weatherContext_temperature] * 0.15 +
+[weatherContext_visibility] * -0.97 +
+[audioContext_volumeSystem] * -0.02 +
+[taskContext_runningTask1=com.anddoes.launcher/.Launcher] * 6.49 +
+[taskContext_runningTask4=com.whatsapp/.Conversation] * 4.16 +
+[taskContext_runningTask5=com.android.mms/.ui.ConversationComposer] * 3.09
+
+Class 2 :
+-6.21 + 
+[timeContext_dayOfWeek] * 0.28 +
+[audioContext_volumeNotif] * 0.05 +
+[taskContext_runningTask1=com.nianticproject.ingress/.NemesisActivity] * 2.97 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.92 +
+[taskContext_runningTask7=com.whatsapp/.Conversations] * 2.77 +
+[noiseContext_noiseStandardDeviation] * 0.22 +
+[playerContext_repeatMode] * -0.61 +
+[activityContext_activity=eating] * 2.74
+
+Class 3 :
+-6.27 + 
+[deviceId=ebcd05765a833bb7] * 4.95 +
+[weatherContext_precipitation] * 0.33 +
+[batteryContext_batteryPlugged] * 0.86 +
+[taskContext_runningTask2=com.android.mms/.ui.ConversationList] * 6.06 +
+[taskContext_runningTask3=com.dynamicg.timerecording/.Main] * 5.25 +
+[networkContext_wifiEnabled] * -1.94 +
+[soundEffectContext_equalizerEnabled] * 1.65 +
+[activityContext_activity=working] * 1.54
+
+Class 4 :
+-10.43 + 
+[userId] * 0.11 +
+[deviceId=108b26b494744513] * 3.41 +
+[deviceId=c70bf403998e888c] * 6.47 +
+[locationContext_accuracy] * 0    +
+[taskContext_runningTask8=com.android.browser/.BrowserActivity] * 1.53 +
+[taskContext_runningTask9=com.facebook.katana/.activity.FbFragmentChromeActivity] * 1.72 +
+[taskContext_runningTask10=com.sec.android.app.clockpackage/.ClockPackage] * 1.68
+
+Class 5 :
+129.83 + 
+[deviceId=61e096280605612a] * 2.55 +
+[weatherContext_windSpeed] * -0.39 +
+[weatherContext_pressure] * -0.13 +
+[batteryContext_batteryStatus] * 1.66 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * 5.98 +
+[pressureContext_pressureStandardDeviation] * 3.31
+
+Class 6 :
+-1.43 + 
+[deviceId=5c99cad42ef244fd] * 4.95 +
+[storageContext_storageExternal] * -0.03 +
+[audioContext_vibrateNotif] * -0.95 +
+[taskContext_runningTask1=org.mobilemusicgenius.android/.ui.MusicPlayerActivity] * 1.57 +
+[networkContext_wifiBssid=00:16:b6:b1:02:9e] * 3.06 +
+[noiseContext_noiseStandardDeviation] * -0.68 +
+[orientationContext_orientationUser] * 0.9  +
+[soundEffectContext_reverbPreset] * 0.36
+
+Class 7 :
+10.7 + 
+[contextId] * 0    +
+[weatherContext_temperature] * -0.15 +
+[weatherContext_precipitation] * 0.56 +
+[batteryContext_batteryStatus] * -0.53 +
+[taskContext_runningTask1=com.android.mms/.ui.ConversationComposer] * 2.59 +
+[networkContext_wifiConnected] * 2.37 +
+[noiseContext_noise] * -0.1 +
+[activityContext_mood] * -0.07
+
+Class 8 :
+-6.65 + 
+[deviceId=75a05d52c1655b1a] * 6.12 +
+[batteryContext_batteryStatus] * -0.42 +
+[memoryContext_memory] * -0.05 +
+[taskContext_runningTask3=org.mobilemusicgenius.android/.ui.MusicBrowserActivity] * 1.43 +
+[taskContext_runningTask4=com.android.browser/.BrowserActivity] * 2.81 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.45 +
+[displayContext_screenOn] * 1.46 +
+[orientationContext_orientationUser] * 0.36
+
+Class 9 :
+-3.43 + 
+[timeContext_timeZone=Europe/Vienna] * -3.68 +
+[weatherContext_cloudCover] * 0.04 +
+[audioContext_audioOutput] * -1.47 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * -2.86 +
+[taskContext_runningTask2=com.google.android.googlequicksearchbox/.SearchActivity] * 2.48 +
+[taskContext_runningTask4=com.facebook.katana/.activity.FbFragmentChromeActivity] * 1.55 +
+[displayContext_screenOn] * 1.26 +
+[networkContext_wifiBssid=00:1f:9f:73:61:3d] * 3.41 +
+[lightContext_lightStandardDeviation] * 0   
+
+Class 10 :
+-10.53 + 
+[deviceId=43ccaa83e7bb26e4] * 23.52
+
+Class 11 :
+0.76 + 
+[timeContext_timeZone=Europe/Vienna] * -3.18 +
+[weatherContext_precipitation] * 1.41 +
+[audioContext_vibrateNotif] * -1.63 +
+[taskContext_runningTask2=com.android.htcdialer/.Dialer] * 3.19 +
+[taskContext_runningTask3=com.android.settings/.SoundSettings] * 3.21 +
+[displayContext_dockState] * 0.61 +
+[playerContext_shuffleMode] * -1.58
+
+Class 12 :
+-288.06 + 
+[userId] * 0.03 +
+[deviceId=1c76f53a429494ba] * 4.62 +
+[timeContext_hourOfDay] * 0.13 +
+[locationContext_longitude] * -0.26 +
+[taskContext_runningTask3=com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity] * 7.27 +
+[displayContext_screenOn] * -1.41
+
+Class 13 :
+-10.53 + 
+[deviceId=6b877438c2c581b6] * 23.47
+
+Class 14 :
+-1.5 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[taskContext_runningTask5=com.omgpop.dstfree/.Main] * 4.51 +
+[taskContext_runningTask5=com.lyrebirdstudio.tinyplanet/.MainActivity] * 2.01 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 3.21 +
+[accelerationContext_acceleration] * 0.33 +
+[activityContext_mood] * -0.08
+
+Class 15 :
+-6.68 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[timeContext_timeZone=Europe/Sarajevo] * 3.08 +
+[taskContext_runningTask1=com.htc.launcher/.Launcher] * 1.29 +
+[taskContext_runningTask4=com.android.htcdialer/.DialerActivity] * 5.05 +
+[taskContext_runningTask6=com.htc.android.worldclock/.WorldClockTabControl] * 4.16 +
+[taskContext_runningTask7=com.android.browser/.BrowserActivity] * -1.54 +
+[activityContext_activity=traveling] * 1.26
+
+Class 16 :
+-15.08 + 
+[deviceId=75a05d52c1655b1a] * 4.76 +
+[timeContext_dayOfWeek] * 0.4  +
+[weatherContext_temperature] * 0.1  +
+[batteryContext_batteryStatus] * 2.16 +
+[taskContext_runningTask2=com.sec.android.app.launcher/com.android.launcher2.Launcher] * 3.39 +
+[taskContext_runningTask3=com.android.calendar/.AllInOneActivity] * 1.63 +
+[taskContext_runningTask4=com.google.android.youtube/.app.honeycomb.phone.HomeActivity] * 1.44
+
+Class 17 :
+-4.11 + 
+[userId] * 0.04 +
+[deviceId=ebcd05765a833bb7] * 2.6  +
+[deviceId=69486ceb6f11136b] * 5.02 +
+[taskContext_runningTask4=com.fsck.k9/.activity.MessageList] * 4.82 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 3.42 +
+[pressureContext_pressureStandardDeviation] * -2.45 +
+[activityContext_activity=unspecified] * -1.54
+
+Class 18 :
+-1.61 + 
+[userId] * 0.03 +
+[deviceId=ebcd05765a833bb7] * 2.74 +
+[deviceId=8779d41d6cec5e2e] * 3.22 +
+[weatherContext_windDirection] * -0.01 +
+[audioContext_volumeMusic] * -0.02 +
+[audioContext_volumeNotif] * 0.02 +
+[audioContext_audioOutput] * -2.29 +
+[taskContext_runningTask2=com.cyanogenmod.trebuchet/.Launcher] * 1.13 +
+[networkContext_wifiEnabled] * 2.59 +
+[activityContext_activity=unspecified] * -1.34
+
+Class 19 :
+-10.53 + 
+[deviceId=a525f642fe51df0b] * 23.76
+
+
+Time taken to build model: 3.07 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         108              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0007
+Root mean squared error                  0.0035
+Relative absolute error                  0.7924 %
+Root relative squared error              1.6214 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       5.0926 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          81               75      %
+Incorrectly Classified Instances        27               25      %
+Kappa statistic                          0.735 
+Mean absolute error                      0.0267
+Root mean squared error                  0.1473
+Relative absolute error                 28.1921 %
+Root relative squared error             67.5341 %
+Coverage of cases (0.95 level)          80.5556 %
+Mean rel. region size (0.95 level)       7.8704 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.029    0.625      0.833    0.714      0.703    0.958     0.765     The Heavy
+                 0.714    0.010    0.833      0.714    0.769      0.757    0.958     0.830     Fiona Apple
+                 0.700    0.041    0.636      0.700    0.667      0.632    0.962     0.833     Die Fantastischen Vier
+                 1.000    0.010    0.800      1.000    0.889      0.890    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.600    0.010    0.750      0.600    0.667      0.657    0.901     0.560     Ani DiFranco
+                 0.800    0.019    0.667      0.800    0.727      0.716    0.852     0.723     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 0.250    0.019    0.333      0.250    0.286      0.265    0.846     0.319     Kanye West
+                 0.500    0.020    0.600      0.500    0.545      0.524    0.948     0.666     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.900    0.020    0.818      0.900    0.857      0.843    0.958     0.873     Sportfreunde Stiller
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.941     0.857     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.564    0.692     0.322     Caravan Palace
+                 0.750    0.019    0.600      0.750    0.667      0.657    0.897     0.548     Lamb of God
+                 0.500    0.029    0.400      0.500    0.444      0.423    0.957     0.410     Wizkid
+                 0.250    0.010    0.500      0.250    0.333      0.337    0.853     0.347     Asian Dub Foundation
+                 0.600    0.019    0.600      0.600    0.600      0.581    0.988     0.796     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.750    0.015    0.750      0.750    0.744      0.733    0.941     0.767     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 5 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 1 7 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 | i = Kanye West
+ 1 0 0 0 0 0 0 0 0 3 0 2 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 1 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 | q = Wizkid
+ 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 | r = Asian Dub Foundation
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I -1 -M 30 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:11/11 (108)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-143.49 + 
+[userId] * -0.1 +
+[timeContext_dayOfWeek] * -1.09 +
+[weatherContext_precipitation] * 1.54 +
+[weatherContext_pressure] * 0.14 +
+[audioContext_volumeMusic] * 0.03 +
+[taskContext_runningTask3=com.android.chrome/com.google.android.apps.chrome.Main] * 2.06 +
+[networkContext_bluetoothEnabled] * 3.29 +
+[orientationContext_orientationDevice] * -0.43
+
+Class 1 :
+3.04 + 
+[deviceId=61e096280605612a] * 2.91 +
+[weatherContext_temperature] * 0.15 +
+[weatherContext_visibility] * -0.97 +
+[audioContext_volumeSystem] * -0.02 +
+[taskContext_runningTask1=com.anddoes.launcher/.Launcher] * 6.49 +
+[taskContext_runningTask4=com.whatsapp/.Conversation] * 4.16 +
+[taskContext_runningTask5=com.android.mms/.ui.ConversationComposer] * 3.09
+
+Class 2 :
+-6.21 + 
+[timeContext_dayOfWeek] * 0.28 +
+[audioContext_volumeNotif] * 0.05 +
+[taskContext_runningTask1=com.nianticproject.ingress/.NemesisActivity] * 2.97 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.92 +
+[taskContext_runningTask7=com.whatsapp/.Conversations] * 2.77 +
+[noiseContext_noiseStandardDeviation] * 0.22 +
+[playerContext_repeatMode] * -0.61 +
+[activityContext_activity=eating] * 2.74
+
+Class 3 :
+-6.27 + 
+[deviceId=ebcd05765a833bb7] * 4.95 +
+[weatherContext_precipitation] * 0.33 +
+[batteryContext_batteryPlugged] * 0.86 +
+[taskContext_runningTask2=com.android.mms/.ui.ConversationList] * 6.06 +
+[taskContext_runningTask3=com.dynamicg.timerecording/.Main] * 5.25 +
+[networkContext_wifiEnabled] * -1.94 +
+[soundEffectContext_equalizerEnabled] * 1.65 +
+[activityContext_activity=working] * 1.54
+
+Class 4 :
+-10.43 + 
+[userId] * 0.11 +
+[deviceId=108b26b494744513] * 3.41 +
+[deviceId=c70bf403998e888c] * 6.47 +
+[locationContext_accuracy] * 0    +
+[taskContext_runningTask8=com.android.browser/.BrowserActivity] * 1.53 +
+[taskContext_runningTask9=com.facebook.katana/.activity.FbFragmentChromeActivity] * 1.72 +
+[taskContext_runningTask10=com.sec.android.app.clockpackage/.ClockPackage] * 1.68
+
+Class 5 :
+129.83 + 
+[deviceId=61e096280605612a] * 2.55 +
+[weatherContext_windSpeed] * -0.39 +
+[weatherContext_pressure] * -0.13 +
+[batteryContext_batteryStatus] * 1.66 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * 5.98 +
+[pressureContext_pressureStandardDeviation] * 3.31
+
+Class 6 :
+-1.43 + 
+[deviceId=5c99cad42ef244fd] * 4.95 +
+[storageContext_storageExternal] * -0.03 +
+[audioContext_vibrateNotif] * -0.95 +
+[taskContext_runningTask1=org.mobilemusicgenius.android/.ui.MusicPlayerActivity] * 1.57 +
+[networkContext_wifiBssid=00:16:b6:b1:02:9e] * 3.06 +
+[noiseContext_noiseStandardDeviation] * -0.68 +
+[orientationContext_orientationUser] * 0.9  +
+[soundEffectContext_reverbPreset] * 0.36
+
+Class 7 :
+10.7 + 
+[contextId] * 0    +
+[weatherContext_temperature] * -0.15 +
+[weatherContext_precipitation] * 0.56 +
+[batteryContext_batteryStatus] * -0.53 +
+[taskContext_runningTask1=com.android.mms/.ui.ConversationComposer] * 2.59 +
+[networkContext_wifiConnected] * 2.37 +
+[noiseContext_noise] * -0.1 +
+[activityContext_mood] * -0.07
+
+Class 8 :
+-6.65 + 
+[deviceId=75a05d52c1655b1a] * 6.12 +
+[batteryContext_batteryStatus] * -0.42 +
+[memoryContext_memory] * -0.05 +
+[taskContext_runningTask3=org.mobilemusicgenius.android/.ui.MusicBrowserActivity] * 1.43 +
+[taskContext_runningTask4=com.android.browser/.BrowserActivity] * 2.81 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.45 +
+[displayContext_screenOn] * 1.46 +
+[orientationContext_orientationUser] * 0.36
+
+Class 9 :
+-3.43 + 
+[timeContext_timeZone=Europe/Vienna] * -3.68 +
+[weatherContext_cloudCover] * 0.04 +
+[audioContext_audioOutput] * -1.47 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * -2.86 +
+[taskContext_runningTask2=com.google.android.googlequicksearchbox/.SearchActivity] * 2.48 +
+[taskContext_runningTask4=com.facebook.katana/.activity.FbFragmentChromeActivity] * 1.55 +
+[displayContext_screenOn] * 1.26 +
+[networkContext_wifiBssid=00:1f:9f:73:61:3d] * 3.41 +
+[lightContext_lightStandardDeviation] * 0   
+
+Class 10 :
+-10.53 + 
+[deviceId=43ccaa83e7bb26e4] * 23.52
+
+Class 11 :
+0.76 + 
+[timeContext_timeZone=Europe/Vienna] * -3.18 +
+[weatherContext_precipitation] * 1.41 +
+[audioContext_vibrateNotif] * -1.63 +
+[taskContext_runningTask2=com.android.htcdialer/.Dialer] * 3.19 +
+[taskContext_runningTask3=com.android.settings/.SoundSettings] * 3.21 +
+[displayContext_dockState] * 0.61 +
+[playerContext_shuffleMode] * -1.58
+
+Class 12 :
+-288.06 + 
+[userId] * 0.03 +
+[deviceId=1c76f53a429494ba] * 4.62 +
+[timeContext_hourOfDay] * 0.13 +
+[locationContext_longitude] * -0.26 +
+[taskContext_runningTask3=com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity] * 7.27 +
+[displayContext_screenOn] * -1.41
+
+Class 13 :
+-10.53 + 
+[deviceId=6b877438c2c581b6] * 23.47
+
+Class 14 :
+-1.5 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[taskContext_runningTask5=com.omgpop.dstfree/.Main] * 4.51 +
+[taskContext_runningTask5=com.lyrebirdstudio.tinyplanet/.MainActivity] * 2.01 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 3.21 +
+[accelerationContext_acceleration] * 0.33 +
+[activityContext_mood] * -0.08
+
+Class 15 :
+-6.68 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[timeContext_timeZone=Europe/Sarajevo] * 3.08 +
+[taskContext_runningTask1=com.htc.launcher/.Launcher] * 1.29 +
+[taskContext_runningTask4=com.android.htcdialer/.DialerActivity] * 5.05 +
+[taskContext_runningTask6=com.htc.android.worldclock/.WorldClockTabControl] * 4.16 +
+[taskContext_runningTask7=com.android.browser/.BrowserActivity] * -1.54 +
+[activityContext_activity=traveling] * 1.26
+
+Class 16 :
+-15.08 + 
+[deviceId=75a05d52c1655b1a] * 4.76 +
+[timeContext_dayOfWeek] * 0.4  +
+[weatherContext_temperature] * 0.1  +
+[batteryContext_batteryStatus] * 2.16 +
+[taskContext_runningTask2=com.sec.android.app.launcher/com.android.launcher2.Launcher] * 3.39 +
+[taskContext_runningTask3=com.android.calendar/.AllInOneActivity] * 1.63 +
+[taskContext_runningTask4=com.google.android.youtube/.app.honeycomb.phone.HomeActivity] * 1.44
+
+Class 17 :
+-4.11 + 
+[userId] * 0.04 +
+[deviceId=ebcd05765a833bb7] * 2.6  +
+[deviceId=69486ceb6f11136b] * 5.02 +
+[taskContext_runningTask4=com.fsck.k9/.activity.MessageList] * 4.82 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 3.42 +
+[pressureContext_pressureStandardDeviation] * -2.45 +
+[activityContext_activity=unspecified] * -1.54
+
+Class 18 :
+-1.61 + 
+[userId] * 0.03 +
+[deviceId=ebcd05765a833bb7] * 2.74 +
+[deviceId=8779d41d6cec5e2e] * 3.22 +
+[weatherContext_windDirection] * -0.01 +
+[audioContext_volumeMusic] * -0.02 +
+[audioContext_volumeNotif] * 0.02 +
+[audioContext_audioOutput] * -2.29 +
+[taskContext_runningTask2=com.cyanogenmod.trebuchet/.Launcher] * 1.13 +
+[networkContext_wifiEnabled] * 2.59 +
+[activityContext_activity=unspecified] * -1.34
+
+Class 19 :
+-10.53 + 
+[deviceId=a525f642fe51df0b] * 23.76
+
+
+Time taken to build model: 2.7 seconds
+Time taken to test model on training data: 0.04 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         108              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0007
+Root mean squared error                  0.0035
+Relative absolute error                  0.7924 %
+Root relative squared error              1.6214 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       5.0926 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          81               75      %
+Incorrectly Classified Instances        27               25      %
+Kappa statistic                          0.735 
+Mean absolute error                      0.0267
+Root mean squared error                  0.1473
+Relative absolute error                 28.1921 %
+Root relative squared error             67.5341 %
+Coverage of cases (0.95 level)          80.5556 %
+Mean rel. region size (0.95 level)       7.8704 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.029    0.625      0.833    0.714      0.703    0.958     0.765     The Heavy
+                 0.714    0.010    0.833      0.714    0.769      0.757    0.958     0.830     Fiona Apple
+                 0.700    0.041    0.636      0.700    0.667      0.632    0.962     0.833     Die Fantastischen Vier
+                 1.000    0.010    0.800      1.000    0.889      0.890    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.600    0.010    0.750      0.600    0.667      0.657    0.901     0.560     Ani DiFranco
+                 0.800    0.019    0.667      0.800    0.727      0.716    0.852     0.723     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 0.250    0.019    0.333      0.250    0.286      0.265    0.846     0.319     Kanye West
+                 0.500    0.020    0.600      0.500    0.545      0.524    0.948     0.666     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.900    0.020    0.818      0.900    0.857      0.843    0.958     0.873     Sportfreunde Stiller
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.941     0.857     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.564    0.692     0.322     Caravan Palace
+                 0.750    0.019    0.600      0.750    0.667      0.657    0.897     0.548     Lamb of God
+                 0.500    0.029    0.400      0.500    0.444      0.423    0.957     0.410     Wizkid
+                 0.250    0.010    0.500      0.250    0.333      0.337    0.853     0.347     Asian Dub Foundation
+                 0.600    0.019    0.600      0.600    0.600      0.581    0.988     0.796     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.750    0.015    0.750      0.750    0.744      0.733    0.941     0.767     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 5 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 1 7 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 | i = Kanye West
+ 1 0 0 0 0 0 0 0 0 3 0 2 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 1 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 | q = Wizkid
+ 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 | r = Asian Dub Foundation
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I 10 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:10/10 (108)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-142.81 + 
+[userId] * -0.1 +
+[timeContext_dayOfWeek] * -1.09 +
+[weatherContext_precipitation] * 0.82 +
+[weatherContext_pressure] * 0.14 +
+[audioContext_volumeMusic] * 0.03 +
+[taskContext_runningTask3=com.android.chrome/com.google.android.apps.chrome.Main] * 2.06 +
+[networkContext_bluetoothEnabled] * 3.29 +
+[orientationContext_orientationDevice] * -0.43
+
+Class 1 :
+3.54 + 
+[deviceId=61e096280605612a] * 2.91 +
+[weatherContext_temperature] * 0.15 +
+[weatherContext_visibility] * -0.97 +
+[audioContext_volumeSystem] * -0.02 +
+[taskContext_runningTask1=com.anddoes.launcher/.Launcher] * 5.02 +
+[taskContext_runningTask4=com.whatsapp/.Conversation] * 4.16 +
+[taskContext_runningTask5=com.android.mms/.ui.ConversationComposer] * 3.09
+
+Class 2 :
+-6.6 + 
+[timeContext_dayOfWeek] * 0.28 +
+[audioContext_volumeNotif] * 0.05 +
+[taskContext_runningTask1=com.nianticproject.ingress/.NemesisActivity] * 2.97 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.92 +
+[taskContext_runningTask7=com.whatsapp/.Conversations] * 2.77 +
+[noiseContext_noiseStandardDeviation] * 0.22 +
+[activityContext_activity=eating] * 2.74
+
+Class 3 :
+-5.32 + 
+[deviceId=ebcd05765a833bb7] * 3.14 +
+[weatherContext_precipitation] * 0.33 +
+[batteryContext_batteryPlugged] * 0.86 +
+[taskContext_runningTask2=com.android.mms/.ui.ConversationList] * 6.06 +
+[taskContext_runningTask3=com.dynamicg.timerecording/.Main] * 5.25 +
+[networkContext_wifiEnabled] * -1.94 +
+[soundEffectContext_equalizerEnabled] * 1.65 +
+[activityContext_activity=working] * 1.54
+
+Class 4 :
+-9.85 + 
+[userId] * 0.11 +
+[deviceId=108b26b494744513] * 3.41 +
+[deviceId=c70bf403998e888c] * 4.93 +
+[locationContext_accuracy] * 0    +
+[taskContext_runningTask8=com.android.browser/.BrowserActivity] * 1.53 +
+[taskContext_runningTask9=com.facebook.katana/.activity.FbFragmentChromeActivity] * 1.72 +
+[taskContext_runningTask10=com.sec.android.app.clockpackage/.ClockPackage] * 1.68
+
+Class 5 :
+129.6 + 
+[deviceId=61e096280605612a] * 2.55 +
+[weatherContext_windSpeed] * -0.28 +
+[weatherContext_pressure] * -0.13 +
+[batteryContext_batteryStatus] * 1.66 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * 5.98 +
+[pressureContext_pressureStandardDeviation] * 3.31
+
+Class 6 :
+-2.47 + 
+[deviceId=5c99cad42ef244fd] * 4.95 +
+[audioContext_vibrateNotif] * -0.95 +
+[taskContext_runningTask1=org.mobilemusicgenius.android/.ui.MusicPlayerActivity] * 1.57 +
+[networkContext_wifiBssid=00:16:b6:b1:02:9e] * 3.06 +
+[noiseContext_noiseStandardDeviation] * -0.68 +
+[orientationContext_orientationUser] * 0.9  +
+[soundEffectContext_reverbPreset] * 0.36
+
+Class 7 :
+11.06 + 
+[contextId] * 0    +
+[weatherContext_temperature] * -0.15 +
+[batteryContext_batteryStatus] * -0.53 +
+[taskContext_runningTask1=com.android.mms/.ui.ConversationComposer] * 2.59 +
+[networkContext_wifiConnected] * 2.37 +
+[noiseContext_noise] * -0.1 +
+[activityContext_mood] * -0.07
+
+Class 8 :
+-5.48 + 
+[deviceId=75a05d52c1655b1a] * 6.12 +
+[batteryContext_batteryStatus] * -0.42 +
+[memoryContext_memory] * -0.05 +
+[taskContext_runningTask3=org.mobilemusicgenius.android/.ui.MusicBrowserActivity] * 1.43 +
+[taskContext_runningTask4=com.android.browser/.BrowserActivity] * 2.81 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.45 +
+[displayContext_screenOn] * 1.46
+
+Class 9 :
+-3.25 + 
+[timeContext_timeZone=Europe/Vienna] * -3.68 +
+[weatherContext_cloudCover] * 0.04 +
+[audioContext_audioOutput] * -1.47 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * -2.86 +
+[taskContext_runningTask2=com.google.android.googlequicksearchbox/.SearchActivity] * 1.34 +
+[taskContext_runningTask4=com.facebook.katana/.activity.FbFragmentChromeActivity] * 1.55 +
+[displayContext_screenOn] * 1.26 +
+[networkContext_wifiBssid=00:1f:9f:73:61:3d] * 3.41 +
+[lightContext_lightStandardDeviation] * 0   
+
+Class 10 :
+-9.58 + 
+[deviceId=43ccaa83e7bb26e4] * 21.62
+
+Class 11 :
+1.19 + 
+[timeContext_timeZone=Europe/Vienna] * -3.18 +
+[weatherContext_precipitation] * 1.41 +
+[audioContext_vibrateNotif] * -1.63 +
+[taskContext_runningTask2=com.android.htcdialer/.Dialer] * 3.19 +
+[taskContext_runningTask3=com.android.settings/.SoundSettings] * 3.21 +
+[displayContext_dockState] * 0.47 +
+[playerContext_shuffleMode] * -1.58
+
+Class 12 :
+-287 + 
+[deviceId=1c76f53a429494ba] * 4.62 +
+[timeContext_hourOfDay] * 0.13 +
+[locationContext_longitude] * -0.26 +
+[taskContext_runningTask3=com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity] * 7.27 +
+[displayContext_screenOn] * -1.41
+
+Class 13 :
+-9.58 + 
+[deviceId=6b877438c2c581b6] * 21.57
+
+Class 14 :
+-0.99 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[taskContext_runningTask5=com.omgpop.dstfree/.Main] * 3.04 +
+[taskContext_runningTask5=com.lyrebirdstudio.tinyplanet/.MainActivity] * 2.01 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 3.21 +
+[accelerationContext_acceleration] * 0.33 +
+[activityContext_mood] * -0.08
+
+Class 15 :
+-5.73 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[timeContext_timeZone=Europe/Sarajevo] * 1.56 +
+[taskContext_runningTask1=com.htc.launcher/.Launcher] * 1.29 +
+[taskContext_runningTask4=com.android.htcdialer/.DialerActivity] * 5.05 +
+[taskContext_runningTask6=com.htc.android.worldclock/.WorldClockTabControl] * 4.16 +
+[taskContext_runningTask7=com.android.browser/.BrowserActivity] * -1.54 +
+[activityContext_activity=traveling] * 1.26
+
+Class 16 :
+-13.72 + 
+[deviceId=75a05d52c1655b1a] * 4.76 +
+[timeContext_dayOfWeek] * 0.4  +
+[batteryContext_batteryStatus] * 2.16 +
+[taskContext_runningTask2=com.sec.android.app.launcher/com.android.launcher2.Launcher] * 3.39 +
+[taskContext_runningTask3=com.android.calendar/.AllInOneActivity] * 1.63 +
+[taskContext_runningTask4=com.google.android.youtube/.app.honeycomb.phone.HomeActivity] * 1.44
+
+Class 17 :
+-2.6 + 
+[deviceId=ebcd05765a833bb7] * 2.6  +
+[deviceId=69486ceb6f11136b] * 5.02 +
+[taskContext_runningTask4=com.fsck.k9/.activity.MessageList] * 4.82 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 3.42 +
+[pressureContext_pressureStandardDeviation] * -2.45 +
+[activityContext_activity=unspecified] * -1.54
+
+Class 18 :
+-0.2 + 
+[deviceId=ebcd05765a833bb7] * 2.74 +
+[deviceId=8779d41d6cec5e2e] * 3.22 +
+[weatherContext_windDirection] * -0.01 +
+[audioContext_volumeMusic] * -0.02 +
+[audioContext_volumeNotif] * 0.02 +
+[audioContext_audioOutput] * -2.29 +
+[taskContext_runningTask2=com.cyanogenmod.trebuchet/.Launcher] * 1.13 +
+[networkContext_wifiEnabled] * 2.59 +
+[activityContext_activity=unspecified] * -1.34
+
+Class 19 :
+-9.58 + 
+[deviceId=a525f642fe51df0b] * 21.86
+
+
+Time taken to build model: 1.49 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         108              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0011
+Root mean squared error                  0.0045
+Relative absolute error                  1.158  %
+Root relative squared error              2.0745 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       5.0463 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          84               77.7778 %
+Incorrectly Classified Instances        24               22.2222 %
+Kappa statistic                          0.7643
+Mean absolute error                      0.0288
+Root mean squared error                  0.1447
+Relative absolute error                 30.3907 %
+Root relative squared error             66.326  %
+Coverage of cases (0.95 level)          83.3333 %
+Mean rel. region size (0.95 level)       9.537  %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.020    0.714      0.833    0.769      0.757    0.961     0.651     The Heavy
+                 0.714    0.000    1.000      0.714    0.833      0.837    0.912     0.872     Fiona Apple
+                 0.800    0.051    0.615      0.800    0.696      0.667    0.948     0.762     Die Fantastischen Vier
+                 1.000    0.010    0.800      1.000    0.889      0.890    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.600    0.019    0.600      0.600    0.600      0.581    0.868     0.466     Ani DiFranco
+                 0.800    0.010    0.800      0.800    0.800      0.790    0.843     0.772     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 0.500    0.019    0.500      0.500    0.500      0.481    0.957     0.374     Kanye West
+                 0.667    0.020    0.667      0.667    0.667      0.647    0.907     0.584     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.900    0.020    0.818      0.900    0.857      0.843    0.985     0.816     Sportfreunde Stiller
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.912     0.850     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.564    0.712     0.332     Caravan Palace
+                 0.750    0.019    0.600      0.750    0.667      0.657    0.844     0.582     Lamb of God
+                 0.500    0.019    0.500      0.500    0.500      0.481    0.906     0.509     Wizkid
+                 0.250    0.000    1.000      0.250    0.400      0.493    0.651     0.300     Asian Dub Foundation
+                 0.600    0.019    0.600      0.600    0.600      0.581    0.979     0.720     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.778    0.014    0.795      0.778    0.774      0.767    0.927     0.746     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 5 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 8 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 4 0 2 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 1 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 | q = Wizkid
+ 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 | r = Asian Dub Foundation
+ 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I 5 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:5/5 (108)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+3.39 + 
+[userId] * -0.04 +
+[timeContext_dayOfWeek] * -1.09 +
+[taskContext_runningTask3=com.android.chrome/com.google.android.apps.chrome.Main] * 2.06 +
+[networkContext_bluetoothEnabled] * 3.29
+
+Class 1 :
+-4.39 + 
+[deviceId=61e096280605612a] * 2.91 +
+[weatherContext_temperature] * 0.15 +
+[taskContext_runningTask1=com.anddoes.launcher/.Launcher] * 3.49 +
+[taskContext_runningTask4=com.whatsapp/.Conversation] * 2.46 +
+[taskContext_runningTask5=com.android.mms/.ui.ConversationComposer] * 3.09
+
+Class 2 :
+-2.72 + 
+[audioContext_volumeNotif] * 0.03 +
+[taskContext_runningTask1=com.nianticproject.ingress/.NemesisActivity] * 2.97 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.02 +
+[taskContext_runningTask7=com.whatsapp/.Conversations] * 1.52 +
+[activityContext_activity=eating] * 2.74
+
+Class 3 :
+-3.83 + 
+[deviceId=ebcd05765a833bb7] * 3.14 +
+[weatherContext_precipitation] * 0.33 +
+[taskContext_runningTask3=com.dynamicg.timerecording/.Main] * 3.61 +
+[soundEffectContext_equalizerEnabled] * 1.65 +
+[activityContext_activity=working] * 1.54
+
+Class 4 :
+-4.22 + 
+[userId] * 0.05 +
+[deviceId=108b26b494744513] * 3.41 +
+[deviceId=c70bf403998e888c] * 4.93 +
+[taskContext_runningTask9=com.facebook.katana/.activity.FbFragmentChromeActivity] * 1.72
+
+Class 5 :
+-2.97 + 
+[deviceId=61e096280605612a] * 2.55 +
+[weatherContext_windSpeed] * -0.15 +
+[batteryContext_batteryStatus] * 0.77 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * 5.98
+
+Class 6 :
+-2.46 + 
+[deviceId=5c99cad42ef244fd] * 3.62 +
+[audioContext_vibrateNotif] * -0.95 +
+[networkContext_wifiBssid=00:16:b6:b1:02:9e] * 3.06 +
+[orientationContext_orientationUser] * 0.55 +
+[soundEffectContext_reverbPreset] * 0.36
+
+Class 7 :
+2.93 + 
+[contextId] * 0    +
+[weatherContext_temperature] * -0.09 +
+[taskContext_runningTask1=com.android.mms/.ui.ConversationComposer] * 2.59 +
+[networkContext_wifiConnected] * 2.37 +
+[noiseContext_noise] * -0.05
+
+Class 8 :
+-4.86 + 
+[deviceId=75a05d52c1655b1a] * 4.62 +
+[taskContext_runningTask3=org.mobilemusicgenius.android/.ui.MusicBrowserActivity] * 1.43 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.45 +
+[displayContext_screenOn] * 1.46
+
+Class 9 :
+-2.69 + 
+[timeContext_timeZone=Europe/Vienna] * -2.3 +
+[weatherContext_cloudCover] * 0.04 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * -2.86 +
+[networkContext_wifiBssid=00:1f:9f:73:61:3d] * 3.41 +
+[lightContext_lightStandardDeviation] * 0   
+
+Class 10 :
+-4.83 + 
+[deviceId=43ccaa83e7bb26e4] * 12.11
+
+Class 11 :
+1.5  + 
+[timeContext_timeZone=Europe/Vienna] * -1.79 +
+[audioContext_vibrateNotif] * -1.63 +
+[taskContext_runningTask2=com.android.htcdialer/.Dialer] * 3.19 +
+[taskContext_runningTask3=com.android.settings/.SoundSettings] * 3.21 +
+[displayContext_dockState] * 0.31
+
+Class 12 :
+-285.67 + 
+[deviceId=1c76f53a429494ba] * 3.22 +
+[locationContext_longitude] * -0.18 +
+[taskContext_runningTask3=com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity] * 5.95
+
+Class 13 :
+-4.83 + 
+[deviceId=6b877438c2c581b6] * 12.07
+
+Class 14 :
+-3.45 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[taskContext_runningTask5=com.omgpop.dstfree/.Main] * 3.04 +
+[taskContext_runningTask5=com.lyrebirdstudio.tinyplanet/.MainActivity] * 2.01 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 1.6  +
+[accelerationContext_acceleration] * 0.16
+
+Class 15 :
+-3.58 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[taskContext_runningTask4=com.android.htcdialer/.DialerActivity] * 3.43 +
+[taskContext_runningTask6=com.htc.android.worldclock/.WorldClockTabControl] * 4.16
+
+Class 16 :
+-7.91 + 
+[deviceId=75a05d52c1655b1a] * 4.76 +
+[timeContext_dayOfWeek] * 0.4  +
+[batteryContext_batteryStatus] * 1    +
+[taskContext_runningTask2=com.sec.android.app.launcher/com.android.launcher2.Launcher] * 1.78
+
+Class 17 :
+-2.32 + 
+[deviceId=ebcd05765a833bb7] * 2.6  +
+[deviceId=69486ceb6f11136b] * 3.21 +
+[taskContext_runningTask4=com.fsck.k9/.activity.MessageList] * 3.34 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 1.91
+
+Class 18 :
+-2.62 + 
+[deviceId=ebcd05765a833bb7] * 2.74 +
+[deviceId=8779d41d6cec5e2e] * 3.22 +
+[audioContext_volumeNotif] * 0.02 +
+[audioContext_audioOutput] * -1.1 +
+[networkContext_wifiEnabled] * 2.59
+
+Class 19 :
+-4.83 + 
+[deviceId=a525f642fe51df0b] * 12.36
+
+
+Time taken to build model: 1.24 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         108              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0.0094
+Root mean squared error                  0.0356
+Relative absolute error                  9.9955 %
+Root relative squared error             16.3871 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      10.6481 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          83               76.8519 %
+Incorrectly Classified Instances        25               23.1481 %
+Kappa statistic                          0.7546
+Mean absolute error                      0.0347
+Root mean squared error                  0.1411
+Relative absolute error                 36.5506 %
+Root relative squared error             64.6978 %
+Coverage of cases (0.95 level)          87.037  %
+Mean rel. region size (0.95 level)      17.2685 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.029    0.625      0.833    0.714      0.703    0.879     0.765     The Heavy
+                 0.857    0.020    0.750      0.857    0.800      0.787    0.980     0.874     Fiona Apple
+                 0.700    0.041    0.636      0.700    0.667      0.632    0.972     0.818     Die Fantastischen Vier
+                 1.000    0.010    0.800      1.000    0.889      0.890    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.600    0.010    0.750      0.600    0.667      0.657    0.783     0.429     Ani DiFranco
+                 0.800    0.010    0.800      0.800    0.800      0.790    0.833     0.721     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 0.500    0.019    0.500      0.500    0.500      0.481    0.962     0.430     Kanye West
+                 0.500    0.010    0.750      0.500    0.600      0.595    0.928     0.497     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.900    0.020    0.818      0.900    0.857      0.843    0.987     0.849     Sportfreunde Stiller
+                 0.833    0.000    1.000      0.833    0.909      0.908    0.943     0.858     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.564    0.923     0.404     Caravan Palace
+                 0.750    0.019    0.600      0.750    0.667      0.657    0.800     0.579     Lamb of God
+                 0.500    0.019    0.500      0.500    0.500      0.481    0.954     0.458     Wizkid
+                 0.250    0.019    0.333      0.250    0.286      0.265    0.697     0.304     Asian Dub Foundation
+                 0.600    0.010    0.750      0.600    0.667      0.657    0.992     0.810     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.769    0.014    0.770      0.769    0.764      0.753    0.938     0.759     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 6 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 1 7 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 1 0 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 | i = Kanye West
+ 1 0 0 0 0 0 0 0 0 3 0 2 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 0 0 9 0 0 0 0 0 1 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 1 0 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 | q = Wizkid
+ 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 | r = Asian Dub Foundation
+ 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 3 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+
+
+Options: -I 20 -M 15 -W 0.0 
+
+Logistic model tree 
+------------------
+: LM_1:20/20 (108)
+
+Number of Leaves  : 	1
+
+Size of the Tree : 	1
+LM_1:
+Class 0 :
+-423.02 + 
+[userId] * -0.1 +
+[timeContext_dayOfWeek] * -1.09 +
+[weatherContext_precipitation] * 1.54 +
+[weatherContext_pressure] * 0.41 +
+[weatherContext_weatherCode] * 0.01 +
+[audioContext_volumeMusic] * 0.09 +
+[taskContext_runningTask3=com.android.chrome/com.google.android.apps.chrome.Main] * 2.06 +
+[taskContext_runningTask10=com.sec.android.app.clockpackage/.ClockPackage] * 1.31 +
+[networkContext_bluetoothEnabled] * 3.29 +
+[orientationContext_orientationUser] * -0.49 +
+[orientationContext_orientationDevice] * -0.43
+
+Class 1 :
+6.4  + 
+[deviceId=61e096280605612a] * 2.91 +
+[weatherContext_temperature] * 0.15 +
+[weatherContext_visibility] * -1.31 +
+[audioContext_volumeNotif] * -0.02 +
+[audioContext_volumeSystem] * -0.05 +
+[taskContext_runningTask1=com.anddoes.launcher/.Launcher] * 10.63 +
+[taskContext_runningTask4=com.whatsapp/.Conversation] * 5.48 +
+[taskContext_runningTask5=com.android.mms/.ui.ConversationComposer] * 3.09 +
+[displayContext_screenOn] * -2.68
+
+Class 2 :
+-9.6 + 
+[timeContext_dayOfWeek] * 0.28 +
+[locationContext_provider] * 0.84 +
+[weatherContext_precipitation] * -0.7 +
+[audioContext_volumeNotif] * 0.06 +
+[audioContext_audioOutput] * 0.83 +
+[taskContext_runningTask1=com.nianticproject.ingress/.NemesisActivity] * 2.97 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 3.79 +
+[taskContext_runningTask5=com.android.chrome/com.google.android.apps.chrome.Main] * -1.24 +
+[taskContext_runningTask7=com.whatsapp/.Conversations] * 2.77 +
+[networkContext_bluetoothEnabled] * 1.06 +
+[noiseContext_noiseStandardDeviation] * 0.43 +
+[playerContext_repeatMode] * -0.61 +
+[activityContext_activity=eating] * 3.85
+
+Class 3 :
+-11.09 + 
+[deviceId=ebcd05765a833bb7] * 6.63 +
+[weatherContext_precipitation] * 0.33 +
+[batteryContext_batteryPlugged] * 1.69 +
+[phoneContext_networkType] * 0.12 +
+[taskContext_runningTask2=com.android.mms/.ui.ConversationList] * 6.06 +
+[taskContext_runningTask3=com.dynamicg.timerecording/.Main] * 8.68 +
+[networkContext_wifiEnabled] * -3.66 +
+[orientationContext_orientationDevice] * -0.54 +
+[soundEffectContext_equalizerEnabled] * 4.98 +
+[activityContext_activity=working] * 1.54
+
+Class 4 :
+-17.7 + 
+[userId] * 0.23 +
+[deviceId=108b26b494744513] * 3.41 +
+[deviceId=c70bf403998e888c] * 7.96 +
+[locationContext_accuracy] * 0    +
+[memoryContext_memory] * -0.1 +
+[taskContext_runningTask8=com.android.browser/.BrowserActivity] * 1.53 +
+[taskContext_runningTask9=com.facebook.katana/.activity.FbFragmentChromeActivity] * 4.76 +
+[taskContext_runningTask10=com.sec.android.app.clockpackage/.ClockPackage] * 3.2 
+
+Class 5 :
+121.76 + 
+[deviceId=61e096280605612a] * 2.55 +
+[locationContext_provider] * 1.21 +
+[weatherContext_windSpeed] * -0.62 +
+[weatherContext_pressure] * -0.13 +
+[batteryContext_batteryStatus] * 3.03 +
+[phoneContext_networkType] * 0.11 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * 5.98 +
+[taskContext_runningTask9=com.facebook.katana/.activity.FbFragmentChromeActivity] * -1.29 +
+[pressureContext_pressureStandardDeviation] * 3.31 +
+[noiseContext_noise] * 0.05
+
+Class 6 :
+-7.32 + 
+[deviceId=5c99cad42ef244fd] * 4.95 +
+[storageContext_storageExternal] * -0.11 +
+[audioContext_vibrateNotif] * -0.95 +
+[taskContext_runningTask1=org.mobilemusicgenius.android/.ui.MusicPlayerActivity] * 1.57 +
+[networkContext_wifiBssid=00:16:b6:b1:02:9e] * 3.06 +
+[networkContext_wifiSsid=cees] * -1.34 +
+[noiseContext_noiseStandardDeviation] * -0.99 +
+[orientationContext_orientationUser] * 1.25 +
+[orientationContext_orientationDevice] * 0.73 +
+[soundEffectContext_reverbPreset] * 0.36 +
+[activityContext_mood] * 0.1 
+
+Class 7 :
+11.58 + 
+[contextId] * 0    +
+[weatherContext_temperature] * -0.26 +
+[weatherContext_precipitation] * 1.21 +
+[batteryContext_batteryStatus] * -1.47 +
+[memoryContext_memory] * 0.05 +
+[taskContext_runningTask1=com.android.mms/.ui.ConversationComposer] * 5.33 +
+[networkContext_wifiConnected] * 2.37 +
+[noiseContext_noise] * -0.1 +
+[activityContext_mood] * -0.07
+
+Class 8 :
+-6.56 + 
+[deviceId=75a05d52c1655b1a] * 8.72 +
+[batteryContext_batteryPlugged] * -0.61 +
+[batteryContext_batteryStatus] * -1.76 +
+[memoryContext_memory] * -0.05 +
+[taskContext_runningTask3=org.mobilemusicgenius.android/.ui.MusicBrowserActivity] * 2.56 +
+[taskContext_runningTask4=com.android.browser/.BrowserActivity] * 2.81 +
+[taskContext_runningTask5=com.android.contacts/.activities.DialtactsActivity] * 2.45 +
+[taskContext_runningTask6=com.sec.android.gallery3d/.app.Gallery] * 1.34 +
+[displayContext_screenOn] * 1.46 +
+[networkContext_wifiBssid=ac:e8:7b:2b:f2:1c] * 1.37 +
+[orientationContext_orientationUser] * 0.36
+
+Class 9 :
+-3.14 + 
+[deviceId=9217ac1e8119c8b] * 1.11 +
+[timeContext_timeZone=Europe/Vienna] * -3.68 +
+[timeContext_dayOfWeek] * -0.35 +
+[weatherContext_cloudCover] * 0.04 +
+[storageContext_storageInternal] * -0.03 +
+[audioContext_audioOutput] * -1.47 +
+[taskContext_runningTask1=com.android.vending/com.google.android.finsky.activities.MainActivity] * -2.86 +
+[taskContext_runningTask2=com.google.android.googlequicksearchbox/.SearchActivity] * 3.75 +
+[taskContext_runningTask4=com.facebook.katana/.activity.FbFragmentChromeActivity] * 4.01 +
+[taskContext_runningTask10=com.sec.android.app.clockpackage/.ClockPackage] * -1.35 +
+[displayContext_screenOn] * 1.26 +
+[networkContext_wifiBssid=00:1f:9f:73:61:3d] * 6.14 +
+[lightContext_lightStandardDeviation] * 0   
+
+Class 10 :
+-19.08 + 
+[deviceId=43ccaa83e7bb26e4] * 40.62
+
+Class 11 :
+-1.5 + 
+[timeContext_timeZone=Europe/Vienna] * -3.18 +
+[timeContext_dayOfWeek] * 0.36 +
+[locationContext_accuracy] * 0    +
+[weatherContext_precipitation] * 1.41 +
+[audioContext_vibrateNotif] * -2.62 +
+[taskContext_runningTask2=com.android.htcdialer/.Dialer] * 4.48 +
+[taskContext_runningTask3=org.mobilemusicgenius.android/.ui.MusicBrowserActivity] * -1.18 +
+[taskContext_runningTask3=com.android.settings/.SoundSettings] * 4.57 +
+[taskContext_runningTask5=com.android.mms/.ui.ConversationList] * -1.24 +
+[displayContext_dockState] * 0.86 +
+[playerContext_shuffleMode] * -1.58
+
+Class 12 :
+-287.76 + 
+[userId] * 0.03 +
+[deviceId=1c76f53a429494ba] * 8.24 +
+[timeContext_hourOfDay] * 0.13 +
+[locationContext_longitude] * -0.4 +
+[weatherContext_cloudCover] * -0.03 +
+[taskContext_runningTask3=com.ea.games.nfs13_row/com.ea.ironmonkey.GameActivity] * 9.55 +
+[displayContext_screenOn] * -1.41 +
+[networkContext_wifiLinkSpeed] * 0.03
+
+Class 13 :
+-19.08 + 
+[deviceId=6b877438c2c581b6] * 40.57
+
+Class 14 :
+-5.74 + 
+[deviceId=6d2333614f593455] * 4.89 +
+[taskContext_runningTask4=hu.koin/.ui.MainTabActivity] * 1.24 +
+[taskContext_runningTask5=com.omgpop.dstfree/.Main] * 5.58 +
+[taskContext_runningTask5=com.lyrebirdstudio.tinyplanet/.MainActivity] * 2.01 +
+[taskContext_runningTask6=com.android.mms/.ui.ConversationList] * -1.4 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 5.83 +
+[accelerationContext_acceleration] * 0.54 +
+[activityContext_mood] * -0.08
+
+Class 15 :
+-11.96 + 
+[deviceId=6d2333614f593455] * 3.35 +
+[timeContext_timeZone=Europe/Sarajevo] * 3.08 +
+[taskContext_runningTask1=com.htc.launcher/.Launcher] * 1.29 +
+[taskContext_runningTask4=com.android.htcdialer/.DialerActivity] * 7.91 +
+[taskContext_runningTask6=com.htc.android.worldclock/.WorldClockTabControl] * 8.28 +
+[taskContext_runningTask7=com.android.browser/.BrowserActivity] * -1.54 +
+[activityContext_activity=traveling] * 2.45
+
+Class 16 :
+379.86 + 
+[deviceId=75a05d52c1655b1a] * 6.01 +
+[timeContext_dayOfWeek] * 0.4  +
+[timeContext_hourOfDay] * -0.07 +
+[weatherContext_temperature] * 0.1  +
+[batteryContext_batteryLevel] * -0.03 +
+[batteryContext_batteryStatus] * 3.24 +
+[phoneContext_signalStrength] * -0.05 +
+[taskContext_runningTask2=com.sec.android.app.launcher/com.android.launcher2.Launcher] * 4.52 +
+[taskContext_runningTask3=com.android.calendar/.AllInOneActivity] * 2.83 +
+[taskContext_runningTask4=com.google.android.youtube/.app.honeycomb.phone.HomeActivity] * 1.44
+
+Class 17 :
+-12 + 
+[userId] * 0.12 +
+[deviceId=ebcd05765a833bb7] * 2.6  +
+[deviceId=69486ceb6f11136b] * 5.02 +
+[taskContext_runningTask4=com.fsck.k9/.activity.MessageList] * 8.78 +
+[taskContext_runningTask7=com.android.mms/.ui.ConversationList] * 3.42 +
+[pressureContext_pressureStandardDeviation] * -2.45 +
+[orientationContext_orientationDevice] * 1.53 +
+[activityContext_activity=unspecified] * -1.54
+
+Class 18 :
+-0.12 + 
+[userId] * 0.07 +
+[deviceId=ebcd05765a833bb7] * 3.86 +
+[deviceId=8779d41d6cec5e2e] * 4.56 +
+[weatherContext_windDirection] * -0.01 +
+[weatherContext_humidity] * -0.04 +
+[batteryContext_batteryLevel] * -0.02 +
+[audioContext_volumeMusic] * -0.04 +
+[audioContext_volumeNotif] * 0.03 +
+[audioContext_volumeSystem] * 0.01 +
+[audioContext_audioOutput] * -3.38 +
+[taskContext_runningTask2=com.cyanogenmod.trebuchet/.Launcher] * 1.13 +
+[networkContext_wifiEnabled] * 2.59 +
+[activityContext_activity=unspecified] * -1.34
+
+Class 19 :
+-19.08 + 
+[deviceId=a525f642fe51df0b] * 40.86
+
+
+Time taken to build model: 2.26 seconds
+Time taken to test model on training data: 0.03 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         108              100      %
+Incorrectly Classified Instances         0                0      %
+Kappa statistic                          1     
+Mean absolute error                      0     
+Root mean squared error                  0.0001
+Relative absolute error                  0.0262 %
+Root relative squared error              0.0625 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)       5      %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          81               75      %
+Incorrectly Classified Instances        27               25      %
+Kappa statistic                          0.735 
+Mean absolute error                      0.0262
+Root mean squared error                  0.1517
+Relative absolute error                 27.6658 %
+Root relative squared error             69.5259 %
+Coverage of cases (0.95 level)          80.5556 %
+Mean rel. region size (0.95 level)       6.5278 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.833    0.020    0.714      0.833    0.769      0.757    0.977     0.643     The Heavy
+                 0.571    0.000    1.000      0.571    0.727      0.745    0.905     0.871     Fiona Apple
+                 0.800    0.041    0.667      0.800    0.727      0.700    0.955     0.786     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 0.600    0.019    0.600      0.600    0.600      0.581    0.852     0.459     Ani DiFranco
+                 0.800    0.010    0.800      0.800    0.800      0.790    0.829     0.654     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 0.250    0.019    0.333      0.250    0.286      0.265    0.952     0.357     Kanye West
+                 0.667    0.020    0.667      0.667    0.667      0.647    0.897     0.597     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.900    0.020    0.818      0.900    0.857      0.843    0.983     0.810     Sportfreunde Stiller
+                 0.833    0.010    0.833      0.833    0.833      0.824    0.855     0.844     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 0.500    0.010    0.667      0.500    0.571      0.564    0.726     0.338     Caravan Palace
+                 0.750    0.019    0.600      0.750    0.667      0.657    0.856     0.583     Lamb of God
+                 0.500    0.029    0.400      0.500    0.444      0.423    0.911     0.457     Wizkid
+                 0.250    0.019    0.333      0.250    0.286      0.265    0.663     0.295     Asian Dub Foundation
+                 0.400    0.029    0.400      0.400    0.400      0.371    0.977     0.539     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.750    0.015    0.754      0.750    0.746      0.735    0.924     0.731     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 5 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | a = The Heavy
+ 0 4 0 0 0 2 0 0 0 0 0 0 1 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 8 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 3 0 0 0 1 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 1 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 3 0 0 0 | i = Kanye West
+ 0 0 0 0 0 0 0 0 0 4 0 2 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 0 0 0 0 0 0 0 1 0 9 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 0 0 0 0 0 0 0 0 0 0 5 0 0 0 0 0 1 0 | m = Bob Dylan
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 | n = Casper
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 0 0 0 | o = Caravan Palace
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 3 0 0 0 0 | p = Lamb of God
+ 0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 2 0 0 0 | q = Wizkid
+ 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 2 0 | r = Asian Dub Foundation
+ 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 2 0 | s = Mumford & Sons
+ 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 4 | t = King Crimson
+

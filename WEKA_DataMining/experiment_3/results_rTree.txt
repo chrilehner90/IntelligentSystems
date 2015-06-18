@@ -1,0 +1,610 @@
+
+Options: -K 0 -M 1.0 -V 0.0010 -S 1 
+
+
+RandomTree
+==========
+
+taskContext_runningTask4 = com.android.chrome/com.google.android.apps.chrome.Main
+|   audioContext_vibrateNotif < 1
+|   |   timeContext_hourOfDay < 11.5 : The Heavy (0.05/0)
+|   |   timeContext_hourOfDay >= 11.5
+|   |   |   noiseContext_noise < 44 : Daft Punk (0.05/0)
+|   |   |   noiseContext_noise >= 44 : Die Fantastischen Vier (2.05/0)
+|   audioContext_vibrateNotif >= 1
+|   |   timeContext_utc < 1878510130
+|   |   |   soundEffectContext_equalizerEnabled < 0.5 : The Heavy (2/0)
+|   |   |   soundEffectContext_equalizerEnabled >= 0.5 : Kanye West (0.25/0.05)
+|   |   timeContext_utc >= 1878510130 : Casper (1/0)
+taskContext_runningTask4 = com.nianticproject.ingress/.NemesisActivity
+|   noiseContext_noise < 44
+|   |   timeContext_utc < 432741036 : Daft Punk (0.02/0)
+|   |   timeContext_utc >= 432741036 : Fiona Apple (2/0)
+|   noiseContext_noise >= 44 : Kanye West (0.14/0.06)
+taskContext_runningTask4 = com.android.phone/.InCallScreen
+|   timeContext_hourOfDay < 17.5
+|   |   timeContext_utc < 1123956677.5
+|   |   |   timeContext_hourOfDay < 8.5 : Kanye West (0.08/0.04)
+|   |   |   timeContext_hourOfDay >= 8.5 : The Heavy (2/0)
+|   |   timeContext_utc >= 1123956677.5 : The Heavy (0.08/0.04)
+|   timeContext_hourOfDay >= 17.5
+|   |   audioContext_volumeNotif < 50 : Red Hot Chili Peppers (1.08/0.08)
+|   |   audioContext_volumeNotif >= 50 : Die Fantastischen Vier (1.08/0.04)
+taskContext_runningTask4 = com.hughes.android.dictionary/.DictionaryActivity
+|   soundEffectContext_equalizerEnabled < 0.5
+|   |   timeContext_utc < -835831111 : Daft Punk (0.02/0)
+|   |   timeContext_utc >= -835831111
+|   |   |   audioContext_vibrateNotif < 1 : The Heavy (0.04/0.02)
+|   |   |   audioContext_vibrateNotif >= 1 : Die Fantastischen Vier (2/0)
+|   soundEffectContext_equalizerEnabled >= 0.5 : Kanye West (0.1/0.02)
+taskContext_runningTask4 = com.dynamicg.timerecording/.Main
+|   noiseContext_noise < 52.5 : Asian Dub Foundation (1.06/0.06)
+|   noiseContext_noise >= 52.5
+|   |   timeContext_utc < 524288629 : Kanye West (0.12/0.03)
+|   |   timeContext_utc >= 524288629
+|   |   |   timeContext_utc < 1362848974.5 : P!nk (2/0)
+|   |   |   timeContext_utc >= 1362848974.5 : The Heavy (0.06/0.03)
+taskContext_runningTask4 = com.android.contacts/.activities.DialtactsActivity
+|   audioContext_vibrateNotif < 1.5
+|   |   audioContext_volumeNotif < 78.5 : Daft Punk (2/0)
+|   |   audioContext_volumeNotif >= 78.5 : Daft Punk (0.12/0.08)
+|   audioContext_vibrateNotif >= 1.5
+|   |   timeContext_hourOfDay < 18 : Kanye West (0.12/0.04)
+|   |   timeContext_hourOfDay >= 18
+|   |   |   timeContext_hourOfDay < 21.5 : Red Hot Chili Peppers (2/0)
+|   |   |   timeContext_hourOfDay >= 21.5 : Kanye West (0.08/0)
+taskContext_runningTask4 = com.android.settings/.Settings
+|   timeContext_hourOfDay < 19
+|   |   audioContext_volumeNotif < 23.5
+|   |   |   timeContext_hourOfDay < 16.5 : Caravan Palace (1.12/0.12)
+|   |   |   timeContext_hourOfDay >= 16.5 : Bob Dylan (1/0)
+|   |   audioContext_volumeNotif >= 23.5 : Bob Dylan (1.04/0.04)
+|   timeContext_hourOfDay >= 19 : Ani DiFranco (1.16/0.16)
+taskContext_runningTask4 = ch.teamtasks.tasks.paid/ch.teamtasks.tasks.MainActivity : Daft Punk (1.08/0.07)
+taskContext_runningTask4 = com.estrongs.android.pop/.view.FileExplorerActivity
+|   noiseContext_noise < 57
+|   |   timeContext_utc < -299597739.5
+|   |   |   timeContext_hourOfDay < 17 : Pearl Jam (2/0)
+|   |   |   timeContext_hourOfDay >= 17 : Die Fantastischen Vier (0.12/0.06)
+|   |   timeContext_utc >= -299597739.5 : Ani DiFranco (3/0)
+|   noiseContext_noise >= 57 : Asian Dub Foundation (1.36/0.36)
+taskContext_runningTask4 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity
+|   timeContext_utc < -191454076
+|   |   audioContext_vibrateNotif < 1 : Die Fantastischen Vier (0.08/0.04)
+|   |   audioContext_vibrateNotif >= 1
+|   |   |   timeContext_hourOfDay < 17 : Pearl Jam (3/0)
+|   |   |   timeContext_hourOfDay >= 17 : Kanye West (0.04/0)
+|   timeContext_utc >= -191454076 : Sportfreunde Stiller (1.2/0.2)
+taskContext_runningTask4 = com.facebook.katana/.activity.FbFragmentChromeActivity
+|   audioContext_volumeNotif < 35.5
+|   |   noiseContext_noise < 57 : Sportfreunde Stiller (1/0)
+|   |   noiseContext_noise >= 57
+|   |   |   soundEffectContext_equalizerEnabled < 0.5 : STS (3/0)
+|   |   |   soundEffectContext_equalizerEnabled >= 0.5 : Kanye West (0.3/0.06)
+|   audioContext_volumeNotif >= 35.5
+|   |   audioContext_volumeNotif < 85.5 : Bob Dylan (2/0)
+|   |   audioContext_volumeNotif >= 85.5 : The Heavy (0.18/0.12)
+taskContext_runningTask4 = nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity
+|   timeContext_hourOfDay < 19.5
+|   |   audioContext_volumeNotif < 28.5 : Kanye West (0.12/0.04)
+|   |   audioContext_volumeNotif >= 28.5
+|   |   |   timeContext_hourOfDay < 8 : The Heavy (0.04/0)
+|   |   |   timeContext_hourOfDay >= 8 : Letzte Instanz (4/0)
+|   timeContext_hourOfDay >= 19.5 : Kanye West (0.16/0.08)
+taskContext_runningTask4 = com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity : Red Hot Chili Peppers (1.08/0.08)
+taskContext_runningTask4 = com.android.browser/.BrowserActivity
+|   timeContext_hourOfDay < 13
+|   |   audioContext_volumeNotif < 35.5
+|   |   |   timeContext_hourOfDay < 5.5 : Wizkid (1.07/0)
+|   |   |   timeContext_hourOfDay >= 5.5 : Ani DiFranco (1.07/0.07)
+|   |   audioContext_volumeNotif >= 35.5
+|   |   |   timeContext_utc < 1964424683.5 : The Heavy (0.07/0)
+|   |   |   timeContext_utc >= 1964424683.5 : Die Fantastischen Vier (2/0)
+|   timeContext_hourOfDay >= 13
+|   |   timeContext_utc < 42722495 : Kanye West (0.28/0.14)
+|   |   timeContext_utc >= 42722495
+|   |   |   timeContext_hourOfDay < 17.5 : Kanye West (0.07/0)
+|   |   |   timeContext_hourOfDay >= 17.5 : King Crimson (3/0)
+taskContext_runningTask4 = com.facebook.katana/.RequestsActivity : Fiona Apple (1.08/0.08)
+taskContext_runningTask4 = me.pou.app/.App
+|   audioContext_volumeNotif < 35.5 : Kanye West (0.1/0.02)
+|   audioContext_volumeNotif >= 35.5
+|   |   audioContext_volumeNotif < 85.5 : Sportfreunde Stiller (2/0)
+|   |   audioContext_volumeNotif >= 85.5 : The Heavy (0.06/0.04)
+taskContext_runningTask4 = com.instagram.android/.activity.MainTabActivity : Bob Dylan (1.08/0.08)
+taskContext_runningTask4 = com.android.systemui/.recent.RecentsActivity
+|   audioContext_vibrateNotif < 1
+|   |   timeContext_utc < 1969817729 : The Heavy (0.15/0.1)
+|   |   timeContext_utc >= 1969817729 : Pearl Jam (2/0)
+|   audioContext_vibrateNotif >= 1
+|   |   soundEffectContext_equalizerEnabled < 0.5 : Casper (3/0)
+|   |   soundEffectContext_equalizerEnabled >= 0.5 : Kanye West (0.25/0.05)
+taskContext_runningTask4 = hu.koin/.ui.MainTabActivity
+|   noiseContext_noise < 73.5
+|   |   timeContext_utc < -1025366437.5 : Lamb of God (2/0)
+|   |   timeContext_utc >= -1025366437.5 : The Heavy (0.16/0.12)
+|   noiseContext_noise >= 73.5
+|   |   audioContext_volumeNotif < 7 : Kanye West (0.16/0.04)
+|   |   audioContext_volumeNotif >= 7 : Caravan Palace (2/0)
+taskContext_runningTask4 = cc.dict.dictcc/.DictCcActivity : Wizkid (1.08/0.07)
+taskContext_runningTask4 = com.htc.android.worldclock/.WorldClockTabControl : Caravan Palace (1.08/0.08)
+taskContext_runningTask4 = com.fsck.k9/.activity.MessageList
+|   noiseContext_noise < 66.5
+|   |   timeContext_utc < -215030993 : Die Fantastischen Vier (0.04/0.02)
+|   |   timeContext_utc >= -215030993
+|   |   |   audioContext_volumeNotif < 7 : Asian Dub Foundation (1.02/0.02)
+|   |   |   audioContext_volumeNotif >= 7 : Asian Dub Foundation (1/0)
+|   noiseContext_noise >= 66.5 : Kanye West (0.1/0.04)
+taskContext_runningTask4 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity
+|   timeContext_utc < 2021545418.5 : Sportfreunde Stiller (1.24/0.24)
+|   timeContext_utc >= 2021545418.5 : STS (2/0)
+taskContext_runningTask4 = com.android.email/.activity.EmailActivity
+|   audioContext_vibrateNotif < 1
+|   |   networkContext_bluetoothEnabled < 0.5 : Sportfreunde Stiller (1.06/0.06)
+|   |   networkContext_bluetoothEnabled >= 0.5 : Sportfreunde Stiller (1/0)
+|   audioContext_vibrateNotif >= 1 : Kanye West (0.1/0.02)
+taskContext_runningTask4 = com.facebook.katana/.LoginActivity : Lamb of God (1.08/0.08)
+taskContext_runningTask4 = com.android.mms/.ui.ConversationComposer
+|   timeContext_hourOfDay < 5.5 : Red Hot Chili Peppers (1.04/0.04)
+|   timeContext_hourOfDay >= 5.5 : Fiona Apple (1.12/0.12)
+taskContext_runningTask4 = com.facebook.orca/.threadlist.ThreadListActivity
+|   audioContext_vibrateNotif < 1.5
+|   |   audioContext_volumeNotif < 50 : Mumford & Sons (2/0)
+|   |   audioContext_volumeNotif >= 50 : The Heavy (0.06/0.04)
+|   audioContext_vibrateNotif >= 1.5 : Kanye West (0.1/0.02)
+taskContext_runningTask4 = com.android.contacts/.activities.PeopleActivity : The Heavy (1.08/0.07)
+taskContext_runningTask4 = com.teamlava.petshop26/com.storm8.app.activity.GameActivity : Sportfreunde Stiller (1.08/0.08)
+taskContext_runningTask4 = com.android.mms/.ui.ConversationList
+|   noiseContext_noise < 57.5
+|   |   audioContext_volumeNotif < 64.5 : P!nk (1/0)
+|   |   audioContext_volumeNotif >= 64.5 : Daft Punk (1.06/0.03)
+|   noiseContext_noise >= 57.5 : Sportfreunde Stiller (1.18/0.18)
+taskContext_runningTask4 = com.swipeentertainment.wingsuit/com.unity3d.player.UnityPlayerNativeActivity : STS (1.08/0.08)
+taskContext_runningTask4 = com.gombosdev.ingressportalcalc/.Activity_Start : Fiona Apple (1.08/0.08)
+taskContext_runningTask4 = com.android.email/.activity.MessageListXL : Die Fantastischen Vier (1.08/0.07)
+taskContext_runningTask4 = com.android.gallery3d/com.android.camera.CameraLauncher : Mumford & Sons (1.08/0.08)
+taskContext_runningTask4 = com.whatsapp/.Conversation
+|   audioContext_volumeNotif < 50
+|   |   noiseContext_noise < 77
+|   |   |   timeContext_hourOfDay < 14.5 : Fiona Apple (2/0)
+|   |   |   timeContext_hourOfDay >= 14.5 : Kanye West (0.02/0)
+|   |   noiseContext_noise >= 77 : Kanye West (0.08/0.02)
+|   audioContext_volumeNotif >= 50 : The Heavy (0.06/0.04)
+taskContext_runningTask4 = com.teamlava.petshop/com.storm8.app.activity.GameActivity : Sportfreunde Stiller (1.08/0.08)
+taskContext_runningTask4 = com.fsck.k9/.activity.FolderList : P!nk (1.08/0.08)
+taskContext_runningTask4 = com.google.android.apps.genie.geniewidget/.activities.NewsActivity : Mumford & Sons (1.08/0.08)
+taskContext_runningTask4 = com.google.android.apps.maps/com.google.android.maps.MapsActivity : Mumford & Sons (1.08/0.08)
+taskContext_runningTask4 = com.google.android.youtube/.app.honeycomb.phone.HomeActivity : Wizkid (1.08/0.07)
+taskContext_runningTask4 = com.android.deskclock/.AlarmClock : Bob Dylan (1.08/0.08)
+taskContext_runningTask4 = com.franco.kernel/.Main : Die Fantastischen Vier (1.08/0.07)
+taskContext_runningTask4 = com.android.htcdialer/.DialerActivity : Lamb of God (1.08/0.08)
+taskContext_runningTask4 = com.google.android.talk/.SigningInActivity : King Crimson (1.08/0.08)
+
+Size of the tree : 175
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 0.02 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         107               99.0741 %
+Incorrectly Classified Instances         1                0.9259 %
+Kappa statistic                          0.9902
+Mean absolute error                      0.0077
+Root mean squared error                  0.0452
+Relative absolute error                  8.1369 %
+Root relative squared error             20.7917 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      10.9722 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 1.000    0.010    0.800      1.000    0.889      0.890    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 0.750    0.000    1.000      0.750    0.857      0.862    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.991    0.000    0.993      0.991    0.991      0.991    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  3  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          54               50      %
+Incorrectly Classified Instances        54               50      %
+Kappa statistic                          0.4666
+Mean absolute error                      0.0555
+Root mean squared error                  0.1957
+Relative absolute error                 58.4536 %
+Root relative squared error             89.7072 %
+Coverage of cases (0.95 level)          73.1481 %
+Mean rel. region size (0.95 level)      26.25   %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.333    0.039    0.333      0.333    0.333      0.294    0.635     0.173     The Heavy
+                 0.714    0.040    0.556      0.714    0.625      0.601    0.874     0.493     Fiona Apple
+                 0.600    0.204    0.231      0.600    0.333      0.268    0.740     0.330     Die Fantastischen Vier
+                 0.500    0.019    0.500      0.500    0.500      0.481    0.934     0.355     P!nk
+                 0.200    0.019    0.333      0.200    0.250      0.231    0.587     0.159     Red Hot Chili Peppers
+                 0.400    0.019    0.500      0.400    0.444      0.423    0.625     0.361     Ani DiFranco
+                 0.400    0.019    0.500      0.400    0.444      0.423    0.933     0.598     Daft Punk
+                 1.000    0.030    0.700      1.000    0.824      0.824    0.996     0.938     Pearl Jam
+                 0.750    0.048    0.375      0.750    0.500      0.506    0.942     0.279     Kanye West
+                 0.833    0.020    0.714      0.833    0.769      0.757    0.967     0.611     STS
+                 0.750    0.000    1.000      0.750    0.857      0.862    0.852     0.759     Letzte Instanz
+                 0.500    0.010    0.833      0.500    0.625      0.620    0.807     0.610     Sportfreunde Stiller
+                 0.500    0.010    0.750      0.500    0.600      0.595    0.830     0.568     Bob Dylan
+                 0.500    0.019    0.500      0.500    0.500      0.481    0.688     0.519     Casper
+                 0.000    0.010    0.000      0.000    0.000      -0.019   0.649     0.124     Caravan Palace
+                 0.250    0.010    0.500      0.250    0.333      0.337    0.805     0.222     Lamb of God
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.720     0.103     Wizkid
+                 0.250    0.000    1.000      0.250    0.400      0.493    0.538     0.278     Asian Dub Foundation
+                 0.400    0.019    0.500      0.400    0.444      0.423    0.877     0.275     Mumford & Sons
+                 0.500    0.000    1.000      0.500    0.667      0.700    0.785     0.535     King Crimson
+Weighted Avg.    0.500    0.036    0.545      0.500    0.490      0.478    0.795     0.437     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 2 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 | a = The Heavy
+ 0 5 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 0 0 6 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 1 0 | c = Die Fantastischen Vier
+ 0 0 2 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 1 1 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 1 1 0 0 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 2 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 0 0 7 0 0 0 0 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 1 0 0 0 0 0 0 0 3 0 0 0 0 0 0 0 0 0 0 0 | i = Kanye West
+ 0 0 1 0 0 0 0 0 0 5 0 0 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 1 0 3 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 1 0 0 0 1 1 0 2 0 5 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 2 0 0 1 0 0 0 0 0 0 3 0 0 0 0 0 0 0 | m = Bob Dylan
+ 1 0 0 0 0 0 0 0 1 0 0 0 0 2 0 0 0 0 0 0 | n = Casper
+ 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 | o = Caravan Palace
+ 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 | p = Lamb of God
+ 0 0 2 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 | q = Wizkid
+ 0 1 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 | r = Asian Dub Foundation
+ 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 | s = Mumford & Sons
+ 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 | t = King Crimson
+
+
+Options: -K 10 -M 1.0 -V 0.0010 -S 1 
+
+
+RandomTree
+==========
+
+taskContext_runningTask4 = com.android.chrome/com.google.android.apps.chrome.Main
+|   audioContext_vibrateNotif < 1
+|   |   timeContext_utc < 1923949932 : The Heavy (0.15/0.1)
+|   |   timeContext_utc >= 1923949932 : Die Fantastischen Vier (2/0)
+|   audioContext_vibrateNotif >= 1
+|   |   networkContext_bluetoothEnabled < 0.5 : Casper (1.25/0.25)
+|   |   networkContext_bluetoothEnabled >= 0.5 : The Heavy (2/0)
+taskContext_runningTask4 = com.nianticproject.ingress/.NemesisActivity
+|   noiseContext_noise < 44
+|   |   timeContext_hourOfDay < 19 : Fiona Apple (2/0)
+|   |   timeContext_hourOfDay >= 19 : Daft Punk (0.02/0)
+|   noiseContext_noise >= 44 : Kanye West (0.14/0.06)
+taskContext_runningTask4 = com.android.phone/.InCallScreen
+|   timeContext_hourOfDay < 17.5
+|   |   soundEffectContext_equalizerEnabled < 0.5 : The Heavy (2.04/0)
+|   |   soundEffectContext_equalizerEnabled >= 0.5 : Kanye West (0.12/0.04)
+|   timeContext_hourOfDay >= 17.5
+|   |   audioContext_volumeNotif < 50 : Red Hot Chili Peppers (1.08/0.08)
+|   |   audioContext_volumeNotif >= 50 : Die Fantastischen Vier (1.08/0.04)
+taskContext_runningTask4 = com.hughes.android.dictionary/.DictionaryActivity
+|   audioContext_volumeNotif < 50 : Kanye West (0.1/0.02)
+|   audioContext_volumeNotif >= 50
+|   |   audioContext_vibrateNotif < 1 : The Heavy (0.06/0.04)
+|   |   audioContext_vibrateNotif >= 1 : Die Fantastischen Vier (2/0)
+taskContext_runningTask4 = com.dynamicg.timerecording/.Main
+|   soundEffectContext_equalizerEnabled < 0.5 : Asian Dub Foundation (1.09/0.09)
+|   soundEffectContext_equalizerEnabled >= 0.5
+|   |   audioContext_volumeNotif < 14.5 : Kanye West (0.15/0.03)
+|   |   audioContext_volumeNotif >= 14.5 : P!nk (2/0)
+taskContext_runningTask4 = com.android.contacts/.activities.DialtactsActivity
+|   audioContext_volumeNotif < 28.5
+|   |   soundEffectContext_equalizerEnabled < 0.5 : Red Hot Chili Peppers (2/0)
+|   |   soundEffectContext_equalizerEnabled >= 0.5 : Kanye West (0.2/0.04)
+|   audioContext_volumeNotif >= 28.5
+|   |   timeContext_utc < -835831111 : Daft Punk (2.04/0)
+|   |   timeContext_utc >= -835831111 : The Heavy (0.08/0.04)
+taskContext_runningTask4 = com.android.settings/.Settings
+|   audioContext_volumeNotif < 7 : Ani DiFranco (1.2/0.2)
+|   audioContext_volumeNotif >= 7
+|   |   timeContext_utc < -1483622595.5 : Bob Dylan (2/0)
+|   |   timeContext_utc >= -1483622595.5 : Caravan Palace (1.12/0.12)
+taskContext_runningTask4 = ch.teamtasks.tasks.paid/ch.teamtasks.tasks.MainActivity : Daft Punk (1.08/0.07)
+taskContext_runningTask4 = com.estrongs.android.pop/.view.FileExplorerActivity
+|   timeContext_utc < -299597739.5
+|   |   timeContext_hourOfDay < 16.5 : Pearl Jam (2/0)
+|   |   timeContext_hourOfDay >= 16.5 : Die Fantastischen Vier (0.18/0.12)
+|   timeContext_utc >= -299597739.5
+|   |   timeContext_utc < -233456440 : Ani DiFranco (3/0)
+|   |   timeContext_utc >= -233456440 : Asian Dub Foundation (1.3/0.3)
+taskContext_runningTask4 = org.mobilemusicgenius.android/.ui.MusicBrowserActivity
+|   audioContext_vibrateNotif < 1 : Sportfreunde Stiller (1.12/0.12)
+|   audioContext_vibrateNotif >= 1
+|   |   noiseContext_noise < 56 : Pearl Jam (3/0)
+|   |   noiseContext_noise >= 56 : Kanye West (0.2/0.04)
+taskContext_runningTask4 = com.facebook.katana/.activity.FbFragmentChromeActivity
+|   noiseContext_noise < 57
+|   |   timeContext_utc < -201677090 : Sportfreunde Stiller (1.12/0.12)
+|   |   timeContext_utc >= -201677090 : Bob Dylan (2/0)
+|   noiseContext_noise >= 57
+|   |   audioContext_vibrateNotif < 1.5
+|   |   |   timeContext_hourOfDay < 4.5 : The Heavy (0.06/0)
+|   |   |   timeContext_hourOfDay >= 4.5 : STS (3/0)
+|   |   audioContext_vibrateNotif >= 1.5 : Kanye West (0.3/0.06)
+taskContext_runningTask4 = nao.parkscheinpro_plus/nao.parkscheinpro_lib.activity.BaseActivity
+|   playerContext_apmMode < 0.5 : Kanye West (0.32/0.16)
+|   playerContext_apmMode >= 0.5 : Letzte Instanz (4/0)
+taskContext_runningTask4 = com.samsung.swift.app.kiesair/com.samsung.swift.applet.AppletActivity : Red Hot Chili Peppers (1.08/0.08)
+taskContext_runningTask4 = com.android.browser/.BrowserActivity
+|   timeContext_hourOfDay < 13
+|   |   timeContext_utc < 1679238946.5
+|   |   |   timeContext_hourOfDay < 5.5 : Wizkid (1.07/0)
+|   |   |   timeContext_hourOfDay >= 5.5 : Ani DiFranco (1.07/0.07)
+|   |   timeContext_utc >= 1679238946.5
+|   |   |   timeContext_hourOfDay < 4 : The Heavy (0.07/0)
+|   |   |   timeContext_hourOfDay >= 4 : Die Fantastischen Vier (2/0)
+|   timeContext_hourOfDay >= 13
+|   |   timeContext_utc < 42722495 : Kanye West (0.28/0.14)
+|   |   timeContext_utc >= 42722495
+|   |   |   timeContext_hourOfDay < 17.5 : Kanye West (0.07/0)
+|   |   |   timeContext_hourOfDay >= 17.5 : King Crimson (3/0)
+taskContext_runningTask4 = com.facebook.katana/.RequestsActivity : Fiona Apple (1.08/0.08)
+taskContext_runningTask4 = me.pou.app/.App
+|   audioContext_volumeNotif < 35.5 : Kanye West (0.1/0.02)
+|   audioContext_volumeNotif >= 35.5
+|   |   audioContext_volumeNotif < 85.5 : Sportfreunde Stiller (2/0)
+|   |   audioContext_volumeNotif >= 85.5 : The Heavy (0.06/0.04)
+taskContext_runningTask4 = com.instagram.android/.activity.MainTabActivity : Bob Dylan (1.08/0.08)
+taskContext_runningTask4 = com.android.systemui/.recent.RecentsActivity
+|   audioContext_vibrateNotif < 1
+|   |   timeContext_utc < 1969817729 : The Heavy (0.15/0.1)
+|   |   timeContext_utc >= 1969817729 : Pearl Jam (2/0)
+|   audioContext_vibrateNotif >= 1
+|   |   soundEffectContext_equalizerEnabled < 0.5 : Casper (3/0)
+|   |   soundEffectContext_equalizerEnabled >= 0.5 : Kanye West (0.25/0.05)
+taskContext_runningTask4 = hu.koin/.ui.MainTabActivity
+|   noiseContext_noise < 73.5
+|   |   noiseContext_noise < 67.5 : The Heavy (0.16/0.12)
+|   |   noiseContext_noise >= 67.5 : Lamb of God (2/0)
+|   noiseContext_noise >= 73.5
+|   |   audioContext_volumeNotif < 7 : Kanye West (0.16/0.04)
+|   |   audioContext_volumeNotif >= 7 : Caravan Palace (2/0)
+taskContext_runningTask4 = cc.dict.dictcc/.DictCcActivity : Wizkid (1.08/0.07)
+taskContext_runningTask4 = com.htc.android.worldclock/.WorldClockTabControl : Caravan Palace (1.08/0.08)
+taskContext_runningTask4 = com.fsck.k9/.activity.MessageList
+|   timeContext_utc < 302591295.5 : Kanye West (0.12/0.06)
+|   timeContext_utc >= 302591295.5
+|   |   timeContext_utc < 1721237286 : Asian Dub Foundation (2/0)
+|   |   timeContext_utc >= 1721237286 : The Heavy (0.04/0.02)
+taskContext_runningTask4 = org.mobilemusicgenius.android/.ui.MusicPlayerActivity
+|   timeContext_utc < 2021545418.5 : Sportfreunde Stiller (1.24/0.24)
+|   timeContext_utc >= 2021545418.5 : STS (2/0)
+taskContext_runningTask4 = com.android.email/.activity.EmailActivity
+|   audioContext_vibrateNotif < 1
+|   |   audioContext_volumeNotif < 50 : Sportfreunde Stiller (2/0)
+|   |   audioContext_volumeNotif >= 50 : The Heavy (0.06/0.04)
+|   audioContext_vibrateNotif >= 1 : Kanye West (0.1/0.02)
+taskContext_runningTask4 = com.facebook.katana/.LoginActivity : Lamb of God (1.08/0.08)
+taskContext_runningTask4 = com.android.mms/.ui.ConversationComposer
+|   audioContext_volumeNotif < 21.5 : Fiona Apple (1.1/0.1)
+|   audioContext_volumeNotif >= 21.5 : Red Hot Chili Peppers (1.06/0.06)
+taskContext_runningTask4 = com.facebook.orca/.threadlist.ThreadListActivity
+|   noiseContext_noise < 44.5
+|   |   timeContext_hourOfDay < 20.5 : Mumford & Sons (2/0)
+|   |   timeContext_hourOfDay >= 20.5 : Daft Punk (0.02/0)
+|   noiseContext_noise >= 44.5 : Kanye West (0.14/0.06)
+taskContext_runningTask4 = com.android.contacts/.activities.PeopleActivity : The Heavy (1.08/0.07)
+taskContext_runningTask4 = com.teamlava.petshop26/com.storm8.app.activity.GameActivity : Sportfreunde Stiller (1.08/0.08)
+taskContext_runningTask4 = com.android.mms/.ui.ConversationList
+|   noiseContext_noise < 57.5
+|   |   timeContext_utc < -835831111 : Daft Punk (1.03/0)
+|   |   timeContext_utc >= -835831111 : P!nk (1.03/0.03)
+|   noiseContext_noise >= 57.5 : Sportfreunde Stiller (1.18/0.18)
+taskContext_runningTask4 = com.swipeentertainment.wingsuit/com.unity3d.player.UnityPlayerNativeActivity : STS (1.08/0.08)
+taskContext_runningTask4 = com.gombosdev.ingressportalcalc/.Activity_Start : Fiona Apple (1.08/0.08)
+taskContext_runningTask4 = com.android.email/.activity.MessageListXL : Die Fantastischen Vier (1.08/0.07)
+taskContext_runningTask4 = com.android.gallery3d/com.android.camera.CameraLauncher : Mumford & Sons (1.08/0.08)
+taskContext_runningTask4 = com.whatsapp/.Conversation
+|   timeContext_utc < -1199716986.5
+|   |   timeContext_hourOfDay < 17.5 : Fiona Apple (2/0)
+|   |   timeContext_hourOfDay >= 17.5 : Kanye West (0.02/0)
+|   timeContext_utc >= -1199716986.5 : Kanye West (0.14/0.08)
+taskContext_runningTask4 = com.teamlava.petshop/com.storm8.app.activity.GameActivity : Sportfreunde Stiller (1.08/0.08)
+taskContext_runningTask4 = com.fsck.k9/.activity.FolderList : P!nk (1.08/0.08)
+taskContext_runningTask4 = com.google.android.apps.genie.geniewidget/.activities.NewsActivity : Mumford & Sons (1.08/0.08)
+taskContext_runningTask4 = com.google.android.apps.maps/com.google.android.maps.MapsActivity : Mumford & Sons (1.08/0.08)
+taskContext_runningTask4 = com.google.android.youtube/.app.honeycomb.phone.HomeActivity : Wizkid (1.08/0.07)
+taskContext_runningTask4 = com.android.deskclock/.AlarmClock : Bob Dylan (1.08/0.08)
+taskContext_runningTask4 = com.franco.kernel/.Main : Die Fantastischen Vier (1.08/0.07)
+taskContext_runningTask4 = com.android.htcdialer/.DialerActivity : Lamb of God (1.08/0.08)
+taskContext_runningTask4 = com.google.android.talk/.SigningInActivity : King Crimson (1.08/0.08)
+
+Size of the tree : 151
+
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 0.01 seconds
+
+=== Error on training data ===
+
+Correctly Classified Instances         107               99.0741 %
+Incorrectly Classified Instances         1                0.9259 %
+Kappa statistic                          0.9902
+Mean absolute error                      0.0081
+Root mean squared error                  0.0471
+Relative absolute error                  8.5401 %
+Root relative squared error             21.6786 %
+Coverage of cases (0.95 level)         100      %
+Mean rel. region size (0.95 level)      11.3889 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     The Heavy
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Fiona Apple
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Die Fantastischen Vier
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     P!nk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Red Hot Chili Peppers
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Ani DiFranco
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Daft Punk
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Pearl Jam
+                 1.000    0.010    0.800      1.000    0.889      0.890    1.000     1.000     Kanye West
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Sportfreunde Stiller
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Bob Dylan
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Casper
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Caravan Palace
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Lamb of God
+                 0.750    0.000    1.000      0.750    0.857      0.862    1.000     1.000     Wizkid
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Asian Dub Foundation
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Mumford & Sons
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     King Crimson
+Weighted Avg.    0.991    0.000    0.993      0.991    0.991      0.991    1.000     1.000     
+
+
+=== Confusion Matrix ===
+
+  a  b  c  d  e  f  g  h  i  j  k  l  m  n  o  p  q  r  s  t   <-- classified as
+  6  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  a = The Heavy
+  0  7  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  b = Fiona Apple
+  0  0 10  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  c = Die Fantastischen Vier
+  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  d = P!nk
+  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  e = Red Hot Chili Peppers
+  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0  0 |  f = Ani DiFranco
+  0  0  0  0  0  0  5  0  0  0  0  0  0  0  0  0  0  0  0  0 |  g = Daft Punk
+  0  0  0  0  0  0  0  7  0  0  0  0  0  0  0  0  0  0  0  0 |  h = Pearl Jam
+  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0  0  0 |  i = Kanye West
+  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0  0  0  0 |  j = STS
+  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0  0  0  0 |  k = Letzte Instanz
+  0  0  0  0  0  0  0  0  0  0  0 10  0  0  0  0  0  0  0  0 |  l = Sportfreunde Stiller
+  0  0  0  0  0  0  0  0  0  0  0  0  6  0  0  0  0  0  0  0 |  m = Bob Dylan
+  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0  0 |  n = Casper
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0  0 |  o = Caravan Palace
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0  0  0 |  p = Lamb of God
+  0  0  0  0  0  0  0  0  1  0  0  0  0  0  0  0  3  0  0  0 |  q = Wizkid
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4  0  0 |  r = Asian Dub Foundation
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  5  0 |  s = Mumford & Sons
+  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  0  4 |  t = King Crimson
+
+
+
+=== Stratified cross-validation ===
+
+Correctly Classified Instances          56               51.8519 %
+Incorrectly Classified Instances        52               48.1481 %
+Kappa statistic                          0.4866
+Mean absolute error                      0.0539
+Root mean squared error                  0.1912
+Relative absolute error                 56.8511 %
+Root relative squared error             87.6597 %
+Coverage of cases (0.95 level)          72.2222 %
+Mean rel. region size (0.95 level)      30.5556 %
+Total Number of Instances              108     
+
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.167    0.020    0.333      0.167    0.222      0.205    0.501     0.103     The Heavy
+                 0.571    0.010    0.800      0.571    0.667      0.658    0.870     0.655     Fiona Apple
+                 0.700    0.245    0.226      0.700    0.341      0.292    0.757     0.336     Die Fantastischen Vier
+                 0.500    0.029    0.400      0.500    0.444      0.423    0.763     0.242     P!nk
+                 0.400    0.019    0.500      0.400    0.444      0.423    0.694     0.207     Red Hot Chili Peppers
+                 0.400    0.019    0.500      0.400    0.444      0.423    0.618     0.428     Ani DiFranco
+                 0.400    0.019    0.500      0.400    0.444      0.423    0.783     0.321     Daft Punk
+                 0.857    0.020    0.750      0.857    0.800      0.787    0.898     0.595     Pearl Jam
+                 1.000    0.058    0.400      1.000    0.571      0.614    0.952     0.318     Kanye West
+                 0.667    0.010    0.800      0.667    0.727      0.716    0.861     0.533     STS
+                 1.000    0.000    1.000      1.000    1.000      1.000    1.000     1.000     Letzte Instanz
+                 0.400    0.010    0.800      0.400    0.533      0.538    0.712     0.480     Sportfreunde Stiller
+                 0.667    0.000    1.000      0.667    0.800      0.809    0.944     0.740     Bob Dylan
+                 0.750    0.019    0.600      0.750    0.667      0.657    0.839     0.759     Casper
+                 0.000    0.019    0.000      0.000    0.000      -0.027   0.474     0.037     Caravan Palace
+                 0.250    0.019    0.333      0.250    0.286      0.265    0.744     0.148     Lamb of God
+                 0.000    0.000    0.000      0.000    0.000      0.000    0.829     0.129     Wizkid
+                 0.500    0.000    1.000      0.500    0.667      0.700    0.680     0.519     Asian Dub Foundation
+                 0.400    0.000    1.000      0.400    0.571      0.623    0.898     0.511     Mumford & Sons
+                 0.500    0.000    1.000      0.500    0.667      0.700    0.796     0.538     King Crimson
+Weighted Avg.    0.519    0.035    0.605      0.519    0.521      0.515    0.780     0.438     
+
+
+=== Confusion Matrix ===
+
+ a b c d e f g h i j k l m n o p q r s t   <-- classified as
+ 1 0 2 0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 | a = The Heavy
+ 0 4 2 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 | b = Fiona Apple
+ 1 0 7 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 | c = Die Fantastischen Vier
+ 0 0 1 2 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 | d = P!nk
+ 0 1 1 0 2 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 | e = Red Hot Chili Peppers
+ 0 0 1 0 0 2 0 1 0 0 0 0 0 0 1 0 0 0 0 0 | f = Ani DiFranco
+ 0 0 2 1 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 | g = Daft Punk
+ 0 0 0 0 0 0 0 6 0 0 0 1 0 0 0 0 0 0 0 0 | h = Pearl Jam
+ 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 0 0 | i = Kanye West
+ 0 0 1 0 0 0 0 0 1 4 0 0 0 0 0 0 0 0 0 0 | j = STS
+ 0 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 0 0 | k = Letzte Instanz
+ 0 0 2 1 0 0 0 1 1 1 0 4 0 0 0 0 0 0 0 0 | l = Sportfreunde Stiller
+ 0 0 2 0 0 0 0 0 0 0 0 0 4 0 0 0 0 0 0 0 | m = Bob Dylan
+ 1 0 0 0 0 0 0 0 0 0 0 0 0 3 0 0 0 0 0 0 | n = Casper
+ 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 2 0 0 0 0 | o = Caravan Palace
+ 0 0 2 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 | p = Lamb of God
+ 0 0 2 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 | q = Wizkid
+ 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 2 0 0 | r = Asian Dub Foundation
+ 0 0 3 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 0 | s = Mumford & Sons
+ 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 2 | t = King Crimson
+
