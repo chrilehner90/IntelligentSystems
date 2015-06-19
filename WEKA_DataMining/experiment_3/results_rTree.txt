@@ -182,8 +182,8 @@ taskContext_runningTask4 = com.google.android.talk/.SigningInActivity : King Cri
 
 Size of the tree : 175
 
-Time taken to build model: 0.06 seconds
-Time taken to test model on training data: 0.02 seconds
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===
 

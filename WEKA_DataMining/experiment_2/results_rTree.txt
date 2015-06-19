@@ -142,7 +142,7 @@ timeContext_timeZone = Africa/Ceuta : King Crimson (4/0)
 Size of the tree : 134
 
 Time taken to build model: 0.05 seconds
-Time taken to test model on training data: 0.01 seconds
+Time taken to test model on training data: 0.02 seconds
 
 === Error on training data ===
 

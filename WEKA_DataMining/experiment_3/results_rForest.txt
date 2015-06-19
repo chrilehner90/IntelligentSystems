@@ -7,7 +7,7 @@ Out of bag error: 0.5556
 
 
 Time taken to build model: 0.09 seconds
-Time taken to test model on training data: 0.02 seconds
+Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===
 
@@ -288,8 +288,8 @@ Out of bag error: 0.3981
 
 
 
-Time taken to build model: 0.22 seconds
-Time taken to test model on training data: 0.03 seconds
+Time taken to build model: 0.21 seconds
+Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
 
@@ -429,7 +429,7 @@ Out of bag error: 0.3704
 
 
 
-Time taken to build model: 0.27 seconds
+Time taken to build model: 0.26 seconds
 Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
@@ -571,7 +571,7 @@ Out of bag error: 0.3796
 
 
 Time taken to build model: 0.31 seconds
-Time taken to test model on training data: 0.04 seconds
+Time taken to test model on training data: 0.05 seconds
 
 === Error on training data ===
 

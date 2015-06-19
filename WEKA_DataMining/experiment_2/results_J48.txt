@@ -73,7 +73,7 @@ Number of Leaves  : 	44
 Size of the tree : 	64
 
 
-Time taken to build model: 0.06 seconds
+Time taken to build model: 0.07 seconds
 Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===
@@ -489,8 +489,8 @@ Number of Leaves  : 	44
 Size of the tree : 	64
 
 
-Time taken to build model: 0.06 seconds
-Time taken to test model on training data: 0.01 seconds
+Time taken to build model: 0.07 seconds
+Time taken to test model on training data: 0.02 seconds
 
 === Error on training data ===
 

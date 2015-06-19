@@ -285,8 +285,8 @@ IB1 instance-based classifier
 using 10 nearest neighbour(s) for classification
 
 
-Time taken to build model: 0.04 seconds
-Time taken to test model on training data: 0.14 seconds
+Time taken to build model: 0.06 seconds
+Time taken to test model on training data: 0.13 seconds
 
 === Error on training data ===
 
@@ -425,7 +425,7 @@ IB1 instance-based classifier
 using 15 nearest neighbour(s) for classification
 
 
-Time taken to build model: 0.05 seconds
+Time taken to build model: 0.04 seconds
 Time taken to test model on training data: 0.14 seconds
 
 === Error on training data ===
@@ -565,7 +565,7 @@ IB1 instance-based classifier
 using 1 nearest neighbour(s) for classification
 
 
-Time taken to build model: 0.04 seconds
+Time taken to build model: 0.05 seconds
 Time taken to test model on training data: 0.11 seconds
 
 === Error on training data ===
@@ -705,8 +705,8 @@ IB1 instance-based classifier
 using 1 nearest neighbour(s) for classification
 
 
-Time taken to build model: 0.04 seconds
-Time taken to test model on training data: 0.1 seconds
+Time taken to build model: 0.05 seconds
+Time taken to test model on training data: 0.14 seconds
 
 === Error on training data ===
 

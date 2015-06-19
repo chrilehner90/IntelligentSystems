@@ -987,8 +987,8 @@ taskContext_runningTask5 = com.citc.weather/.activities.Main : Casper (1.14/0.14
 
 Size of the tree : 489
 
-Time taken to build model: 0.09 seconds
-Time taken to test model on training data: 0.03 seconds
+Time taken to build model: 0.1 seconds
+Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
 

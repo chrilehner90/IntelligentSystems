@@ -171,7 +171,7 @@ Class 19 :
 [taskContext_runningTask4=com.google.android.talk/.SigningInActivity] * 4.84
 
 
-Time taken to build model: 1.05 seconds
+Time taken to build model: 1.04 seconds
 Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===
@@ -477,7 +477,7 @@ Class 19 :
 [taskContext_runningTask4=com.google.android.talk/.SigningInActivity] * 4.84
 
 
-Time taken to build model: 0.92 seconds
+Time taken to build model: 0.99 seconds
 Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===
@@ -783,7 +783,7 @@ Class 19 :
 [taskContext_runningTask4=com.google.android.talk/.SigningInActivity] * 4.84
 
 
-Time taken to build model: 0.85 seconds
+Time taken to build model: 0.89 seconds
 Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===
@@ -1089,7 +1089,7 @@ Class 19 :
 [taskContext_runningTask4=com.google.android.talk/.SigningInActivity] * 4.84
 
 
-Time taken to build model: 0.56 seconds
+Time taken to build model: 0.52 seconds
 Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===
@@ -9872,7 +9872,7 @@ Class 19 :
 [taskContext_runningTask4=com.google.android.talk/.SigningInActivity] * 3.18
 
 
-Time taken to build model: 0.48 seconds
+Time taken to build model: 0.47 seconds
 Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===
@@ -10198,7 +10198,7 @@ Class 19 :
 [taskContext_runningTask4=com.google.android.talk/.SigningInActivity] * 7.32
 
 
-Time taken to build model: 0.71 seconds
+Time taken to build model: 0.67 seconds
 Time taken to test model on training data: 0.01 seconds
 
 === Error on training data ===

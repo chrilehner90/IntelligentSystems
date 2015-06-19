@@ -289,8 +289,8 @@ Number of Leaves  : 	46
 Size of the tree : 	68
 
 
-Time taken to build model: 0.14 seconds
-Time taken to test model on training data: 0.05 seconds
+Time taken to build model: 0.15 seconds
+Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
 

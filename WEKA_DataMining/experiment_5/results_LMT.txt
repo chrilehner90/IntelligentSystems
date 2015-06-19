@@ -200,8 +200,8 @@ Class 19 :
 [deviceId=a525f642fe51df0b] * 23.76
 
 
-Time taken to build model: 3.01 seconds
-Time taken to test model on training data: 0.03 seconds
+Time taken to build model: 3.13 seconds
+Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
 
@@ -535,7 +535,7 @@ Class 19 :
 [deviceId=a525f642fe51df0b] * 23.76
 
 
-Time taken to build model: 3.07 seconds
+Time taken to build model: 3.29 seconds
 Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
@@ -870,8 +870,8 @@ Class 19 :
 [deviceId=a525f642fe51df0b] * 23.76
 
 
-Time taken to build model: 2.7 seconds
-Time taken to test model on training data: 0.04 seconds
+Time taken to build model: 2.96 seconds
+Time taken to test model on training data: 0.09 seconds
 
 === Error on training data ===
 
@@ -1197,8 +1197,8 @@ Class 19 :
 [deviceId=a525f642fe51df0b] * 21.86
 
 
-Time taken to build model: 1.49 seconds
-Time taken to test model on training data: 0.03 seconds
+Time taken to build model: 1.65 seconds
+Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
 
@@ -1480,7 +1480,7 @@ Class 19 :
 [deviceId=a525f642fe51df0b] * 12.36
 
 
-Time taken to build model: 1.24 seconds
+Time taken to build model: 1.22 seconds
 Time taken to test model on training data: 0.03 seconds
 
 === Error on training data ===
@@ -1858,8 +1858,8 @@ Class 19 :
 [deviceId=a525f642fe51df0b] * 40.86
 
 
-Time taken to build model: 2.26 seconds
-Time taken to test model on training data: 0.03 seconds
+Time taken to build model: 2.37 seconds
+Time taken to test model on training data: 0.04 seconds
 
 === Error on training data ===
 
