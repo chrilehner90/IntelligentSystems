@@ -16,7 +16,7 @@ java -cp "/Applications/weka-3-7-12-apple-jvm.app/Contents/Resources/Java/weka.j
 	  -o experiment_5/exp_5_2.arff -S 0.0 -C last -L 195 # remove <unknown> values (id 195)
 java -cp "/Applications/weka-3-7-12-apple-jvm.app/Contents/Resources/Java/weka.jar" \
 	 weka.filters.unsupervised.instance.RemoveFrequentValues -i experiment_5/exp_5_2.arff \
-	  -o experiment_5/exp_5_3.arff -C last -N 20
+	  -o experiment_5/exp_5_3.arff -C last -N 20 # keep 20 most common instances
 java -cp "/Applications/weka-3-7-12-apple-jvm.app/Contents/Resources/Java/weka.jar" \
 	 weka.filters.unsupervised.instance.RemoveDuplicates -i experiment_5/exp_5_3.arff \
 	  -o experiment_5/exp_5_4.arff
